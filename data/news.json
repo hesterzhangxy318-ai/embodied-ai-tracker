@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T10:51:42.895864+08:00",
+  "updated": "2026-07-26T16:28:20.288762+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 2,
+      "candidates": 4,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 25,
-      "candidates": 8,
+      "entries": 27,
+      "candidates": 5,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 4,
+      "entries": 17,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 22,
-      "core": 6,
+      "entries": 59,
+      "candidates": 16,
+      "core": 2,
       "periphery": 0,
-      "new": 6
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -117,7 +117,7 @@
       "candidates": 14,
       "core": 11,
       "periphery": 0,
-      "new": 3
+      "new": 4
     },
     {
       "name": "OFweek机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 9,
       "periphery": 2,
-      "new": 4
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -194,7 +194,7 @@
       "candidates": 7,
       "core": 2,
       "periphery": 2,
-      "new": 1
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,31 +239,38 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-26T10:51:56.424277+08:00",
+    "generated_at": "2026-07-26T16:28:37.314369+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周工厂、维修、巡检和公共服务等场景继续成为具身智能验证重点，科沃斯公共服务机器人已落地银行和政务大厅并积累真实场景数据，小鹏人形机器人进入广州工厂小批量试生产，企业更倾向用稳定运行、交付能力和任务闭环来检验技术成熟度。",
+        "text": "本周工厂装配、精细零件组装、线材整理、公共服务和央国企实测成为高频场景，小鹏进入小批量试生产，科沃斯旺宝已在银行和政务大厅积累真实数据，具身智能的进展更依赖可交付、可运行、可复验的任务闭环。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型叙事开始绑定数据闭环",
-        "text": "极佳视界被曝讨论最快2026年赴港上市，昆仑万维持续推出世界模型进展，WAIC讨论也显示路线、训练方式、数据标准和评测尺度尚未收敛，真实场景数据与可验证任务正在成为世界模型从概念走向产业应用的关键约束。",
+        "label": "世界模型热度进入应用校准期",
+        "text": "WAIC讨论显示世界模型在概念、路线、训练、数据和评测上仍未收敛，同时PrimalVerse融资用于4D世界模型基模研发及多场景验证，昆仑万维、极佳视界等继续推进模型叙事，短期竞争焦点会落在真实数据接入和任务验证能力。",
         "evidence_urls": []
       },
       {
-        "label": "资本投向能力短板和明确场景",
-        "text": "PrimalVerse数亿元种子轮资金将用于4D世界模型基模研发及具身智能、自动驾驶、医疗手术等场景验证，一目科技完成超10亿元E轮并推动触觉传感器量产，眸深智能两个月内再获近亿元融资，资金更集中于数据、触觉、端侧大脑等能力补齐环节。",
+        "label": "资本偏向补齐关键瓶颈",
+        "text": "一目科技完成超10亿元E轮并推动触觉传感器量产，眸深智能两个月内再次融资，数据企业和4D世界模型公司获得资金支持，投资方向从通用叙事分散到触觉、端侧大脑、高质量数据和可定义场景。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、具身模型榜单和形态计算展开，但多篇信息显示路线、数据标准和评测仍未收敛，真实场景数据与工程交付经验的重要性上升。",
+        "summary": "触觉数据、世界模型、形态计算和公共服务实践同步推进，但多项报道也指向路线和评测仍未收敛，技术进展更强调真实任务中的稳定运行与数据积累。",
         "items": [
+          {
+            "date": "07-26",
+            "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
+            "url": "https://www.qbitai.com/2026/07/460962.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "07-25",
             "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
@@ -366,7 +373,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现小鹏人形机器人小批量试生产、比亚迪人形机器人预热亮相、宇树轮足机器人发布等进展，量产联调、拆机评价和性能参数成为能力验证的一部分。",
+        "summary": "小鹏人形机器人进入小批量试生产并联调量产产线，比亚迪预热人形机器人亮相，宇树新品和拆机关注升温，量产节奏开始成为能力验证的一部分。",
         "items": [
           {
             "date": "07-26",
@@ -428,7 +435,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化讨论集中在能源、制造、工业、医药等高价值行业，35家大型央国企实测和场景闭环话题显示客户更关注生产调度、安全管控和复杂决策可靠性。",
+        "summary": "商业侧证据集中在央国企实测和闭环讨论，能源、制造、工业、医药等高价值场景更关注生产调度、安全管控、风险研判和复杂决策的可靠系统。",
         "items": [
           {
             "date": "07-24",
@@ -448,7 +455,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资事件覆盖端侧具身大脑、4D世界模型、触觉传感器和数据服务，特斯拉也完成近20亿美元AI硬件收购，资本仍愿为关键能力和可验证应用投入。",
+        "summary": "本周融资覆盖端侧具身大脑、触觉传感器、数据供给、4D世界模型和AI硬件，资金继续流入能补齐能力短板并支撑场景验证的环节。",
         "items": [
           {
             "date": "07-26",
@@ -526,19 +533,12 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30695366.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-22",
-            "title": "Gritt 获 3240 万美元融资，打造基础设施物理 AI (Gritt launches with $32.4 million to build physical AI for infrastructure)",
-            "url": "https://roboticsandautomationnews.com/2026/07/22/gritt-launches-with-32-4-million-to-build-physical-ai-for-infrastructure/103564/",
-            "company": "行业",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "特斯拉围绕Robotaxi、FSD v15、AI5芯片和Optimus应用准备持续推进，海外机器人训练平台和青少年人形机器人赛事也显示产业生态在扩展。",
+        "summary": "特斯拉Robotaxi、FSD v15、AI5芯片和Optimus应用准备持续推进，海外训练物理AI和机器人赛事也在扩展，行业关注从演示转向体系化部署。",
         "items": [
           {
             "date": "07-26",
@@ -614,7 +614,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链重点落在训练数据、末端执行器和触觉智能，国内出现具身数据采集5S店，海外Ropedia融资2200万美元，数据采集规模化仍在探索商业可持续性。",
+        "summary": "数据采集、末端执行器适配和触觉智能成为产业链焦点，具身数据采集玩家增多且融资活跃，但商业模式仍需绑定训练效果和具体场景需求。",
         "items": [
           {
             "date": "07-24",
@@ -693,6 +693,15 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 26 日消息，据央视新闻报道， 日本日经xTECH 网站 7 月 23 日发布了一段日本技术人员拆解中国宇树科技 G1 人形机器人的视频，尝试探究其内部结构与技术水平。 在这段视频中，日方技术人员和媒体记者边拆边感叹中国人形机器人的技术水平之高，并最终得出结论：中国机器人研发显然已超越了“只会展示”的阶段，在人形机器人领域， 日本想在短时间…",
       "url": "https://www.ithome.com/0/981/619.htm"
+    },
+    {
+      "date": "07-26",
+      "company": "其他",
+      "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "这次登场的是来自NeoteAI和复旦大学的N0系列模型。不仅是居家料理，收纳整理它同样拿手。工厂流水线装配、精细零件组装、线材缠绕梳理这些精细活也全都不在话下。 不知道大家有没有见过机器人实操翻车的名场面：插头边缘反复摩擦却难以插入、抓取塑料瓶时力道失控导致瓶身瘪陷、叠好的毛巾在松手瞬间散落……在具身智能的落地进程中，这类“视觉系统判定无误，但物理交互瞬间翻…",
+      "url": "https://www.qbitai.com/2026/07/460962.html"
     },
     {
       "date": "07-25",
@@ -1089,15 +1098,6 @@
       "category": "泛具身产业链",
       "summary": "France-based advanced robotics specialist Siléane has partnered with Hottinger Brüel & Kjær (HBK), to deliver a groundbreaking automated gripping solution for a global cosmetics ma…",
       "url": "https://roboticsandautomationnews.com/2026/07/22/when-robots-start-to-feel-hbk-and-sileane-bring-tactile-intelligence-to-high-speed-cosmetics-packaging/103567/"
-    },
-    {
-      "date": "07-22",
-      "company": "行业",
-      "title": "Gritt 获 3240 万美元融资，打造基础设施物理 AI (Gritt launches with $32.4 million to build physical AI for infrastructure)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Gritt, the company building an intelligent system combining robotics and AI to accelerate the world’s infrastructure buildout, has launched with $32.4 million in pre-seed and Serie…",
-      "url": "https://roboticsandautomationnews.com/2026/07/22/gritt-launches-with-32-4-million-to-build-physical-ai-for-infrastructure/103564/"
     }
   ]
 }
