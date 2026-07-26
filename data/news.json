@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T03:09:38.338275+08:00",
+  "updated": "2026-07-26T10:51:42.895864+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 25,
-      "candidates": 4,
-      "core": 0,
+      "candidates": 8,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 3,
+      "entries": 15,
+      "candidates": 4,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 15,
-      "core": 0,
+      "entries": 58,
+      "candidates": 22,
+      "core": 6,
       "periphery": 0,
-      "new": 0
+      "new": 6
     },
     {
       "name": "中国机器人网",
@@ -117,7 +117,7 @@
       "candidates": 14,
       "core": 11,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "OFweek机器人",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 10,
+      "core": 9,
       "periphery": 2,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-26T03:09:53.454515+08:00",
+    "generated_at": "2026-07-26T10:51:56.424277+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验收转向硬任务",
-        "text": "具身智能的验证重心正从泛化叙事转向工厂、政务、公共服务等可验收场景，科沃斯旺宝已在银行和政务大厅积累真实场景数据，小鹏人形机器人进入广州工厂小批量试生产，短期竞争会更看重稳定运行、交付经验和创收能力。",
+        "label": "落地验证转向可验收任务",
+        "text": "本周工厂、维修、巡检和公共服务等场景继续成为具身智能验证重点，科沃斯公共服务机器人已落地银行和政务大厅并积累真实场景数据，小鹏人形机器人进入广州工厂小批量试生产，企业更倾向用稳定运行、交付能力和任务闭环来检验技术成熟度。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型进入应用验证期",
-        "text": "世界模型热度仍在上升，极佳视界被曝讨论最快2026年赴港上市，昆仑万维持续迭代Matrix-Game，一批融资也明确投向4D世界模型基模和具身智能等场景验证，模型能力需要通过真实数据和任务闭环继续校准。",
+        "label": "世界模型叙事开始绑定数据闭环",
+        "text": "极佳视界被曝讨论最快2026年赴港上市，昆仑万维持续推出世界模型进展，WAIC讨论也显示路线、训练方式、数据标准和评测尺度尚未收敛，真实场景数据与可验证任务正在成为世界模型从概念走向产业应用的关键约束。",
         "evidence_urls": []
       },
       {
-        "label": "供应链融资绑定性能瓶颈",
-        "text": "资本开始沿着触觉、数据、模块等具体短板配置资源，一目科技完成超10亿元E轮融资并推进触觉传感器量产，具身数据采集一年融资44.7亿元，AMD推出面向机器人的Kria模块，单点环节只有对应续航、控制、感知和数据质量等瓶颈时更容易获得产业位置。",
+        "label": "资本投向能力短板和明确场景",
+        "text": "PrimalVerse数亿元种子轮资金将用于4D世界模型基模研发及具身智能、自动驾驶、医疗手术等场景验证，一目科技完成超10亿元E轮并推动触觉传感器量产，眸深智能两个月内再获近亿元融资，资金更集中于数据、触觉、端侧大脑等能力补齐环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术讨论集中在世界模型、具身榜单和真实场景经验，科沃斯强调公共服务落地数据，WAIC呈现路线分歧，工厂任务对准确、稳定和收益的要求更突出。",
+        "summary": "技术侧围绕世界模型、具身模型榜单和形态计算展开，但多篇信息显示路线、数据标准和评测仍未收敛，真实场景数据与工程交付经验的重要性上升。",
         "items": [
           {
             "date": "07-25",
@@ -361,34 +361,27 @@
             "url": "https://www.leiphone.com/category/industrynews/KI18cZQBZWHRPWNX.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "07-22",
-            "title": "宇树王兴兴：具身智能“ChatGPT 时刻”有望最快两三年内到来，大家要提前做好准备",
-            "url": "https://www.ithome.com/0/980/206.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-22",
-            "title": "报告分享实体 AI 与机器人技术现状 (Report shares the state of physical AI and robotics)",
-            "url": "https://www.therobotreport.com/physical-ai-and-robotics/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-21",
-            "title": "人均第一，具身智能榜单能信吗？",
-            "url": "https://www.tmtpost.com/8072920.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "小鹏人形机器人被曝已在广州工厂小批量试生产，宇树发布具备负重和长续航能力的轮足机器人，AMD推出机器人模块，量产议题开始与性能参数和产线联调绑定。",
+        "summary": "产品侧出现小鹏人形机器人小批量试生产、比亚迪人形机器人预热亮相、宇树轮足机器人发布等进展，量产联调、拆机评价和性能参数成为能力验证的一部分。",
         "items": [
+          {
+            "date": "07-26",
+            "title": "比亚迪迪空间预热人形机器人，八月初亮相",
+            "url": "https://www.ithome.com/0/981/642.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-26",
+            "title": "日媒发布宇树 G1 拆机视频后认输，称人形机器人短期内赶不上中国",
+            "url": "https://www.ithome.com/0/981/619.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-24",
             "title": "消息称小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段",
@@ -435,7 +428,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业侧新闻聚焦高价值行业验证，35家大型央国企实测因果世界模型，能源、制造、工业、医药等场景强调生产调度、安全管控和复杂决策，闭环仍需具体任务支撑。",
+        "summary": "商业化讨论集中在能源、制造、工业、医药等高价值行业，35家大型央国企实测和场景闭环话题显示客户更关注生产调度、安全管控和复杂决策可靠性。",
         "items": [
           {
             "date": "07-24",
@@ -450,20 +443,27 @@
             "url": "https://www.infoq.cn/video/8dRT4X0eMoQA8xP9YB7q?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
-          },
-          {
-            "date": "07-21",
-            "title": "特斯拉面临 2.43 亿美元赔偿，法院认定 2019 年 Autopilot 致死案件判决有效",
-            "url": "https://www.ithome.com/0/979/309.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "融资覆盖世界模型、触觉传感器、数据服务和机器人本体，一目科技估值超百亿元，PrimalVerse获数亿元种子轮，智元启动赴港上市流程，资金偏向能力补齐和场景验证。",
+        "summary": "融资事件覆盖端侧具身大脑、4D世界模型、触觉传感器和数据服务，特斯拉也完成近20亿美元AI硬件收购，资本仍愿为关键能力和可验证应用投入。",
         "items": [
+          {
+            "date": "07-26",
+            "title": "硬氪首发 | 复旦教授、前英特尔首席科学家做端侧具身大脑，「眸深智能」完成近亿元Pre-A轮追加融资",
+            "url": "https://36kr.com/p/3911162147640456?f=rss",
+            "company": "行业",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-26",
+            "title": "近 20 亿美元神秘交易落地，特斯拉重金收购 AI 硬件企业",
+            "url": "https://www.ithome.com/0/981/625.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-24",
             "title": "不卷coding，卷原生多模态世界模型：智象未来拿下15亿C轮融资？",
@@ -533,27 +533,27 @@
             "url": "https://roboticsandautomationnews.com/2026/07/22/gritt-launches-with-32-4-million-to-build-physical-ai-for-infrastructure/103564/",
             "company": "行业",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-22",
-            "title": "Humanoid以13.5亿美元估值融资1.52亿美元，成欧洲首家纯人形机器人独角兽 (Humanoid raises $152 million at $1.35 billion valuation, becoming ‘Europe’s first pure-play humanoid robotics unicorn’)",
-            "url": "https://roboticsandautomationnews.com/2026/07/22/humanoid-raises-152-million-at-1-35-billion-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/103561/",
-            "company": "行业",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-22",
-            "title": "原创 类脑VLA加持，智平方吸金50亿元，估值冲上200亿元 人工智能 · 商业化 · 人工智能 作者：刘杨楠 | 编辑：栗子 2026-06-29",
-            "url": "https://www.jazzyear.com/article_info.html?id=1794",
-            "company": "其他",
-            "source_name": "甲子光年"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "特斯拉AI5芯片、Robotaxi和Optimus应用准备持续推进，NEURA与德国高校建设训练平台，北京中学生人形机器人足球赛收官，产业关注从展示延伸到训练、教育和平台化。",
+        "summary": "特斯拉围绕Robotaxi、FSD v15、AI5芯片和Optimus应用准备持续推进，海外机器人训练平台和青少年人形机器人赛事也显示产业生态在扩展。",
         "items": [
+          {
+            "date": "07-26",
+            "title": "特斯拉在智利、哥伦比亚招聘 AI 安全员，为 Robotaxi 出海铺路",
+            "url": "https://www.ithome.com/0/981/621.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-25",
+            "title": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载",
+            "url": "https://www.ithome.com/0/981/618.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-24",
             "title": "消息称台积电版特斯拉 AI5 芯片采用 3nm 工艺制程",
@@ -614,7 +614,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "数据和末端执行器成为产业链热点，中国移动营业厅出现具身数据采集5S店，Ropedia融资扩大训练数据采集，GEN-1支持多种末端执行器，数据质量和硬件适配仍是关键环节。",
+        "summary": "产业链重点落在训练数据、末端执行器和触觉智能，国内出现具身数据采集5S店，海外Ropedia融资2200万美元，数据采集规模化仍在探索商业可持续性。",
         "items": [
           {
             "date": "07-24",
@@ -650,6 +650,51 @@
   },
   "items": [
     {
+      "date": "07-26",
+      "company": "行业",
+      "title": "硬氪首发 | 复旦教授、前英特尔首席科学家做端侧具身大脑，「眸深智能」完成近亿元Pre-A轮追加融资",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "summary": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪获悉，「眸深智能」（Motion Brain）完成近亿元Pre-A轮追加融资，本轮投资方包括中国头部物业服务公司、香港财团、多家上市公司联合打造的产业投资平台瑾悦投资、创合汇资本，以及老股东徐汇资本。 这也是继2026年5月3亿元Pre-A轮之后，「眸深智能」两个月内再次获得投资，此外，该公司Pre-A+轮的近5亿融资…",
+      "url": "https://36kr.com/p/3911162147640456?f=rss"
+    },
+    {
+      "date": "07-26",
+      "company": "其他",
+      "title": "比亚迪迪空间预热人形机器人，八月初亮相",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 26 日消息，“比亚迪迪空间 | 郑州馆”微信公众号昨日发布人形机器人悬念海报，暗示机器人产品将于八月初首次面向公众亮相。 IT之家注意到，比亚迪高层此前已对外释放过明确信号。上个月比亚迪执行副总裁李柯表示， 希望未来每家比亚迪门店都能部署机器人 ，并能够向顾客介绍和演示车辆。李柯表示，面向家庭和服务行业的人形机器人将成为比亚迪的一个巨大市…",
+      "url": "https://www.ithome.com/0/981/642.htm"
+    },
+    {
+      "date": "07-26",
+      "company": "特斯拉",
+      "title": "近 20 亿美元神秘交易落地，特斯拉重金收购 AI 硬件企业",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 7 月 26 日消息，特斯拉一笔备受关注的 AI 领域神秘收购终于尘埃落定。在今年早些时候释放出一些暗示之后，公司已正式完成对一家未公开名称的人工智能硬件公司的收购，交易规模接近 20 亿美元。 这一消息来自最新披露的监管文件。根据特斯拉最新提交的 10-Q 季度报告，公司已于第二季度完成这笔交易，收购对价为价值 19.5 亿美元（IT之家注：现汇…",
+      "url": "https://www.ithome.com/0/981/625.htm"
+    },
+    {
+      "date": "07-26",
+      "company": "特斯拉",
+      "title": "特斯拉在智利、哥伦比亚招聘 AI 安全员，为 Robotaxi 出海铺路",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 26 日消息，特斯拉似乎正在悄然为 Robotaxi（自动驾驶出租车）服务走向国际市场做准备。最新发布的招聘信息显示，南美洲有望成为继美国之后，首批上线特斯拉自动驾驶网约车服务的海外地区之一。 长期关注特斯拉动态的 X 用户 @tslaming 发现，特斯拉目前正在哥伦比亚和智利招聘 AI 安全运营专员（AI Safety Operator…",
+      "url": "https://www.ithome.com/0/981/621.htm"
+    },
+    {
+      "date": "07-26",
+      "company": "宇树科技",
+      "title": "日媒发布宇树 G1 拆机视频后认输，称人形机器人短期内赶不上中国",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 26 日消息，据央视新闻报道， 日本日经xTECH 网站 7 月 23 日发布了一段日本技术人员拆解中国宇树科技 G1 人形机器人的视频，尝试探究其内部结构与技术水平。 在这段视频中，日方技术人员和媒体记者边拆边感叹中国人形机器人的技术水平之高，并最终得出结论：中国机器人研发显然已超越了“只会展示”的阶段，在人形机器人领域， 日本想在短时间…",
+      "url": "https://www.ithome.com/0/981/619.htm"
+    },
+    {
       "date": "07-25",
       "company": "其他",
       "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
@@ -657,6 +702,15 @@
       "category": "技术突破",
       "summary": "做扫地机器人的科沃斯，把旗下一款具身智能机器人整个开源了。 2012年，它推出了全球首款家庭服务机器人「亲宝」，是最早一批入局家庭服务机器人赛道的公司。 后续迭代的公共服务机器人「旺宝」，广泛落地银行、政务大厅等场景，攒下了海量真实场景数据、工程落地经验和规模化交付能力。 这些积累，后来成了科沃斯深耕具身智能领域的产业根基。 现在，它在苏州挂牌成立了「八界开…",
       "url": "https://www.qbitai.com/2026/07/460234.html"
+    },
+    {
+      "date": "07-25",
+      "company": "特斯拉",
+      "title": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 26 日消息，特斯拉下一代 FSD 软件已正式比预期更早开始在公共道路上运行。在当地时间周三举行的第二季度财报电话会议上，公司高管透露，目前在 Robotaxi 自动驾驶出租车网络中提供无人驾驶服务的改装版 Model Y，已经搭载了 FSD v15 的早期测试版本。 IT之家注意到，特斯拉 AI 负责人阿肖克 · 埃卢斯瓦米（Ashok…",
+      "url": "https://www.ithome.com/0/981/618.htm"
     },
     {
       "date": "07-24",
@@ -1044,60 +1098,6 @@
       "category": "资本动态",
       "summary": "Gritt, the company building an intelligent system combining robotics and AI to accelerate the world’s infrastructure buildout, has launched with $32.4 million in pre-seed and Serie…",
       "url": "https://roboticsandautomationnews.com/2026/07/22/gritt-launches-with-32-4-million-to-build-physical-ai-for-infrastructure/103564/"
-    },
-    {
-      "date": "07-22",
-      "company": "行业",
-      "title": "Humanoid以13.5亿美元估值融资1.52亿美元，成欧洲首家纯人形机器人独角兽 (Humanoid raises $152 million at $1.35 billion valuation, becoming ‘Europe’s first pure-play humanoid robotics unicorn’)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Humanoid, a UK-based AI and robotics company building industrial humanoid robots, today announced a $152 million Series A financing at a $1.35 billion post-money valuation. This fu…",
-      "url": "https://roboticsandautomationnews.com/2026/07/22/humanoid-raises-152-million-at-1-35-billion-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/103561/"
-    },
-    {
-      "date": "07-22",
-      "company": "宇树科技",
-      "title": "宇树王兴兴：具身智能“ChatGPT 时刻”有望最快两三年内到来，大家要提前做好准备",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 22 日消息，2026 年世界互联网大会数字丝路发展论坛于今日在陕西西安举行，据澎湃新闻报道，宇树科技创始人兼首席执行官王兴兴在开幕式上表示，过去几年，人形机器人从行走到舞蹈、功夫格斗到简单服务进步飞速。 具身智能的“ChatGPT 时刻”有望最快在两三年内到来 ，届时机器人在大部分陌生场景也能直接工作，实现很多基本功能。 王兴兴还称，大家…",
-      "url": "https://www.ithome.com/0/980/206.htm"
-    },
-    {
-      "date": "07-22",
-      "company": "其他",
-      "title": "原创 类脑VLA加持，智平方吸金50亿元，估值冲上200亿元 人工智能 · 商业化 · 人工智能 作者：刘杨楠 | 编辑：栗子 2026-06-29",
-      "source_name": "甲子光年",
-      "category": "资本动态",
-      "summary": "甲子光年 原创 两个月连获两轮数亿元融资，深度机智以全栈自主路线加速国产物理AI基座模型落地 人工智能 · 商业化 · 人工智能 <div class=\"botto",
-      "url": "https://www.jazzyear.com/article_info.html?id=1794"
-    },
-    {
-      "date": "07-22",
-      "company": "其他",
-      "title": "报告分享实体 AI 与机器人技术现状 (Report shares the state of physical AI and robotics)",
-      "source_name": "The Robot Report",
-      "category": "技术突破",
-      "summary": "A report looks at how physical AI is increasingly enabling autonomous systems to perceive their environments, make decisions, and act in the real world. The post appeared first on…",
-      "url": "https://www.therobotreport.com/physical-ai-and-robotics/"
-    },
-    {
-      "date": "07-21",
-      "company": "其他",
-      "title": "人均第一，具身智能榜单能信吗？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "文 | 定焦One，作者 | 王璐，编辑 | 魏佳 具身智能赛道持续吸引资本目光的同时，各类相关榜单也越来越多。当“第一”几乎成为各家标配时，榜单还有可信度吗？ 一个多月前，千寻智能就经历了尴尬时刻。6月初，其具身基座模型Spirit v1.6在RoboArena榜单上以1918分的成绩超过了英伟达Cosmos3的1880分，一度位居“世界第一”；紧接着，千…",
-      "url": "https://www.tmtpost.com/8072920.html"
-    },
-    {
-      "date": "07-21",
-      "company": "特斯拉",
-      "title": "特斯拉面临 2.43 亿美元赔偿，法院认定 2019 年 Autopilot 致死案件判决有效",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 7 月 21 日消息，据 Electrek 当地时间 7 月 20 日报道，美国佛罗里达州迈阿密联邦法院法官 Beth Bloom 已驳回特斯拉要求推翻 2.43 亿美元（IT之家注：现汇率约合 16.47 亿元人民币）Autopilot 致死事故赔偿判决的请求，这意味着该公司在一审法院层面寻求撤销陪审团裁决的尝试失败。 该案件源于 2019 年发…",
-      "url": "https://www.ithome.com/0/979/309.htm"
     }
   ]
 }
