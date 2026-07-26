@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T21:25:38.232575+08:00",
+  "updated": "2026-07-27T03:13:03.548045+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 11,
+      "candidates": 10,
       "core": 5,
       "periphery": 0,
       "new": 2
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 4,
+      "entries": 19,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -84,14 +84,15 @@
     {
       "name": "IT之家",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 60,
+      "candidates": 18,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -235,418 +236,7 @@
       "new": 1
     }
   ],
-  "weekly_report": {
-    "start": "07-20",
-    "end": "07-26",
-    "generated_at": "2026-07-26T21:26:00.339811+08:00",
-    "mode": "aicodewith",
-    "item_count": 50,
-    "insights": [
-      {
-        "label": "落地验证转向可验收任务",
-        "text": "具身智能本周更集中地进入可计量场景，科沃斯旺宝已在银行和政务大厅积累真实数据与交付经验，新智具身与复旦披露3万小时触觉数据并指向装配、零件组装、线材整理等工厂任务，35家大型央国企实测因果世界模型也聚焦生产调度、安全管控和风险研判，短期竞争会更多围绕能否形成任务闭环而非单纯模型叙事展开。",
-        "evidence_urls": []
-      },
-      {
-        "label": "量产进度成为能力筛选器",
-        "text": "小鹏人形机器人据称已在广州工厂小批量试生产且量产产线进入最后联调，比亚迪迪空间预热八月初公开亮相人形机器人，宇树G1被日媒拆解以观察内部结构与技术水平，整机企业正在把样机展示推进到产线、结构设计和可交付状态，市场评价也会更早纳入制造一致性与供应链成熟度。",
-        "evidence_urls": []
-      },
-      {
-        "label": "资本流向补短板环节",
-        "text": "一目科技完成超10亿元E轮融资并推动触觉传感器量产，PrimalVerse数亿元种子轮将用于4D世界模型基模和多场景验证，眸深智能两个月内再次获得近亿元Pre-A轮追加融资，资金更偏向触觉、端侧大脑、世界模型和数据等明确瓶颈，单一通用概念的融资说服力在下降。",
-        "evidence_urls": []
-      }
-    ],
-    "groups": [
-      {
-        "category": "技术突破",
-        "summary": "触觉数据、世界模型和形态计算成为本周技术焦点，工厂精细操作与公共服务场景数据被反复提及，路线和评测仍未收敛。",
-        "items": [
-          {
-            "date": "07-26",
-            "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
-            "url": "https://www.qbitai.com/2026/07/460962.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-25",
-            "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
-            "url": "https://www.qbitai.com/2026/07/460234.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-24",
-            "title": "世界模型“六小龙”在WAIC吵起来了！行业红利就在非共识里",
-            "url": "https://www.qbitai.com/2026/07/458617.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-24",
-            "title": "RSS 2026 时间检验奖：形态即计算，具身智能的“逻辑刹车”已至",
-            "url": "https://www.leiphone.com/category/private/rMXnmau3OSE7evhI.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-24",
-            "title": "自变量登上APEC国际舞台，代表中国具身智能分享服务民生“最佳实践”",
-            "url": "https://www.leiphone.com/category/industrynews/wbuuGeiADHNlBBOR.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-24",
-            "title": "零跑 D19 首次 OTA 开启推送，升级优化城市领航辅助 VLA",
-            "url": "https://www.ithome.com/0/981/360.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-24",
-            "title": "国产世界模型登顶李飞飞团队榜单！适配国产昇腾算力、代码权重全开源",
-            "url": "https://www.qbitai.com/2026/07/460041.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-24",
-            "title": "对话星炽动力CTO李达——PULSE架构：如何让具身智能更像人？",
-            "url": "https://www.leiphone.com/category/industrynews/VoghxG89WgJ2E9ZI.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-23",
-            "title": "超越π0，中国团队用1B参数模型登顶具身智能榜单",
-            "url": "https://www.qbitai.com/2026/07/457537.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-23",
-            "title": "混元多模态理解负责人胡瀚离职创业，原团队或将聚焦世界模型",
-            "url": "https://36kr.com/newsflashes/3907953767011717?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-23",
-            "title": "世界模型迎来「中国引领时刻」，昆仑万维 Matrix-Game 3.5 要迈向真实世界",
-            "url": "https://www.leiphone.com/category/ai/ElUplw96iXqIFTPd.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-23",
-            "title": "WAIC 2026 世界模型「六小龙」巅峰论坛，求解物理 AI 从「理解」到「执行」开悟时刻",
-            "url": "https://www.leiphone.com/category/aijuejinzhi/u7fivcCZqZGaCGUp.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-23",
-            "title": "全球首个端侧驱动本体的世界模型来了！大晓机器人首创“信息密度定律”，重写物理AI训练逻辑",
-            "url": "https://www.infoq.cn/article/u0hD10fj7HWAfb10Dbr3?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
-          },
-          {
-            "date": "07-23",
-            "title": "冲击\"世界模型第一股\"，极佳视界凭什么？",
-            "url": "https://www.tmtpost.com/8075585.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-22",
-            "title": "从生成到行动，生数科技用通用世界模型连接「两个世界」",
-            "url": "https://www.leiphone.com/category/industrynews/KI18cZQBZWHRPWNX.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          }
-        ]
-      },
-      {
-        "category": "产品量产",
-        "summary": "小鹏进入小批量试生产和产线联调，比亚迪预热人形机器人亮相，宇树发布轮足新品并被海外拆解，量产水位开始外显。",
-        "items": [
-          {
-            "date": "07-26",
-            "title": "比亚迪迪空间预热人形机器人，八月初亮相",
-            "url": "https://www.ithome.com/0/981/642.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-26",
-            "title": "日媒发布宇树 G1 拆机视频后认输，称人形机器人短期内赶不上中国",
-            "url": "https://www.ithome.com/0/981/619.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-24",
-            "title": "消息称小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段",
-            "url": "https://www.ithome.com/0/981/130.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-24",
-            "title": "宇树发布轮足机器人 As2-W：速度 6m/s、IP54 级防水、空载续航距离超 30km",
-            "url": "https://www.ithome.com/0/981/372.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-23",
-            "title": "四场实地走访，还原具身智能走向量产的真实水位",
-            "url": "https://www.tmtpost.com/8076858.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-23",
-            "title": "AMD 推出面向机器人的 Kria 模块，支持实时控制与统一内存 (AMD unveils Kria module for real-time control, unified memory for robots)",
-            "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-22",
-            "title": "酷哇科技亮相WAIC 2026，解密行业首个双层智能体世界模型",
-            "url": "https://www.qbitai.com/2026/07/456178.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-22",
-            "title": "WAIC 2026 | 面壁智能首个具身智能成果 MiniCPM-Robot 系列模型正式发布！",
-            "url": "https://www.leiphone.com/category/ai/gtBK8Ln3ANuHPQaX.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          }
-        ]
-      },
-      {
-        "category": "商业订单",
-        "summary": "商业落地证据集中在央国企实测和闭环讨论，能源、制造、工业、医药等高价值场景更关注调度、安全和复杂决策能力。",
-        "items": [
-          {
-            "date": "07-24",
-            "title": "嚯！35家大型央国企实测后，因果世界模型落地了",
-            "url": "https://www.qbitai.com/2026/07/458357.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-24",
-            "title": "圆桌访谈：具身智能的落地分水岭——哪些场景真的跑出了商业闭环？",
-            "url": "https://www.infoq.cn/video/8dRT4X0eMoQA8xP9YB7q?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
-          }
-        ]
-      },
-      {
-        "category": "资本动态",
-        "summary": "融资覆盖端侧具身大脑、触觉传感器、4D世界模型和数据服务，智元启动赴港流程，特斯拉继续加码AI硬件投入。",
-        "items": [
-          {
-            "date": "07-26",
-            "title": "硬氪首发 | 复旦教授、前英特尔首席科学家做端侧具身大脑，「眸深智能」完成近亿元Pre-A轮追加融资",
-            "url": "https://36kr.com/p/3911162147640456?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-26",
-            "title": "近 20 亿美元神秘交易落地，特斯拉重金收购 AI 硬件企业",
-            "url": "https://www.ithome.com/0/981/625.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-24",
-            "title": "不卷coding，卷原生多模态世界模型：智象未来拿下15亿C轮融资？",
-            "url": "https://www.tmtpost.com/8077595.html",
-            "company": "行业",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-24",
-            "title": "具身智能争夺下一块拼图：一目科技估值破百亿，触觉传感器走向量产",
-            "url": "https://www.infoq.cn/article/luJs2PpHVhQb8s5F2WuA?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
-          },
-          {
-            "date": "07-24",
-            "title": "智元启动赴港上市流程，2025 年通用人形机器人出货量全球第一",
-            "url": "https://www.ithome.com/0/981/350.htm",
-            "company": "智元机器人",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-23",
-            "title": "具身智能数据需求暴涨千倍，这家“数据炼油厂”刚拿到近亿元融资",
-            "url": "https://www.leiphone.com/category/ai/XRwFfhV1xdAQfrac.html",
-            "company": "行业",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-23",
-            "title": "PrimalVerse完成数亿元种子轮融资，主攻4D世界模型基模｜独家",
-            "url": "https://www.tmtpost.com/8076725.html",
-            "company": "行业",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-23",
-            "title": "马斯克：特斯拉 AI 投资越快越好，不怕部分资金浪费",
-            "url": "https://www.ithome.com/0/980/828.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-23",
-            "title": "Uber 联合创始人为新机器人初创公司 ATOMS 融资 17 亿美元 (Uber co-founder raises $1.7B for new robotics startup ATOMS)",
-            "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
-            "company": "行业",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-23",
-            "title": "Holiday Robotics 为其 FRIDAY 轮式人形机器人融资 1.05 亿美元 (Holiday Robotics raises $105M for its FRIDAY wheeled humanoid)",
-            "url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
-            "company": "行业",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-22",
-            "title": "半年三轮融资、宁德时代智元上汽排队入局：蓝点触控的“产业资本局”",
-            "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30695366.html",
-            "company": "智元机器人",
-            "source_name": "OFweek机器人"
-          }
-        ]
-      },
-      {
-        "category": "行业动态",
-        "summary": "特斯拉推进Robotaxi、FSD v15、AI5芯片和Optimus App准备，海外物理AI训练与青少年机器人赛事也在扩展生态。",
-        "items": [
-          {
-            "date": "07-26",
-            "title": "特斯拉在智利、哥伦比亚招聘 AI 安全员，为 Robotaxi 出海铺路",
-            "url": "https://www.ithome.com/0/981/621.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-25",
-            "title": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载",
-            "url": "https://www.ithome.com/0/981/618.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-24",
-            "title": "消息称台积电版特斯拉 AI5 芯片采用 3nm 工艺制程",
-            "url": "https://www.ithome.com/0/981/117.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-24",
-            "title": "特斯拉Robotaxi正式上路：一场烧钱无度的“史诗级豪赌”",
-            "url": "https://www.tmtpost.com/8078471.html",
-            "company": "特斯拉",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-24",
-            "title": "NEURA Robotics成立NEURA Gym RWTH Aachen，训练物理AI (NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI)",
-            "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-24",
-            "title": "视频星期五：意大利人形机器人诞生 (Video Friday: An Italian Humanoid Comes to Life)",
-            "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
-            "company": "其他",
-            "source_name": "IEEE Spectrum Robotics"
-          },
-          {
-            "date": "07-23",
-            "title": "首届北京市中学生人形机器人足球赛收官：55 支队伍参赛，胜者获推荐参加世界 U19 赛事",
-            "url": "https://www.ithome.com/0/980/370.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-23",
-            "title": "代码暗示，特斯拉 App 已开始为 Optimus 人形机器人上线做准备",
-            "url": "https://www.ithome.com/0/980/629.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-22",
-            "title": "京东押注物理 AI，打通数字到物理世界的链路",
-            "url": "https://www.tmtpost.com/8072404.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-22",
-            "title": "Jiuwen Symbiosis深度解析：从数字世界走向物理世界，为Physical AI打造Symbiosis (共生)",
-            "url": "https://www.infoq.cn/article/BmyIPDkVKj11vspmB6su?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
-          }
-        ]
-      },
-      {
-        "category": "泛具身产业链",
-        "summary": "数据采集、末端执行器适配和触觉包装应用受到关注，国内外企业围绕训练数据规模化与可复用硬件接口寻找商业化路径。",
-        "items": [
-          {
-            "date": "07-24",
-            "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
-            "url": "https://www.qbitai.com/2026/07/459262.html",
-            "company": "行业",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-24",
-            "title": "Generalist 的 GEN-1 基础模型现支持多种机器人末端执行器 (Generalist’s GEN-1 foundation model now supports a range of robot end effectors)",
-            "url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-23",
-            "title": "Ropedia 融资2200万美元，扩大机器人训练数据采集规模 (Ropedia raises $22M to scale data collection for training robots)",
-            "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
-            "company": "行业",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-22",
-            "title": "当机器人开始感知：HBK 与 Siléane 为高速化妆品包装带来触觉智能 (When robots start to feel: HBK and Siléane bring tactile intelligence to high-speed cosmetics packaging)",
-            "url": "https://roboticsandautomationnews.com/2026/07/22/when-robots-start-to-feel-hbk-and-sileane-bring-tactile-intelligence-to-high-speed-cosmetics-packaging/103567/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          }
-        ]
-      }
-    ]
-  },
+  "weekly_report": {},
   "items": [
     {
       "date": "07-26",
@@ -701,6 +291,15 @@
       "category": "技术突破",
       "summary": "这次登场的是来自NeoteAI和复旦大学的N0系列模型。不仅是居家料理，收纳整理它同样拿手。工厂流水线装配、精细零件组装、线材缠绕梳理这些精细活也全都不在话下。 不知道大家有没有见过机器人实操翻车的名场面：插头边缘反复摩擦却难以插入、抓取塑料瓶时力道失控导致瓶身瘪陷、叠好的毛巾在松手瞬间散落……在具身智能的落地进程中，这类“视觉系统判定无误，但物理交互瞬间翻…",
       "url": "https://www.qbitai.com/2026/07/460962.html"
+    },
+    {
+      "date": "07-26",
+      "company": "其他",
+      "title": "上纬新材子公司启元新创落户上海，计划每年推出不少于 2 款全新消费级机器人",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 26 日消息，上纬新材料科技股份有限公司旗下全资子公司启元新创（上海）科技有限公司正式落户浦东。 据介绍，启元新创为上海市人工智能重点项目，于 2026 世界人工智能大会期间签约。该项目落地于张江机器人谷。 该项目计划未来三年持续投入大额研发费用，重点布局研发中心建设，打造全自研 Primemind 基座模型；建设产品设计创新中心， 每年推…",
+      "url": "https://www.ithome.com/0/981/801.htm"
     },
     {
       "date": "07-25",
@@ -1088,15 +687,6 @@
       "category": "行业动态",
       "summary": "Jiuwen Symbiosis 是一个能懂人话、看得见物理世界、控制四肢执行的 Physical AI Agent。用户不需要示教，只需像指挥一个经验丰富的工人一样，用自然语言下任务，它就能自己完成感知、理解、规划、执行。同时，对昇腾、鲲鹏算力具备天然亲和性，保障推理性能高效稳定。本文将对其技术进行详解。 GitHub： https://github.co…",
       "url": "https://www.infoq.cn/article/BmyIPDkVKj11vspmB6su?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "07-22",
-      "company": "其他",
-      "title": "当机器人开始感知：HBK 与 Siléane 为高速化妆品包装带来触觉智能 (When robots start to feel: HBK and Siléane bring tactile intelligence to high-speed cosmetics packaging)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "France-based advanced robotics specialist Siléane has partnered with Hottinger Brüel & Kjær (HBK), to deliver a groundbreaking automated gripping solution for a global cosmetics ma…",
-      "url": "https://roboticsandautomationnews.com/2026/07/22/when-robots-start-to-feel-hbk-and-sileane-bring-tactile-intelligence-to-high-speed-cosmetics-packaging/103567/"
     }
   ]
 }
