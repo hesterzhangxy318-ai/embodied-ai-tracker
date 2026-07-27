@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T17:55:57.300842+08:00",
+  "updated": "2026-07-27T22:37:34.218530+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,9 +12,9 @@
       "error": "",
       "entries": 10,
       "candidates": 2,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 8,
-      "core": 2,
+      "candidates": 6,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -38,7 +38,7 @@
       "error": "",
       "entries": 17,
       "candidates": 11,
-      "core": 4,
+      "core": 5,
       "periphery": 0,
       "new": 2
     },
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 4,
-      "core": 3,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -79,7 +79,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
-      "core": 1,
+      "candidates": 17,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -114,8 +114,8 @@
       "attempts": 1,
       "error": "",
       "entries": 32,
-      "candidates": 14,
-      "core": 11,
+      "candidates": 13,
+      "core": 10,
       "periphery": 0,
       "new": 3
     },
@@ -130,7 +130,7 @@
       "candidates": 19,
       "core": 3,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -149,7 +149,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 20,
       "candidates": 19,
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 2,
-      "new": 4
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -178,10 +178,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 10,
-      "core": 7,
+      "candidates": 11,
+      "core": 8,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "Robotics & Automation News",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-07-27T17:56:12.611295+08:00",
+    "generated_at": "2026-07-27T22:38:00.494520+08:00",
     "mode": "aicodewith",
-    "item_count": 8,
+    "item_count": 10,
     "insights": [
       {
-        "label": "落地验证偏向可验收任务",
-        "text": "道通科技展示由Agent平台、巡检大脑、具身本体和空地协同组成的巡检体系，Momenta Robovan已落地苏州且符合车规级标准，本周商业化线索集中在巡检、无人货运等边界较清晰场景，短期推进更依赖可展示、可验收的任务闭环。",
+        "label": "落地验证收敛到可验收任务",
+        "text": "道通科技展示空地一体巡检体系及商业化进展，Momenta Robovan已落地苏州并符合车规级标准，超维动力与北大医疗围绕医疗数据采集、世界模型和仿真训练合作，具身智能商业化更偏向巡检、货运、医疗等边界清楚、结果可验收的场景。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型从概念转向训练与预演工具",
-        "text": "Google World Gym强调用两张A100进行云端演练，让机器人从失败中自我恢复，昆仑万维也提出机器人先预演再行动的路径，世界模型叙事正在落到降低真机试错成本和提升任务执行稳定性的具体问题上。",
+        "label": "世界模型开始服务任务闭环",
+        "text": "Google科学家披露World Gym用两张A100跑通云端演练，让机器人从失败中自我恢复，昆仑万维相关讨论也指向异构数据和机器人先预演再行动，世界模型的产业叙事正在从概念能力转向降低真机试错成本和支撑任务执行。",
         "evidence_urls": []
       },
       {
-        "label": "资本预期更审慎",
-        "text": "知名投资人认为特斯拉Optimus制造难度高且短期不太可能带来收入，DeepSeek因会议纪要泄露或暂停新一轮融资并强调克制战略，资本关注点从宏大入口转向收入节奏、制造可行性和战略边界。",
+        "label": "资本更审慎看待收入周期",
+        "text": "Enigma获得7000万美元种子轮融资，主打降低机器人控制门槛；同时有投资人警告特斯拉Optimus难以制造且短期不太可能产生收入，DeepSeek也因会议泄露暂停新一轮融资并强调克制战略，资金更愿意押注明确能力补齐，对宏大机器人叙事的兑现周期保持谨慎。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术突破主要围绕世界模型展开，Google强调云端演练与失败恢复，昆仑万维讨论异构数据和预演机制，重点从模型架构转向训练成本与任务闭环。",
+        "summary": "本周技术突破围绕世界模型展开，Google World Gym强调云端预演和失败恢复，昆仑万维相关讨论则聚焦异构数据、实时交互与机器人行动前仿真。",
         "items": [
           {
             "date": "07-27",
@@ -289,7 +289,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单线索集中在巡检和无人货运，道通科技展示空地一体巡检体系，Momenta Robovan已落地苏州，场景边界清晰、验收标准明确的任务更先进入验证。",
+        "summary": "商业进展集中在巡检、无人货运和医疗三类场景，道通展示空地协同巡检，Momenta Robovan落地苏州，超维动力与北大医疗开展联合创新。",
         "items": [
           {
             "date": "07-27",
@@ -304,12 +304,19 @@
             "url": "https://www.ithome.com/0/982/093.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-27",
+            "title": "超维动力携手北大医疗：务实构建具身智能医疗落地路径",
+            "url": "https://www.qbitai.com/2026/07/461444.html",
+            "company": "其他",
+            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态呈现审慎取向，Optimus被质疑短期收入能力，DeepSeek或暂停融资并强调克制战略，投资判断更关注制造难度、商业节奏和路径选择。",
+        "summary": "资本动态呈现分化，Enigma以机器人控制能力获得7000万美元种子轮，特斯拉Optimus被质疑短期收入有限，DeepSeek融资也受内部会议泄露影响暂停。",
         "items": [
           {
             "date": "07-27",
@@ -324,12 +331,19 @@
             "url": "https://www.infoq.cn/article/oSL5ff3IbpsJZcQzKxow?utm_source=rss&utm_medium=article",
             "company": "宇树科技",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "07-27",
+            "title": "Enigma 融资 7000 万美元，让控制机器人像调音量一样简单 (Enigma raises $70M to make controlling a robot as easy as adjusting the volume)",
+            "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+            "company": "行业",
+            "source_name": "TechCrunch Robotics"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态方面，智元、宇树等企业开始布局线下门店，机器人市场入口竞争从线上传播延伸到实体触点，但现有信息尚不足以评估转化效果。",
+        "summary": "行业动态显示线下入口开始被机器人公司重视，宇树全国首家直营店落地北京王府井后，智元、宇树等企业通过开店争夺市场触达渠道。",
         "items": [
           {
             "date": "07-27",
@@ -414,6 +428,24 @@
       "category": "行业动态",
       "summary": "人形机器人还没成为大众消费品，线下入口已经先被头部公司抢起来了。 4月底，宇树全国首家直营店落地北京王府井银泰in88。5月底，宇树又把具身智能体验馆开进上海南京西路久光百货。算上此前与京东MALL合",
       "url": "https://robot.ofweek.com/2026-07/ART-8321203-12003-30695932.html"
+    },
+    {
+      "date": "07-27",
+      "company": "其他",
+      "title": "超维动力携手北大医疗：务实构建具身智能医疗落地路径",
+      "source_name": "量子位",
+      "category": "商业订单",
+      "summary": "近日，深圳超维动力智能科技有限公司（以下简称“超维动力”）与北大医疗管理有限责任公司（以下简称“北大医疗”）达成深度合作，双方将围绕具身智能在医疗场景中的 数据采集、世界模型与仿真训练 展开联合创新，务实构建一条从「拟真训练」到「场景验证」、再到「医院应用」的完整落地路径。 具身智能要真正「进医院」，从来不是把一台机器人直接摆进病房那么简单。它需要先理解医院…",
+      "url": "https://www.qbitai.com/2026/07/461444.html"
+    },
+    {
+      "date": "07-27",
+      "company": "行业",
+      "title": "Enigma 融资 7000 万美元，让控制机器人像调音量一样简单 (Enigma raises $70M to make controlling a robot as easy as adjusting the volume)",
+      "source_name": "TechCrunch Robotics",
+      "category": "资本动态",
+      "summary": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
     },
     {
       "date": "07-26",
@@ -774,24 +806,6 @@
       "category": "技术突破",
       "summary": "7月21日，外媒报道称，世界模型创业公司极佳视界（GigaAI）正在讨论最快于2026年赴港上市。 创始人兼CEO黄冠在采访中透露，公司即将完成新一轮融资，目标估值为30亿美元，并表示极佳视界有望成为全球首家上市的世界模型创业公司。 消息迅速发酵，“世界模型第一股”“年内赴港IPO”等说法接踵而来。 公司回应称，相关报道是对创始人采访内容的误读，目前“没有任…",
       "url": "https://www.tmtpost.com/8075585.html"
-    },
-    {
-      "date": "07-23",
-      "company": "特斯拉",
-      "title": "马斯克：特斯拉 AI 投资越快越好，不怕部分资金浪费",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 7 月 23 日消息，特斯拉首席执行官埃隆 · 马斯克表示，公司应该在人工智能（AI）领域投入更多资金，即便其中一部分资金最终被浪费。 随着马斯克不断加码 AI 投资，特斯拉今年第二季度资本支出同比大增 142%，达到 58 亿美元（IT之家注：现汇率约合 393.33 亿元人民币）。 在周四财报发布后的分析师电话会议上，马斯克表示，他已经要求公司…",
-      "url": "https://www.ithome.com/0/980/828.htm"
-    },
-    {
-      "date": "07-23",
-      "company": "行业",
-      "title": "Uber 联合创始人为新机器人初创公司 ATOMS 融资 17 亿美元 (Uber co-founder raises $1.7B for new robotics startup ATOMS)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/"
     }
   ]
 }
