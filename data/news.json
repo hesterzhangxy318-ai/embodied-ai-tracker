@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T22:09:25.836975+08:00",
+  "updated": "2026-07-29T03:26:42.349320+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -27,7 +27,7 @@
       "candidates": 4,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -53,7 +53,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
-      "core": 2,
+      "candidates": 25,
+      "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 8,
+      "core": 7,
       "periphery": 2,
-      "new": 8
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -204,8 +204,8 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 16,
-      "core": 8,
+      "candidates": 15,
+      "core": 7,
       "periphery": 2,
       "new": 1
     },
@@ -220,7 +220,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 1
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-07-28T22:09:49.758200+08:00",
+    "generated_at": "2026-07-29T03:27:12.677873+08:00",
     "mode": "aicodewith",
-    "item_count": 21,
+    "item_count": 23,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "道通科技展示Agent平台、巡检大脑、具身本体与空地协同的巡检体系，Momenta Robovan已落地苏州，超维动力与北大医疗围绕数据采集、世界模型和仿真训练合作，工厂、巡检、货运和医疗等边界清晰场景正成为商业化验证的主要入口。",
+        "label": "落地验证偏向可验收任务",
+        "text": "本周具身智能商业化线索更多落在巡检、无人货运和医疗协作等边界清晰的场景，道通科技展示Agent平台、巡检大脑、具身本体和空地协同体系，Momenta Robovan已落地苏州，超维动力与北大医疗围绕数据采集、世界模型和仿真训练合作，短期项目评估更依赖任务闭环与现场验证，而非通用能力叙事。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型开始绑定数据闭环",
-        "text": "BeingBeyond发布基于50万小时人类视频数据的隐式触觉世界动作模型，Google科学家介绍用两张A100跑通云端演练让机器人从失败中自我恢复，近5亿元天使++轮融资也投向自研数采设备量产和数据闭环建设，模型叙事的可验证性正在更多依赖真实数据来源与任务闭环。",
+        "label": "世界模型开始绑定真实数据",
+        "text": "BeingBeyond发布基于50万小时人类视频数据的隐式触觉世界动作模型，Google科学家展示用两张A100进行云端演练以支持机器人从失败中自我恢复，同时Unity中国CEO判断一句话生成游戏仍不现实，世界模型进展正在从概念热度转向数据规模、仿真训练和可恢复行动等更具体的能力指标。",
         "evidence_urls": []
       },
       {
-        "label": "量产能力进入竞争指标",
-        "text": "比亚迪计划8月发布人形机器人，特斯拉Terafab芯片工厂选址即将公布，宇树科技称2025年机器人出货量超过6500台并预计2026年至少翻倍、最高接近三倍，产品发布、产能规划和出货规模开始与能力展示共同构成市场信任基础。",
+        "label": "量产与资本共同考核工程化",
+        "text": "宇树预计2026年机器人出货至少翻倍且2025年出货超过6500台，比亚迪计划8月发布人形机器人，UCLA博士团队近5亿元融资将用于基础模型、自研数采设备量产和工业场景验证，Enigma获得7000万美元种子轮融资，市场资金和产品节奏都更偏向可制造、可采数、可部署的工程能力。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术突破主要围绕世界模型展开，隐式触觉、人类视频训练、云端预演和异构数据被反复提及，重点从模型概念转向机器人行动前预测与失败恢复。",
+        "summary": "技术突破集中在世界模型、触觉感知和仿真预演，50万小时视频训练、云端演练与异构数据讨论增多，但应用边界仍被从业者谨慎评估。",
         "items": [
           {
             "date": "07-28",
@@ -277,6 +277,20 @@
             "url": "https://www.tmtpost.com/8082395.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-28",
+            "title": "Unity 中国 CEO 张俊波：世界模型来了，但“一句话生成游戏”还不现实",
+            "url": "https://www.ithome.com/0/982/768.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-28",
+            "title": "机器人手指用颜色感知触觉 (Robot Finger Feels in Color)",
+            "url": "https://spectrum.ieee.org/robot-finger",
+            "company": "其他",
+            "source_name": "IEEE Spectrum Robotics"
           },
           {
             "date": "07-27",
@@ -303,7 +317,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品量产侧出现多条确定进展，比亚迪人形机器人计划8月亮相，宇树给出出货翻倍预期，特斯拉推进芯片工厂选址，Robotaxi已有量产车型交付。",
+        "summary": "产品量产线索覆盖比亚迪人形机器人8月亮相、特斯拉Terafab选址待发布、宇树出货增长预期和启辰哈啰Robotaxi交付，规模化开始进入验证维度。",
         "items": [
           {
             "date": "07-28",
@@ -337,7 +351,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单集中在巡检、无人货运和医疗合作，道通展示空地一体巡检体系，Momenta Robovan落地苏州，超维动力与北大医疗共建数据和仿真训练路径。",
+        "summary": "商业订单以巡检、无人货运和医疗合作为主，道通展示空地一体巡检体系，Momenta Robovan落地苏州，医疗场景则先围绕数据采集与仿真训练推进。",
         "items": [
           {
             "date": "07-27",
@@ -364,7 +378,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态呈现分化，基础模型公司获得近5亿元融资并投向数采和工业验证，Enigma获7000万美元种子轮，同时Optimus短期收入和DeepSeek融资节奏受到质疑。",
+        "summary": "资本动态呈现分化，近5亿元投向人形机器人基础模型与数据闭环，Enigma获7000万美元融资，同时Optimus短期收入和DeepSeek融资节奏受到谨慎讨论。",
         "items": [
           {
             "date": "07-28",
@@ -398,7 +412,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态兼具热度和约束，IJCAI-ECAI将聚焦Physical AI，纽约州暂停人形机器人教学试点，智元和宇树开店探索入口，关节执行器集成仍受关注。",
+        "summary": "行业动态包含IJCAI-ECAI论文与Physical AI议题升温、纽约州暂停人形机器人教学试点、智元和宇树开店，以及集成式执行器等工程环节受关注。",
         "items": [
           {
             "date": "07-28",
@@ -432,7 +446,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链本周主要来自海康机器人HAR MASTER PRO V2.3发布，升级覆盖视觉呈现、产线适配、数据决策和扩展能力，指向机器人调试效率提升。",
+        "summary": "泛具身产业链本周证据主要来自海康机器人HAR MASTER PRO V2.3发布，数字仿真在视觉呈现、产线适配、数据决策和扩展能力上继续补位调试环节。",
         "items": [
           {
             "date": "07-28",
@@ -544,6 +558,24 @@
       "category": "行业动态",
       "summary": "Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies. The post appeared fi…",
       "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/"
+    },
+    {
+      "date": "07-28",
+      "company": "其他",
+      "title": "Unity 中国 CEO 张俊波：世界模型来了，但“一句话生成游戏”还不现实",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 28 日消息，据第一财经今天报道，Unity 中国 CEO 张俊波在团结引擎 2.0 发布会后表示，他部分认同 AI 会颠覆软件、大规模提高生产效率， 但并不认为 AI 会颠覆游戏引擎 。 他对此表示：“AI 对引擎公司来说反而是好事”。AI 能降低游戏开发和使用引擎的门槛，也意味着引擎公司可以在游戏行业里渗透得更深入。 从长远看，世界模型…",
+      "url": "https://www.ithome.com/0/982/768.htm"
+    },
+    {
+      "date": "07-28",
+      "company": "其他",
+      "title": "机器人手指用颜色感知触觉 (Robot Finger Feels in Color)",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "技术突破",
+      "summary": "Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and, if it’s tails…",
+      "url": "https://spectrum.ieee.org/robot-finger"
     },
     {
       "date": "07-27",
@@ -877,24 +909,6 @@
       "category": "技术突破",
       "summary": "端云协同 + 原生隐私设计，家庭机器人兼顾智能与安全 编辑丨李希 今年关于具身智能的讨论里，有一个问题始终绕不开：机器人进了家门，到底靠什么让人愿意留着它？ 工厂的逻辑很简单：干得准、跑得稳，得能运行，还能创收。但家庭场景不一样：一个动作失误、一次对意图的理解偏差，用户的心理容错率几乎为零 —— 错一次，机器人就可能就被退货，或者放在角落吃灰。 这个现实，让…",
       "url": "https://www.leiphone.com/category/industrynews/VoghxG89WgJ2E9ZI.html"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "视频星期五：意大利人形机器人诞生 (Video Friday: An Italian Humanoid Comes to Life)",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "行业动态",
-      "summary": "Your weekly selection of awesome robot videos Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a…",
-      "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "Generalist 的 GEN-1 基础模型现支持多种机器人末端执行器 (Generalist’s GEN-1 foundation model now supports a range of robot end effectors)",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "summary": "By training GEN-1 to work with new hands, Generalist said a single base model can learn sensorimotor policies on different robots. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/generalists-gen-1-foundation-model-now-supports-a-range-of-robot-end-effectors/"
     }
   ]
 }
