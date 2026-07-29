@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T22:13:33.496372+08:00",
+  "updated": "2026-07-30T03:18:38.100630+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,7 +23,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 26,
+      "entries": 27,
       "candidates": 8,
       "core": 0,
       "periphery": 0,
@@ -53,7 +53,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -90,9 +90,9 @@
       "error": "",
       "entries": 60,
       "candidates": 14,
-      "core": 2,
+      "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -117,7 +117,7 @@
       "candidates": 7,
       "core": 6,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 13,
-      "core": 11,
-      "periphery": 0,
-      "new": 11
+      "candidates": 12,
+      "core": 8,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-07-29T22:14:03.778358+08:00",
+    "generated_at": "2026-07-30T03:18:57.703677+08:00",
     "mode": "aicodewith",
-    "item_count": 42,
+    "item_count": 44,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周具身智能落地线索集中在巡检、工厂、无人货运、医疗数据采集和机场泊车等场景，道通展示空地一体巡检体系，mimic robotics把视频动作模型引入奥迪工厂，商业化判断正在从展会表演转向任务是否能被现场验收。",
+        "text": "本周具身智能商业化线索集中在巡检、工厂、无人货运和医疗等可定义场景，道通科技展示空地一体巡检体系及商业化进展，mimic robotics将视频动作模型引入奥迪工厂，Momenta Robovan已落地苏州，超维动力与北大医疗围绕数据采集、世界模型与仿真训练合作，B端付费判断更依赖任务闭环和验收边界。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型进入任务闭环",
-        "text": "Momenta R7世界模型随上汽名爵MG 07进入预售车型，并用于已落地苏州的Robovan，无界发布基于50万小时视频的隐式触觉世界动作模型，模型叙事开始更多绑定真实数据、车规产品和具体动作能力。",
+        "label": "世界模型叙事开始贴近数据闭环",
+        "text": "上汽名爵MG 07预售车型搭载Momenta R7世界模型，BeingBeyond发布基于50万小时人类视频数据的隐式触觉世界动作模型，UCLA博士团队近5亿元融资也明确投向自研数采设备量产与数据闭环建设，模型能力正在从概念展示转向真实数据、工程化落地和具体任务验证。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好能力补齐",
-        "text": "UCLA博士团队近5亿元融资投向基础模型、自研数采设备量产和工业场景验证，Enigma融资7100万美元并开放100多台机器人供在线操作，资金更偏向补足数据闭环、交互控制和工程化验证短板。",
+        "label": "量产与价格进入能力验证",
+        "text": "宇树科技披露2025年机器人出货量超过6500台并预计2026年至少翻倍，NoTip在俄亥俄州公开测试机器人送餐平台，Sapphire推出AMD驱动的物理AI机器人平台，特斯拉Terafab芯片工厂选址即将公布，市场对具身能力的评估开始叠加交付规模、算力供给和可部署成本。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术突破围绕世界模型、物理原生智能、视频动作模型和车端应用展开，触觉、工厂动作与Robotaxi体验优化成为本周较具体的能力验证方向。",
+        "summary": "技术进展围绕世界模型、物理原生智能和工厂动作模型展开，MG 07搭载R7世界模型预售，BeingBeyond以50万小时视频训练触觉世界动作模型，黑芝麻智能与正行创新签署合作。",
         "items": [
           {
             "date": "07-29",
@@ -359,7 +359,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品量产覆盖训练网络、送餐公开测试、机器人手、物理AI平台、机场泊车和车企机器人计划，量产线索开始与价格、出货和场景试用并行出现。",
+        "summary": "产品侧从平台、服务和出货计划多线推进，Sapphire发布AMD驱动机器人平台，NoTip开放送餐测试，Stanley Robotics落地机场泊车，宇树预计2026年出货至少翻倍。",
         "items": [
           {
             "date": "07-29",
@@ -428,7 +428,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单集中在喷涂、巡检、无人货运和医疗合作，道通、Momenta与超维动力案例都强调任务流程、数据采集和现场验证，B端付费逻辑更清晰。",
+        "summary": "商业化更偏向可验收场景，工业喷涂、空地一体巡检、无人货运和医疗合作均有进展，道通展示巡检技术体系，Momenta Robovan已落地苏州，超维动力携手北大医疗。",
         "items": [
           {
             "date": "07-29",
@@ -469,7 +469,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态呈现分化，基础模型和交互控制仍获大额融资，但Optimus短期收入受质疑，DeepSeek暂停融资传闻也显示资本叙事面临更强纪律约束。",
+        "summary": "资本继续投向基础模型、交互和数据闭环，UCLA博士团队获近5亿元天使++轮融资用于数采设备量产与工业验证，Enigma获约7100万美元融资探索在线指挥机器人。",
         "items": [
           {
             "date": "07-29",
@@ -510,7 +510,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态受监管与安全议题扰动，美国FCC进口限制、纽约州暂停教学试点和特斯拉Robotaxi诉讼，提醒人形机器人扩张仍需跨过合规与信任门槛。",
+        "summary": "行业外部环境出现监管变量，美国FCC限制新的外国产人形、四足机器人及联网逆变器进入美国市场，纽约州暂停人形机器人教学试点，同时家庭烹饪和工厂展示仍在推进。",
         "items": [
           {
             "date": "07-29",
@@ -539,6 +539,20 @@
             "url": "https://roboticsandautomationnews.com/2026/07/29/america-hits-chinese-humanoids-where-it-hurts/103670/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-29",
+            "title": "雷军晒小米机器人在工厂工作视频：“督工”竟也是机器人，还会比耶耍酷",
+            "url": "https://www.ithome.com/0/983/342.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-29",
+            "title": "专家回应FCC限制美国进口新型人形和移动机器人 (Experts react to FCC limits on U.S. imports of new humanoid and mobile robots)",
+            "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-28",
@@ -579,7 +593,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链仅有仿真调试工具更新线索，HAR MASTER PRO V2.3强调视觉呈现、产线适配、数据决策和扩展能力，结论宜聚焦工程效率改善。",
+        "summary": "产业链信息较少，海康机器人HAR MASTER PRO V2.3强调数字仿真、产线适配、数据决策和扩展能力，显示仿真调试工具仍是具身系统落地的重要配套环节。",
         "items": [
           {
             "date": "07-28",
@@ -754,6 +768,24 @@
       "category": "产品量产",
       "summary": "Passengers travelling from London Gatwick Airport this summer can experience the future of hassle-free airport parking with the launch of a unique robotic parking service – the fir…",
       "url": "https://roboticsandautomationnews.com/2026/07/29/stanley-robotics-launches-robot-valet-parking-at-london-gatwick/103667/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "雷军晒小米机器人在工厂工作视频：“督工”竟也是机器人，还会比耶耍酷",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 29 日消息，小米创办人、董事长兼 CEO 雷军今日在微博分享了一条来自机器人团队的视频，并坦言：“挺有趣的。” 视频的开头一切正常，就是一辆白色涂装的小米机器人在工厂工作，折叠着一个便携收纳盒。当白色机器人折叠好了收纳盒，并将其顺手推向旁侧的时候，镜头一转，改为了自拍视角。 就在大家以为是真人摄影师即将露面时， 结果画面显示在一旁的“督工…",
+      "url": "https://www.ithome.com/0/983/342.htm"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "专家回应FCC限制美国进口新型人形和移动机器人 (Experts react to FCC limits on U.S. imports of new humanoid and mobile robots)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/"
     },
     {
       "date": "07-28",
@@ -1024,24 +1056,6 @@
       "category": "技术突破",
       "summary": "这次登场的是来自NeoteAI和复旦大学的N0系列模型。不仅是居家料理，收纳整理它同样拿手。工厂流水线装配、精细零件组装、线材缠绕梳理这些精细活也全都不在话下。 不知道大家有没有见过机器人实操翻车的名场面：插头边缘反复摩擦却难以插入、抓取塑料瓶时力道失控导致瓶身瘪陷、叠好的毛巾在松手瞬间散落……在具身智能的落地进程中，这类“视觉系统判定无误，但物理交互瞬间翻…",
       "url": "https://www.qbitai.com/2026/07/460962.html"
-    },
-    {
-      "date": "07-26",
-      "company": "其他",
-      "title": "上纬新材子公司启元新创落户上海，计划每年推出不少于 2 款全新消费级机器人",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 26 日消息，上纬新材料科技股份有限公司旗下全资子公司启元新创（上海）科技有限公司正式落户浦东。 据介绍，启元新创为上海市人工智能重点项目，于 2026 世界人工智能大会期间签约。该项目落地于张江机器人谷。 该项目计划未来三年持续投入大额研发费用，重点布局研发中心建设，打造全自研 Primemind 基座模型；建设产品设计创新中心， 每年推…",
-      "url": "https://www.ithome.com/0/981/801.htm"
-    },
-    {
-      "date": "07-26",
-      "company": "其他",
-      "title": "脑波会是物理AI的下一个突破口吗？ (Are brain waves the next unlock for physical AI?)",
-      "source_name": "TechCrunch Robotics",
-      "category": "技术突破",
-      "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
-      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/"
     }
   ]
 }
