@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T16:43:29.810109+08:00",
+  "updated": "2026-07-29T22:13:33.496372+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -8,10 +8,10 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 11,
-      "core": 3,
+      "entries": 26,
+      "candidates": 8,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -38,7 +38,7 @@
       "error": "",
       "entries": 18,
       "candidates": 8,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 1,
-      "core": 0,
+      "entries": 18,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 26,
-      "core": 1,
+      "entries": 60,
+      "candidates": 14,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -114,10 +114,10 @@
       "attempts": 1,
       "error": "",
       "entries": 32,
-      "candidates": 13,
-      "core": 9,
+      "candidates": 7,
+      "core": 6,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "OFweek机器人",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 20,
-      "core": 5,
+      "core": 4,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 3,
-      "periphery": 1,
-      "new": 4
+      "candidates": 13,
+      "core": 11,
+      "periphery": 0,
+      "new": 11
     },
     {
       "name": "NVIDIA Robotics",
@@ -207,7 +207,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 2,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -232,37 +232,37 @@
       "entries": 75,
       "candidates": 68,
       "core": 21,
-      "periphery": 10,
+      "periphery": 9,
       "new": 0
     }
   ],
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-07-29T16:43:43.543042+08:00",
+    "generated_at": "2026-07-29T22:14:03.778358+08:00",
     "mode": "aicodewith",
-    "item_count": 31,
+    "item_count": 42,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周商业化线索集中在工厂、巡检、货运和医疗等任务边界清晰的场景，道通科技展示空地一体巡检体系，Momenta Robovan已落地苏州，工业喷涂和医疗数据采集合作也被提及，具身智能的付费逻辑正更多依赖能否完成具体工序与闭环验证。",
+        "text": "本周具身智能落地线索集中在巡检、工厂、无人货运、医疗数据采集和机场泊车等场景，道通展示空地一体巡检体系，mimic robotics把视频动作模型引入奥迪工厂，商业化判断正在从展会表演转向任务是否能被现场验收。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型叙事开始补数据闭环",
-        "text": "BeingBeyond发布基于50万小时人类视频数据的隐式触觉世界动作模型，Google科学家用视频世界模型降低真机试错成本，UCLA博士团队融资资金也投向自研数采设备量产和真实工业验证，模型能力的竞争焦点正在从概念展示转向数据来源、仿真训练和任务恢复。",
+        "label": "世界模型进入任务闭环",
+        "text": "Momenta R7世界模型随上汽名爵MG 07进入预售车型，并用于已落地苏州的Robovan，无界发布基于50万小时视频的隐式触觉世界动作模型，模型叙事开始更多绑定真实数据、车规产品和具体动作能力。",
         "evidence_urls": []
       },
       {
-        "label": "量产预期纳入能力检验",
-        "text": "宇树预计2026年机器人出货至少翻倍且2025年已超过6500台，比亚迪计划8月发布人形机器人，特斯拉Terafab芯片工厂选址即将公布，产能、交付节奏和供应保障开始与机器人能力验证并行接受市场检验。",
+        "label": "资本偏好能力补齐",
+        "text": "UCLA博士团队近5亿元融资投向基础模型、自研数采设备量产和工业场景验证，Enigma融资7100万美元并开放100多台机器人供在线操作，资金更偏向补足数据闭环、交互控制和工程化验证短板。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、触觉感知和物理原生智能展开，BeingBeyond以50万小时视频训练触觉世界动作模型，行业同时提醒展会演示与真实实用仍有距离。",
+        "summary": "技术突破围绕世界模型、物理原生智能、视频动作模型和车端应用展开，触觉、工厂动作与Robotaxi体验优化成为本周较具体的能力验证方向。",
         "items": [
           {
             "date": "07-29",
@@ -291,6 +291,20 @@
             "url": "https://www.ithome.com/0/983/057.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-29",
+            "title": "上汽名爵 MG 07 预售：搭载 Momenta R7 世界模型，12.59 万元起",
+            "url": "https://www.ithome.com/0/983/312.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-29",
+            "title": "mimic robotics将“前沿视频动作模型”引入奥迪工厂车间 (mimic robotics introduces ‘frontier video-action models’ to the factory floor at Audi)",
+            "url": "https://roboticsandautomationnews.com/2026/07/29/mimic-robotics-introduces-frontier-video-action-models-to-the-factory-floor-at-audi/103705/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-28",
@@ -345,8 +359,43 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产消息集中在车企和头部机器人公司，比亚迪计划8月亮相人形机器人，宇树给出出货翻倍预期，启辰与哈啰首台量产Robotaxi已在广州交付。",
+        "summary": "产品量产覆盖训练网络、送餐公开测试、机器人手、物理AI平台、机场泊车和车企机器人计划，量产线索开始与价格、出货和场景试用并行出现。",
         "items": [
+          {
+            "date": "07-29",
+            "title": "Neura Robotics与RWTH Aachen University合作扩大全球物理AI训练网络 (Neura Robotics expands global physical AI training network in partnership with RWTH Aachen University)",
+            "url": "https://roboticsandautomationnews.com/2026/07/29/neura-robotics-expands-global-physical-ai-training-network-in-partnership-with-rwth-aachen-university/103699/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-29",
+            "title": "NoTip在俄亥俄州推出机器人送餐平台公开测试版 (NoTip launches public beta of robotic food delivery platform in Ohio)",
+            "url": "https://roboticsandautomationnews.com/2026/07/29/notip-launches-public-beta-of-robotic-food-delivery-platform-in-ohio/103696/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-29",
+            "title": "Tacta Systems发布面向高价值制造的AI驱动机器人手 (Tacta Systems unveils AI-powered robotic hand for high-value manufacturing)",
+            "url": "https://roboticsandautomationnews.com/2026/07/29/tacta-systems-unveils-ai-powered-robotic-hand-for-high-value-manufacturing/103688/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-29",
+            "title": "Sapphire推出由AMD驱动的物理AI机器人平台 (Sapphire launches AMD-powered robotics platform for physical AI applications)",
+            "url": "https://roboticsandautomationnews.com/2026/07/29/sapphire-launches-amd-powered-robotics-platform-for-physical-ai-applications/103679/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-29",
+            "title": "Stanley Robotics 在伦敦盖特威克机场推出机器人代客泊车服务 (Stanley Robotics launches robot valet parking at London Gatwick)",
+            "url": "https://roboticsandautomationnews.com/2026/07/29/stanley-robotics-launches-robot-valet-parking-at-london-gatwick/103667/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "07-28",
             "title": "比亚迪：人形机器人计划八月发布",
@@ -379,7 +428,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地更强调工厂喷涂、巡检、无人货运和医疗协作等明确场景，道通展示空地协同巡检体系，Momenta Robovan已落地苏州，项目更接近可验收任务。",
+        "summary": "商业订单集中在喷涂、巡检、无人货运和医疗合作，道通、Momenta与超维动力案例都强调任务流程、数据采集和现场验证，B端付费逻辑更清晰。",
         "items": [
           {
             "date": "07-29",
@@ -387,6 +436,13 @@
             "url": "https://www.tmtpost.com/8082303.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-29",
+            "title": "原创 2026中国具身智能行业洞察报告 人工智能 · 商业化 · 人工智能 报告 2026-07-19",
+            "url": "https://www.jazzyear.com/study_info.html?id=167",
+            "company": "其他",
+            "source_name": "甲子光年"
           },
           {
             "date": "07-27",
@@ -413,7 +469,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续投向基础模型、交互控制和数据闭环，UCLA博士团队获近5亿元天使++轮，Enigma获7100万美元融资，同时Optimus短期收入能力受到投资人质疑。",
+        "summary": "资本动态呈现分化，基础模型和交互控制仍获大额融资，但Optimus短期收入受质疑，DeepSeek暂停融资传闻也显示资本叙事面临更强纪律约束。",
         "items": [
           {
             "date": "07-29",
@@ -454,7 +510,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业外部环境出现监管和接受度变量，美国FCC拟限制外国产机器人进入市场，纽约州暂停人形机器人教学试点，特斯拉Robotaxi安全争议也进入诉讼层面。",
+        "summary": "行业动态受监管与安全议题扰动，美国FCC进口限制、纽约州暂停教学试点和特斯拉Robotaxi诉讼，提醒人形机器人扩张仍需跨过合规与信任门槛。",
         "items": [
           {
             "date": "07-29",
@@ -462,6 +518,27 @@
             "url": "https://www.ithome.com/0/982/826.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-29",
+            "title": "情感陪护机器人，不能阻止优必选股价下跌",
+            "url": "https://www.tmtpost.com/8083214.html",
+            "company": "优必选",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-29",
+            "title": "宣称“全程免动手”：海尔机器人与橡鹿机器人达成战略合作，共研全自动家庭 AI 烹饪机器人",
+            "url": "https://www.ithome.com/0/983/323.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-29",
+            "title": "美国击中中国人形机器人的痛处 (America hits Chinese humanoids where it hurts)",
+            "url": "https://roboticsandautomationnews.com/2026/07/29/america-hits-chinese-humanoids-where-it-hurts/103670/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-28",
@@ -502,7 +579,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧本周信息较少，海康机器人发布HAR MASTER PRO V2.3，强调数字仿真在视觉呈现、产线适配、数据决策和扩展能力上的升级。",
+        "summary": "泛具身产业链仅有仿真调试工具更新线索，HAR MASTER PRO V2.3强调视觉呈现、产线适配、数据决策和扩展能力，结论宜聚焦工程效率改善。",
         "items": [
           {
             "date": "07-28",
@@ -578,6 +655,105 @@
       "category": "资本动态",
       "summary": "TechCrunch ? ? Marina Temkin 神秘实验室 Enigma 融资 7100 万美元，开放 100 多台 AI 机器人供全球在线“使唤”，想让人机交互像调音量一样直觉",
       "url": "https://robot.ofweek.com/2026-07/ART-8321205-8140-30696286.html"
+    },
+    {
+      "date": "07-29",
+      "company": "优必选",
+      "title": "情感陪护机器人，不能阻止优必选股价下跌",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "多元化没有错，但当人形机器人这个核心赛道被后来者用更低的成本、更高的效率重新定义时，优必选的“全栈全场景”反而成了包袱。 2026年7月2日，中国证监会的一纸批文，让宇树科技正式拿到了科创板IPO的入场券。这家成立仅十年的公司，以420亿元的发行估值、6亿元的年度扣非净利润、60%的毛利率，即将成为A股“人形机器人第一股”。 而在港股市场，真正的“人形机器人…",
+      "url": "https://www.tmtpost.com/8083214.html"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "宣称“全程免动手”：海尔机器人与橡鹿机器人达成战略合作，共研全自动家庭 AI 烹饪机器人",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 29 日消息，海尔机器人与橡鹿机器人今日达成战略合作。双方将围绕中餐烹饪生态、AI 技术能力、家庭场景应用及产业链协同等方向展开合作， 共同打造行业全新一代全自动家庭 AI 烹饪机器人 。 官方表示，全新一代全自动家庭 AI 烹饪机器人，从自动投放调料、食材到智能翻炒， 全程免动手 。新品搭载海尔自研 AI 之眼科技， 可精准识别主流品牌净…",
+      "url": "https://www.ithome.com/0/983/323.htm"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "上汽名爵 MG 07 预售：搭载 Momenta R7 世界模型，12.59 万元起",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 29 日消息，在今晚举行的发布会上，上汽名爵 MG 07 正式开启预售， 预售价 12.59 万元起 ： MG 07 650 舒享版：预售价 12.59 万元 MG 07 610 激光雷达版：预售价 13.59 万元 MG 07 610 旗舰版：预售价 14.59 万元 MG 07 845 激光雷达版：早鸟预售价 15.59 万元 MG 0…",
+      "url": "https://www.ithome.com/0/983/312.htm"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "原创 2026中国具身智能行业洞察报告 人工智能 · 商业化 · 人工智能 报告 2026-07-19",
+      "source_name": "甲子光年",
+      "category": "商业订单",
+      "summary": "5\\u667A\\u80FD\"); return false;\">人工智能 · 科技投资 · 人工智能 报告 原创 AI产业最新趋势解读：词元经济体系下的组织变革新机遇 人工智能 · 数字化 · 人工智能 报告</",
+      "url": "https://www.jazzyear.com/study_info.html?id=167"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "mimic robotics将“前沿视频动作模型”引入奥迪工厂车间 (mimic robotics introduces ‘frontier video-action models’ to the factory floor at Audi)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "mimic robotics, a physical AI company developing Video-Action Models for industrial automation, has introduced FLUX-mimic – a next-generation Video-Action Model developed in collab…",
+      "url": "https://roboticsandautomationnews.com/2026/07/29/mimic-robotics-introduces-frontier-video-action-models-to-the-factory-floor-at-audi/103705/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "Neura Robotics与RWTH Aachen University合作扩大全球物理AI训练网络 (Neura Robotics expands global physical AI training network in partnership with RWTH Aachen University)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Neura Robotics has partnered with RWTH Aachen University to establish a new Neura Gym in Germany as part of its expanding global network of Physical AI training centres. The new fa…",
+      "url": "https://roboticsandautomationnews.com/2026/07/29/neura-robotics-expands-global-physical-ai-training-network-in-partnership-with-rwth-aachen-university/103699/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "NoTip在俄亥俄州推出机器人送餐平台公开测试版 (NoTip launches public beta of robotic food delivery platform in Ohio)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "NoTip has launched public beta testing of its robotic food delivery platform in Mason, Ohio, giving residents early access to an autonomous delivery service that combines electric…",
+      "url": "https://roboticsandautomationnews.com/2026/07/29/notip-launches-public-beta-of-robotic-food-delivery-platform-in-ohio/103696/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "Tacta Systems发布面向高价值制造的AI驱动机器人手 (Tacta Systems unveils AI-powered robotic hand for high-value manufacturing)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Tacta Systems has unveiled a robotics platform designed to bring human-like dexterity and touch to industrial automation, with the company targeting applications in electronics, AI…",
+      "url": "https://roboticsandautomationnews.com/2026/07/29/tacta-systems-unveils-ai-powered-robotic-hand-for-high-value-manufacturing/103688/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "Sapphire推出由AMD驱动的物理AI机器人平台 (Sapphire launches AMD-powered robotics platform for physical AI applications)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Sapphire Technology has unveiled the EDGE+ Apex SOM/Carrier Robotics Platform, a production-ready hardware platform powered by AMD Ryzen AI Embedded X100 Series processors and desi…",
+      "url": "https://roboticsandautomationnews.com/2026/07/29/sapphire-launches-amd-powered-robotics-platform-for-physical-ai-applications/103679/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "美国击中中国人形机器人的痛处 (America hits Chinese humanoids where it hurts)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Chinese companies represent almost 70 percent of the global humanoid robot market Chinese humanoid robot manufacturers could face a significant setback in one of the world’s larges…",
+      "url": "https://roboticsandautomationnews.com/2026/07/29/america-hits-chinese-humanoids-where-it-hurts/103670/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "Stanley Robotics 在伦敦盖特威克机场推出机器人代客泊车服务 (Stanley Robotics launches robot valet parking at London Gatwick)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Passengers travelling from London Gatwick Airport this summer can experience the future of hassle-free airport parking with the launch of a unique robotic parking service – the fir…",
+      "url": "https://roboticsandautomationnews.com/2026/07/29/stanley-robotics-launches-robot-valet-parking-at-london-gatwick/103667/"
     },
     {
       "date": "07-28",
@@ -866,105 +1042,6 @@
       "category": "技术突破",
       "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
       "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/"
-    },
-    {
-      "date": "07-25",
-      "company": "其他",
-      "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "做扫地机器人的科沃斯，把旗下一款具身智能机器人整个开源了。 2012年，它推出了全球首款家庭服务机器人「亲宝」，是最早一批入局家庭服务机器人赛道的公司。 后续迭代的公共服务机器人「旺宝」，广泛落地银行、政务大厅等场景，攒下了海量真实场景数据、工程落地经验和规模化交付能力。 这些积累，后来成了科沃斯深耕具身智能领域的产业根基。 现在，它在苏州挂牌成立了「八界开…",
-      "url": "https://www.qbitai.com/2026/07/460234.html"
-    },
-    {
-      "date": "07-25",
-      "company": "特斯拉",
-      "title": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 26 日消息，特斯拉下一代 FSD 软件已正式比预期更早开始在公共道路上运行。在当地时间周三举行的第二季度财报电话会议上，公司高管透露，目前在 Robotaxi 自动驾驶出租车网络中提供无人驾驶服务的改装版 Model Y，已经搭载了 FSD v15 的早期测试版本。 IT之家注意到，特斯拉 AI 负责人阿肖克 · 埃卢斯瓦米（Ashok…",
-      "url": "https://www.ithome.com/0/981/618.htm"
-    },
-    {
-      "date": "07-24",
-      "company": "行业",
-      "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
-      "source_name": "量子位",
-      "category": "泛具身产业链",
-      "summary": "在湖南郴州，一家中国移动营业厅挂牌“具身数据采集5S店”，普通顾客领一套夹爪、手套和头戴相机，经过简单培训，就能边做家务，边采集机器人训练数据。 首期投放的1000套设备，满产状态下每年能采集100万小时数据。我仿佛听到了商家心里打的小算盘：既采了数据，又赚了眼球，4A广告公司都应该来学学。（doge） 具身数采类似的“花活”还有不少：有的为了采数据免费上门…",
-      "url": "https://www.qbitai.com/2026/07/459262.html"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "世界模型“六小龙”在WAIC吵起来了！行业红利就在非共识里",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "世界模型，是当前AI圈最火、也最没有共识的领域之一。 它的概念没有收敛、技术路线没有收敛、训练方式没有收敛、数据标准没有收敛、评测尺度没有收敛…… 7月19日，在WAIC“世界模型六小龙”论坛上，一场信息密度极高的圆桌讨论，凑齐了六家公司的世界模型技术负责人。他们是： 这些嘉宾的观点，代表了行业对世界模型最前沿的思考，值得一听。 这六家公司目前押注的技术路线…",
-      "url": "https://www.qbitai.com/2026/07/458617.html"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "嚯！35家大型央国企实测后，因果世界模型落地了",
-      "source_name": "量子位",
-      "category": "商业订单",
-      "summary": "眼下，AI能帮人写稿、编程、生成视频，但离真正进入企业工作流、解决实际问题，经常还差一口气。 特别是能源、制造、工业、医药这些高价值行业，企业需要的并不是只会依照现有数据来生成内容的AI工具，而是一套能支撑生产调度、安全管控、风险研判和复杂方案决策的可靠智能系统。 WAIC期间，中数睿智发布了 “AI for Reasoning” 因果智能体系，针对的就是这…",
-      "url": "https://www.qbitai.com/2026/07/458357.html"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "RSS 2026 时间检验奖：形态即计算，具身智能的“逻辑刹车”已至",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "颁给“空气”的最高荣誉 当全球具身智能开发者都在卷“百万小时视频数据”和“万亿参数大模型”时，7月15日，在 RSS 2026 的现场，大会却将分量最重的“时间检验奖（Test of Time Award）”，颁给了一只用空气驱动、成本极低、甚至连传感器都没有的软体气动机器人手：《A Novel Type of Compliant Underactuated…",
-      "url": "https://www.leiphone.com/category/private/rMXnmau3OSE7evhI.html"
-    },
-    {
-      "date": "07-24",
-      "company": "行业",
-      "title": "不卷coding，卷原生多模态世界模型：智象未来拿下15亿C轮融资？",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "2026年过一半，全球AI行业本该见证属于Coding赛道的高光时刻。 Kimi K3的发布被寄予厚望，国产大模型在代码能力上对Claude的追赶，似乎只差“临门一脚”。 然而，这“临门一脚”不仅没能踢开胜利的大门，反而一脚踢崩了资本市场： 发布次日，智谱股价暴跌28.49%，MiniMax暴跌15.62%，大洋彼岸同样寒意逼人。美国AI板块随之集体下挫，即…",
-      "url": "https://www.tmtpost.com/8077595.html"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "具身智能争夺下一块拼图：一目科技估值破百亿，触觉传感器走向量产",
-      "source_name": "InfoQ",
-      "category": "资本动态",
-      "summary": "一目科技近日宣布完成超 10 亿元 E 轮融资，投后估值超过 100 亿元。本轮融资由多家人民币基金、美元基金及产业投资方参与，庚辛资本担任长期财务顾问。 一目科技成立于 2016 年，创始人李智强毕业于卡内基梅隆大学，拥有环境工程、人工智能和硬件研发经历。公开资料显示，他此前曾参与微流体微生物燃料电池和微型光谱设备研发。创办一目科技后，公司逐步将业务重心转…",
-      "url": "https://www.infoq.cn/article/luJs2PpHVhQb8s5F2WuA?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "圆桌访谈：具身智能的落地分水岭——哪些场景真的跑出了商业闭环？",
-      "source_name": "InfoQ",
-      "category": "商业订单",
-      "summary": "现在具身智能真正跑出商业闭环的场景有哪些？共同特征是什么？",
-      "url": "https://www.infoq.cn/video/8dRT4X0eMoQA8xP9YB7q?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "07-24",
-      "company": "其他",
-      "title": "消息称小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "7 月 24 日下午消息，新浪科技独家获悉，小鹏人形机器人已在广州工厂正式开启小批量试生产，同时量产产线进入最后联调阶段，量产冲刺正式进入倒计时。 此前，小鹏集团内部召开机器人量产动员大会，明确了关键时间节点：2026 年实现人形机器人量产，预计 2027 年起将陆续进驻全球小鹏门店及商业场景，承担导购、讲解等服务。 据悉，小鹏机器人业务整合集团在硬件、AI…",
-      "url": "https://www.ithome.com/0/981/130.htm"
-    },
-    {
-      "date": "07-24",
-      "company": "特斯拉",
-      "title": "消息称台积电版特斯拉 AI5 芯片采用 3nm 工艺制程",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 24 日消息，Tesla（特斯拉）在驱动其未来电动汽车和人形机器人的 AI 系列上采用了双源化供应策略，比如 AI6 基于三星晶圆代工 2nm 工艺而 AI6.5 则采用台积电 2nm。 特斯拉的 AI5 世代芯片同样包含三星晶圆代工和台积电版本，但此前的消息主要围绕的还是三星晶圆代工版本。 三星晶圆代工版 AI5 已完成流片 ， 据信基于…",
-      "url": "https://www.ithome.com/0/981/117.htm"
     }
   ]
 }
