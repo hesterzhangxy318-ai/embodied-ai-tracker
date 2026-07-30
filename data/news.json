@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T10:28:19.005866+08:00",
+  "updated": "2026-07-30T16:29:09.882800+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 26,
-      "candidates": 9,
+      "entries": 28,
+      "candidates": 6,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 8,
+      "entries": 16,
+      "candidates": 7,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
-      "core": 1,
+      "entries": 18,
+      "candidates": 3,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
+      "entries": 16,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 19,
-      "core": 0,
+      "entries": 59,
+      "candidates": 26,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 20,
-      "core": 4,
+      "core": 5,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -181,7 +181,7 @@
       "candidates": 12,
       "core": 9,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "Robotics & Automation News",
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 8,
+      "candidates": 11,
+      "core": 7,
       "periphery": 1,
-      "new": 2
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-07-30T10:28:55.847210+08:00",
+    "generated_at": "2026-07-30T16:29:39.420493+08:00",
     "mode": "aicodewith",
-    "item_count": 46,
+    "item_count": 50,
     "insights": [
       {
-        "label": "落地先看可验收任务",
-        "text": "道通科技把空地一体巡检、mimic robotics进奥迪工厂、Momenta Robovan落地苏州、超维动力和北大医疗联合做医疗数据采集与仿真训练，说明当前具身智能更容易在边界清楚、可验收的工厂、巡检、运输和医疗流程里先形成商业验证。",
+        "label": "落地验证转向可验收任务",
+        "text": "工厂、维修和巡检成为本周具身智能落地的主要验证口径，mimic robotics将视频动作模型带入奥迪工厂，道通科技展示空地一体巡检体系，椅子喷涂案例强调B端付费取决于能否进厂干活，短期商业化更依赖边界清晰、结果可验收的任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争转向数据闭环",
-        "text": "BeingBeyond用50万小时视频训练隐式触觉世界动作模型，UCLA团队融资近5亿元并把自研数采设备量产和数据闭环列为重点，行业讨论也更聚焦物理原生智能和世界模型，模型路线正在从概念叙事转向真实数据、触觉信息和闭环训练能力。",
+        "label": "世界模型开始绑定真实数据",
+        "text": "模型叙事正在从概念展示转向数据和任务闭环，Momenta R7进入MG 07预售车型并用于苏州Robovan，BeingBeyond用50万小时视频训练隐式触觉世界动作模型，融资案例也把自研数采设备和工业场景验证列为资金用途，模型价值正更多由可部署场景承接。",
         "evidence_urls": []
       },
       {
-        "label": "资本更偏工程化补短板",
-        "text": "UCLA团队和Enigma分别拿到近5亿元天使++轮和7100万美元融资，资金分别投向基础模型迭代、数据闭环、交互简化和机器人供给开放，资本更愿意支持能定义场景并补齐感知、操作和交互短板的团队。",
+        "label": "资本偏好能力补齐",
+        "text": "本周融资和资本信号集中在基础模型、数据闭环和交互能力，UCLA博士团队项目获近5亿元天使++轮用于模型迭代和数采设备量产，Enigma融资7100万美元并开放100多台机器人在线调用，同时Optimus短期收入被投资人质疑，资本热度仍需由明确场景消化。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型、触觉和视频动作模型继续靠近真实任务，公开表述多指向工厂、巡检和机器人本体能力的工程化验证。",
+        "summary": "本周技术叙事围绕世界模型、视频动作模型和物理原生智能展开，Momenta、BeingBeyond及mimic robotics案例都指向从演示走向真实任务数据。",
         "items": [
           {
             "date": "07-29",
@@ -359,8 +359,22 @@
       },
       {
         "category": "产品量产",
-        "summary": "特斯拉、比亚迪、宇树和多家平台型公司都在释放量产和发布节奏，芯片工厂、机器人出货和公开测试版成为阶段性信号。",
+        "summary": "量产关注点从发布节奏转向成本、平台和场景，特斯拉芯片工厂待公布，Sapphire发布机器人平台，比亚迪计划8月亮相人形机器人。",
         "items": [
+          {
+            "date": "07-30",
+            "title": "人形机器人量产前夜：成本、场景、生态，商业化还差几步？",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30696416.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-30",
+            "title": "“工业机器人一哥”再登出货量榜首，第二季度交付机器人超1万台！",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30696402.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-29",
             "title": "Neura Robotics与RWTH Aachen University合作扩大全球物理AI训练网络 (Neura Robotics expands global physical AI training network in partnership with RWTH Aachen University)",
@@ -428,7 +442,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "巡检、无人货运、医疗和家庭服务成为更常见的落地方向，合作多围绕具体流程、单点能力和可验收任务展开。",
+        "summary": "商业化线索集中在可验收场景，椅子喷涂、空地一体巡检、无人货运和医疗数据合作，比家庭复合任务更接近短期落地。",
         "items": [
           {
             "date": "07-30",
@@ -476,8 +490,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资继续向基础模型、数据闭环、交互简化和工业落地倾斜，团队是否能补齐数据采集和工程化验证成为重点。",
+        "summary": "资金继续流向基础模型、数据闭环和交互能力，智元启动IPO、Enigma融资7100万美元，也伴随Optimus短期收入不确定的提醒。",
         "items": [
+          {
+            "date": "07-30",
+            "title": "智元启动上市与邓泰华的下半场",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30696421.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-29",
             "title": "融资7100万美元：这家神秘实验室要让指挥机器人像调音量一样简单",
@@ -505,20 +526,27 @@
             "url": "https://www.infoq.cn/article/oSL5ff3IbpsJZcQzKxow?utm_source=rss&utm_medium=article",
             "company": "宇树科技",
             "source_name": "InfoQ"
-          },
-          {
-            "date": "07-27",
-            "title": "Enigma 融资 7000 万美元，让控制机器人像调音量一样简单 (Enigma raises $70M to make controlling a robot as easy as adjusting the volume)",
-            "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
-            "company": "行业",
-            "source_name": "TechCrunch Robotics"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "美国FCC限制新型外国产人形和移动机器人进入市场，叠加国内企业工厂展示和合作推进，行业同时面对外部政策和内部落地压力。",
+        "summary": "行业外部变量增多，美国FCC限制部分外国产机器人进口，执行器从原型走向试点，Robotaxi数据采集和家庭烹饪合作同步推进。",
         "items": [
+          {
+            "date": "07-30",
+            "title": "特斯拉 Robotaxi 新增车载录制功能，采集路况数据优化自动驾驶",
+            "url": "https://www.ithome.com/0/983/604.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-30",
+            "title": "执行器的趋势与前景：人形运动背后的肌肉 (Trends and outlook for actuators: The muscles behind humanoid motion)",
+            "url": "https://roboticsandautomationnews.com/2026/07/30/trends-and-outlook-for-actuators-the-muscles-behind-humanoid-motion/103750/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "07-29",
             "title": "美国 FCC 宣布禁止进口外国产人形机器人及电力逆变器",
@@ -607,7 +635,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "仿真、调试和产线适配工具继续完善，产业链从单纯卖本体转向围绕训练、调试、部署和运维的系统化能力补位。",
+        "summary": "产业链证据较少，海康机器人HAR MASTER PRO V2.3强调数字仿真、产线适配和数据决策，显示调试效率仍是配套工具的切入口。",
         "items": [
           {
             "date": "07-28",
@@ -629,6 +657,51 @@
       "category": "商业订单",
       "summary": "当前家庭具身智能普遍存在本体笨重、精细操作弱、环境泛化差、长时序家务任务执行断裂、人机交互生硬、隐私保护难等落地难题，多数产品仅能完成单一步骤演示，无法支撑完整居家复合任务",
       "url": "https://www.infoq.cn/article/SZaGmZI0g7INLtxalmvi?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "07-30",
+      "company": "特斯拉",
+      "title": "特斯拉 Robotaxi 新增车载录制功能，采集路况数据优化自动驾驶",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 30 日消息，特斯拉自动驾驶网约车（Robotaxi）网络正在不断加入专门用于测试和验证的新软件功能。随着改装版量产 Model Y 在部分城市提供 Robotaxi 服务，车辆中控屏上也开始出现一些独特功能。 X 平台用户 @Josh143574359 最近分享了自己乘坐一辆有人监督的 Robotaxi 时拍摄的照片。照片显示，中控屏上新…",
+      "url": "https://www.ithome.com/0/983/604.htm"
+    },
+    {
+      "date": "07-30",
+      "company": "智元机器人",
+      "title": "智元启动上市与邓泰华的下半场",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "人形机器人进入资本兑现期：智元启动IPO的行业信号。 新眸原创·作者 | 李小东 就在前不久，港交所新版上市规则正式生效的同一天，智元创新确认了启动赴港上市流程。 这个消息来得其实并不突然，过去半年里",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30696421.html"
+    },
+    {
+      "date": "07-30",
+      "company": "其他",
+      "title": "人形机器人量产前夜：成本、场景、生态，商业化还差几步？",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "人形机器人不缺钱，不缺信仰，缺的是工厂愿意买单的理由。在等来ChatGPT时刻之前，所有关于",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30696416.html"
+    },
+    {
+      "date": "07-30",
+      "company": "其他",
+      "title": "“工业机器人一哥”再登出货量榜首，第二季度交付机器人超1万台！",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "据MIR DATABANK最新统计数据显示，2026年上半年，埃斯顿再度登顶中国工业机器人全品牌出货量榜首。同时，2026年第二季度，埃斯顿首次实现单季度交付超10000台机器人，成为首个单季度销量破",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30696402.html"
+    },
+    {
+      "date": "07-30",
+      "company": "其他",
+      "title": "执行器的趋势与前景：人形运动背后的肌肉 (Trends and outlook for actuators: The muscles behind humanoid motion)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "The humanoid robotics industry is transitioning from prototype development and demonstrations toward structured pilot deployments and early commercial adoption. The new IDTechEx re…",
+      "url": "https://roboticsandautomationnews.com/2026/07/30/trends-and-outlook-for-actuators-the-muscles-behind-humanoid-motion/103750/"
     },
     {
       "date": "07-29",
@@ -1025,51 +1098,6 @@
       "category": "商业订单",
       "summary": "近日，深圳超维动力智能科技有限公司（以下简称“超维动力”）与北大医疗管理有限责任公司（以下简称“北大医疗”）达成深度合作，双方将围绕具身智能在医疗场景中的 数据采集、世界模型与仿真训练 展开联合创新，务实构建一条从「拟真训练」到「场景验证」、再到「医院应用」的完整落地路径。 具身智能要真正「进医院」，从来不是把一台机器人直接摆进病房那么简单。它需要先理解医院…",
       "url": "https://www.qbitai.com/2026/07/461444.html"
-    },
-    {
-      "date": "07-27",
-      "company": "行业",
-      "title": "Enigma 融资 7000 万美元，让控制机器人像调音量一样简单 (Enigma raises $70M to make controlling a robot as easy as adjusting the volume)",
-      "source_name": "TechCrunch Robotics",
-      "category": "资本动态",
-      "summary": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
-      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
-    },
-    {
-      "date": "07-26",
-      "company": "行业",
-      "title": "硬氪首发 | 复旦教授、前英特尔首席科学家做端侧具身大脑，「眸深智能」完成近亿元Pre-A轮追加融资",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪获悉，「眸深智能」（Motion Brain）完成近亿元Pre-A轮追加融资，本轮投资方包括中国头部物业服务公司、香港财团、多家上市公司联合打造的产业投资平台瑾悦投资、创合汇资本，以及老股东徐汇资本。 这也是继2026年5月3亿元Pre-A轮之后，「眸深智能」两个月内再次获得投资，此外，该公司Pre-A+轮的近5亿融资…",
-      "url": "https://36kr.com/p/3911162147640456?f=rss"
-    },
-    {
-      "date": "07-26",
-      "company": "其他",
-      "title": "比亚迪迪空间预热人形机器人，八月初亮相",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 26 日消息，“比亚迪迪空间 | 郑州馆”微信公众号昨日发布人形机器人悬念海报，暗示机器人产品将于八月初首次面向公众亮相。 IT之家注意到，比亚迪高层此前已对外释放过明确信号。上个月比亚迪执行副总裁李柯表示， 希望未来每家比亚迪门店都能部署机器人 ，并能够向顾客介绍和演示车辆。李柯表示，面向家庭和服务行业的人形机器人将成为比亚迪的一个巨大市…",
-      "url": "https://www.ithome.com/0/981/642.htm"
-    },
-    {
-      "date": "07-26",
-      "company": "特斯拉",
-      "title": "近 20 亿美元神秘交易落地，特斯拉重金收购 AI 硬件企业",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 7 月 26 日消息，特斯拉一笔备受关注的 AI 领域神秘收购终于尘埃落定。在今年早些时候释放出一些暗示之后，公司已正式完成对一家未公开名称的人工智能硬件公司的收购，交易规模接近 20 亿美元。 这一消息来自最新披露的监管文件。根据特斯拉最新提交的 10-Q 季度报告，公司已于第二季度完成这笔交易，收购对价为价值 19.5 亿美元（IT之家注：现汇…",
-      "url": "https://www.ithome.com/0/981/625.htm"
-    },
-    {
-      "date": "07-26",
-      "company": "特斯拉",
-      "title": "特斯拉在智利、哥伦比亚招聘 AI 安全员，为 Robotaxi 出海铺路",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 26 日消息，特斯拉似乎正在悄然为 Robotaxi（自动驾驶出租车）服务走向国际市场做准备。最新发布的招聘信息显示，南美洲有望成为继美国之后，首批上线特斯拉自动驾驶网约车服务的海外地区之一。 长期关注特斯拉动态的 X 用户 @tslaming 发现，特斯拉目前正在哥伦比亚和智利招聘 AI 安全运营专员（AI Safety Operator…",
-      "url": "https://www.ithome.com/0/981/621.htm"
     }
   ]
 }
