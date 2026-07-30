@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T03:18:38.100630+08:00",
+  "updated": "2026-07-30T10:28:19.005866+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 8,
+      "entries": 26,
+      "candidates": 9,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 16,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 15,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 14,
-      "core": 3,
+      "entries": 58,
+      "candidates": 19,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -155,7 +155,7 @@
       "candidates": 18,
       "core": 4,
       "periphery": 5,
-      "new": 5
+      "new": 4
     },
     {
       "name": "The Robot Report",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 5,
       "periphery": 2,
-      "new": 7
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -178,10 +178,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 11,
-      "core": 8,
+      "candidates": 12,
+      "core": 9,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-07-30T03:18:57.703677+08:00",
+    "generated_at": "2026-07-30T10:28:55.847210+08:00",
     "mode": "aicodewith",
-    "item_count": 44,
+    "item_count": 46,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能商业化线索集中在巡检、工厂、无人货运和医疗等可定义场景，道通科技展示空地一体巡检体系及商业化进展，mimic robotics将视频动作模型引入奥迪工厂，Momenta Robovan已落地苏州，超维动力与北大医疗围绕数据采集、世界模型与仿真训练合作，B端付费判断更依赖任务闭环和验收边界。",
+        "label": "落地先看可验收任务",
+        "text": "道通科技把空地一体巡检、mimic robotics进奥迪工厂、Momenta Robovan落地苏州、超维动力和北大医疗联合做医疗数据采集与仿真训练，说明当前具身智能更容易在边界清楚、可验收的工厂、巡检、运输和医疗流程里先形成商业验证。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型叙事开始贴近数据闭环",
-        "text": "上汽名爵MG 07预售车型搭载Momenta R7世界模型，BeingBeyond发布基于50万小时人类视频数据的隐式触觉世界动作模型，UCLA博士团队近5亿元融资也明确投向自研数采设备量产与数据闭环建设，模型能力正在从概念展示转向真实数据、工程化落地和具体任务验证。",
+        "label": "模型竞争转向数据闭环",
+        "text": "BeingBeyond用50万小时视频训练隐式触觉世界动作模型，UCLA团队融资近5亿元并把自研数采设备量产和数据闭环列为重点，行业讨论也更聚焦物理原生智能和世界模型，模型路线正在从概念叙事转向真实数据、触觉信息和闭环训练能力。",
         "evidence_urls": []
       },
       {
-        "label": "量产与价格进入能力验证",
-        "text": "宇树科技披露2025年机器人出货量超过6500台并预计2026年至少翻倍，NoTip在俄亥俄州公开测试机器人送餐平台，Sapphire推出AMD驱动的物理AI机器人平台，特斯拉Terafab芯片工厂选址即将公布，市场对具身能力的评估开始叠加交付规模、算力供给和可部署成本。",
+        "label": "资本更偏工程化补短板",
+        "text": "UCLA团队和Enigma分别拿到近5亿元天使++轮和7100万美元融资，资金分别投向基础模型迭代、数据闭环、交互简化和机器人供给开放，资本更愿意支持能定义场景并补齐感知、操作和交互短板的团队。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术进展围绕世界模型、物理原生智能和工厂动作模型展开，MG 07搭载R7世界模型预售，BeingBeyond以50万小时视频训练触觉世界动作模型，黑芝麻智能与正行创新签署合作。",
+        "summary": "世界模型、触觉和视频动作模型继续靠近真实任务，公开表述多指向工厂、巡检和机器人本体能力的工程化验证。",
         "items": [
           {
             "date": "07-29",
@@ -359,7 +359,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧从平台、服务和出货计划多线推进，Sapphire发布AMD驱动机器人平台，NoTip开放送餐测试，Stanley Robotics落地机场泊车，宇树预计2026年出货至少翻倍。",
+        "summary": "特斯拉、比亚迪、宇树和多家平台型公司都在释放量产和发布节奏，芯片工厂、机器人出货和公开测试版成为阶段性信号。",
         "items": [
           {
             "date": "07-29",
@@ -428,8 +428,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化更偏向可验收场景，工业喷涂、空地一体巡检、无人货运和医疗合作均有进展，道通展示巡检技术体系，Momenta Robovan已落地苏州，超维动力携手北大医疗。",
+        "summary": "巡检、无人货运、医疗和家庭服务成为更常见的落地方向，合作多围绕具体流程、单点能力和可验收任务展开。",
         "items": [
+          {
+            "date": "07-30",
+            "title": "轻量化异构双臂 x VLA/世界模型：家庭服务具身机器人的落地实践｜AICon深圳",
+            "url": "https://www.infoq.cn/article/SZaGmZI0g7INLtxalmvi?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
           {
             "date": "07-29",
             "title": "具身智能工业落地，先解决一把椅子的喷涂",
@@ -469,7 +476,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续投向基础模型、交互和数据闭环，UCLA博士团队获近5亿元天使++轮融资用于数采设备量产与工业验证，Enigma获约7100万美元融资探索在线指挥机器人。",
+        "summary": "融资继续向基础模型、数据闭环、交互简化和工业落地倾斜，团队是否能补齐数据采集和工程化验证成为重点。",
         "items": [
           {
             "date": "07-29",
@@ -510,7 +517,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业外部环境出现监管变量，美国FCC限制新的外国产人形、四足机器人及联网逆变器进入美国市场，纽约州暂停人形机器人教学试点，同时家庭烹饪和工厂展示仍在推进。",
+        "summary": "美国FCC限制新型外国产人形和移动机器人进入市场，叠加国内企业工厂展示和合作推进，行业同时面对外部政策和内部落地压力。",
         "items": [
           {
             "date": "07-29",
@@ -555,6 +562,13 @@
             "source_name": "The Robot Report"
           },
           {
+            "date": "07-29",
+            "title": "美国政府因国家安全风险禁止新的外国制造人形机器人、机器狗和太阳能逆变器 (US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security)",
+            "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
+            "company": "其他",
+            "source_name": "TechCrunch Robotics"
+          },
+          {
             "date": "07-28",
             "title": "Agentic AI双王论道、Physical AI亮剑不莱梅——IJCAI-ECAI 2026三大最热议题抢先看",
             "url": "https://www.leiphone.com/category/private/XMmcHtwXRaVWrQFg.html",
@@ -593,7 +607,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链信息较少，海康机器人HAR MASTER PRO V2.3强调数字仿真、产线适配、数据决策和扩展能力，显示仿真调试工具仍是具身系统落地的重要配套环节。",
+        "summary": "仿真、调试和产线适配工具继续完善，产业链从单纯卖本体转向围绕训练、调试、部署和运维的系统化能力补位。",
         "items": [
           {
             "date": "07-28",
@@ -607,6 +621,15 @@
     ]
   },
   "items": [
+    {
+      "date": "07-30",
+      "company": "其他",
+      "title": "轻量化异构双臂 x VLA/世界模型：家庭服务具身机器人的落地实践｜AICon深圳",
+      "source_name": "InfoQ",
+      "category": "商业订单",
+      "summary": "当前家庭具身智能普遍存在本体笨重、精细操作弱、环境泛化差、长时序家务任务执行断裂、人机交互生硬、隐私保护难等落地难题，多数产品仅能完成单一步骤演示，无法支撑完整居家复合任务",
+      "url": "https://www.infoq.cn/article/SZaGmZI0g7INLtxalmvi?utm_source=rss&utm_medium=article"
+    },
     {
       "date": "07-29",
       "company": "其他",
@@ -786,6 +809,15 @@
       "category": "行业动态",
       "summary": "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/"
+    },
+    {
+      "date": "07-29",
+      "company": "其他",
+      "title": "美国政府因国家安全风险禁止新的外国制造人形机器人、机器狗和太阳能逆变器 (US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security)",
+      "source_name": "TechCrunch Robotics",
+      "category": "行业动态",
+      "summary": "The ban largely affects U.S. imports from China, which currently dominates the global market for making humanoid robots and solar inverters.",
+      "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/"
     },
     {
       "date": "07-28",
@@ -1038,24 +1070,6 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 26 日消息，特斯拉似乎正在悄然为 Robotaxi（自动驾驶出租车）服务走向国际市场做准备。最新发布的招聘信息显示，南美洲有望成为继美国之后，首批上线特斯拉自动驾驶网约车服务的海外地区之一。 长期关注特斯拉动态的 X 用户 @tslaming 发现，特斯拉目前正在哥伦比亚和智利招聘 AI 安全运营专员（AI Safety Operator…",
       "url": "https://www.ithome.com/0/981/621.htm"
-    },
-    {
-      "date": "07-26",
-      "company": "宇树科技",
-      "title": "日媒发布宇树 G1 拆机视频后认输，称人形机器人短期内赶不上中国",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 26 日消息，据央视新闻报道， 日本日经xTECH 网站 7 月 23 日发布了一段日本技术人员拆解中国宇树科技 G1 人形机器人的视频，尝试探究其内部结构与技术水平。 在这段视频中，日方技术人员和媒体记者边拆边感叹中国人形机器人的技术水平之高，并最终得出结论：中国机器人研发显然已超越了“只会展示”的阶段，在人形机器人领域， 日本想在短时间…",
-      "url": "https://www.ithome.com/0/981/619.htm"
-    },
-    {
-      "date": "07-26",
-      "company": "其他",
-      "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦报告三连发",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "这次登场的是来自NeoteAI和复旦大学的N0系列模型。不仅是居家料理，收纳整理它同样拿手。工厂流水线装配、精细零件组装、线材缠绕梳理这些精细活也全都不在话下。 不知道大家有没有见过机器人实操翻车的名场面：插头边缘反复摩擦却难以插入、抓取塑料瓶时力道失控导致瓶身瘪陷、叠好的毛巾在松手瞬间散落……在具身智能的落地进程中，这类“视觉系统判定无误，但物理交互瞬间翻…",
-      "url": "https://www.qbitai.com/2026/07/460962.html"
     }
   ]
 }
