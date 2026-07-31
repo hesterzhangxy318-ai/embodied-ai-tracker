@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T10:53:45.360162+08:00",
+  "updated": "2026-07-31T16:52:02.757015+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 7,
+      "entries": 25,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 8,
+      "candidates": 11,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 2,
+      "entries": 18,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 18,
-      "core": 4,
+      "entries": 60,
+      "candidates": 19,
+      "core": 1,
       "periphery": 0,
-      "new": 4
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 21,
-      "core": 5,
+      "candidates": 22,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 3,
       "periphery": 2,
-      "new": 3
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,31 +239,50 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-07-31T10:54:09.503853+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-07-31T16:52:42.876280+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周工厂、仓储、机场、送餐等场景的新闻更密集，上海电气发布面向高端装备制造复杂空间的机器人与AI智能工厂技术，Dexory用工程AI加速仓储机器人开发，Stanley Robotics在伦敦盖特威克机场推出机器人代客泊车服务，B端付费逻辑正在从展示能力转向能否完成可定义、可验收的具体任务。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，7月29日，黑芝麻智能与正行创新正式签署战略合作协议；人形机器人不缺钱，不缺信仰，缺的是工厂愿意买单的理由。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://36kr.com/newsflashes/3916447498825348?f=rss",
+          "https://robot.ofweek.com/2026-07/ART-898890-8420-30696416.html",
+          "https://roboticsandautomationnews.com/2026/07/30/shanghai-electric-unveils-humanoids-and-industrial-robots-and-ai-smart-factory-technologies/103773/"
+        ]
       },
       {
-        "label": "世界模型进入数据闭环竞争",
-        "text": "World Labs发布Real-to-sim-to-real机器人策略训练与评估引擎，BeingBeyond用50万小时视频训练隐式触觉世界动作模型，上汽名爵MG 07预售搭载Momenta R7世界模型，模型叙事开始更多绑定真实数据、仿真评估和具体终端任务，而不只是停留在通用智能概念。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，刚刚，借助新收购机器人公司 SceniX 之力，World Labs发布了全新的机器人策略训练与评估引擎—— Real-to-sim-to-real (R2S2R)；在今晚举行的发布会上，上汽名爵 MG 07 正式开启预售， 预售价 12.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/07/463217.html",
+          "https://www.ithome.com/0/983/312.htm",
+          "https://www.qbitai.com/2026/07/461827.html"
+        ]
       },
       {
-        "label": "资本押注场景与短板补齐",
-        "text": "UCLA博士团队项目获得近5亿元天使++轮并将资金投向基础模型迭代、自研数采设备量产和真实工业场景验证，昆腾动力获超亿元种子轮，Enigma融资7100万美元并开放100多台AI机器人远程使用，资本更偏好能补齐数据、交互或工程化短板的平台型项目。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，资金将主要用于人形机器人基础模型持续迭代，加快自研数采设备的量产与数据闭环建设，扩充核心研发团队，以推动技术在真实工业场景中的工程化落地与验证；硬氪获悉，Physical AI平台公司「昆腾动力（Quantum Dynamics）」近日完成超亿元种子轮融资，本轮由云启资本、商汤科技联合投资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://36kr.com/p/3913213962540164?f=rss",
+          "https://36kr.com/p/3917874427555457?f=rss",
+          "https://robot.ofweek.com/2026-07/ART-8321205-8140-30696286.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型、物理原生智能和视频动作模型成为技术主线，World Labs、BeingBeyond、Momenta等案例均指向训练评估、触觉感知和真实任务迁移。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "07-31",
+            "title": "字节火山引擎：小鹏汽车、智元机器人等将率先接入 Seedance 2.5 视频生成模型",
+            "url": "https://www.ithome.com/0/984/146.htm",
+            "company": "智元机器人",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-30",
             "title": "李飞飞的世界模型，终于开始训练机器人了",
@@ -352,7 +371,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产讨论围绕成本、场景和生态展开，上海电气、埃斯顿、Tacta、Sapphire等推进工业与平台产品，能否让工厂买单成为核心检验。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "07-30",
@@ -442,7 +461,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化案例集中在仓储、工业喷涂和家庭服务等具体任务，新闻强调完整任务执行、工程开发提速和B端付费条件，订单信息仍偏有限。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "07-30",
@@ -476,7 +495,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资与上市进展活跃，昆腾动力、Enigma和人形机器人基础模型团队获得大额资金，智元、宇树进入资本兑现阶段，同时Optimus短期收入被质疑。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "07-31",
@@ -512,19 +531,12 @@
             "url": "https://36kr.com/p/3913213962540164?f=rss",
             "company": "行业",
             "source_name": "36氪"
-          },
-          {
-            "date": "07-27",
-            "title": "特斯拉Optimus项目遭“泼冷水” 知名投资人：短期不会产生收入",
-            "url": "https://36kr.com/newsflashes/3913644630660482?f=rss",
-            "company": "特斯拉",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业关注物理AI基础设施、执行器、制造扩产和监管变化，美国FCC限制外国产人形及四足机器人进口，跨境市场不确定性上升。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "07-30",
@@ -635,7 +647,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻较少，海康机器人HAR MASTER PRO V2.3强调数字仿真、产线适配、数据决策和扩展能力，反映调试效率仍是配套环节重点。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "07-28",
@@ -657,6 +669,15 @@
       "category": "资本动态",
       "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，Physical AI平台公司「昆腾动力（Quantum Dynamics）」近日完成超亿元种子轮融资，本轮由云启资本、商汤科技联合投资。资金将主要用于Physical AI核心技术研发、人才梯队建设及全球化市场拓展，加速其面向物理世界的智能系统从底层模型到场景化落地的全链路构建。多维资本参与项目孵化与团队组建。 昆腾动力…",
       "url": "https://36kr.com/p/3917874427555457?f=rss"
+    },
+    {
+      "date": "07-31",
+      "company": "智元机器人",
+      "title": "字节火山引擎：小鹏汽车、智元机器人等将率先接入 Seedance 2.5 视频生成模型",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 31 日消息，今天，字节跳动正式发布新一代视频生成模型 Seedance 2.5。针对企业用户，火山引擎将于近期上线 API 服务。 据官方透露， 徐工集团 、小鹏汽车、智元机器人、灵初智能、微分智飞、穹彻智能、Xspark AI（无界智航） 等多家企业已与火山引擎达成合作意向，将率先接入 Seedance 2.5。 据介绍，从精确到螺丝孔…",
+      "url": "https://www.ithome.com/0/984/146.htm"
     },
     {
       "date": "07-30",
@@ -1089,15 +1110,6 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 29 日消息，据外媒 Engadget 今天（29 日）报道，曾负责特斯拉休斯敦 FSD 测试业务的经理哈维尔 · 梅德拉诺在逐级反映“系统性安全监管缺陷”后遭到解雇，目前正 以“非法报复”为由 起诉特斯拉。 梅德拉诺称，特斯拉既不愿增加资源，也拒绝增聘人员，最终让 Robotaxi 沦为“ 公共道路上的移动危险 ”。 IT之家从报道中获悉…",
       "url": "https://www.ithome.com/0/982/808.htm"
-    },
-    {
-      "date": "07-27",
-      "company": "特斯拉",
-      "title": "特斯拉Optimus项目遭“泼冷水” 知名投资人：短期不会产生收入",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "特斯拉CEO马斯克将人形机器人称为该公司“有史以来最重要产品”，然而美国一位知名投资者日前警告称，马斯克要让特斯拉Optimus机器人实现商业成功可能需要漫长的时间，因为其不仅难以制造，且短期内不太可能带来收入。投资公司Gerber Kawasaki的首席执行官Ross Gerber表示，制造人形机器人最大的障碍是复制人类独特的身体能力。Gerber还质疑了…",
-      "url": "https://36kr.com/newsflashes/3913644630660482?f=rss"
     }
   ]
 }
