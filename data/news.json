@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T21:23:30.472436+08:00",
+  "updated": "2026-08-02T03:10:25.228129+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 3,
       "core": 2,
       "periphery": 0,
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 59,
       "candidates": 16,
-      "core": 2,
+      "core": 3,
       "periphery": 0,
       "new": 2
     },
@@ -239,30 +239,42 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-08-01T21:23:50.283792+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-08-02T03:11:05.446853+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收工种",
-        "text": "本周商业化线索集中在工厂、仓储和物流等任务，FedEx扩大Dexterity自主拖车装载部署，工业落地案例聚焦椅子喷涂，上海电气发布面向高端装备制造复杂空间的机器人与AI工厂技术，采购理由正在从演示能力转向能否完成明确工序。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，7月29日，黑芝麻智能与正行创新正式签署战略合作协议；人形机器人不缺钱，不缺信仰，缺的是工厂愿意买单的理由。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://36kr.com/newsflashes/3916447498825348?f=rss",
+          "https://robot.ofweek.com/2026-07/ART-898890-8420-30696416.html",
+          "https://roboticsandautomationnews.com/2026/07/30/shanghai-electric-unveils-humanoids-and-industrial-robots-and-ai-smart-factory-technologies/103773/"
+        ]
       },
       {
-        "label": "世界模型进入任务闭环",
-        "text": "World Labs发布Real-to-sim-to-real机器人策略训练与评估引擎，BeingBeyond基于50万小时人类视频训练隐式触觉世界动作模型，上汽名爵MG 07预售搭载Momenta R7世界模型，模型叙事正在更多绑定真实数据、评估流程和具体产品。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，刚刚，借助新收购机器人公司 SceniX 之力，World Labs发布了全新的机器人策略训练与评估引擎—— Real-to-sim-to-real (R2S2R)；在今晚举行的发布会上，上汽名爵 MG 07 正式开启预售， 预售价 12.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/07/463217.html",
+          "https://www.ithome.com/0/983/312.htm",
+          "https://www.qbitai.com/2026/07/461827.html"
+        ]
       },
       {
-        "label": "资本偏好平台与交互能力",
-        "text": "昆腾动力完成超亿元种子轮融资并定位Physical AI平台，Enigma融资7100万美元并开放100多台AI机器人供全球在线操作，高通收购Arduino被关联到边缘AI与机器人，资金更关注可复用平台、人机交互和端侧能力补齐。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，硬氪获悉，Physical AI平台公司「昆腾动力（Quantum Dynamics）」近日完成超亿元种子轮融资，本轮由云启资本、商汤科技联合投资；Marina Temkin 神秘实验室 Enigma 融资 7100 万美元，开放 100 多台 AI 机器人供全球在线“使唤”，想让人机交互像调音量一样直觉。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://36kr.com/p/3917874427555457?f=rss",
+          "https://robot.ofweek.com/2026-07/ART-8321205-8140-30696286.html",
+          "https://roboticsandautomationnews.com/2026/07/31/interview-with-arduinos-marcello-majonchi-qualcomm-acquisition-ushers-in-new-era-of-edge-ai-and-robotics/103805/"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、物理原生智能和视频生成模型接入展开，R2S2R与触觉世界动作模型强化训练评估闭环，FCC禁令则增加全球化不确定性。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "08-01",
@@ -345,7 +357,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产讨论从样机能力转向成本、场景和生态，埃斯顿上半年出货领先，DeepMind与Apptronik展示全身智能，机器人手和物理AI平台继续面向制造落地。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "07-31",
@@ -435,8 +447,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化案例主要落在仓储、物流、喷涂和家庭服务探索，FedEx扩大自主拖车装载部署，椅子喷涂成为工厂付费验证点，家庭场景仍受复合任务能力限制。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "08-01",
+            "title": "IDC 报告：2025 年中国工业具身智能机器人市场达 57.4 亿元，商业化进程全面提速",
+            "url": "https://www.ithome.com/0/984/627.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-31",
             "title": "FedEx 扩大 Dexterity 物理 AI 部署，用于自主拖车装载 (FedEx expands Dexterity physical AI deployment for autonomous trailer loading)",
@@ -476,7 +495,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，昆腾动力获超亿元种子轮，Enigma获7100万美元融资，智元启动IPO、宇树推进发行询价，一级和二级市场都在检验具身智能兑现路径。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "07-31",
@@ -517,7 +536,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态呈现供应商前置布局与监管约束并行，汽车和消费电子供应商争夺Tier 1位置，FCC限制外国产机器人进口，演示故障和低价家政服务也进入舆论视野。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "08-01",
@@ -632,19 +651,6 @@
             "source_name": "IT之家"
           }
         ]
-      },
-      {
-        "category": "泛具身产业链",
-        "summary": "产业链信息较少，海康机器人HAR MASTER PRO V2.3强调数字仿真、产线适配和数据决策，显示调试工具仍是机器人规模部署的配套环节。",
-        "items": [
-          {
-            "date": "07-28",
-            "title": "HAR MASTER® PRO V2.3：数字仿真赋能，机器人调试竟能如此省心",
-            "url": "https://www.gongkong.com/news/202607/452176.html",
-            "company": "其他",
-            "source_name": "中国工控网机器人"
-          }
-        ]
       }
     ]
   },
@@ -684,6 +690,15 @@
       "category": "行业动态",
       "summary": "IT之家 8 月 1 日消息，据 abc7news 昨日报道，一家位于美国旧金山的机器人初创公司已开始使用人形机器人提供家政清洁服务。 Tau Robotics 公司首席执行官兼联合创始人 Alex Koch 宣布，将在旧金山开始提供人形机器人清洁服务， 每小时服务费 30 美元 （IT之家注：现汇率约合 202.9 元人民币）。 Alex Koch 表示：…",
       "url": "https://www.ithome.com/0/984/573.htm"
+    },
+    {
+      "date": "08-01",
+      "company": "其他",
+      "title": "IDC 报告：2025 年中国工业具身智能机器人市场达 57.4 亿元，商业化进程全面提速",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 8 月 1 日消息，7 月 31 日，国际数据公司（IDC）数据显示，2025 年中国工业具身智能机器人市场规模约为 57.4 亿元 ，其中以工业机器人为载体的具身智能应用市场规模约 36.2 亿元，成为当前产业商业化落地的主要方向。随着产业竞争从机器人本体性能逐步转向模型、数据、工程化和场景落地能力的综合竞争，工业具身智能机器人正在成为智能制造发…",
+      "url": "https://www.ithome.com/0/984/627.htm"
     },
     {
       "date": "07-31",
@@ -1089,15 +1104,6 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 28 日消息，据日经亚洲今天（28 日）报道，宇树科技计划今年大幅扩充产能，随着海外需求增长，未来还可能在海外组装机器人。 宇树科技亚太及其他地区总监 Irving Chen 预计，公司 2026 年机器人 出货量将至少翻倍 ，最高可能接近 2025 年的三倍；2025 年出货量超过 6500 台。他透露，“更多应用开发者及其他市场参与者将…",
       "url": "https://www.ithome.com/0/982/586.htm"
-    },
-    {
-      "date": "07-28",
-      "company": "其他",
-      "title": "HAR MASTER® PRO V2.3：数字仿真赋能，机器人调试竟能如此省心",
-      "source_name": "中国工控网机器人",
-      "category": "泛具身产业链",
-      "summary": "海康机器人离线编程仿真软件 HAR MASTER PRO V2.3 版本发布 视觉呈现|产线适配|数据决策|扩展能力 四大维度全面进化 标签： 海康机器人Hikrob... 仿真",
-      "url": "https://www.gongkong.com/news/202607/452176.html"
     }
   ]
 }
