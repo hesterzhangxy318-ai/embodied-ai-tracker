@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T03:27:14.048369+08:00",
+  "updated": "2026-08-01T10:52:15.510712+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 26,
-      "candidates": 9,
+      "entries": 25,
+      "candidates": 7,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 1,
-      "core": 0,
+      "entries": 16,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 22,
-      "core": 0,
+      "entries": 57,
+      "candidates": 18,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 3,
-      "periphery": 1,
-      "new": 0
+      "core": 5,
+      "periphery": 0,
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-08-01T03:27:33.498410+08:00",
+    "generated_at": "2026-08-01T10:52:39.956503+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证向可验收工况集中",
-        "text": "本周工厂、仓储和维修巡检类任务继续成为具身智能落地的主要参照，FedEx扩大Dexterity自主拖车装载部署，工业喷涂案例强调B端付费取决于能否进厂干活，人形机器人量产讨论也指向工厂买单理由不足，商业化评估正在从展示能力转向可验收任务。",
+        "label": "落地转向可验收任务",
+        "text": "本周工厂、仓储和具体工序成为具身智能验证主线，人形机器人商业化被明确指向工厂买单理由，上海电气发布面向高端装备复杂空间的机器人与AI工厂技术，FedEx扩大Dexterity自主拖车装载部署，椅子喷涂案例也把工业付费锚定到能否进厂干活，短期竞争焦点更偏向可交付、可复核的任务效果。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型叙事进入数据闭环",
-        "text": "World Labs发布Real-to-sim-to-real机器人策略训练与评估引擎，BeingBeyond基于50万小时视频发布带触觉的隐式世界动作模型，上汽名爵MG 07预售搭载Momenta R7世界模型，模型能力的关注点正从概念扩展转向真实数据、仿真评估和任务闭环。",
+        "label": "模型叙事落到闭环数据",
+        "text": "世界模型从概念展示继续进入机器人训练和评估环节，World Labs发布Real-to-sim-to-real策略训练与评估引擎，BeingBeyond用50万小时视频训练隐式触觉世界动作模型，Momenta R7世界模型进入MG 07预售车型，模型能力正在与真实数据、仿真回灌和终端任务绑定，单纯参数或演示叙事的说服力下降。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向场景和能力补齐",
-        "text": "UCLA博士团队人形机器人基础模型项目获近5亿元天使++轮并用于自研数采设备量产和工业场景验证，昆腾动力获超亿元种子轮，Enigma融资7100万美元并开放100多台AI机器人远程使用，融资叙事更靠近数据、交互和可定义场景。",
+        "label": "资本偏好场景补齐",
+        "text": "融资案例集中投向基础模型、Physical AI平台和交互控制能力，UCLA博士团队近5亿元天使++轮资金用于模型迭代、自研数采设备量产和工业场景验证，昆腾动力获超亿元种子轮，Enigma以7100万美元融资开放100多台AI机器人远程使用，资本仍积极，但更愿意押注能补齐数据、控制和场景验证短板的团队。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧集中在世界模型、物理原生智能和机器人训练评估，World Labs推出R2S2R，BeingBeyond引入触觉建模，黑芝麻智能与正行创新签署战略合作。",
+        "summary": "技术侧集中在世界模型、视频生成、物理原生智能和触觉动作模型，World Labs、BeingBeyond、Momenta等案例把模型能力连接到训练、评估和终端应用，突破表述更强调真实交互。",
         "items": [
           {
             "date": "07-31",
@@ -345,7 +345,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产讨论围绕成本、场景和生态展开，Google DeepMind发布Gemini Robotics 2，上海电气展示人形与工业机器人，埃斯顿第二季度交付超1万台机器人。",
+        "summary": "量产讨论围绕成本、场景和生态展开，埃斯顿上半年出货居前、上海电气发布机器人与AI工厂技术，DeepMind与Apptronik展示全身智能，产品能力正接受价格和交付节奏检验。",
         "items": [
           {
             "date": "07-31",
@@ -430,19 +430,12 @@
             "url": "https://www.ithome.com/0/982/586.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-28",
-            "title": "东风日产启辰 × 哈啰首台 Robotaxi 交付：CLTC 续航 510 公里，拥有 3.64 立方米乘员舱",
-            "url": "https://www.ithome.com/0/982/767.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业落地仍以仓储、工业和家庭复合任务为主，FedEx扩大自主拖车装载部署，工业喷涂案例强调B端付费，家庭服务仍受精细操作和长时序任务限制。",
+        "summary": "商业落地以仓储、物流、家务和工业喷涂为代表，FedEx扩大自主拖车装载部署，Dexory用工程AI加速仓储机器人开发，家庭服务仍受长时序任务和泛化能力约束。",
         "items": [
           {
             "date": "07-31",
@@ -483,7 +476,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本事件密集覆盖早期融资与上市推进，昆腾动力获超亿元种子轮，Enigma融资7100万美元，UCLA团队获近5亿元，智元和宇树出现IPO相关进展。",
+        "summary": "资本动态活跃，昆腾动力获超亿元种子轮，Enigma融资7100万美元，UCLA博士团队项目获近5亿元天使++轮，同时智元和宇树推进上市，一级与二级兑现同步升温。",
         "items": [
           {
             "date": "07-31",
@@ -531,8 +524,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态呈现基础设施、监管和场景合作并行，特斯拉Robotaxi采集路况数据，执行器进入结构化试点讨论，美国FCC限制部分外国产机器人进口。",
+        "summary": "行业动态显示供应商、监管和基础设施同步前移，汽车与消费电子供应商争夺人形机器人Tier 1位置，FCC进口限制、执行器趋势和物理AI平台成为产业化变量。",
         "items": [
+          {
+            "date": "08-01",
+            "title": "谁在成为人形机器人的Tier 1？",
+            "url": "https://www.tmtpost.com/8087356.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "08-01",
+            "title": "高通回应“NEURA 4NE-1 人形机器人倒地”：短暂通信故障触发受控关机",
+            "url": "https://www.ithome.com/0/984/432.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-30",
             "title": "特斯拉 Robotaxi 新增车载录制功能，采集路况数据优化自动驾驶",
@@ -623,19 +630,12 @@
             "url": "https://www.ithome.com/0/982/619.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-28",
-            "title": "集成式执行器如何提升人形机器人关节性能与系统集成 (How Integrated Actuators Improve Humanoid Robot Joint Performance and System Integration)",
-            "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧证据较少，HAR MASTER PRO V2.3强调数字仿真、产线适配、数据决策和扩展能力，供应链机会仍需绑定调试效率等具体瓶颈。",
+        "summary": "产业链新闻较少，主要体现仿真和调试工具价值，HAR MASTER PRO V2.3强调产线适配、视觉呈现、数据决策和扩展能力，供应链机会仍需绑定具体效率瓶颈。",
         "items": [
           {
             "date": "07-28",
@@ -649,6 +649,24 @@
     ]
   },
   "items": [
+    {
+      "date": "08-01",
+      "company": "其他",
+      "title": "谁在成为人形机器人的Tier 1？",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "机器人还没有证明自己能够成为下一个汽车产业，汽车与消费电子产业的供应商却已经提前坐到了桌前",
+      "url": "https://www.tmtpost.com/8087356.html"
+    },
+    {
+      "date": "08-01",
+      "company": "其他",
+      "title": "高通回应“NEURA 4NE-1 人形机器人倒地”：短暂通信故障触发受控关机",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 1 日消息，科技媒体 Tom's Hardware 昨日（7 月 31 日）发布博文，报道称 高通合作伙伴 NEURA Robotics 在演示其 4NE-1 Gen 3.5 人形机器人时，突发演示故障，机器人后仰倒地。 IT之家援引博文介绍，4NE-1 人形机器人搭载高通 Dragonwing IQ10 机器人参考设计， 具备约 700…",
+      "url": "https://www.ithome.com/0/984/432.htm"
+    },
     {
       "date": "07-31",
       "company": "行业",
@@ -1080,24 +1098,6 @@
       "category": "技术突破",
       "summary": "2026 年 7月 20 日，央视世界杯特别节目《超级绿茵场》总决赛的直播中，出现了一位前所未有的嘉宾——一个88 厘米高的人形机器人。 它身贴 7 号球衣，完整复刻了 C 罗标志性的\"Siu\"庆祝动作，腾空、转体、落地，一气呵成。它与主持人聊战术、辩论球星数据，甚至在谈到\"六届世界杯、二十年赛场坚守\"时，说出了一段让全场动容的温情独白。 这台机器人叫 启元…",
       "url": "https://www.tmtpost.com/8082395.html"
-    },
-    {
-      "date": "07-28",
-      "company": "其他",
-      "title": "东风日产启辰 × 哈啰首台 Robotaxi 交付：CLTC 续航 510 公里，拥有 3.64 立方米乘员舱",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 28 日消息，东风汽车今日宣布，旗下东风日产启辰联合哈啰开发的 首款量产自动驾驶车型 HR1 近日在广州花都工厂正式交付。 据介绍，HR1 从签约到首车落地不到一年， 以东风日产启辰 VX6 纯电 SUV 为基底开展车规级正向研发 ，整车架构设计阶段就将自动驾驶软硬件深度融合，并适配了商业化运营标准。 针对共享出行高强度使用场景，研发团队采…",
-      "url": "https://www.ithome.com/0/982/767.htm"
-    },
-    {
-      "date": "07-28",
-      "company": "其他",
-      "title": "集成式执行器如何提升人形机器人关节性能与系统集成 (How Integrated Actuators Improve Humanoid Robot Joint Performance and System Integration)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Humanoid robots have become an important area of research in robotics, attracting attention from universities, research institutions, and technology companies. The post appeared fi…",
-      "url": "https://www.therobotreport.com/how-integrated-actuators-improve-humanoid-robot-joint-performance-and-system-integration/"
     }
   ]
 }
