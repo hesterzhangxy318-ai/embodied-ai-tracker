@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T10:51:04.311939+08:00",
+  "updated": "2026-08-02T16:26:16.364297+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 25,
-      "candidates": 4,
+      "entries": 23,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
+      "candidates": 7,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 1,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 13,
-      "core": 2,
+      "entries": 59,
+      "candidates": 16,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -239,42 +239,30 @@
   "weekly_report": {
     "start": "07-27",
     "end": "08-02",
-    "generated_at": "2026-08-02T10:51:44.437928+08:00",
-    "mode": "local",
+    "generated_at": "2026-08-02T16:26:55.115750+08:00",
+    "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，7月29日，黑芝麻智能与正行创新正式签署战略合作协议；人形机器人不缺钱，不缺信仰，缺的是工厂愿意买单的理由。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://36kr.com/newsflashes/3916447498825348?f=rss",
-          "https://robot.ofweek.com/2026-07/ART-898890-8420-30696416.html",
-          "https://roboticsandautomationnews.com/2026/07/30/shanghai-electric-unveils-humanoids-and-industrial-robots-and-ai-smart-factory-technologies/103773/"
-        ]
+        "label": "工厂任务先于通用能力落地",
+        "text": "本周公开信息里，工业落地仍围绕喷涂、拖车装载、仓储和维修巡检等可量化任务展开，上海电气、埃斯顿、FedEx 等案例都指向先在工厂和物流场景验证稳定性，短期商业化更依赖明确工序而非通用能力。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，刚刚，借助新收购机器人公司 SceniX 之力，World Labs发布了全新的机器人策略训练与评估引擎—— Real-to-sim-to-real (R2S2R)；在今晚举行的发布会上，上汽名爵 MG 07 正式开启预售， 预售价 12.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/07/463217.html",
-          "https://www.ithome.com/0/983/312.htm",
-          "https://www.qbitai.com/2026/07/461827.html"
-        ]
+        "label": "模型开始补训练与评估闭环",
+        "text": "李飞飞的 World Labs 推出 R2S2R 策略训练与评估引擎，智元接入 Seedance 2.5 视频生成模型，BeingBeyond 也发布基于 50 万小时视频的隐式触觉世界动作模型，模型叙事本周明显转向真实数据、训练和评估闭环。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，硬氪获悉，Physical AI平台公司「昆腾动力（Quantum Dynamics）」近日完成超亿元种子轮融资，本轮由云启资本、商汤科技联合投资；Marina Temkin 神秘实验室 Enigma 融资 7100 万美元，开放 100 多台 AI 机器人供全球在线“使唤”，想让人机交互像调音量一样直觉。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://36kr.com/p/3917874427555457?f=rss",
-          "https://robot.ofweek.com/2026-07/ART-8321205-8140-30696286.html",
-          "https://roboticsandautomationnews.com/2026/07/31/interview-with-arduinos-marcello-majonchi-qualcomm-acquisition-ushers-in-new-era-of-edge-ai-and-robotics/103805/"
-        ]
+        "label": "资本更看重平台和兑现节奏",
+        "text": "昆腾动力拿到超亿元种子轮，Enigma 融资 7100 万美元，智元启动 IPO、宇树公布询价时间，资金与市场动作都更集中在平台型能力和可落地场景，估值叙事开始向兑现节奏靠拢。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "世界模型、触觉动作模型和视频生成模型都在接入机器人训练与评估，技术焦点从概念演示转向真实数据驱动的闭环验证。",
         "items": [
           {
             "date": "08-01",
@@ -357,7 +345,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "人形机器人量产、工业机器人出货和AI智能工厂同时推进，但公开表述仍强调高端制造的复杂工况与场景适配，离规模化采购仍有距离。",
         "items": [
           {
             "date": "07-31",
@@ -447,7 +435,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "FedEx 扩大拖车装载部署，仓储、喷涂和家务清洁等任务也在被不断拆成可交付单元，商业订单开始围绕明确工序形成。",
         "items": [
           {
             "date": "08-01",
@@ -495,7 +483,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "超亿元种子轮、7100 万美元融资和两家机器人公司上市节奏并行，资金更偏向平台型能力和能尽快进入兑现阶段的标的。",
         "items": [
           {
             "date": "07-31",
@@ -536,7 +524,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "FCC 禁令、Tier 1 供应链前置和 Robotaxi 数据采集同步出现，行业外部环境在收紧，供应链和运营数据的重要性继续上升。",
         "items": [
           {
             "date": "08-01",
