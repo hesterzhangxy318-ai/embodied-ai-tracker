@@ -1,19 +1,20 @@
 {
-  "updated": "2026-08-03T17:49:14.233306+08:00",
+  "updated": "2026-08-03T22:41:38.600597+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error _ssl.c:999: The handshake operation timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 10,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -23,7 +24,7 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 9,
+      "candidates": 11,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -35,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 8,
+      "entries": 18,
+      "candidates": 10,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -48,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 19,
       "candidates": 3,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -75,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -88,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 25,
+      "candidates": 17,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -190,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
+      "candidates": 9,
       "core": 5,
-      "periphery": 1,
-      "new": 1
+      "periphery": 2,
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -219,7 +220,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 1
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -230,38 +231,38 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 20,
+      "core": 21,
       "periphery": 9,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-03T17:49:28.231868+08:00",
+    "generated_at": "2026-08-03T22:42:01.938142+08:00",
     "mode": "aicodewith",
-    "item_count": 6,
+    "item_count": 9,
     "insights": [
       {
-        "label": "落地验证转向可运营场景",
-        "text": "文远知行与丹麦GreenMobility合作建设丹麦首个商业化自动驾驶共享出行项目，Robotaxi出海从技术展示进入共享出行运营环节，具身相关能力的验收更依赖真实道路、调度和服务闭环。",
+        "label": "落地验证转向可验收任务",
+        "text": "小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，文远知行与GreenMobility推进丹麦商业化自动驾驶共享出行，具身智能的验证重心正从演示转向工厂制造、出行运营等可交付场景。",
         "evidence_urls": []
       },
       {
-        "label": "数据闭环成为模型叙事支点",
-        "text": "过去一年具身行业在遥操作数据采集、仿真数据生成、本体厂商自建数据闭环和第三方数据服务上的投入明显膨胀，模型能力竞争正在更多落到可持续生产真实任务数据的体系建设上。",
+        "label": "数据闭环成为模型叙事抓手",
+        "text": "过去一年遥操作采集、仿真生成、本体厂商自建闭环和第三方数据服务商投入明显增加，博登智能也强调从失败纠正中沉淀高质量数据，模型能力开始更多依赖真实任务反馈。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向场景与能力补齐",
-        "text": "奇瑞拟向KGM投资7500万美元并在机器人、半导体等新业务合作，农业机器人企业数亿元融资投向核心技术研发和规模化交付，蚂蚁灵波拟募资聚焦通用机器人大脑，资金更集中于明确场景、关键部件和落地能力。",
+        "label": "资本按生产力重估",
+        "text": "融资叙事中已出现Demo高估值退潮的判断，农业机器人融资资金投向核心技术研发和规模化交付，奇瑞向KGM投资7500万美元并拟在机器人、半导体合作，资金更偏向明确场景和能力补齐。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术突破主要围绕数据生产展开，遥操作、仿真、本体自建闭环和第三方数据服务投入增加，反映具身模型训练正补齐可规模化数据来源。",
+        "summary": "本周技术线索集中在数据生产，遥操作、仿真、自建闭环和第三方服务投入扩大，测绘科学被讨论为提升具身数据质量的潜在路径。",
         "items": [
           {
             "date": "08-03",
@@ -273,8 +274,21 @@
         ]
       },
       {
+        "category": "产品量产",
+        "summary": "小鹏人形机器人IRON于7月24日在广州工厂开启小批量试生产，量产产线进入最后联调，量产基本功开始成为能力验证环节。",
+        "items": [
+          {
+            "date": "08-03",
+            "title": "小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功",
+            "url": "https://www.tmtpost.com/8089399.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
         "category": "商业订单",
-        "summary": "商业订单方面，文远知行与丹麦GreenMobility合作打造当地首个商业化自动驾驶共享出行项目，Robotaxi进入北欧运营场景。",
+        "summary": "文远知行与丹麦GreenMobility合作打造当地首个商业化自动驾驶共享出行项目，博登智能披露十亿订单在手并强调高质量数据。",
         "items": [
           {
             "date": "08-03",
@@ -282,12 +296,19 @@
             "url": "https://www.ithome.com/0/984/994.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-03",
+            "title": "对话博登智能赵捷：十亿订单在手，具身智能最缺的仍是高质量数据",
+            "url": "https://www.tmtpost.com/8085920.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，奇瑞投资KGM并拓展机器人、半导体合作，农业机器人企业获数亿元融资，蚂蚁灵波拟募资15亿元加速机器人大脑落地。",
+        "summary": "资本动态覆盖战略投资、农业机器人融资、通用机器人大脑融资传闻和上市公司布局报告，资金关注真实交付、核心研发与产业落地。",
         "items": [
           {
             "date": "08-03",
@@ -316,6 +337,13 @@
             "url": "https://www.tmtpost.com/8089257.html",
             "company": "行业",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-03",
+            "title": "Demo的高估值时代结束了，具身智能开始按生产力重新算账",
+            "url": "https://www.qbitai.com/2026/08/465225.html",
+            "company": "其他",
+            "source_name": "量子位"
           }
         ]
       }
@@ -375,6 +403,33 @@
       "category": "商业订单",
       "summary": "IT之家 8 月 3 日消息，据文远知行官方微信公众号消息，自动驾驶科技公司文远知行 WeRide 与丹麦本土共享电动车出行平台 GreenMobility 宣布达成战略合作，共同打造丹麦首个商业化自动驾驶共享出行项目。这标志着文远知行首次进入北欧市场，成为首家布局北欧的中国 Robotaxi 企业。 在获得相关监管批准的前提下，双方计划于 2027 年上半…",
       "url": "https://www.ithome.com/0/984/994.htm"
+    },
+    {
+      "date": "08-03",
+      "company": "其他",
+      "title": "Demo的高估值时代结束了，具身智能开始按生产力重新算账",
+      "source_name": "量子位",
+      "category": "资本动态",
+      "summary": "WAIC之后，具身智能行业进入了一段微妙的冷静期。 Demo视频还在刷屏，融资新闻还在刷新纪录——开年至今，国内赛道融资事件超过200起，百亿估值俱乐部扩员到了13家。 现在他们问：“你的机器人每天干几小时活？客户续不续约？投进去的钱，什么时候有回馈？” 一句话的判断是： 技术决定真实的企业价值 。热闹会过去，能站在真实场景里持续交付的企业，才会被留下。 这…",
+      "url": "https://www.qbitai.com/2026/08/465225.html"
+    },
+    {
+      "date": "08-03",
+      "company": "其他",
+      "title": "对话博登智能赵捷：十亿订单在手，具身智能最缺的仍是高质量数据",
+      "source_name": "钛媒体",
+      "category": "商业订单",
+      "summary": "机器人真正的进步，有时就藏在一次失败之后：它有没有记住，人类当时是怎样把错误纠正过来的",
+      "url": "https://www.tmtpost.com/8085920.html"
+    },
+    {
+      "date": "08-03",
+      "company": "其他",
+      "title": "小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功",
+      "source_name": "钛媒体",
+      "category": "产品量产",
+      "summary": "据媒体报道，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调。按照此前小鹏披露的节奏，IRON计划在2026年底量产，2027年一季度先进入小鹏线下门店，承担导览、导购等服务。 此前负责该项目的负责人已经在6月初离职。离职后，IRON就快速开启量产，也间接证明了此前雷峰网透露的该业务线一号位的离职原因。 据雷峰网报道，此前施…",
+      "url": "https://www.tmtpost.com/8089399.html"
     },
     {
       "date": "08-02",
@@ -744,33 +799,6 @@
       "category": "行业动态",
       "summary": "Chinese companies represent almost 70 percent of the global humanoid robot market Chinese humanoid robot manufacturers could face a significant setback in one of the world’s larges…",
       "url": "https://roboticsandautomationnews.com/2026/07/29/america-hits-chinese-humanoids-where-it-hurts/103670/"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "Stanley Robotics 在伦敦盖特威克机场推出机器人代客泊车服务 (Stanley Robotics launches robot valet parking at London Gatwick)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Passengers travelling from London Gatwick Airport this summer can experience the future of hassle-free airport parking with the launch of a unique robotic parking service – the fir…",
-      "url": "https://roboticsandautomationnews.com/2026/07/29/stanley-robotics-launches-robot-valet-parking-at-london-gatwick/103667/"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "雷军晒小米机器人在工厂工作视频：“督工”竟也是机器人，还会比耶耍酷",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 29 日消息，小米创办人、董事长兼 CEO 雷军今日在微博分享了一条来自机器人团队的视频，并坦言：“挺有趣的。” 视频的开头一切正常，就是一辆白色涂装的小米机器人在工厂工作，折叠着一个便携收纳盒。当白色机器人折叠好了收纳盒，并将其顺手推向旁侧的时候，镜头一转，改为了自拍视角。 就在大家以为是真人摄影师即将露面时， 结果画面显示在一旁的“督工…",
-      "url": "https://www.ithome.com/0/983/342.htm"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "专家回应FCC限制美国进口新型人形和移动机器人 (Experts react to FCC limits on U.S. imports of new humanoid and mobile robots)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "The FCC has banned some foreign humanoids, which industry experts say could help U.S. industry but hinder innovation. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/"
     }
   ]
 }
