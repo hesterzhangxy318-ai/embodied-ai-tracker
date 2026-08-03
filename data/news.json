@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T22:41:38.600597+08:00",
+  "updated": "2026-08-04T03:39:26.929597+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -53,7 +53,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 17,
+      "candidates": 19,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
-      "periphery": 0,
-      "new": 4
+      "core": 5,
+      "periphery": 1,
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,7 +192,7 @@
       "error": "",
       "entries": 15,
       "candidates": 9,
-      "core": 5,
+      "core": 4,
       "periphery": 2,
       "new": 3
     },
@@ -220,7 +220,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 2
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-03T22:42:01.938142+08:00",
+    "generated_at": "2026-08-04T03:39:39.542865+08:00",
     "mode": "aicodewith",
-    "item_count": 9,
+    "item_count": 11,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，文远知行与GreenMobility推进丹麦商业化自动驾驶共享出行，具身智能的验证重心正从演示转向工厂制造、出行运营等可交付场景。",
+        "text": "小鹏人形机器人IRON已在广州工厂开启小批量试生产并进入产线最后联调，文远知行与GreenMobility合作推进丹麦商业化自动驾驶共享出行项目，具身智能的验证重心正从演示效果转向工厂、出行等有明确交付边界的场景。",
         "evidence_urls": []
       },
       {
-        "label": "数据闭环成为模型叙事抓手",
-        "text": "过去一年遥操作采集、仿真生成、本体厂商自建闭环和第三方数据服务商投入明显增加，博登智能也强调从失败纠正中沉淀高质量数据，模型能力开始更多依赖真实任务反馈。",
+        "label": "数据闭环成为模型叙事的硬约束",
+        "text": "过去一年行业在遥操作数据采集、仿真数据生成、本体厂商自建数据闭环和第三方数据服务上的投入明显增加，同时订单侧也强调机器人能否从失败和人工纠错中学习，高质量数据正在成为能力提升和项目验收的共同前提。",
         "evidence_urls": []
       },
       {
-        "label": "资本按生产力重估",
-        "text": "融资叙事中已出现Demo高估值退潮的判断，农业机器人融资资金投向核心技术研发和规模化交付，奇瑞向KGM投资7500万美元并拟在机器人、半导体合作，资金更偏向明确场景和能力补齐。",
+        "label": "资本定价更贴近生产力",
+        "text": "本周资本事件集中在奇瑞向KGM投资7500万美元并拟拓展机器人、半导体合作，以及农业机器人企业数亿元融资用于核心技术研发和规模化交付，市场对仅靠Demo支撑估值的容忍度下降，资金更偏向可定义场景和能力补齐。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术线索集中在数据生产，遥操作、仿真、自建闭环和第三方服务投入扩大，测绘科学被讨论为提升具身数据质量的潜在路径。",
+        "summary": "具身智能技术讨论聚焦数据生产体系，遥操作、仿真、自建闭环和第三方数据服务投入增加，模型能力提升更依赖真实任务数据沉淀。",
         "items": [
           {
             "date": "08-03",
@@ -275,7 +275,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "小鹏人形机器人IRON于7月24日在广州工厂开启小批量试生产，量产产线进入最后联调，量产基本功开始成为能力验证环节。",
+        "summary": "小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调，量产基本功开始成为机器人能力验证的一部分。",
         "items": [
           {
             "date": "08-03",
@@ -288,7 +288,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "文远知行与丹麦GreenMobility合作打造当地首个商业化自动驾驶共享出行项目，博登智能披露十亿订单在手并强调高质量数据。",
+        "summary": "文远知行与丹麦GreenMobility合作推进当地首个商业化自动驾驶共享出行项目，博登智能相关访谈则强调订单交付仍受高质量数据约束。",
         "items": [
           {
             "date": "08-03",
@@ -308,7 +308,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态覆盖战略投资、农业机器人融资、通用机器人大脑融资传闻和上市公司布局报告，资金关注真实交付、核心研发与产业落地。",
+        "summary": "资本动态覆盖奇瑞投资KGM、农业机器人企业数亿元融资、蚂蚁灵波融资传闻及上市公司布局报告，资金更关注场景、交付和核心能力建设。",
         "items": [
           {
             "date": "08-03",
@@ -344,6 +344,32 @@
             "url": "https://www.qbitai.com/2026/08/465225.html",
             "company": "其他",
             "source_name": "量子位"
+          }
+        ]
+      },
+      {
+        "category": "行业动态",
+        "summary": "Walden Robotics与Toyota合作研发实用型人形机器人，行业关注点从单纯追逐人形形态转向更具实用性的机器人研发方向。",
+        "items": [
+          {
+            "date": "08-03",
+            "title": "Walden Robotics与Toyota合作研发实用型人形机器人 (Walden Robotics Partners With Toyota on Practical Humanoids)",
+            "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
+            "company": "其他",
+            "source_name": "IEEE Spectrum Robotics"
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "HEBI Robotics获得NASA SBIR Phase I资助以推进微型执行器研发，产业链机会仍需绑定执行器等具体性能瓶颈和应用需求。",
+        "items": [
+          {
+            "date": "08-03",
+            "title": "HEBI Robotics 获得 NASA SBIR 资助，加速微型执行器研发 (HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators)",
+            "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       }
@@ -430,6 +456,24 @@
       "category": "产品量产",
       "summary": "据媒体报道，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调。按照此前小鹏披露的节奏，IRON计划在2026年底量产，2027年一季度先进入小鹏线下门店，承担导览、导购等服务。 此前负责该项目的负责人已经在6月初离职。离职后，IRON就快速开启量产，也间接证明了此前雷峰网透露的该业务线一号位的离职原因。 据雷峰网报道，此前施…",
       "url": "https://www.tmtpost.com/8089399.html"
+    },
+    {
+      "date": "08-03",
+      "company": "其他",
+      "title": "HEBI Robotics 获得 NASA SBIR 资助，加速微型执行器研发 (HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators)",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "summary": "This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware. The post appeared first on The Robot Repor…",
+      "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/"
+    },
+    {
+      "date": "08-03",
+      "company": "其他",
+      "title": "Walden Robotics与Toyota合作研发实用型人形机器人 (Walden Robotics Partners With Toyota on Practical Humanoids)",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do s…",
+      "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota"
     },
     {
       "date": "08-02",
@@ -781,24 +825,6 @@
       "category": "产品量产",
       "summary": "Tacta Systems has unveiled a robotics platform designed to bring human-like dexterity and touch to industrial automation, with the company targeting applications in electronics, AI…",
       "url": "https://roboticsandautomationnews.com/2026/07/29/tacta-systems-unveils-ai-powered-robotic-hand-for-high-value-manufacturing/103688/"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "Sapphire推出由AMD驱动的物理AI机器人平台 (Sapphire launches AMD-powered robotics platform for physical AI applications)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Sapphire Technology has unveiled the EDGE+ Apex SOM/Carrier Robotics Platform, a production-ready hardware platform powered by AMD Ryzen AI Embedded X100 Series processors and desi…",
-      "url": "https://roboticsandautomationnews.com/2026/07/29/sapphire-launches-amd-powered-robotics-platform-for-physical-ai-applications/103679/"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "美国击中中国人形机器人的痛处 (America hits Chinese humanoids where it hurts)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Chinese companies represent almost 70 percent of the global humanoid robot market Chinese humanoid robot manufacturers could face a significant setback in one of the world’s larges…",
-      "url": "https://roboticsandautomationnews.com/2026/07/29/america-hits-chinese-humanoids-where-it-hurts/103670/"
     }
   ]
 }
