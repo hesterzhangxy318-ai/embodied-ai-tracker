@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T03:39:26.929597+08:00",
+  "updated": "2026-08-04T10:35:42.241207+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,7 +23,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
+      "entries": 27,
       "candidates": 11,
       "core": 0,
       "periphery": 0,
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 3,
-      "core": 2,
+      "entries": 18,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 3,
-      "core": 1,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 58,
       "candidates": 19,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -122,15 +122,14 @@
     {
       "name": "OFweek机器人",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 22,
-      "candidates": 22,
-      "core": 5,
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "新战略移动机器人",
@@ -155,7 +154,7 @@
       "candidates": 18,
       "core": 6,
       "periphery": 5,
-      "new": 6
+      "new": 1
     },
     {
       "name": "The Robot Report",
@@ -168,7 +167,7 @@
       "candidates": 15,
       "core": 5,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -220,7 +219,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 3
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -239,31 +238,38 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-04T03:39:39.542865+08:00",
+    "generated_at": "2026-08-04T10:36:00.331164+08:00",
     "mode": "aicodewith",
-    "item_count": 11,
+    "item_count": 13,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "小鹏人形机器人IRON已在广州工厂开启小批量试生产并进入产线最后联调，文远知行与GreenMobility合作推进丹麦商业化自动驾驶共享出行项目，具身智能的验证重心正从演示效果转向工厂、出行等有明确交付边界的场景。",
+        "text": "本周证据集中在工厂试产、Robotaxi商业化和订单交付等场景，小鹏IRON在广州工厂进入小批量试生产和产线最后联调，文远知行与GreenMobility推进丹麦首个商业化自动驾驶共享出行项目，博登智能提到十亿订单在手，具身智能的竞争正在更多由真实任务中的持续交付能力来衡量。",
         "evidence_urls": []
       },
       {
-        "label": "数据闭环成为模型叙事的硬约束",
-        "text": "过去一年行业在遥操作数据采集、仿真数据生成、本体厂商自建数据闭环和第三方数据服务上的投入明显增加，同时订单侧也强调机器人能否从失败和人工纠错中学习，高质量数据正在成为能力提升和项目验收的共同前提。",
+        "label": "模型叙事回到数据闭环",
+        "text": "AI竞争焦点被明确指向智能系统构建与规模化落地，物理AI强调大模型与真实环境感知、设备调度和闭环行动融合，同时行业过去一年在遥操作、仿真、本体自建数据闭环和第三方数据服务上的投入急剧膨胀，模型能力需要依赖可复用的真实数据和纠错经验沉淀。",
         "evidence_urls": []
       },
       {
-        "label": "资本定价更贴近生产力",
-        "text": "本周资本事件集中在奇瑞向KGM投资7500万美元并拟拓展机器人、半导体合作，以及农业机器人企业数亿元融资用于核心技术研发和规模化交付，市场对仅靠Demo支撑估值的容忍度下降，资金更偏向可定义场景和能力补齐。",
+        "label": "资本偏好生产力与场景补齐",
+        "text": "具身智能融资与合作更贴近明确场景和能力短板，农业机器人企业融资资金将用于核心技术研发和产品规模化交付，奇瑞拟向KGM投资7500万美元并在机器人、半导体等新业务合作，市场对仅靠Demo支撑高估值的容忍度下降，持续交付成为估值基础的一部分。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "具身智能技术讨论聚焦数据生产体系，遥操作、仿真、自建闭环和第三方数据服务投入增加，模型能力提升更依赖真实任务数据沉淀。",
+        "summary": "技术侧从单点模型能力转向物理AI系统能力，真实环境感知、设备调度、闭环行动和高质量数据生产成为本周核心议题。",
         "items": [
+          {
+            "date": "08-04",
+            "title": "中国软件行业领军人物、深开鸿CEO王成录博士确认出席AICon深圳，将分享“让 AI 拥有身体：从大模型迈向物理 AI”",
+            "url": "https://www.infoq.cn/article/vUmdr8i7Mo5sqovwLxN8?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
           {
             "date": "08-03",
             "title": "测绘科学，或许是具身智能数据问题的终极解法",
@@ -275,7 +281,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调，量产基本功开始成为机器人能力验证的一部分。",
+        "summary": "量产进展围绕产线联调和工业部件展开，小鹏IRON进入小批量试生产，igus推出600度旋转能量链补足工业机器人布线需求。",
         "items": [
           {
             "date": "08-03",
@@ -283,12 +289,19 @@
             "url": "https://www.tmtpost.com/8089399.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-03",
+            "title": "igus 推出适用于工业机器人的 600 度旋转能量链 (igus launches energy chain with 600-degree rotation for industrial robots)",
+            "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "文远知行与丹麦GreenMobility合作推进当地首个商业化自动驾驶共享出行项目，博登智能相关访谈则强调订单交付仍受高质量数据约束。",
+        "summary": "商业化验证集中在出行和具身订单场景，文远知行进入丹麦共享出行项目，博登智能十亿订单强调高质量数据与纠错沉淀。",
         "items": [
           {
             "date": "08-03",
@@ -308,7 +321,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态覆盖奇瑞投资KGM、农业机器人企业数亿元融资、蚂蚁灵波融资传闻及上市公司布局报告，资金更关注场景、交付和核心能力建设。",
+        "summary": "资本新闻显示资金继续流向具备明确落地路径的方向，农业机器人融资、车企跨国合作和通用机器人大脑融资传闻同时出现。",
         "items": [
           {
             "date": "08-03",
@@ -349,7 +362,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "Walden Robotics与Toyota合作研发实用型人形机器人，行业关注点从单纯追逐人形形态转向更具实用性的机器人研发方向。",
+        "summary": "行业合作仍聚焦实用型人形机器人，Walden Robotics与Toyota研发合作显示人形机器人叙事正在向可用性和具体任务收敛。",
         "items": [
           {
             "date": "08-03",
@@ -362,7 +375,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "HEBI Robotics获得NASA SBIR Phase I资助以推进微型执行器研发，产业链机会仍需绑定执行器等具体性能瓶颈和应用需求。",
+        "summary": "产业链端出现面向关键执行部件的小型化投入，HEBI Robotics获得NASA SBIR资助，微型执行器研发成为细分支撑环节。",
         "items": [
           {
             "date": "08-03",
@@ -376,6 +389,15 @@
     ]
   },
   "items": [
+    {
+      "date": "08-04",
+      "company": "其他",
+      "title": "中国软件行业领军人物、深开鸿CEO王成录博士确认出席AICon深圳，将分享“让 AI 拥有身体：从大模型迈向物理 AI”",
+      "source_name": "InfoQ",
+      "category": "技术突破",
+      "summary": "核心内容：AI竞争焦点正从模型能力转向智能系统构建与规模化落地能力；物理AI成为关键突破方向，强调大模型与真实环境感知、设备调度及闭环行动的融合。 关键观点：智能体工程与系统级落地能力取代单点模型性能成为新竞争力；物理AI需打通感知、决策与执行闭环，支撑工业等实体场景；开源生态与推理成本下降加速了AI从实验走向规模化生产。 适合AI架构师、智能体系统工程师…",
+      "url": "https://www.infoq.cn/article/vUmdr8i7Mo5sqovwLxN8?utm_source=rss&utm_medium=article"
+    },
     {
       "date": "08-03",
       "company": "其他",
@@ -474,6 +496,15 @@
       "category": "行业动态",
       "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do s…",
       "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota"
+    },
+    {
+      "date": "08-03",
+      "company": "其他",
+      "title": "igus 推出适用于工业机器人的 600 度旋转能量链 (igus launches energy chain with 600-degree rotation for industrial robots)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing. The post appeared first on The Robot Rep…",
+      "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/"
     },
     {
       "date": "08-02",
@@ -807,24 +838,6 @@
       "category": "产品量产",
       "summary": "Neura Robotics has partnered with RWTH Aachen University to establish a new Neura Gym in Germany as part of its expanding global network of Physical AI training centres. The new fa…",
       "url": "https://roboticsandautomationnews.com/2026/07/29/neura-robotics-expands-global-physical-ai-training-network-in-partnership-with-rwth-aachen-university/103699/"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "NoTip在俄亥俄州推出机器人送餐平台公开测试版 (NoTip launches public beta of robotic food delivery platform in Ohio)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "NoTip has launched public beta testing of its robotic food delivery platform in Mason, Ohio, giving residents early access to an autonomous delivery service that combines electric…",
-      "url": "https://roboticsandautomationnews.com/2026/07/29/notip-launches-public-beta-of-robotic-food-delivery-platform-in-ohio/103696/"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "Tacta Systems发布面向高价值制造的AI驱动机器人手 (Tacta Systems unveils AI-powered robotic hand for high-value manufacturing)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Tacta Systems has unveiled a robotics platform designed to bring human-like dexterity and touch to industrial automation, with the company targeting applications in electronics, AI…",
-      "url": "https://roboticsandautomationnews.com/2026/07/29/tacta-systems-unveils-ai-powered-robotic-hand-for-high-value-manufacturing/103688/"
     }
   ]
 }
