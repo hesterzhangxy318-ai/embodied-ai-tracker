@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T16:38:40.588206+08:00",
+  "updated": "2026-08-04T22:14:30.540436+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 8,
+      "entries": 29,
+      "candidates": 11,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 10,
+      "entries": 18,
+      "candidates": 11,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 1,
-      "core": 0,
+      "entries": 18,
+      "candidates": 4,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 4
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 3,
-      "core": 2,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 15,
+      "candidates": 13,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 4,
-      "periphery": 2,
-      "new": 3
+      "candidates": 12,
+      "core": 6,
+      "periphery": 3,
+      "new": 9
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-04T16:39:18.571977+08:00",
+    "generated_at": "2026-08-04T22:14:44.950612+08:00",
     "mode": "aicodewith",
-    "item_count": 15,
+    "item_count": 22,
     "insights": [
       {
-        "label": "落地验证转向可验收场景",
-        "text": "小鹏人形机器人IRON在广州工厂进入小批量试生产，文远知行又在丹麦推进首个商业化自动驾驶共享出行项目，周内信号都指向可验收、可交付场景正在替代纯展示式落地。",
+        "label": "验收场景更受关注",
+        "text": "本周落地线索集中在工厂、药房、卫星和出行等可验收任务，小鹏IRON进入广州工厂小批量试生产并做产线最后联调，蚂蚁灵波已在药房作业，NASA也向HEBI Robotics授予小卫星机器人合同，企业能力正在更多由真实任务交付来检验。",
         "evidence_urls": []
       },
       {
-        "label": "真实数据闭环成为主线",
-        "text": "从遥操作采集到仿真生成，再到本体厂商自建闭环和第三方数据服务商涌现，具身行业的数据生产端明显加码，模型叙事正被真实任务和纠错记录重新约束。",
+        "label": "模型竞争转向闭环数据",
+        "text": "Google DeepMind发布Gemini Robotics 2并覆盖VLA、推理和端侧模型，行业讨论同时强调物理AI要融合真实环境感知、设备调度和闭环行动，遥操作、仿真、本体自建和第三方数据服务投入扩大，模型叙事正在被真实数据回流和任务闭环重新约束。",
         "evidence_urls": []
       },
       {
-        "label": "资本更看重补齐交付能力",
-        "text": "新型减速器厂商完成超亿元融资，资金投向研发、产线扩建和机器人市场拓展，农业机器人公司也拿下数亿元融资，资本开始围绕具体性能瓶颈和规模化交付能力配置资源。",
+        "label": "资本偏向生产力与瓶颈部件",
+        "text": "具身智能融资从Demo估值转向持续交付能力，新型减速器厂商完成超亿元融资并计划投向研发、产线扩建和机器人市场拓展，农业机器人融资也用于核心技术和规模化交付，资金更倾向绑定明确场景、关键零部件和产能建设。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "公开表述继续向物理AI和系统落地倾斜，真实环境感知、设备调度与闭环行动被放到更核心的位置，模型竞争焦点也被拉回任务完成度。",
+        "summary": "技术讨论从单点模型能力转向物理AI系统构建，重点落在真实环境感知、设备调度、闭环行动以及高质量数据生产体系。",
         "items": [
           {
             "date": "08-04",
@@ -282,8 +282,29 @@
       },
       {
         "category": "产品量产",
-        "summary": "小鹏IRON在广州工厂进入小批量试生产，工业机器人配套部件也在迭代，量产验证开始围绕产线联调、场景适配和稳定交付展开。",
+        "summary": "产品端同时出现模型发布、工厂小批量试生产、药房作业和工业能量链新品，量产准备与具体应用可用性成为能力验证环节。",
         "items": [
+          {
+            "date": "08-04",
+            "title": "机器人“安卓”之争：谷歌刚发布模型，蚂蚁灵波已经在药房里干活",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30697055.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-04",
+            "title": "前 DeepMind 团队创办 AI 机器人初创公司，机器人可向工人学习 (Former DeepMind team launches AI robotics startup with robots that learn from workers)",
+            "url": "https://roboticsandautomationnews.com/2026/08/04/former-deepmind-team-launches-ai-robotics-startup-with-robots-that-learn-from-workers/103881/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "08-04",
+            "title": "研究人员发布开源机器导盲犬，旨在帮助盲人和视障人士 (Researchers unveil open-source robotic guide dog designed to assist blind and visually impaired people)",
+            "url": "https://roboticsandautomationnews.com/2026/08/04/researchers-unveil-open-source-robotic-guide-dog-designed-to-assist-blind-and-visually-impaired-people/103878/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "08-03",
             "title": "小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功",
@@ -302,8 +323,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "文远知行在丹麦推进首个商业化自动驾驶共享出行项目，博登智能又披露十亿订单在手，订单验证更集中到可验收、可复盘的项目。",
+        "summary": "商业化线索覆盖NASA小卫星机器人合同、文远知行丹麦自动驾驶共享出行合作，以及博登智能十亿订单，需求更多来自明确任务。",
         "items": [
+          {
+            "date": "08-04",
+            "title": "NASA 授予 HEBI Robotics 合同，开发小卫星紧凑型机器人技术 (NASA awards HEBI Robotics contract to develop compact robotic technology for small satellites)",
+            "url": "https://roboticsandautomationnews.com/2026/08/04/nasa-awards-hebi-robotics-contract-to-develop-compact-robotic-technology-for-small-satellites/103855/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "08-03",
             "title": "中国 Robotaxi 首入北欧：文远知行布局丹麦首个商业化自动驾驶共享出行项目",
@@ -322,7 +350,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "减速器、农业机器人和通用机器人脑等方向继续吸金，资金用途集中在研发、产线扩建和市场拓展，资本更看重补齐能力短板。",
+        "summary": "资本事件集中在减速器、农业机器人、通用机器人大脑和跨国车企合作，资金用途多指向研发、产线扩建、规模化交付和新业务协同。",
         "items": [
           {
             "date": "08-04",
@@ -330,6 +358,13 @@
             "url": "https://36kr.com/p/3924628805351811?f=rss",
             "company": "行业",
             "source_name": "36氪"
+          },
+          {
+            "date": "08-04",
+            "title": "英国政府启动2000万英镑农业机器人资助竞赛 (UK government launches £20 million funding competition for agricultural robots)",
+            "url": "https://roboticsandautomationnews.com/2026/08/04/uk-government-launches-20-million-funding-competition-for-agricultural-robots/103870/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "08-03",
@@ -370,8 +405,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "Toyota与Walden Robotics合作研发实用型人形机器人，行业讨论从形态热度转向实用任务、验证路径和持续交付能力。",
+        "summary": "行业动态显示人形机器人需求增长、国际贸易限制升温，以及Toyota与Walden Robotics合作开发实用型人形机器人，竞争外溢到产业和政策层面。",
         "items": [
+          {
+            "date": "08-04",
+            "title": "宇树科技预计上半年营收增长，人形机器人需求加速增长 (Unitree expects first-half revenue growth as demand for humanoid robots accelerates)",
+            "url": "https://roboticsandautomationnews.com/2026/08/04/unitree-expects-first-half-revenue-growth-as-demand-for-humanoid-robots-accelerates/103876/",
+            "company": "宇树科技",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "08-04",
+            "title": "美国限制进口新型外国制造人形机器人，中国威胁报复 (China threatens retaliation after US restricts imports of new foreign-made humanoid robots)",
+            "url": "https://roboticsandautomationnews.com/2026/08/04/china-threatens-retaliation-after-us-restricts-imports-of-new-foreign-made-humanoid-robots/103868/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "08-03",
             "title": "Walden Robotics与Toyota合作研发实用型人形机器人 (Walden Robotics Partners With Toyota on Practical Humanoids)",
@@ -383,7 +432,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "宁德时代加码移动充电机器人总部项目，HEBI又获NASA SBIR资助推动微型执行器研发，链条机会更贴近具体部件和垂直场景。",
+        "summary": "产业链扩展到移动充电机器人和微型执行器，宁德时代相关项目落户吴江建设总部、研发中心及制造基地，HEBI获NASA SBIR资助推进小型化执行器。",
         "items": [
           {
             "date": "08-04",
@@ -430,6 +479,69 @@
       "category": "泛具身产业链",
       "summary": "苏州发布消息称，8月1日，宁德时代智能科技旗下酝电智能科技总部项目签约落户吴江，将建设移动充电机器人总部、研发中心及制造基地。 酝电智能科技是宁德时代智能科技旗下控股子公司，属于妥妥的宁德时代孙公司",
       "url": "https://robot.ofweek.com/2026-08/ART-8321206-8120-30696963.html"
+    },
+    {
+      "date": "08-04",
+      "company": "其他",
+      "title": "机器人“安卓”之争：谷歌刚发布模型，蚂蚁灵波已经在药房里干活",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "7月30日，Google DeepMind发布了机器人系列模型Gemini Robotics 2，包含VLA模型、推理模型和端侧模型，并首次实现了对人形机器人的全身控制。 谷歌的算盘其实并不复杂：它要",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30697055.html"
+    },
+    {
+      "date": "08-04",
+      "company": "其他",
+      "title": "前 DeepMind 团队创办 AI 机器人初创公司，机器人可向工人学习 (Former DeepMind team launches AI robotics startup with robots that learn from workers)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Reimagine Robotics, an AI robotics company founded by former leaders of Google DeepMind’s Applied Robotics team, has emerged from stealth with new technology that allows robots to…",
+      "url": "https://roboticsandautomationnews.com/2026/08/04/former-deepmind-team-launches-ai-robotics-startup-with-robots-that-learn-from-workers/103881/"
+    },
+    {
+      "date": "08-04",
+      "company": "其他",
+      "title": "研究人员发布开源机器导盲犬，旨在帮助盲人和视障人士 (Researchers unveil open-source robotic guide dog designed to assist blind and visually impaired people)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Researchers have introduced what they describe as the world’s first fully autonomous robotic guide dog, an AI-powered mobile robot designed to help blind and visually impaired peop…",
+      "url": "https://roboticsandautomationnews.com/2026/08/04/researchers-unveil-open-source-robotic-guide-dog-designed-to-assist-blind-and-visually-impaired-people/103878/"
+    },
+    {
+      "date": "08-04",
+      "company": "宇树科技",
+      "title": "宇树科技预计上半年营收增长，人形机器人需求加速增长 (Unitree expects first-half revenue growth as demand for humanoid robots accelerates)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Chinese robotics company Unitree Technology expects strong revenue growth in the first half of 2026 as demand for humanoid robots and embodied AI continues to increase, according t…",
+      "url": "https://roboticsandautomationnews.com/2026/08/04/unitree-expects-first-half-revenue-growth-as-demand-for-humanoid-robots-accelerates/103876/"
+    },
+    {
+      "date": "08-04",
+      "company": "其他",
+      "title": "英国政府启动2000万英镑农业机器人资助竞赛 (UK government launches £20 million funding competition for agricultural robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "The UK government has launched a £20 million funding competition to accelerate the development of robots and automated technologies for agriculture, with the aim of helping farmers…",
+      "url": "https://roboticsandautomationnews.com/2026/08/04/uk-government-launches-20-million-funding-competition-for-agricultural-robots/103870/"
+    },
+    {
+      "date": "08-04",
+      "company": "其他",
+      "title": "美国限制进口新型外国制造人形机器人，中国威胁报复 (China threatens retaliation after US restricts imports of new foreign-made humanoid robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "China has threatened to retaliate against new US restrictions on foreign-produced humanoid robots, warning that the measures will damage economic and trade relations between the wo…",
+      "url": "https://roboticsandautomationnews.com/2026/08/04/china-threatens-retaliation-after-us-restricts-imports-of-new-foreign-made-humanoid-robots/103868/"
+    },
+    {
+      "date": "08-04",
+      "company": "其他",
+      "title": "NASA 授予 HEBI Robotics 合同，开发小卫星紧凑型机器人技术 (NASA awards HEBI Robotics contract to develop compact robotic technology for small satellites)",
+      "source_name": "Robotics & Automation News",
+      "category": "商业订单",
+      "summary": "HEBI Robotics has been awarded a Phase I contract from NASA’s Small Business Innovation Research (SBIR) program to develop compact robotic actuators for use in small satellites and…",
+      "url": "https://roboticsandautomationnews.com/2026/08/04/nasa-awards-hebi-robotics-contract-to-develop-compact-robotic-technology-for-small-satellites/103855/"
     },
     {
       "date": "08-03",
@@ -790,69 +902,6 @@
       "category": "行业动态",
       "summary": "7 月 29 日，据路透社报道，美国联邦通信委员会（FCC）当地时间周二宣布，禁止新的外国产人形机器人、四足机器人以及联网电力逆变器型号进入美国市场。相关措施在公布后立即生效，旨在降低美国人工智能基础设施和关键供应链面临的网络安全及供应中断风险。 此次限制仅适用于 尚未在美国获准销售的新型号 ，已经获得销售授权的机器人和逆变器暂时不受直接影响。不过，FCC…",
       "url": "https://www.ithome.com/0/982/826.htm"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "黑芝麻智能与正行创新达成战略合作，全力推动具身智能全球布局",
-      "source_name": "36氪",
-      "category": "技术突破",
-      "summary": "7月29日，黑芝麻智能与正行创新正式签署战略合作协议。双方将依托各自在端侧AI芯片与具身智能领域的核心优势，在本土化具身智能生态构建、算法适配与场景部署、全球市场商业化落地等诸多领域展开深度协同，携手推动具身智能技术向规模化产业应用迈进。此次合作是是黑芝麻智能完善具身智能生态布局的重要举措，也是打开全球市场的重要契机。未来，黑芝麻智能将持续开放算力平台能力…",
-      "url": "https://36kr.com/newsflashes/3916447498825348?f=rss"
-    },
-    {
-      "date": "07-29",
-      "company": "特斯拉",
-      "title": "特斯拉优化 Robotaxi 体验：关闭 Model Y 自动驾驶出租车转向灯提示音",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 29 日消息，特斯拉正在继续优化其无人驾驶 Robotaxi 网络的乘客体验。随着自动驾驶出行服务逐步扩大规模，通过软件更新改进后的消费者版 Model Y 正越来越接近专门打造的 Robotaxi 车型。 长期关注特斯拉的网友 @SawyerMerritt 在 X 平台上指出了这一近期变化，并表示：“特斯拉终于关闭了 Model Y Ro…",
-      "url": "https://www.ithome.com/0/983/057.htm"
-    },
-    {
-      "date": "07-29",
-      "company": "行业",
-      "title": "融资7100万美元：这家神秘实验室要让指挥机器人像调音量一样简单",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "TechCrunch ? ? Marina Temkin 神秘实验室 Enigma 融资 7100 万美元，开放 100 多台 AI 机器人供全球在线“使唤”，想让人机交互像调音量一样直觉",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321205-8140-30696286.html"
-    },
-    {
-      "date": "07-29",
-      "company": "优必选",
-      "title": "情感陪护机器人，不能阻止优必选股价下跌",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "多元化没有错，但当人形机器人这个核心赛道被后来者用更低的成本、更高的效率重新定义时，优必选的“全栈全场景”反而成了包袱。 2026年7月2日，中国证监会的一纸批文，让宇树科技正式拿到了科创板IPO的入场券。这家成立仅十年的公司，以420亿元的发行估值、6亿元的年度扣非净利润、60%的毛利率，即将成为A股“人形机器人第一股”。 而在港股市场，真正的“人形机器人…",
-      "url": "https://www.tmtpost.com/8083214.html"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "宣称“全程免动手”：海尔机器人与橡鹿机器人达成战略合作，共研全自动家庭 AI 烹饪机器人",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 29 日消息，海尔机器人与橡鹿机器人今日达成战略合作。双方将围绕中餐烹饪生态、AI 技术能力、家庭场景应用及产业链协同等方向展开合作， 共同打造行业全新一代全自动家庭 AI 烹饪机器人 。 官方表示，全新一代全自动家庭 AI 烹饪机器人，从自动投放调料、食材到智能翻炒， 全程免动手 。新品搭载海尔自研 AI 之眼科技， 可精准识别主流品牌净…",
-      "url": "https://www.ithome.com/0/983/323.htm"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "上汽名爵 MG 07 预售：搭载 Momenta R7 世界模型，12.59 万元起",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 29 日消息，在今晚举行的发布会上，上汽名爵 MG 07 正式开启预售， 预售价 12.59 万元起 ： MG 07 650 舒享版：预售价 12.59 万元 MG 07 610 激光雷达版：预售价 13.59 万元 MG 07 610 旗舰版：预售价 14.59 万元 MG 07 845 激光雷达版：早鸟预售价 15.59 万元 MG 0…",
-      "url": "https://www.ithome.com/0/983/312.htm"
-    },
-    {
-      "date": "07-29",
-      "company": "其他",
-      "title": "原创 2026中国具身智能行业洞察报告 人工智能 · 商业化 · 人工智能 报告 2026-07-19",
-      "source_name": "甲子光年",
-      "category": "商业订单",
-      "summary": "5\\u667A\\u80FD\"); return false;\">人工智能 · 科技投资 · 人工智能 报告 原创 AI产业最新趋势解读：词元经济体系下的组织变革新机遇 人工智能 · 数字化 · 人工智能 报告</",
-      "url": "https://www.jazzyear.com/study_info.html?id=167"
     }
   ]
 }
