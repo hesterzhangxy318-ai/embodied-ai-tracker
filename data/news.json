@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T22:11:45.434148+08:00",
+  "updated": "2026-08-06T03:37:40.054778+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -8,7 +8,7 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 10,
       "candidates": 0,
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 3,
+      "entries": 20,
+      "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 17,
+      "candidates": 21,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 1,
-      "new": 3
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -181,7 +181,7 @@
       "candidates": 12,
       "core": 9,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -194,7 +194,7 @@
       "candidates": 10,
       "core": 7,
       "periphery": 1,
-      "new": 3
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -227,7 +227,7 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 75,
       "candidates": 68,
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-05T22:12:08.304764+08:00",
+    "generated_at": "2026-08-06T03:37:57.806253+08:00",
     "mode": "aicodewith",
-    "item_count": 34,
+    "item_count": 35,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周线索集中在工厂、药房、卫星小型机器人和Robotaxi等场景，小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，文远知行与GreenMobility推进丹麦商业化自动驾驶共享出行项目，具身智能的验证重心正从展示能力转向能被客户验收的部署表现。",
+        "label": "落地验证收敛到可验收场景",
+        "text": "本周工厂、巡检、药房等任务成为具身智能落地的主要参照，小鹏IRON在广州工厂开启小批量试生产并进入产线最后联调，Avnet与Weston Robot推出面向复杂工业环境的边缘AI自主检测平台，蚂蚁灵波机器人已在药房作业，短期验证更偏向流程清晰、结果可检查的ToB场景。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争绑定真实数据闭环",
-        "text": "小米开源Xiaomi-Robotics-1并披露使用超过10万小时UMI数据预训练和超过1万小时跨本体数据后训练，行业讨论也强调大模型与真实环境感知、设备调度和闭环行动融合，单纯模型参数叙事正在让位于数据来源、跨本体泛化和任务闭环能力。",
+        "label": "模型叙事转向数据与闭环",
+        "text": "小米开源Xiaomi-Robotics-1并披露使用超过10万小时UMI数据预训练和超过1万小时跨本体数据后训练，清华北理工自变量联合开源HOST尝试用29秒视频教会机器人新技能，物理AI讨论也强调真实环境感知、设备调度和闭环行动，模型能力正在与真实数据来源和任务执行链条绑定。",
         "evidence_urls": []
       },
       {
-        "label": "资本按生产力重新定价",
-        "text": "一边是Demo高估值时代结束、真实场景持续交付被反复强调，另一边是新型减速器厂商完成超亿元融资并将资金用于研发、产线扩建和机器人市场拓展，资本仍在投入但更偏向可定义场景、关键部件和规模交付能力。",
+        "label": "资本更看重生产力线索",
+        "text": "资本动态中既有Demo高估值时代结束、按生产力重新算账的判断，也有新型减速器厂商完成超亿元融资并将资金用于研发、产线扩建和机器人市场拓展，农业机器人企业融资用于核心技术研发和规模化交付，资金流向更贴近明确场景、关键部件和交付能力补齐。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕工业进厂、低门槛教学和具身基座模型展开，小米披露大规模真实与跨本体数据训练，行业关注点从模型能力延伸到环境感知、设备调度和闭环行动。",
+        "summary": "技术侧集中在具身基座模型、低数据教学和工业价值验证，小米开源大规模数据训练模型，HOST降低教学门槛，物理AI讨论强调感知、调度与闭环行动融合。",
         "items": [
           {
             "date": "08-05",
@@ -310,7 +310,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产线索覆盖小鹏IRON小批量试生产、Zoox量产级Robotaxi和灵巧手交付讨论，行业仍处从Demo到批量交付的过渡期，价格、稳定性和产线能力开始共同参与验证。",
+        "summary": "产品量产呈现从演示走向小批量和场景部署的分化，小鹏IRON进入小批量试生产，灵巧手交付仍多在百千台量级，巡检、药房、Robotaxi等应用同步推进。",
         "items": [
           {
             "date": "08-05",
@@ -318,6 +318,13 @@
             "url": "https://robot.ofweek.com/2026-08/ART-8321206-8420-30697126.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-05",
+            "title": "Avnet 与 Weston Robot 合作推出边缘 AI 检测平台 (Avnet and Weston Robot partner to launch edge AI inspection platform)",
+            "url": "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "08-04",
@@ -365,7 +372,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业侧出现NASA小卫星机器人合同、文远知行丹麦自动驾驶共享出行合作和十亿订单讨论，客户需求更贴近可部署场景，高质量数据与部署后问题处理成为交付关键。",
+        "summary": "商业进展以可定义任务和机构合作为主，文远知行与丹麦平台推进商业化自动驾驶共享出行，NASA授予HEBI合同，博登智能披露订单同时强调高质量数据仍是短板。",
         "items": [
           {
             "date": "08-05",
@@ -399,7 +406,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本事件覆盖星海图相关创业项目亿美元级融资、减速器厂商超亿元融资、农业机器人资金支持及车企战略投资，资金更多流向核心部件、农业场景和具备规模化交付预期的团队。",
+        "summary": "融资围绕具身本体、关键零部件和农业机器人展开，星海图相关创业项目获亿美元级融资，减速器厂商获超亿元融资，行业估值逻辑更关注交付与产线能力。",
         "items": [
           {
             "date": "08-05",
@@ -461,7 +468,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态显示人形机器人主题转向商业化验证，西门子与光轮智能探索工业仿真机器学习基础设施，同时成本约束、贸易限制和车企AI机器人转型仍影响扩张节奏。",
+        "summary": "行业讨论明显转向商业化验证与成本约束，光轮智能和西门子探索工业仿真到机器学习路径，特斯拉、宇树等机器人业务受关注，但工厂规模化仍受成本影响。",
         "items": [
           {
             "date": "08-05",
@@ -516,7 +523,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧以宁德时代智能科技移动充电机器人总部项目和HEBI微型执行器研发资助为代表，机会分布在能源补给、执行器等细分环节，但仍需绑定明确应用和性能瓶颈。",
+        "summary": "泛具身链条出现移动充电机器人和微型执行器等延展方向，宁德时代智能科技项目落地吴江建设总部、研发和制造基地，HEBI获NASA SBIR支持执行器研发。",
         "items": [
           {
             "date": "08-04",
@@ -608,6 +615,15 @@
       "category": "商业订单",
       "summary": "However, once these systems are deployed, they are prone to face unique challenges. Lighting conditions, variations in human behavior, the variety of surfaces encountered, and back…",
       "url": "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/"
+    },
+    {
+      "date": "08-05",
+      "company": "其他",
+      "title": "Avnet 与 Weston Robot 合作推出边缘 AI 检测平台 (Avnet and Weston Robot partner to launch edge AI inspection platform)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "Avnet and Weston Robot have partnered to launch an AI-powered autonomous inspection platform for complex industrial environments. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/"
     },
     {
       "date": "08-04",
@@ -977,15 +993,6 @@
       "category": "产品量产",
       "summary": "人形机器人不缺钱，不缺信仰，缺的是工厂愿意买单的理由。在等来ChatGPT时刻之前，所有关于",
       "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30696416.html"
-    },
-    {
-      "date": "07-30",
-      "company": "其他",
-      "title": "“工业机器人一哥”再登出货量榜首，第二季度交付机器人超1万台！",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "据MIR DATABANK最新统计数据显示，2026年上半年，埃斯顿再度登顶中国工业机器人全品牌出货量榜首。同时，2026年第二季度，埃斯顿首次实现单季度交付超10000台机器人，成为首个单季度销量破",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30696402.html"
     }
   ]
 }
