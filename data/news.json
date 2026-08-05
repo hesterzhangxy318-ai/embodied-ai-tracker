@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T16:38:29.015089+08:00",
+  "updated": "2026-08-05T22:11:45.434148+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 10,
-      "core": 1,
+      "entries": 16,
+      "candidates": 8,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "钛媒体",
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 19,
       "candidates": 3,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
       "new": 2
     },
@@ -76,8 +76,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 13,
-      "core": 1,
+      "entries": 59,
+      "candidates": 17,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -155,7 +155,7 @@
       "candidates": 20,
       "core": 10,
       "periphery": 3,
-      "new": 5
+      "new": 6
     },
     {
       "name": "The Robot Report",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,9 +191,9 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 6,
-      "periphery": 3,
+      "candidates": 10,
+      "core": 7,
+      "periphery": 1,
       "new": 3
     },
     {
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-05T16:38:45.142048+08:00",
+    "generated_at": "2026-08-05T22:12:08.304764+08:00",
     "mode": "aicodewith",
-    "item_count": 32,
+    "item_count": 34,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周证据集中指向工厂、药房、维修与巡检等真实场景，小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，蚂蚁灵波机器人已在药房干活，工业具身智能被认为已在进厂发挥价值，具身智能的能力评估正从演示效果转向能否在具体流程中持续交付。",
+        "text": "本周线索集中在工厂、药房、卫星小型机器人和Robotaxi等场景，小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，文远知行与GreenMobility推进丹麦商业化自动驾驶共享出行项目，具身智能的验证重心正从展示能力转向能被客户验收的部署表现。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争回到数据闭环",
-        "text": "小米Xiaomi-Robotics-1以超过10万小时UMI数据预训练、超过1万小时跨本体数据后训练并开源，行业讨论也强调大模型与真实环境感知、设备调度和闭环行动融合，具身模型叙事正在从参数和通用能力扩展到高质量数据、跨本体迁移与任务反馈。",
+        "label": "模型竞争绑定真实数据闭环",
+        "text": "小米开源Xiaomi-Robotics-1并披露使用超过10万小时UMI数据预训练和超过1万小时跨本体数据后训练，行业讨论也强调大模型与真实环境感知、设备调度和闭环行动融合，单纯模型参数叙事正在让位于数据来源、跨本体泛化和任务闭环能力。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好生产力证据",
-        "text": "本周融资覆盖亿美元级机器人创业项目、超亿元减速器厂商和数亿元农业机器人公司，同时有观点提出Demo高估值时代结束、能在真实场景持续交付的企业才会留下，资金更倾向投向明确场景、核心部件扩产和规模化交付能力。",
+        "label": "资本按生产力重新定价",
+        "text": "一边是Demo高估值时代结束、真实场景持续交付被反复强调，另一边是新型减速器厂商完成超亿元融资并将资金用于研发、产线扩建和机器人市场拓展，资本仍在投入但更偏向可定义场景、关键部件和规模交付能力。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧重点从单点模型发布转向数据、教学和系统闭环，小米开源跨本体具身基座模型，HOST尝试用短视频降低教学门槛，工业场景成为验证方向。",
+        "summary": "技术侧围绕工业进厂、低门槛教学和具身基座模型展开，小米披露大规模真实与跨本体数据训练，行业关注点从模型能力延伸到环境感知、设备调度和闭环行动。",
         "items": [
           {
             "date": "08-05",
@@ -310,7 +310,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产进展呈现分化，小鹏IRON进入小批量试生产和产线联调，灵巧手多数仍在方案验证与百千台交付阶段，Robotaxi和导盲犬等形态也在推进量产化。",
+        "summary": "量产线索覆盖小鹏IRON小批量试生产、Zoox量产级Robotaxi和灵巧手交付讨论，行业仍处从Demo到批量交付的过渡期，价格、稳定性和产线能力开始共同参与验证。",
         "items": [
           {
             "date": "08-05",
@@ -365,8 +365,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "订单侧仍以可定义场景为主，文远知行进入丹麦商业化自动驾驶共享出行项目，HEBI获得NASA小卫星机器人合同，博登智能披露十亿订单并强调高质量数据。",
+        "summary": "商业侧出现NASA小卫星机器人合同、文远知行丹麦自动驾驶共享出行合作和十亿订单讨论，客户需求更贴近可部署场景，高质量数据与部署后问题处理成为交付关键。",
         "items": [
+          {
+            "date": "08-05",
+            "title": "弥合机器人设计与部署之间的差距 (Bridging the Gap Between Robotics Design and Deployment)",
+            "url": "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "08-04",
             "title": "NASA 授予 HEBI Robotics 合同，开发小卫星紧凑型机器人技术 (NASA awards HEBI Robotics contract to develop compact robotic technology for small satellites)",
@@ -392,7 +399,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本事件密集但筛选标准更务实，机器人创业公司获亿美元级融资，减速器厂商融资用于研发和扩产，农业机器人资金投向核心技术与规模化交付。",
+        "summary": "资本事件覆盖星海图相关创业项目亿美元级融资、减速器厂商超亿元融资、农业机器人资金支持及车企战略投资，资金更多流向核心部件、农业场景和具备规模化交付预期的团队。",
         "items": [
           {
             "date": "08-05",
@@ -454,7 +461,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论围绕进厂、成本和国际竞争展开，光轮智能与西门子探索工业仿真到机器学习路径，特斯拉强化AI与机器人叙事，人形机器人规模化仍受成本约束。",
+        "summary": "行业动态显示人形机器人主题转向商业化验证，西门子与光轮智能探索工业仿真机器学习基础设施，同时成本约束、贸易限制和车企AI机器人转型仍影响扩张节奏。",
         "items": [
           {
             "date": "08-05",
@@ -462,6 +469,13 @@
             "url": "https://www.infoq.cn/article/yEqKH6HqgUl2aQWOco1f?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "08-05",
+            "title": "特斯拉还在画饼，中国机器人已经霸榜全球前五",
+            "url": "https://www.tmtpost.com/8092448.html",
+            "company": "特斯拉",
+            "source_name": "钛媒体"
           },
           {
             "date": "08-04",
@@ -502,7 +516,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会开始落到具体部件和基地建设，宁德时代移动充电机器人总部、研发中心及制造基地落地吴江，HEBI也获NASA资助推进微型执行器研发。",
+        "summary": "产业链侧以宁德时代智能科技移动充电机器人总部项目和HEBI微型执行器研发资助为代表，机会分布在能源补给、执行器等细分环节，但仍需绑定明确应用和性能瓶颈。",
         "items": [
           {
             "date": "08-04",
@@ -576,6 +590,24 @@
       "category": "技术突破",
       "summary": "IT之家 8 月 5 日消息，小米技术官方微博刚刚宣布， 。 Xiaomi-Robotics-1 基于超过 10 万小时 UMI 数据进行预训练 ，并使用超过 1 万小时跨本体数据进行后训练。本次开源覆盖从真机后训练到模型部署的完整流程，同时提供相关 Benchmark 的评测代码。 IT之家附项目网站、开源地址等如下： 项目网站： https://robo…",
       "url": "https://www.ithome.com/0/985/985.htm"
+    },
+    {
+      "date": "08-05",
+      "company": "特斯拉",
+      "title": "特斯拉还在画饼，中国机器人已经霸榜全球前五",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "文 | 霞光AI实验室， 作者｜唐飞，编辑｜李小天 刚刚结束的2026年上半年，人形机器人行业主题已明确转向商业化验证。 从“跳舞”到“干活”的转变，意味着人形机器人不再是晚会展会上搏人一笑的“演员”，而是真正进厂、进仓、进网点的“打工人”。 近日，摩根士丹利再次大幅上调了中国人形机器人市场的行业预期，判断该产业已经从技术展示阶段迈入商业化落地阶段，发展速度…",
+      "url": "https://www.tmtpost.com/8092448.html"
+    },
+    {
+      "date": "08-05",
+      "company": "其他",
+      "title": "弥合机器人设计与部署之间的差距 (Bridging the Gap Between Robotics Design and Deployment)",
+      "source_name": "Robotics & Automation News",
+      "category": "商业订单",
+      "summary": "However, once these systems are deployed, they are prone to face unique challenges. Lighting conditions, variations in human behavior, the variety of surfaces encountered, and back…",
+      "url": "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/"
     },
     {
       "date": "08-04",
@@ -954,24 +986,6 @@
       "category": "产品量产",
       "summary": "据MIR DATABANK最新统计数据显示，2026年上半年，埃斯顿再度登顶中国工业机器人全品牌出货量榜首。同时，2026年第二季度，埃斯顿首次实现单季度交付超10000台机器人，成为首个单季度销量破",
       "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30696402.html"
-    },
-    {
-      "date": "07-30",
-      "company": "其他",
-      "title": "执行器的趋势与前景：人形运动背后的肌肉 (Trends and outlook for actuators: The muscles behind humanoid motion)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "The humanoid robotics industry is transitioning from prototype development and demonstrations toward structured pilot deployments and early commercial adoption. The new IDTechEx re…",
-      "url": "https://roboticsandautomationnews.com/2026/07/30/trends-and-outlook-for-actuators-the-muscles-behind-humanoid-motion/103750/"
-    },
-    {
-      "date": "07-30",
-      "company": "其他",
-      "title": "李飞飞的世界模型，终于开始训练机器人了",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "李飞飞老师的World Labs，补了块关键拼图 李飞飞老师的World Labs，补了块关键拼图。 刚刚，借助新收购机器人公司 SceniX 之力，World Labs发布了全新的机器人策略训练与评估引擎—— Real-to-sim-to-real (R2S2R) 。 这套引擎将World Labs空间智能的版图从生成可交互的虚拟世界，进一步延伸到了真实机…",
-      "url": "https://www.qbitai.com/2026/07/463217.html"
     }
   ]
 }
