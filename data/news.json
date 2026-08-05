@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T10:34:58.936568+08:00",
+  "updated": "2026-08-05T16:38:29.015089+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 11,
-      "core": 2,
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 11,
+      "entries": 17,
+      "candidates": 10,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -79,7 +79,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 19,
-      "core": 3,
+      "entries": 60,
+      "candidates": 13,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -127,8 +127,8 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 22,
-      "core": 3,
+      "candidates": 20,
+      "core": 4,
       "periphery": 1,
       "new": 2
     },
@@ -151,11 +151,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 24,
-      "candidates": 18,
-      "core": 8,
+      "entries": 25,
+      "candidates": 20,
+      "core": 10,
       "periphery": 3,
-      "new": 3
+      "new": 5
     },
     {
       "name": "The Robot Report",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 1,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,42 +239,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-05T10:35:39.017215+08:00",
-    "mode": "local",
-    "item_count": 28,
+    "generated_at": "2026-08-05T16:38:45.142048+08:00",
+    "mode": "aicodewith",
+    "item_count": 32,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调；机器人真正的进步，有时就藏在一次失败之后：它有没有记住，人类当时是怎样把错误纠正过来的。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8089399.html",
-          "https://www.tmtpost.com/8085920.html",
-          "https://robot.ofweek.com/2026-08/ART-8321203-8110-30697055.html"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周证据集中指向工厂、药房、维修与巡检等真实场景，小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，蚂蚁灵波机器人已在药房干活，工业具身智能被认为已在进厂发挥价值，具身智能的能力评估正从演示效果转向能否在具体流程中持续交付。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，在今天（8 月 5 日）召开的 SpaceX 公司 2026 年第 2 季度（截至 6 月 30 日）财报电话会议上， 马斯克预告将于下周发布 Grok 4.；核心内容：AI竞争焦点正从模型能力转向智能系统构建与规模化落地能力；物理AI成为关键突破方向，强调大模型与真实环境感知、设备调度及闭环行动的融合。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/985/750.htm",
-          "https://www.infoq.cn/article/vUmdr8i7Mo5sqovwLxN8?utm_source=rss&utm_medium=article",
-          "https://www.tmtpost.com/8089121.html"
-        ]
+        "label": "模型竞争回到数据闭环",
+        "text": "小米Xiaomi-Robotics-1以超过10万小时UMI数据预训练、超过1万小时跨本体数据后训练并开源，行业讨论也强调大模型与真实环境感知、设备调度和闭环行动融合，具身模型叙事正在从参数和通用能力扩展到高质量数据、跨本体迁移与任务反馈。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，热闹会过去，能站在真实场景里持续交付的企业，才会被留下；融资资金将主要用于产品研发、产线扩建以及机器人领域市场拓展。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/08/465225.html",
-          "https://36kr.com/p/3924628805351811?f=rss",
-          "https://36kr.com/newsflashes/3923134168329606?f=rss"
-        ]
+        "label": "资本偏好生产力证据",
+        "text": "本周融资覆盖亿美元级机器人创业项目、超亿元减速器厂商和数亿元农业机器人公司，同时有观点提出Demo高估值时代结束、能在真实场景持续交付的企业才会留下，资金更倾向投向明确场景、核心部件扩产和规模化交付能力。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术侧重点从单点模型发布转向数据、教学和系统闭环，小米开源跨本体具身基座模型，HOST尝试用短视频降低教学门槛，工业场景成为验证方向。",
         "items": [
           {
             "date": "08-05",
@@ -282,6 +270,20 @@
             "url": "https://www.tmtpost.com/8090638.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-05",
+            "title": "29 秒视频教会机器人新技能，清华北理工自变量联合开源 HOST",
+            "url": "https://www.tmtpost.com/8091702.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "08-05",
+            "title": "小米具身基座模型 Xiaomi-Robotics-1 正式开源",
+            "url": "https://www.ithome.com/0/985/985.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "08-04",
@@ -308,7 +310,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "量产进展呈现分化，小鹏IRON进入小批量试生产和产线联调，灵巧手多数仍在方案验证与百千台交付阶段，Robotaxi和导盲犬等形态也在推进量产化。",
         "items": [
           {
             "date": "08-05",
@@ -363,7 +365,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "订单侧仍以可定义场景为主，文远知行进入丹麦商业化自动驾驶共享出行项目，HEBI获得NASA小卫星机器人合同，博登智能披露十亿订单并强调高质量数据。",
         "items": [
           {
             "date": "08-04",
@@ -390,8 +392,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本事件密集但筛选标准更务实，机器人创业公司获亿美元级融资，减速器厂商融资用于研发和扩产，农业机器人资金投向核心技术与规模化交付。",
         "items": [
+          {
+            "date": "08-05",
+            "title": "离开200亿星海图，清华博导做机器人，雷军追着给他投资",
+            "url": "https://www.tmtpost.com/8091178.html",
+            "company": "星海图",
+            "source_name": "钛媒体"
+          },
           {
             "date": "08-04",
             "title": "36氪首发 | 为果链、头部灵巧手公司供货，新型减速器厂商完成超亿元融资，估值破10亿",
@@ -445,8 +454,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业讨论围绕进厂、成本和国际竞争展开，光轮智能与西门子探索工业仿真到机器学习路径，特斯拉强化AI与机器人叙事，人形机器人规模化仍受成本约束。",
         "items": [
+          {
+            "date": "08-05",
+            "title": "机器人进厂要提速了！光轮智能与西门子探索工业仿真进入机器学习的新路径",
+            "url": "https://www.infoq.cn/article/yEqKH6HqgUl2aQWOco1f?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
           {
             "date": "08-04",
             "title": "宇树科技预计上半年营收增长，人形机器人需求加速增长 (Unitree expects first-half revenue growth as demand for humanoid robots accelerates)",
@@ -486,7 +502,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "产业链机会开始落到具体部件和基地建设，宁德时代移动充电机器人总部、研发中心及制造基地落地吴江，HEBI也获NASA资助推进微型执行器研发。",
         "items": [
           {
             "date": "08-04",
@@ -524,6 +540,42 @@
       "category": "产品量产",
       "summary": "作者｜毛心如 一年前，国内灵巧手行业是什么样的？ 答案是整个赛道都处在 Demo 主导的萌芽期。 资本关注度有限，灵巧手厂商大多还停留在方案验证，行业交付大约在百千台量级，多数产品只适合展会演示，难以 其它 | <div",
       "url": "https://robot.ofweek.com/2026-08/ART-8321206-8420-30697126.html"
+    },
+    {
+      "date": "08-05",
+      "company": "星海图",
+      "title": "离开200亿星海图，清华博导做机器人，雷军追着给他投资",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "离开200亿独角兽，5个月后，他拿下亿美元级融资。 8月3日，通用具身智能公司破壳机器人（PokeBot）宣布，完成亿美元级Pre-A轮融资，由顺为资本与经纬创投共同领投，钟鼎资本、九坤创投、SEE Fund等多家产业和财务投资机构参与，小米战投、云启资本等老股东继续加码。 成立于2026年3月的破壳机器人，目前仍是一家非常年轻的公司。 但它背后的创始人许华…",
+      "url": "https://www.tmtpost.com/8091178.html"
+    },
+    {
+      "date": "08-05",
+      "company": "其他",
+      "title": "29 秒视频教会机器人新技能，清华北理工自变量联合开源 HOST",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "无需海量数据与模型微调，有望降低具身智能机器人教学门槛",
+      "url": "https://www.tmtpost.com/8091702.html"
+    },
+    {
+      "date": "08-05",
+      "company": "其他",
+      "title": "机器人进厂要提速了！光轮智能与西门子探索工业仿真进入机器学习的新路径",
+      "source_name": "InfoQ",
+      "category": "行业动态",
+      "summary": "基于此，西门子提供工业世界的工程规则，光轮智能将这些规则转化为机器人能够学习和接受验证的基础设施",
+      "url": "https://www.infoq.cn/article/yEqKH6HqgUl2aQWOco1f?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "08-05",
+      "company": "其他",
+      "title": "小米具身基座模型 Xiaomi-Robotics-1 正式开源",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 8 月 5 日消息，小米技术官方微博刚刚宣布， 。 Xiaomi-Robotics-1 基于超过 10 万小时 UMI 数据进行预训练 ，并使用超过 1 万小时跨本体数据进行后训练。本次开源覆盖从真机后训练到模型部署的完整流程，同时提供相关 Benchmark 的评测代码。 IT之家附项目网站、开源地址等如下： 项目网站： https://robo…",
+      "url": "https://www.ithome.com/0/985/985.htm"
     },
     {
       "date": "08-04",
@@ -920,42 +972,6 @@
       "category": "技术突破",
       "summary": "李飞飞老师的World Labs，补了块关键拼图 李飞飞老师的World Labs，补了块关键拼图。 刚刚，借助新收购机器人公司 SceniX 之力，World Labs发布了全新的机器人策略训练与评估引擎—— Real-to-sim-to-real (R2S2R) 。 这套引擎将World Labs空间智能的版图从生成可交互的虚拟世界，进一步延伸到了真实机…",
       "url": "https://www.qbitai.com/2026/07/463217.html"
-    },
-    {
-      "date": "07-30",
-      "company": "宇树科技",
-      "title": "宇树科技上市新进展：初步询价日为 8 月 5 日，网下申购日为 8 月 10 日",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 7 月 30 日消息，宇树科技今日公告称，公司首次公开发行股票并在科创板上市，本次发行采用战略配售、网下发行与网上发行相结合的方式进行。 公告显示，宇树科技本次拟公开发行股份 4044.6434 万股，占发行后总股本的 10%，发行后总股本为 40446.4340 万股。 初步询价日为 2026 年 8 月 5 日，网下申购日为 2026 年 8…",
-      "url": "https://www.ithome.com/0/983/890.htm"
-    },
-    {
-      "date": "07-30",
-      "company": "其他",
-      "title": "WRC 2026丨智构 · 机器人新纪元 以工业级可靠 赋能具身智能",
-      "source_name": "中国工控网机器人",
-      "category": "技术突破",
-      "summary": "具身智能的加速演进，正推动机器人产业迈入一个全新的“新纪元”。然而，面对动态多变的真实物理世界，机器人不仅需要聪明的“大脑”，更需要强健的“小脑”与绝对可靠的“神经中枢”。唯有提供适配不同主流芯片平台的差异化系统方案，并以工业级的极致可靠打通感知、计算、存储与传输的全栈底层链路，才能真正赋能具身智能，让机器人在真.. 标签： 宜鼎国际 <a href=\"//…",
-      "url": "https://www.gongkong.com/news/202607/452278.html"
-    },
-    {
-      "date": "07-30",
-      "company": "其他",
-      "title": "上海电气发布人形机器人、工业机器人及AI智能工厂技术 (Shanghai Electric unveils humanoids and industrial robots and AI smart factory technologies)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Operations in high-end equipment manufacturing often involve confined spaces, complex objects, and fine manipulation tasks that demand sustained and stable precision. At the recent…",
-      "url": "https://roboticsandautomationnews.com/2026/07/30/shanghai-electric-unveils-humanoids-and-industrial-robots-and-ai-smart-factory-technologies/103773/"
-    },
-    {
-      "date": "07-30",
-      "company": "其他",
-      "title": "Dexory 部署 SimScale 的 Engineering AI，加速仓储机器人开发 (Dexory deploys SimScale’s Engineering AI to accelerate warehouse robotics development)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "Dexory, the robotics and warehouse data intelligence company, has deployed SimScale’s Engineering AI to accelerate the engineering workflows used to design and test autonomous ware…",
-      "url": "https://roboticsandautomationnews.com/2026/07/30/dexory-deploys-simscales-engineering-ai-to-accelerate-warehouse-robotics-development/103753/"
     }
   ]
 }
