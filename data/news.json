@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T22:13:08.227737+08:00",
+  "updated": "2026-08-07T08:04:07.820700+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -35,11 +35,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 18,
       "candidates": 12,
-      "core": 4,
+      "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -48,11 +48,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 5,
+      "entries": 18,
+      "candidates": 6,
       "core": 4,
       "periphery": 0,
-      "new": 4
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -61,7 +61,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 0,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,10 +88,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 16,
-      "core": 1,
+      "candidates": 18,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -165,9 +165,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 7,
-      "periphery": 1,
-      "new": 3
+      "core": 4,
+      "periphery": 2,
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -190,10 +190,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 2,
-      "periphery": 2,
-      "new": 3
+      "candidates": 5,
+      "core": 1,
+      "periphery": 1,
+      "new": 0
     },
     {
       "name": "NVIDIA Robotics",
@@ -206,7 +206,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 2,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -238,42 +238,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-06T22:13:48.302268+08:00",
-    "mode": "local",
-    "item_count": 44,
+    "generated_at": "2026-08-07T08:04:25.096805+08:00",
+    "mode": "aicodewith",
+    "item_count": 48,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调；Xiaomi-Robotics-1 基于超过 10 万小时 UMI 数据进行预训练 ，并使用超过 1 万小时跨本体数据进行后训练。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8089399.html",
-          "https://www.ithome.com/0/985/985.htm",
-          "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周具身智能落地线索集中在工厂、药房、巡检和自动驾驶共享出行等场景，小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，蚂蚁灵波被报道已在药房作业，文远知行与GreenMobility推进丹麦商业化项目，企业更倾向用可部署、可验收的任务证明能力。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，在今天（8 月 5 日）召开的 SpaceX 公司 2026 年第 2 季度（截至 6 月 30 日）财报电话会议上， 马斯克预告将于下周发布 Grok 4.；作者丨 幸丽娟 编辑丨 林觉民 2026年上半年，中国AI圈的钱和人都涌向同一方向：世界模型。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/985/750.htm",
-          "https://www.leiphone.com/category/academic/wQny8Cer4EJz0RAU.html",
-          "https://www.ithome.com/0/985/985.htm"
-        ]
+        "label": "模型竞争依赖数据闭环",
+        "text": "黎曼动力与光轮智能、诺亦腾机器人计划面向2026年建设百万小时具身智能数据，小米开源Xiaomi-Robotics-1并披露使用超过10万小时UMI数据预训练和超过1万小时跨本体数据后训练，世界模型叙事正在从概念讨论落到数据采集、训练、评测、部署和反馈优化的闭环。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，热闹会过去，能站在真实场景里持续交付的企业，才会被留下；快科技8月5日消息，宇树科技发布公告，公司科创板IPO网上路演安排正式落地，路演时间定在8月7日14:00至17:00，投资者可以在上证路演中心、中国证券网两个平台在线提问交流。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/08/465225.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-8110-30697250.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-8120-30697313.html"
-        ]
+        "label": "资本开始按生产力定价",
+        "text": "宇树科技科创板IPO网上路演落地，埃斯顿拟以现金收购机器人子公司股权，减速器厂商完成超亿元融资并用于研发、扩产和机器人市场拓展，同期行业讨论强调Demo高估值退潮，融资与并购更贴近真实场景交付、核心部件补齐和量产能力。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术侧围绕世界模型、具身数据和工业场景收敛，黎曼动力推进百万小时数据建设，小米开源基座模型，工业进厂与低门槛教学成为本周较明确方向。",
         "items": [
           {
             "date": "08-06",
@@ -295,6 +283,20 @@
             "url": "https://www.tmtpost.com/8093205.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-06",
+            "title": "黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时具身智能数据建设",
+            "url": "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "08-06",
+            "title": "走进Omniverse：开放世界模型如何推动物理AI前沿 (Into the Omniverse: How Open World Models Push the Frontier of Physical AI)",
+            "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/",
+            "company": "其他",
+            "source_name": "NVIDIA Robotics"
           },
           {
             "date": "08-05",
@@ -342,7 +344,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "量产消息从整机、灵巧手到巡检平台延伸，小鹏IRON进入小批量试生产，灵巧手行业仍多处百千台交付阶段，价格和产线能力开始参与验证。",
         "items": [
           {
             "date": "08-06",
@@ -411,8 +413,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "订单与合作集中在自动驾驶、航天机器人和制造部署，文远知行进入丹麦商业化共享出行项目，NASA合同和十亿订单讨论凸显高质量数据仍是交付短板。",
         "items": [
+          {
+            "date": "08-06",
+            "title": "特斯拉 Terafab 晶圆厂落地得克萨斯州，马斯克豪言“把尖端制造带回美国”",
+            "url": "https://www.ithome.com/0/986/766.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-05",
             "title": "弥合机器人设计与部署之间的差距 (Bridging the Gap Between Robotics Design and Deployment)",
@@ -445,7 +454,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本事件密集，宇树IPO路演、埃斯顿拟近5亿元收购、蚂蚁灵波拟募资15亿元，减速器融资用于研发扩产，资金更关注场景和能力补齐。",
         "items": [
           {
             "date": "08-06",
@@ -535,8 +544,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业讨论聚焦商业化验证、成本约束和国际限制，众擎引入前小鹏高管，光轮智能与西门子探索工业仿真，工厂规模化仍受成本下降进度制约。",
         "items": [
+          {
+            "date": "08-06",
+            "title": "消息称前小鹏副总裁陈永海加入众擎机器人，担任运营总裁",
+            "url": "https://www.ithome.com/0/986/783.htm",
+            "company": "众擎机器人",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-05",
             "title": "机器人进厂要提速了！光轮智能与西门子探索工业仿真进入机器学习的新路径",
@@ -590,7 +606,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "产业链扩展到装配线、移动充电机器人和微型执行器，BMW E-Drive产线将配置46台机器人，宁德时代相关项目落地，应用边界继续外溢。",
         "items": [
           {
             "date": "08-06",
@@ -689,6 +705,42 @@
       "category": "泛具身产业链",
       "summary": "PIA Automation is developing a highly automated assembly line for E-Drive units at the BMW Group plant in Steyr, Austria. Featuring 78 processing stations, 27 robotic cells and 46…",
       "url": "https://roboticsandautomationnews.com/2026/08/06/pia-automation-to-build-bmw-e-drive-assembly-line-with-46-robots-and-digital-twin-technology/103954/"
+    },
+    {
+      "date": "08-06",
+      "company": "其他",
+      "title": "黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时具身智能数据建设",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "8月6日，黎曼动力宣布与光轮智能、诺亦腾机器人（Noitom Robotics）达成战略合作。围绕 Riemann-1.0 具身世界动作模型与 Matrix-Game 3.5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设。 此次合作…",
+      "url": "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html"
+    },
+    {
+      "date": "08-06",
+      "company": "众擎机器人",
+      "title": "消息称前小鹏副总裁陈永海加入众擎机器人，担任运营总裁",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 7 日消息，据《21 汽车 · 一见 Auto》从多方独立信源处获悉，前小鹏集团产品副总裁陈永海已加入众擎机器人，担任运营总裁，向董事长及 CEO 赵同阳汇报。 报道提到，一位知情人士透露，陈永海今年 1 月从小鹏集团离职，后众擎创始人赵同阳邀请陈永海加入众擎。另一位知情人士透露，也有其他机器人公司曾向陈永海发出邀请。离开小鹏集团后， 陈永…",
+      "url": "https://www.ithome.com/0/986/783.htm"
+    },
+    {
+      "date": "08-06",
+      "company": "特斯拉",
+      "title": "特斯拉 Terafab 晶圆厂落地得克萨斯州，马斯克豪言“把尖端制造带回美国”",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 8 月 6 日消息，当地时间 6 日（今天），SpaceX 宣布将与特斯拉首期投入 168 亿美元 （IT之家注：现汇率约合 1,136.05 亿元人民币） ，在美国得克萨斯州格赖姆斯县 建设 Terafab 先进 AI 芯片制造基地 。项目由特斯拉 CEO 埃隆 · 马斯克规划，旨在满足两家公司未来快速增长的芯片需求。 SpaceX 和特斯拉预计…",
+      "url": "https://www.ithome.com/0/986/766.htm"
+    },
+    {
+      "date": "08-06",
+      "company": "其他",
+      "title": "走进Omniverse：开放世界模型如何推动物理AI前沿 (Into the Omniverse: How Open World Models Push the Frontier of Physical AI)",
+      "source_name": "NVIDIA Robotics",
+      "category": "技术突破",
+      "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured no…",
+      "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
     },
     {
       "date": "08-05",
@@ -1031,42 +1083,6 @@
       "category": "行业动态",
       "summary": "机器人还没有证明自己能够成为下一个汽车产业，汽车与消费电子产业的供应商却已经提前坐到了桌前",
       "url": "https://www.tmtpost.com/8087356.html"
-    },
-    {
-      "date": "08-01",
-      "company": "其他",
-      "title": "高通回应“NEURA 4NE-1 人形机器人倒地”：短暂通信故障触发受控关机",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 1 日消息，科技媒体 Tom's Hardware 昨日（7 月 31 日）发布博文，报道称 高通合作伙伴 NEURA Robotics 在演示其 4NE-1 Gen 3.5 人形机器人时，突发演示故障，机器人后仰倒地。 IT之家援引博文介绍，4NE-1 人形机器人搭载高通 Dragonwing IQ10 机器人参考设计， 具备约 700…",
-      "url": "https://www.ithome.com/0/984/432.htm"
-    },
-    {
-      "date": "08-01",
-      "company": "其他",
-      "title": "FCC禁令之后，具身智能企业还能站上CES2027么？｜ 出海参考",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "FCC禁令真正改变的，或许不是中国具身机器人的研发速度，而是具身企业全球化的难度",
-      "url": "https://www.tmtpost.com/8087586.html"
-    },
-    {
-      "date": "08-01",
-      "company": "其他",
-      "title": "人形机器人家政清洁服务走入现实，每小时 30 美元",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 1 日消息，据 abc7news 昨日报道，一家位于美国旧金山的机器人初创公司已开始使用人形机器人提供家政清洁服务。 Tau Robotics 公司首席执行官兼联合创始人 Alex Koch 宣布，将在旧金山开始提供人形机器人清洁服务， 每小时服务费 30 美元 （IT之家注：现汇率约合 202.9 元人民币）。 Alex Koch 表示：…",
-      "url": "https://www.ithome.com/0/984/573.htm"
-    },
-    {
-      "date": "08-01",
-      "company": "其他",
-      "title": "IDC 报告：2025 年中国工业具身智能机器人市场达 57.4 亿元，商业化进程全面提速",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 8 月 1 日消息，7 月 31 日，国际数据公司（IDC）数据显示，2025 年中国工业具身智能机器人市场规模约为 57.4 亿元 ，其中以工业机器人为载体的具身智能应用市场规模约 36.2 亿元，成为当前产业商业化落地的主要方向。随着产业竞争从机器人本体性能逐步转向模型、数据、工程化和场景落地能力的综合竞争，工业具身智能机器人正在成为智能制造发…",
-      "url": "https://www.ithome.com/0/984/627.htm"
     }
   ]
 }
