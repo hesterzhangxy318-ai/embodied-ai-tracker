@@ -1,19 +1,20 @@
 {
-  "updated": "2026-08-07T08:04:07.820700+08:00",
+  "updated": "2026-08-07T15:18:15.157036+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 10,
+      "candidates": 2,
+      "core": 1,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "36氪",
@@ -35,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 12,
+      "entries": 19,
+      "candidates": 13,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -48,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 6,
-      "core": 4,
+      "entries": 15,
+      "candidates": 4,
+      "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "爱范儿",
@@ -75,8 +76,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -87,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 18,
-      "core": 2,
+      "entries": 60,
+      "candidates": 29,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -126,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 19,
-      "core": 9,
+      "candidates": 22,
+      "core": 13,
       "periphery": 0,
-      "new": 6
+      "new": 13
     },
     {
       "name": "新战略移动机器人",
@@ -152,7 +153,7 @@
       "error": "",
       "entries": 26,
       "candidates": 22,
-      "core": 10,
+      "core": 9,
       "periphery": 3,
       "new": 4
     },
@@ -206,7 +207,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 2,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -230,7 +231,7 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 20,
+      "core": 19,
       "periphery": 9,
       "new": 1
     }
@@ -238,30 +239,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-07T08:04:25.096805+08:00",
+    "generated_at": "2026-08-07T15:18:54.235954+08:00",
     "mode": "aicodewith",
-    "item_count": 48,
+    "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能落地线索集中在工厂、药房、巡检和自动驾驶共享出行等场景，小鹏IRON已在广州工厂小批量试生产并进入产线最后联调，蚂蚁灵波被报道已在药房作业，文远知行与GreenMobility推进丹麦商业化项目，企业更倾向用可部署、可验收的任务证明能力。",
+        "label": "落地先围绕可验收任务",
+        "text": "工厂、巡检、运维和安全救援正成为具身智能最集中落点，天创发布面向泛工业运维与应急安全救援的融合模型，Avnet与Weston Robot也在推出工业巡检平台，场景越清晰、验收越明确的任务越容易先形成产品化交付。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争依赖数据闭环",
-        "text": "黎曼动力与光轮智能、诺亦腾机器人计划面向2026年建设百万小时具身智能数据，小米开源Xiaomi-Robotics-1并披露使用超过10万小时UMI数据预训练和超过1万小时跨本体数据后训练，世界模型叙事正在从概念讨论落到数据采集、训练、评测、部署和反馈优化的闭环。",
+        "label": "数据和任务闭环抬升模型门槛",
+        "text": "小米开源的 Xiaomi-Robotics-1 以超过10万小时 UMI 数据预训练，并用超过1万小时跨本体数据后训练，黎曼动力等又在推进到2026年百万小时数据建设并打通采集、训练、评测、部署与反馈，模型竞争正在从单点能力转向真实数据闭环。",
         "evidence_urls": []
       },
       {
-        "label": "资本开始按生产力定价",
-        "text": "宇树科技科创板IPO网上路演落地，埃斯顿拟以现金收购机器人子公司股权，减速器厂商完成超亿元融资并用于研发、扩产和机器人市场拓展，同期行业讨论强调Demo高估值退潮，融资与并购更贴近真实场景交付、核心部件补齐和量产能力。",
+        "label": "资金更偏向场景和补链",
+        "text": "资本继续围绕能定义场景和补齐能力的标的集聚，宇树推进 IPO 路演，蚂蚁灵波传出首轮独立融资计划，埃斯顿收购机器人子公司股权，新型减速器厂商也拿到超亿元融资，市场开始按交付和供应链瓶颈重新定价。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、具身数据和工业场景收敛，黎曼动力推进百万小时数据建设，小米开源基座模型，工业进厂与低门槛教学成为本周较明确方向。",
+        "summary": "世界模型、真实数据和低门槛教学成为主线，开源基座模型与百万小时数据建设同步推进，模型竞争开始向可部署、可评测、可迭代的闭环迁移。",
         "items": [
           {
             "date": "08-06",
@@ -344,7 +345,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产消息从整机、灵巧手到巡检平台延伸，小鹏IRON进入小批量试生产，灵巧手行业仍多处百千台交付阶段，价格和产线能力开始参与验证。",
+        "summary": "工业巡检、药房作业和运维救援等任务型产品继续出现，灵巧手仍多停留在方案验证，但量产级方案已经开始按场景交付。",
         "items": [
           {
             "date": "08-06",
@@ -352,6 +353,13 @@
             "url": "https://www.ithome.com/0/986/355.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-06",
+            "title": "全球首创！ 天创机器人联合顶尖高校与产业链企业推出基于可信安全策略的通用工业具身智能融合模型",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697488.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
           },
           {
             "date": "08-05",
@@ -394,26 +402,12 @@
             "url": "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "08-03",
-            "title": "小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功",
-            "url": "https://www.tmtpost.com/8089399.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "08-03",
-            "title": "igus 推出适用于工业机器人的 600 度旋转能量链 (igus launches energy chain with 600-degree rotation for industrial robots)",
-            "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "订单与合作集中在自动驾驶、航天机器人和制造部署，文远知行进入丹麦商业化共享出行项目，NASA合同和十亿订单讨论凸显高质量数据仍是交付短板。",
+        "summary": "订单信号集中在自动驾驶共享出行、小卫星机器人和工业具身应用，项目更偏向明确采购边界与验收目标，落单逻辑比展示逻辑更清晰。",
         "items": [
           {
             "date": "08-06",
@@ -454,8 +448,22 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本事件密集，宇树IPO路演、埃斯顿拟近5亿元收购、蚂蚁灵波拟募资15亿元，减速器融资用于研发扩产，资金更关注场景和能力补齐。",
+        "summary": "宇树 IPO、蚂蚁灵波融资、埃斯顿并购和减速器融资同时推进，资金更愿意押注能交付、能补链、能形成规模化收入的标的。",
         "items": [
+          {
+            "date": "08-07",
+            "title": "一签7.5万、估值609亿，机构投资人都在疯抢宇树科技？",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697537.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-07",
+            "title": "估值对标宇树，智元加速赶考",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321203-12003-30697387.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-06",
             "title": "人形机器人第一股 宇树科技终于上市了：8月7日举行IPO网上路演",
@@ -544,8 +552,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论聚焦商业化验证、成本约束和国际限制，众擎引入前小鹏高管，光轮智能与西门子探索工业仿真，工厂规模化仍受成本下降进度制约。",
+        "summary": "宇树、众擎与光轮智能等都在补强模型、数据和工程组织，行业关注点从热度扩散到能力建设与商业化验证。",
         "items": [
+          {
+            "date": "08-07",
+            "title": "王兴兴：宇树科技将积极探索人形机器人、机甲等更多产品形态",
+            "url": "https://www.ithome.com/0/986/984.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-07",
+            "title": "90后王兴兴身家冲660亿！梁文锋携DeepSeek战略入股宇树科技，还有谁将分享2000亿机器人盛宴？",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697498.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-06",
             "title": "消息称前小鹏副总裁陈永海加入众擎机器人，担任运营总裁",
@@ -594,20 +616,20 @@
             "url": "https://www.ithome.com/0/985/744.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "08-03",
-            "title": "Walden Robotics与Toyota合作研发实用型人形机器人 (Walden Robotics Partners With Toyota on Practical Humanoids)",
-            "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
-            "company": "其他",
-            "source_name": "IEEE Spectrum Robotics"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链扩展到装配线、移动充电机器人和微型执行器，BMW E-Drive产线将配置46台机器人，宁德时代相关项目落地，应用边界继续外溢。",
+        "summary": "百万小时数据协同、BMW 产线与宁德时代充电机器人项目并行，产业链正在把数据、产线和制造基地同时纳入布局。",
         "items": [
+          {
+            "date": "08-07",
+            "title": "冲刺全球首个100万小时具身数据！三家国产公司，联手了",
+            "url": "https://www.qbitai.com/2026/08/467486.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "08-06",
             "title": "PIA Automation将为BMW E-Drive打造配备46台机器人和数字孪生技术的装配线 (PIA Automation to build BMW E-Drive assembly line with 46 robots and digital twin technology)",
@@ -621,19 +643,57 @@
             "url": "https://robot.ofweek.com/2026-08/ART-8321206-8120-30696963.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-03",
-            "title": "HEBI Robotics 获得 NASA SBIR 资助，加速微型执行器研发 (HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators)",
-            "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "08-07",
+      "company": "其他",
+      "title": "冲刺全球首个100万小时具身数据！三家国产公司，联手了",
+      "source_name": "量子位",
+      "category": "泛具身产业链",
+      "summary": "刚拿下仿真、真机双SOTA的黎曼动力，转头拉上光轮智能和诺亦腾机器人，组了个新局。 一个做机器人大脑，一个搞仿真基建，一个靠动捕把人类动作教给机器人。 共建具身智能数据底座，把长期分散的采集、仿真、训练和评测接成一条线 。 到2026年底，完成100万小时机器人训练数据采集，力争成为全球首个突破这一规模的企业 。 据亿欧智库报告估算，当前全球高质量具身交互数…",
+      "url": "https://www.qbitai.com/2026/08/467486.html"
+    },
+    {
+      "date": "08-07",
+      "company": "宇树科技",
+      "title": "王兴兴：宇树科技将积极探索人形机器人、机甲等更多产品形态",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 7 日消息，据澎湃新闻消息，宇树科技董事长、总经理兼首席技术官王兴兴今天在网上路演时表示，本次登陆资本市场，是宇树科技全新的起点。 王兴兴表示，宇树科技将持续攻坚具身大模型、场景数据采集与分析、强化学习、具身本体模型、核心零部件自研与高性能执行机构等软硬件关键技术， 并将积极探索人形机器人 、 四足机器人 、 机甲等更多的产品形态和型号…",
+      "url": "https://www.ithome.com/0/986/984.htm"
+    },
+    {
+      "date": "08-07",
+      "company": "宇树科技",
+      "title": "一签7.5万、估值609亿，机构投资人都在疯抢宇树科技？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "昨天，我们群里还在讨论宇树科技\"一签5.2万你打不打\"。今天答案出来了：不是5.2万，是 7.54万。 今天最新的发行价有了，发行价150.80元/股，估值609亿，超募19亿。机构硬生生把价格从预估价往上推了45%。 下图是A股历史上单签缴款额最高的新股榜单，其实是一份热门赛道的化石记录。 2020年上榜的是扫地 机器人 、PDF软件、疫苗。2021年是光…",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697537.html"
+    },
+    {
+      "date": "08-07",
+      "company": "宇树科技",
+      "title": "90后王兴兴身家冲660亿！梁文锋携DeepSeek战略入股宇树科技，还有谁将分享2000亿机器人盛宴？",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "8月6日，宇树科技正式确定IPO发行价格为150.80元/股。按发行后总股本计算，公司发行市值约609.93亿元，高于此前市场普遍预期的420亿元估值。 作为公司创始人，王兴兴在上市前直接持有宇树科技",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697498.html"
+    },
+    {
+      "date": "08-07",
+      "company": "智元机器人",
+      "title": "估值对标宇树，智元加速赶考",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "文/窦文雪 编辑/子夜 7月30日晚间，宇树科技披露了科创板上市招股意向书及《发行安排及初步询价公告》，正式落定了发行时间。 而在此之前，具身智能行业的资本化浪潮已经持续许久。不少国内人形机器人企业进",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321203-12003-30697387.html"
+    },
     {
       "date": "08-06",
       "company": "其他",
@@ -741,6 +801,15 @@
       "category": "技术突破",
       "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured no…",
       "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
+    },
+    {
+      "date": "08-06",
+      "company": "其他",
+      "title": "全球首创！ 天创机器人联合顶尖高校与产业链企业推出基于可信安全策略的通用工业具身智能融合模型",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "天创机器人正式发布 T-WAVES——面向泛工业运维与应急安全救援场景的通用工业具身智能融合模型。其顶层技术架构 T-WM-VTLA-S，将视觉、语言、动作、世界模型、力触觉与外置安全控制统一到可训练",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697488.html"
     },
     {
       "date": "08-05",
@@ -1029,60 +1098,6 @@
       "category": "商业订单",
       "summary": "机器人真正的进步，有时就藏在一次失败之后：它有没有记住，人类当时是怎样把错误纠正过来的",
       "url": "https://www.tmtpost.com/8085920.html"
-    },
-    {
-      "date": "08-03",
-      "company": "其他",
-      "title": "小鹏的物理AI前夜：机器人一号位出走，X9召回拷问量产基本功",
-      "source_name": "钛媒体",
-      "category": "产品量产",
-      "summary": "据媒体报道，7月24日，小鹏人形机器人IRON在广州工厂开启小批量试生产，量产产线进入最后联调。按照此前小鹏披露的节奏，IRON计划在2026年底量产，2027年一季度先进入小鹏线下门店，承担导览、导购等服务。 此前负责该项目的负责人已经在6月初离职。离职后，IRON就快速开启量产，也间接证明了此前雷峰网透露的该业务线一号位的离职原因。 据雷峰网报道，此前施…",
-      "url": "https://www.tmtpost.com/8089399.html"
-    },
-    {
-      "date": "08-03",
-      "company": "其他",
-      "title": "HEBI Robotics 获得 NASA SBIR 资助，加速微型执行器研发 (HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators)",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "summary": "This Phase I award is only part of HEBI Robotics' roadmap. The company also plans to continue developing its existing actuation hardware. The post appeared first on The Robot Repor…",
-      "url": "https://www.therobotreport.com/hebi-robotics-earns-nasa-sbir-grant-fast-track-miniaturized-actuators/"
-    },
-    {
-      "date": "08-03",
-      "company": "其他",
-      "title": "Walden Robotics与Toyota合作研发实用型人形机器人 (Walden Robotics Partners With Toyota on Practical Humanoids)",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "行业动态",
-      "summary": "For a while there, it seemed as though robotics as a whole was stuck in a mad rush towards building humanoid robots mostly because it was very possible (and very lucrative) to do s…",
-      "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota"
-    },
-    {
-      "date": "08-03",
-      "company": "其他",
-      "title": "igus 推出适用于工业机器人的 600 度旋转能量链 (igus launches energy chain with 600-degree rotation for industrial robots)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "igus says its new twisterchain energy chain provides cable management for challenging industrial robotics applications such as palletizing. The post appeared first on The Robot Rep…",
-      "url": "https://www.therobotreport.com/igus-launches-energy-chain-600-degree-rotation-industrial-robots/"
-    },
-    {
-      "date": "08-02",
-      "company": "其他",
-      "title": "上纬新材启元宣布与暴雪《魔兽世界》合作，推出限定“鱼人定制款”Q1 机器人",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 8 月 2 日消息，上纬新材料科技股份有限公司（上纬新材）旗下消费级具身智能品牌“启元机器人”在 2026 年度 ChinaJoy 期间官宣与暴雪《魔兽世界》进行合作，推出活动限定“鱼人定制款”启元 Q1。 据介绍，该产品依托启元 Q1 探索版模块化设计、软硬件开源能力实现。在展会现场，启元 Q1《魔兽世界》鱼人定制款与现场 Coser 结伴逛展…",
-      "url": "https://www.ithome.com/0/984/758.htm"
-    },
-    {
-      "date": "08-01",
-      "company": "其他",
-      "title": "谁在成为人形机器人的Tier 1？",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "机器人还没有证明自己能够成为下一个汽车产业，汽车与消费电子产业的供应商却已经提前坐到了桌前",
-      "url": "https://www.tmtpost.com/8087356.html"
     }
   ]
 }
