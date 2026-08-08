@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T14:56:01.819383+08:00",
+  "updated": "2026-08-08T20:50:53.116906+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 3,
+      "candidates": 2,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
-      "core": 1,
+      "candidates": 21,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-08T14:56:23.551441+08:00",
+    "generated_at": "2026-08-08T20:51:11.096147+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周工厂、药房、仓储、巡检和运维场景反复出现，工业具身智能已被描述为进厂发挥价值，蚂蚁灵波案例落在药房作业，Avnet与Weston Robot推出边缘AI检测平台，具身智能的短期检验标准正在从通用展示转向稳定完成具体任务。",
+        "label": "落地验证向可验收任务收敛",
+        "text": "本周多条线索指向工厂、药房、仓储、运维和巡检等场景，工业具身智能被描述为已进厂发挥价值，蚂蚁灵波已在药房工作，Avnet与Weston Robot推出面向复杂工业环境的边缘AI检测平台，具身智能的短期验证更依赖明确流程、可量化结果和现场反馈。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争进入数据闭环阶段",
-        "text": "小米Xiaomi-Robotics-1基于超过10万小时UMI数据预训练并用超过1万小时跨本体数据后训练，黎曼动力联合光轮智能与诺亦腾机器人推进2026年百万小时具身数据建设，世界模型叙事开始绑定采集、训练、评测、部署和反馈优化的完整链条。",
+        "label": "模型竞争转向数据闭环",
+        "text": "黎曼动力、光轮智能与诺亦腾机器人计划到2026年底建设100万小时机器人训练数据，小米Xiaomi-Robotics-1基于超过10万小时UMI数据预训练并用超过1万小时跨本体数据后训练，世界模型叙事正在与真实数据采集、规模化评测、部署反馈和跨本体训练绑定。",
         "evidence_urls": []
       },
       {
-        "label": "资本更偏向头部与补链",
-        "text": "宇树科技确定150元发行价并推进科创板IPO路演，埃斯顿拟斥资近5亿元收购机器人子公司股权，蚂蚁灵波拟募资15亿元，资金关注点集中在上市头部、工业机器人能力整合和具身大脑等可定义能力。",
+        "label": "资本化热度伴随交付压力",
+        "text": "宇树科技确定150元发行价并举行科创板IPO网上路演，市场讨论估值609亿至610亿元，智平方被传考虑赴港IPO，埃斯顿拟斥资近5亿元收购机器人子公司股权，资本关注仍集中在人形机器人与工业机器人，但高估值需要后续硬件销量、场景合作和能力补齐来承接。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术突破集中在世界模型与数据闭环，小米开源Xiaomi-Robotics-1，黎曼动力等推进百万小时数据建设，工业进厂价值被反复提及。",
+        "summary": "技术侧焦点集中在世界模型、具身数据和工业场景验证，黎曼动力等推进百万小时数据建设，小米开源基座模型，工业进厂成为更现实的能力检验入口。",
         "items": [
           {
             "date": "08-08",
@@ -340,19 +340,12 @@
             "url": "https://www.infoq.cn/article/vUmdr8i7Mo5sqovwLxN8?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
-          },
-          {
-            "date": "08-04",
-            "title": "马斯克预告下周将推 Grok 4.6 模型，改进 AI 监督微调和强化学习",
-            "url": "https://www.ithome.com/0/985/750.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品量产从人形陪伴、灵巧手到工业巡检扩展，越疆发布鹿萌，灵巧手交付仍多在百千台量级，药房和检测平台更接近可验收场景。",
+        "summary": "产品侧从发布走向场景试用，越疆试水家庭陪伴，天创发布面向泛工业运维与应急救援的模型，灵巧手仍多处百千台交付和方案验证阶段。",
         "items": [
           {
             "date": "08-07",
@@ -428,7 +421,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单信息较少，特斯拉Terafab首期投入168亿美元，NASA授予HEBI Phase I合同，海外案例更多指向制造和小卫星等明确任务。",
+        "summary": "商业订单信息较少，特斯拉相关制造投入和机器人部署挑战被提及，现有证据更偏制造基础设施与部署难点，尚不足以判断具身订单放量。",
         "items": [
           {
             "date": "08-06",
@@ -443,20 +436,20 @@
             "url": "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-04",
-            "title": "NASA 授予 HEBI Robotics 合同，开发小卫星紧凑型机器人技术 (NASA awards HEBI Robotics contract to develop compact robotic technology for small satellites)",
-            "url": "https://roboticsandautomationnews.com/2026/08/04/nasa-awards-hebi-robotics-contract-to-develop-compact-robotic-technology-for-small-satellites/103855/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态围绕头部上市和能力补齐展开，宇树确定150元发行价并路演，埃斯顿拟近5亿元收购子公司股权，蚂蚁灵波拟募资15亿元。",
+        "summary": "资本动态以宇树IPO为核心，发行价、路演和高估值引发关注，智平方赴港IPO传闻、埃斯顿近5亿元收购计划显示资本正沿整机与工业机器人资产继续布局。",
         "items": [
+          {
+            "date": "08-08",
+            "title": "估值610亿元之后，宇树要卖多少台机器人？",
+            "url": "https://www.tmtpost.com/8095572.html",
+            "company": "宇树科技",
+            "source_name": "钛媒体"
+          },
           {
             "date": "08-07",
             "title": "一签7.5万、估值609亿，机构投资人都在疯抢宇树科技？",
@@ -545,8 +538,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态显示商业化验证升温，宇树强调具身大模型和核心零部件自研，仓储自动化与工业仿真合作继续把机器人推向真实生产环境。",
+        "summary": "行业动态覆盖赛事、自动充电畅想、仓储自动化和人才流动，宇树继续强调具身大模型、场景数据和执行机构，产业关注点从展示热度延伸到运营和工程化。",
         "items": [
+          {
+            "date": "08-08",
+            "title": "第二届世界人形机器人运动会 8 月 22 日开赛：百米全自主跑、新增乒乓球 + 自由搏击，票价最低 98 元",
+            "url": "https://www.ithome.com/0/987/380.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-08",
+            "title": "华为乾崑 ADS 代客充电功能展望：让车自己去充电，机械臂自动插拔枪",
+            "url": "https://www.ithome.com/0/987/373.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-07",
             "title": "王兴兴：宇树科技将积极探索人形机器人、机甲等更多产品形态",
@@ -609,19 +616,12 @@
             "url": "https://roboticsandautomationnews.com/2026/08/04/china-threatens-retaliation-after-us-restricts-imports-of-new-foreign-made-humanoid-robots/103868/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-04",
-            "title": "成本下降前，人形机器人难以在工厂车间规模化应用 (Humanoids won’t scale on factory floors until costs drop)",
-            "url": "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链关注数据、产线和专用机器人，三家公司冲刺2026年底百万小时数据，PIA为BMW E-Drive建设46台机器人装配线，宁德时代加码移动充电机器人。",
+        "summary": "产业链机会集中在数据、装配线和移动充电机器人，三家公司联合冲刺百万小时具身数据，PIA为BMW E-Drive建设机器人产线，宁德时代加码移动充电机器人总部项目。",
         "items": [
           {
             "date": "08-07",
@@ -657,6 +657,33 @@
       "category": "技术突破",
       "summary": "文 | 锌刻度，作者 | 李觐麟，编辑 | 陈邓新 昨日，“人形机器人第一股”宇树科技发布公告，正式确定发行价为150.8元/股，发行市盈率达到219.23倍，远超行业平均38.56倍的静态市盈率，给具身智能行业再添一把火。 而在过去三个月中，海内外巨头也都在给这个行业加温。 6月，马斯克在特斯拉股东大会上承认Optimus量产是“公司历史上难度最高的爬坡”…",
       "url": "https://www.tmtpost.com/8095622.html"
+    },
+    {
+      "date": "08-08",
+      "company": "宇树科技",
+      "title": "估值610亿元之后，宇树要卖多少台机器人？",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "如果宇树未来仍然主要依靠销售硬件，610亿元大概要每年卖出10万台以上。但如果宇树能把机器人变成“持续服务入口”，那可能就是另一个答案",
+      "url": "https://www.tmtpost.com/8095572.html"
+    },
+    {
+      "date": "08-08",
+      "company": "其他",
+      "title": "第二届世界人形机器人运动会 8 月 22 日开赛：百米全自主跑、新增乒乓球 + 自由搏击，票价最低 98 元",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 8 日消息，第二届世界人形机器人运动会将于 8 月 22 日至 26 日在国家速滑馆“冰丝带”举行。运动会组委会今日公布了赛事日程及票务信息。 本届赛事由北京市人民政府、中央广播电视总台、世界机器人合作组织、亚太机器人世界杯国际理事会联合主办。 本届运动会共设 50 个赛项，其中竞技赛 29 项、场景赛 21 项。竞技赛方面，百米、400…",
+      "url": "https://www.ithome.com/0/987/380.htm"
+    },
+    {
+      "date": "08-08",
+      "company": "其他",
+      "title": "华为乾崑 ADS 代客充电功能展望：让车自己去充电，机械臂自动插拔枪",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 8 日消息，华为今日放出了一段关于代客充电的“创意畅想”演示视频，展示了其可能会在未来某一天推出的代客充电服务（IT 之家注： 仅展示未来自动驾驶技术可能的应用场景，不构成商业承诺）。 如果车主临时有事无法守在充电站时，可通过手机 App 实现一键操作，让车辆在全程无人的情况下，也能自主完成补能。 车主在华为乾崑 App 下达充电指令后，车…",
+      "url": "https://www.ithome.com/0/987/373.htm"
     },
     {
       "date": "08-07",
@@ -1071,33 +1098,6 @@
       "category": "行业动态",
       "summary": "China has threatened to retaliate against new US restrictions on foreign-produced humanoid robots, warning that the measures will damage economic and trade relations between the wo…",
       "url": "https://roboticsandautomationnews.com/2026/08/04/china-threatens-retaliation-after-us-restricts-imports-of-new-foreign-made-humanoid-robots/103868/"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "NASA 授予 HEBI Robotics 合同，开发小卫星紧凑型机器人技术 (NASA awards HEBI Robotics contract to develop compact robotic technology for small satellites)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "HEBI Robotics has been awarded a Phase I contract from NASA’s Small Business Innovation Research (SBIR) program to develop compact robotic actuators for use in small satellites and…",
-      "url": "https://roboticsandautomationnews.com/2026/08/04/nasa-awards-hebi-robotics-contract-to-develop-compact-robotic-technology-for-small-satellites/103855/"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "成本下降前，人形机器人难以在工厂车间规模化应用 (Humanoids won’t scale on factory floors until costs drop)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "The race to commercialize humanoids is on. What’s left to prove is that humanoid robots can beat the economics of the automation manufacturers are already running. The post appeare…",
-      "url": "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "马斯克预告下周将推 Grok 4.6 模型，改进 AI 监督微调和强化学习",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 8 月 5 日消息，在今天（8 月 5 日）召开的 SpaceX 公司 2026 年第 2 季度（截至 6 月 30 日）财报电话会议上， 马斯克预告将于下周发布 Grok 4.6 模型。 在财报会议上，马斯克表示 Grok 系列 AI 模型进展神速，计划下周发布的 Grok 4.6 模型总参数量拥有 1.5 万亿，重点改进监督微调（SFT）和强化…",
-      "url": "https://www.ithome.com/0/985/750.htm"
     }
   ]
 }
