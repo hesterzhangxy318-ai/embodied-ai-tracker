@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T02:59:12.195507+08:00",
+  "updated": "2026-08-08T09:43:59.101921+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 20,
-      "core": 0,
+      "entries": 59,
+      "candidates": 19,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 12,
       "periphery": 0,
-      "new": 8
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 4,
-      "periphery": 2,
-      "new": 3
+      "core": 6,
+      "periphery": 1,
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +239,42 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-08T02:59:50.044573+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-08-08T09:44:39.192520+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "工业场景成为可验收主战场",
-        "text": "本周多条证据都指向工业、仓储和巡检类任务，天创机器人发布面向泛工业运维与应急救援的融合模型，Avnet 与 Weston Robot 上线自主巡检平台，Multiway Robotics 也完成了马来西亚制造商 5000 个库位仓库自动化部署，落地验证正从演示转向可验收任务。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设；Xiaomi-Robotics-1 基于超过 10 万小时 UMI 数据进行预训练 ，并使用超过 1 万小时跨本体数据进行后训练。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html",
+          "https://www.ithome.com/0/985/985.htm",
+          "https://www.infoq.cn/article/hI2W3XTUo2GNylxSXDC8?utm_source=rss&utm_medium=article"
+        ]
       },
       {
-        "label": "模型竞争转向数据闭环",
-        "text": "黎曼动力联合光轮智能和诺亦腾推进 2026 年百万小时具身数据建设，小米开源的 Xiaomi-Robotics-1 也基于超过 10 万小时 UMI 数据预训练并用超过 1 万小时跨本体数据后训练，各家在数据、评测和真实机器人反馈上的投入加深，模型竞争开始更多依赖真实闭环。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设；在今天（8 月 5 日）召开的 SpaceX 公司 2026 年第 2 季度（截至 6 月 30 日）财报电话会议上， 马斯克预告将于下周发布 Grok 4.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html",
+          "https://www.ithome.com/0/985/750.htm",
+          "https://www.leiphone.com/category/academic/wQny8Cer4EJz0RAU.html"
+        ]
       },
       {
-        "label": "资本追向明确路径",
-        "text": "宇树科技科创板发行安排落地，蚂蚁灵波启动首轮独立融资拟募资 15 亿元，埃斯顿则计划收购机器人子公司股权，资金和并购都更偏向已形成产品、产线或上市路径的公司，资本对具身赛道的偏好正在向可验证进展集中。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，宇树科技即将首次公开发行股票并在科创板上市 ，发行价格为 150.；快科技8月5日消息，宇树科技发布公告，公司科创板IPO网上路演安排正式落地，路演时间定在8月7日14:00至17:00，投资者可以在上证路演中心、中国证券网两个平台在线提问交流。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/987/098.htm",
+          "https://robot.ofweek.com/2026-08/ART-898890-8110-30697250.html",
+          "https://robot.ofweek.com/2026-08/ART-898890-8120-30697313.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型、具身数据和真实闭环成为技术主线，黎曼动力、小米等都把训练数据、评测体系和机器人反馈放到更前台。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "08-07",
@@ -345,7 +357,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品端更关注能否进入家庭、药房、巡检和工业运维等场景，越疆、天创、Weston 等都在试探从展示走向部署。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "08-07",
@@ -416,19 +428,12 @@
             "url": "https://roboticsandautomationnews.com/2026/08/04/researchers-unveil-open-source-robotic-guide-dog-designed-to-assist-blind-and-visually-impaired-people/103878/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-04",
-            "title": "Zoox发布面向美国扩张的量产级Robotaxi (Zoox unveils production-ready robotaxi for U.S. expansion)",
-            "url": "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单仍偏少，但 NASA 合同、特斯拉制造投入和部分部署项目显示，验证开始落到明确客户和具体系统上。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "08-06",
@@ -455,7 +460,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资、IPO 和并购继续围绕头部公司展开，宇树、蚂蚁灵波、星海图和埃斯顿对应的都是更清晰的产品与产业位置。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "08-07",
@@ -484,6 +489,13 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30697388.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-07",
+            "title": "Avatar Robotics 融资种子轮应对工业劳动力短缺 (Avatar Robotics raises seed round to address industrial labor constraints)",
+            "url": "https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           },
           {
             "date": "08-06",
@@ -533,19 +545,12 @@
             "url": "https://roboticsandautomationnews.com/2026/08/04/uk-government-launches-20-million-funding-competition-for-agricultural-robots/103870/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-03",
-            "title": "奇瑞将向韩国车企KGM投资7500万美元，拟在机器人、半导体等新业务领域合作",
-            "url": "https://36kr.com/newsflashes/3923134168329606?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论从热度转向商业化验证，人才流动、海外限制和营收增长都围绕真实需求、供应链能力和落地节奏展开。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "08-07",
@@ -567,6 +572,13 @@
             "url": "https://roboticsandautomationnews.com/2026/08/07/multiway-robotics-automates-malaysian-manufacturers-5000-location-warehouse/103997/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "08-07",
+            "title": "Building robots that survive the warehouse",
+            "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "08-06",
@@ -621,7 +633,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "上游链条开始绑定数据采集、数字孪生、减速器和充电机器人等具体能力，产业协同更像围绕性能瓶颈做补位。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "08-07",
@@ -756,6 +768,24 @@
       "category": "资本动态",
       "summary": "作者｜章启明 编辑｜王以沫 // 估值突破200亿，人形机器人迎上市窗口 8月5日，据彭博社援引知情人士消息，智平方正在考虑赴港开展IPO，已经聘请投行机构开展前期筹备，最快有望于2027年正式启动上",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30697388.html"
+    },
+    {
+      "date": "08-07",
+      "company": "其他",
+      "title": "Building robots that survive the warehouse",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Nomagic says its real moat is production data, because the messiness of real warehouses is where robots either prove themselves or fail. The post appeared first on The Robot Report…",
+      "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/"
+    },
+    {
+      "date": "08-07",
+      "company": "行业",
+      "title": "Avatar Robotics 融资种子轮应对工业劳动力短缺 (Avatar Robotics raises seed round to address industrial labor constraints)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Avatar Robotics raised $6.5 million in funding to scale humanoid robots and remote teleoperation across industrial supply chains. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/"
     },
     {
       "date": "08-06",
@@ -1080,24 +1110,6 @@
       "category": "行业动态",
       "summary": "IT之家 8 月 5 日消息，尽管特斯拉上个季度交付了近 50 万辆汽车，约 70% 的收入仍来自汽车销售，但埃隆 · 马斯克正试图让外界相信，特斯拉已经不再是一家传统汽车公司，而是一家人工智能和机器人公司，即便这些 AI 技术中的一部分仍运行在汽车之中。 过去几年，马斯克不断强调，特斯拉真正的未来在于人工智能和机器人业务，例如 Optimus 人形机器人和…",
       "url": "https://www.ithome.com/0/985/744.htm"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "Zoox发布面向美国扩张的量产级Robotaxi (Zoox unveils production-ready robotaxi for U.S. expansion)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "Amazon subsidiary Zoox unveiled its final production-ready robotaxi design and expanded testing following a subtle redesign to improve rider comfort. The post appeared first on The…",
-      "url": "https://www.therobotreport.com/zoox-unveils-production-ready-robotaxi-for-u-s-expansion/"
-    },
-    {
-      "date": "08-03",
-      "company": "其他",
-      "title": "奇瑞将向韩国车企KGM投资7500万美元，拟在机器人、半导体等新业务领域合作",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "当地时间8月3日，韩国汽车厂商KG Mobility（KGM）宣布与奇瑞汽车签订战略投资协议。根据协议，奇瑞将向KGM投资7500万美元，并在加速新车开发、自动驾驶和基于SDV（软件定义汽车）的尖端电子电气（E/E）架构等方面开展或扩大合作。继SUV“SE-10”之后，两家公司达成协议，将开展第二个联合开发项目。该项目的目标是开发一款适合在中韩欧等全球主要市…",
-      "url": "https://36kr.com/newsflashes/3923134168329606?f=rss"
     }
   ]
 }
