@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T09:43:59.101921+08:00",
+  "updated": "2026-08-08T14:56:01.819383+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 14,
-      "candidates": 1,
-      "core": 1,
+      "entries": 17,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 19,
+      "entries": 60,
+      "candidates": 23,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,43 +239,38 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-08T09:44:39.192520+08:00",
-    "mode": "local",
+    "generated_at": "2026-08-08T14:56:23.551441+08:00",
+    "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设；Xiaomi-Robotics-1 基于超过 10 万小时 UMI 数据进行预训练 ，并使用超过 1 万小时跨本体数据进行后训练。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html",
-          "https://www.ithome.com/0/985/985.htm",
-          "https://www.infoq.cn/article/hI2W3XTUo2GNylxSXDC8?utm_source=rss&utm_medium=article"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周工厂、药房、仓储、巡检和运维场景反复出现，工业具身智能已被描述为进厂发挥价值，蚂蚁灵波案例落在药房作业，Avnet与Weston Robot推出边缘AI检测平台，具身智能的短期检验标准正在从通用展示转向稳定完成具体任务。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设；在今天（8 月 5 日）召开的 SpaceX 公司 2026 年第 2 季度（截至 6 月 30 日）财报电话会议上， 马斯克预告将于下周发布 Grok 4.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html",
-          "https://www.ithome.com/0/985/750.htm",
-          "https://www.leiphone.com/category/academic/wQny8Cer4EJz0RAU.html"
-        ]
+        "label": "模型竞争进入数据闭环阶段",
+        "text": "小米Xiaomi-Robotics-1基于超过10万小时UMI数据预训练并用超过1万小时跨本体数据后训练，黎曼动力联合光轮智能与诺亦腾机器人推进2026年百万小时具身数据建设，世界模型叙事开始绑定采集、训练、评测、部署和反馈优化的完整链条。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，宇树科技即将首次公开发行股票并在科创板上市 ，发行价格为 150.；快科技8月5日消息，宇树科技发布公告，公司科创板IPO网上路演安排正式落地，路演时间定在8月7日14:00至17:00，投资者可以在上证路演中心、中国证券网两个平台在线提问交流。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/987/098.htm",
-          "https://robot.ofweek.com/2026-08/ART-898890-8110-30697250.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-8120-30697313.html"
-        ]
+        "label": "资本更偏向头部与补链",
+        "text": "宇树科技确定150元发行价并推进科创板IPO路演，埃斯顿拟斥资近5亿元收购机器人子公司股权，蚂蚁灵波拟募资15亿元，资金关注点集中在上市头部、工业机器人能力整合和具身大脑等可定义能力。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "本周技术突破集中在世界模型与数据闭环，小米开源Xiaomi-Robotics-1，黎曼动力等推进百万小时数据建设，工业进厂价值被反复提及。",
         "items": [
+          {
+            "date": "08-08",
+            "title": "从PPT到生产线，巨头们跨过具身智能“理想国”",
+            "url": "https://www.tmtpost.com/8095622.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "08-07",
             "title": "黎曼动力携手光轮智能与诺亦腾机器人，推进2026年百万小时具身智能数据建设",
@@ -357,7 +352,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "产品量产从人形陪伴、灵巧手到工业巡检扩展，越疆发布鹿萌，灵巧手交付仍多在百千台量级，药房和检测平台更接近可验收场景。",
         "items": [
           {
             "date": "08-07",
@@ -433,7 +428,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业订单信息较少，特斯拉Terafab首期投入168亿美元，NASA授予HEBI Phase I合同，海外案例更多指向制造和小卫星等明确任务。",
         "items": [
           {
             "date": "08-06",
@@ -460,7 +455,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本动态围绕头部上市和能力补齐展开，宇树确定150元发行价并路演，埃斯顿拟近5亿元收购子公司股权，蚂蚁灵波拟募资15亿元。",
         "items": [
           {
             "date": "08-07",
@@ -550,7 +545,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业动态显示商业化验证升温，宇树强调具身大模型和核心零部件自研，仓储自动化与工业仿真合作继续把机器人推向真实生产环境。",
         "items": [
           {
             "date": "08-07",
@@ -575,7 +570,7 @@
           },
           {
             "date": "08-07",
-            "title": "Building robots that survive the warehouse",
+            "title": "打造能在仓库里存活的机器人 (Building robots that survive the warehouse)",
             "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/",
             "company": "其他",
             "source_name": "The Robot Report"
@@ -621,19 +616,12 @@
             "url": "https://www.therobotreport.com/humanoids-wont-scale-on-factory-floors-until-costs-drop/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "08-04",
-            "title": "特斯拉财报电话会议数据：马斯克近半发言聚焦 AI 与机器人业务",
-            "url": "https://www.ithome.com/0/985/744.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "泛具身产业链关注数据、产线和专用机器人，三家公司冲刺2026年底百万小时数据，PIA为BMW E-Drive建设46台机器人装配线，宁德时代加码移动充电机器人。",
         "items": [
           {
             "date": "08-07",
@@ -661,6 +649,15 @@
     ]
   },
   "items": [
+    {
+      "date": "08-08",
+      "company": "其他",
+      "title": "从PPT到生产线，巨头们跨过具身智能“理想国”",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "文 | 锌刻度，作者 | 李觐麟，编辑 | 陈邓新 昨日，“人形机器人第一股”宇树科技发布公告，正式确定发行价为150.8元/股，发行市盈率达到219.23倍，远超行业平均38.56倍的静态市盈率，给具身智能行业再添一把火。 而在过去三个月中，海内外巨头也都在给这个行业加温。 6月，马斯克在特斯拉股东大会上承认Optimus量产是“公司历史上难度最高的爬坡”…",
+      "url": "https://www.tmtpost.com/8095622.html"
+    },
     {
       "date": "08-07",
       "company": "其他",
@@ -772,7 +769,7 @@
     {
       "date": "08-07",
       "company": "其他",
-      "title": "Building robots that survive the warehouse",
+      "title": "打造能在仓库里存活的机器人 (Building robots that survive the warehouse)",
       "source_name": "The Robot Report",
       "category": "行业动态",
       "summary": "Nomagic says its real moat is production data, because the messiness of real warehouses is where robots either prove themselves or fail. The post appeared first on The Robot Report…",
@@ -1101,15 +1098,6 @@
       "category": "技术突破",
       "summary": "IT之家 8 月 5 日消息，在今天（8 月 5 日）召开的 SpaceX 公司 2026 年第 2 季度（截至 6 月 30 日）财报电话会议上， 马斯克预告将于下周发布 Grok 4.6 模型。 在财报会议上，马斯克表示 Grok 系列 AI 模型进展神速，计划下周发布的 Grok 4.6 模型总参数量拥有 1.5 万亿，重点改进监督微调（SFT）和强化…",
       "url": "https://www.ithome.com/0/985/750.htm"
-    },
-    {
-      "date": "08-04",
-      "company": "特斯拉",
-      "title": "特斯拉财报电话会议数据：马斯克近半发言聚焦 AI 与机器人业务",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 5 日消息，尽管特斯拉上个季度交付了近 50 万辆汽车，约 70% 的收入仍来自汽车销售，但埃隆 · 马斯克正试图让外界相信，特斯拉已经不再是一家传统汽车公司，而是一家人工智能和机器人公司，即便这些 AI 技术中的一部分仍运行在汽车之中。 过去几年，马斯克不断强调，特斯拉真正的未来在于人工智能和机器人业务，例如 Optimus 人形机器人和…",
-      "url": "https://www.ithome.com/0/985/744.htm"
     }
   ]
 }
