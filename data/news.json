@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T14:58:45.283211+08:00",
+  "updated": "2026-08-09T20:52:37.667909+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 13,
-      "core": 4,
+      "entries": 18,
+      "candidates": 11,
+      "core": 3,
       "periphery": 0,
       "new": 2
     },
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 20,
       "candidates": 4,
       "core": 3,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 23,
-      "core": 2,
+      "candidates": 18,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -239,7 +239,7 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-09T14:59:25.362508+08:00",
+    "generated_at": "2026-08-09T20:53:17.788752+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -282,6 +282,13 @@
             "url": "https://www.ithome.com/0/987/488.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-09",
+            "title": "935亿之后，具身智能的账该怎么算？",
+            "url": "https://www.tmtpost.com/8096557.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "08-08",
@@ -428,20 +435,6 @@
             "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30697055.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-04",
-            "title": "前 DeepMind 团队创办 AI 机器人初创公司，机器人可向工人学习 (Former DeepMind team launches AI robotics startup with robots that learn from workers)",
-            "url": "https://roboticsandautomationnews.com/2026/08/04/former-deepmind-team-launches-ai-robotics-startup-with-robots-that-learn-from-workers/103881/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-04",
-            "title": "研究人员发布开源机器导盲犬，旨在帮助盲人和视障人士 (Researchers unveil open-source robotic guide dog designed to assist blind and visually impaired people)",
-            "url": "https://roboticsandautomationnews.com/2026/08/04/researchers-unveil-open-source-robotic-guide-dog-designed-to-assist-blind-and-visually-impaired-people/103878/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -567,6 +560,13 @@
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
+            "date": "08-09",
+            "title": "2026 年上半年全国人形机器人领域新设企业 11.6 万户，同比增长 9.5%",
+            "url": "https://www.ithome.com/0/987/596.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
             "date": "08-08",
             "title": "第二届世界人形机器人运动会 8 月 22 日开赛：百米全自主跑、新增乒乓球 + 自由搏击，票价最低 98 元",
             "url": "https://www.ithome.com/0/987/380.htm",
@@ -687,6 +687,24 @@
       "category": "商业订单",
       "summary": "At recent industry shows, the machines actually moving boxes, sorting items and tending production lines are more often wheeled platforms with human-like upper bodies than bipedal…",
       "url": "https://www.tmtpost.com/8096593.html"
+    },
+    {
+      "date": "08-09",
+      "company": "其他",
+      "title": "935亿之后，具身智能的账该怎么算？",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "头部企业在用产能数字互相较劲，而腰部以下的公司，很多已经三个月没听到过投资机构的电话了。这种分化不是坏事，反而是产业成熟的标志。只是对创业者来说，这个过程有点残酷",
+      "url": "https://www.tmtpost.com/8096557.html"
+    },
+    {
+      "date": "08-09",
+      "company": "其他",
+      "title": "2026 年上半年全国人形机器人领域新设企业 11.6 万户，同比增长 9.5%",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 9 日消息，据央视新闻报道，8 月 8 日，市场监管总局公布数据显示，上半年， 全国新设“8 大新兴产业 + 9 大未来产业”相关企业 56.1 万户 。 IT之家注： 8 大新兴产业 ：新一代信息技术、新能源、新材料、高端装备、新能源汽车、绿色环保、民用航空、船舶与海洋工程装备； 9 大未来产业 ：元宇宙、脑机接口、量子信息、人形机器人…",
+      "url": "https://www.ithome.com/0/987/596.htm"
     },
     {
       "date": "08-08",
@@ -1092,24 +1110,6 @@
       "category": "产品量产",
       "summary": "7月30日，Google DeepMind发布了机器人系列模型Gemini Robotics 2，包含VLA模型、推理模型和端侧模型，并首次实现了对人形机器人的全身控制。 谷歌的算盘其实并不复杂：它要",
       "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30697055.html"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "前 DeepMind 团队创办 AI 机器人初创公司，机器人可向工人学习 (Former DeepMind team launches AI robotics startup with robots that learn from workers)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Reimagine Robotics, an AI robotics company founded by former leaders of Google DeepMind’s Applied Robotics team, has emerged from stealth with new technology that allows robots to…",
-      "url": "https://roboticsandautomationnews.com/2026/08/04/former-deepmind-team-launches-ai-robotics-startup-with-robots-that-learn-from-workers/103881/"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "研究人员发布开源机器导盲犬，旨在帮助盲人和视障人士 (Researchers unveil open-source robotic guide dog designed to assist blind and visually impaired people)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Researchers have introduced what they describe as the world’s first fully autonomous robotic guide dog, an AI-powered mobile robot designed to help blind and visually impaired peop…",
-      "url": "https://roboticsandautomationnews.com/2026/08/04/researchers-unveil-open-source-robotic-guide-dog-designed-to-assist-blind-and-visually-impaired-people/103878/"
     }
   ]
 }
