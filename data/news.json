@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T02:39:53.484504+08:00",
+  "updated": "2026-08-09T09:47:43.350078+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 2,
-      "core": 2,
+      "entries": 16,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 19,
+      "entries": 59,
+      "candidates": 17,
       "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -239,31 +239,38 @@
   "weekly_report": {
     "start": "08-03",
     "end": "08-09",
-    "generated_at": "2026-08-09T02:40:14.356869+08:00",
+    "generated_at": "2026-08-09T09:47:59.646792+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证收敛到可验收任务",
-        "text": "具身智能落地重心继续向工厂、药房、巡检、仓储等场景集中，工业场景被明确视为已能发挥价值，蚂蚁灵波已在药房工作，Avnet与Weston Robot推出边缘AI检测平台，Multiway Robotics完成5000库位仓库自动化部署，家庭陪伴机器人仍处试水阶段，短期验证标准更偏向稳定作业和明确交付。",
+        "label": "验证重心转向可验收任务",
+        "text": "本周具身智能落地线索更多集中在生产线、工业运维、巡检和仓储等任务，天创机器人发布面向泛工业运维与应急安全救援的融合模型，Avnet与Weston Robot推出边缘AI检测平台，Multiway Robotics完成马来西亚制造商5000库位仓库自动化部署，企业更倾向选择边界清晰、结果可检查的场景来消化模型与本体能力。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争转向真实数据闭环",
-        "text": "黎曼动力联合光轮智能、诺亦腾推进面向2026年的百万小时具身数据建设，覆盖数据采集、模型训练、规模化评测、真实机器人部署与反馈优化，小米Xiaomi-Robotics-1基于超10万小时UMI数据预训练并用超1万小时跨本体数据后训练，世界模型叙事正在被数据规模、动作条件和任务反馈重新约束。",
+        "label": "模型竞争依赖真实数据闭环",
+        "text": "世界模型热度继续上升，但叙事正在被数据规模和真实部署约束，黎曼动力、光轮智能与诺亦腾机器人计划到2026年底建设100万小时机器人训练数据，小米开源的Xiaomi-Robotics-1基于超过10万小时UMI数据预训练并使用超过1万小时跨本体数据后训练，模型能力的竞争开始更多落在采集、评测、部署反馈的闭环效率上。",
         "evidence_urls": []
       },
       {
-        "label": "资本热度开始承压于量产能力",
-        "text": "宇树科技科创板IPO路演落地并确定150元发行价，市场围绕约609亿至610亿元估值讨论其硬件销量支撑，埃斯顿拟斥资近5亿元收购机器人子公司股权，新型减速器厂商完成超亿元融资并用于研发、扩产和机器人市场拓展，资本关注点从概念稀缺转向场景定义、交付规模和关键能力补齐。",
+        "label": "资本更偏好确定性能力补齐",
+        "text": "宇树科技科创板IPO推进并确定150元发行价，DeepSeek投资后拟在三方面合作，埃斯顿拟以近5亿元收购机器人子公司股权，新型减速器厂商完成超亿元融资并将资金用于研发、产线扩建和机器人市场拓展，资金流向同时覆盖整机上市、工业机器人整合和核心零部件扩产，估值兑现压力也更多绑定量产能力与具体供应链瓶颈。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术进展围绕世界模型、百万小时数据、工业场景闭环展开，小米开源基座模型，黎曼动力等推进数据采集与真实部署反馈。",
+        "summary": "技术侧围绕世界模型、具身数据和组织整合推进，小米成立具身智能与应用部的消息、Xiaomi-Robotics-1开源及百万小时数据计划共同指向真实数据闭环建设。",
         "items": [
+          {
+            "date": "08-09",
+            "title": "消息称小米成立具身智能与应用部，前字节 Seed 具身负责人孔涛挂帅",
+            "url": "https://www.ithome.com/0/987/488.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-08",
             "title": "从PPT到生产线，巨头们跨过具身智能“理想国”",
@@ -345,8 +352,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧同时出现家庭陪伴、工业运维、协作机器人线性轴、边缘AI巡检等方向，但灵巧手交付仍多在百千台量级。",
+        "summary": "产品端仍处于从展示走向交付的过渡期，Optimus和Robovan仍待量产，家庭陪伴机器人继续试水，灵巧手行业交付约百千台量级，工业检测与运维平台更接近可部署场景。",
         "items": [
+          {
+            "date": "08-09",
+            "title": "马斯克发布 Terafab 渲染视频：Optimus 人形机器人、Robovan 无人车齐亮相",
+            "url": "https://www.ithome.com/0/987/485.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-07",
             "title": "越疆发布人形机器人“鹿萌”，试水家庭陪伴",
@@ -421,7 +435,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单证据较少，本周主要涉及特斯拉与SpaceX首期投入168亿美元建设得州Terafab晶圆厂，以及机器人部署挑战讨论。",
+        "summary": "商业订单信息较少，特斯拉相关消息集中在Terafab及首期168亿美元投入，另有机器人设计到部署挑战的讨论，尚不足以判断具身智能订单规模出现明确放量。",
         "items": [
           {
             "date": "08-06",
@@ -441,7 +455,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态集中在宇树IPO、智平方赴港IPO传闻、埃斯顿近5亿元收购和海外工业机器人融资，估值与交付能力同步被审视。",
+        "summary": "资本动态围绕宇树上市、智平方赴港IPO传闻、埃斯顿近5亿元收购和海外种子轮融资展开，整机企业资本化提速，但估值与销量、场景兑现之间的匹配度受到关注。",
         "items": [
           {
             "date": "08-08",
@@ -526,19 +540,12 @@
             "url": "https://36kr.com/p/3924628805351811?f=rss",
             "company": "行业",
             "source_name": "36氪"
-          },
-          {
-            "date": "08-04",
-            "title": "英国政府启动2000万英镑农业机器人资助竞赛 (UK government launches £20 million funding competition for agricultural robots)",
-            "url": "https://roboticsandautomationnews.com/2026/08/04/uk-government-launches-20-million-funding-competition-for-agricultural-robots/103870/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态覆盖人形机器人运动会、华为代客充电畅想、宇树技术方向、仓储机器人部署和工业仿真合作，场景探索继续扩散。",
+        "summary": "行业活动与组织变化并行，世界人形机器人运动会即将开赛，宇树继续强调具身大模型和核心部件自研，众擎机器人引入前小鹏高管，仓储机器人强调生产数据壁垒。",
         "items": [
           {
             "date": "08-08",
@@ -609,19 +616,12 @@
             "url": "https://roboticsandautomationnews.com/2026/08/04/unitree-expects-first-half-revenue-growth-as-demand-for-humanoid-robots-accelerates/103876/",
             "company": "宇树科技",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-04",
-            "title": "美国限制进口新型外国制造人形机器人，中国威胁报复 (China threatens retaliation after US restricts imports of new foreign-made humanoid robots)",
-            "url": "https://roboticsandautomationnews.com/2026/08/04/china-threatens-retaliation-after-us-restricts-imports-of-new-foreign-made-humanoid-robots/103868/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧聚焦数据、装配线和充电机器人，三家公司冲刺2026年底100万小时训练数据，PIA为BMW建设机器人装配线。",
+        "summary": "产业链侧出现数据、制造和应用设施投资，三家公司冲刺2026年底100万小时具身数据，PIA Automation为BMW E-Drive建设含46台机器人的装配线，宁德时代加码移动充电机器人总部项目。",
         "items": [
           {
             "date": "08-07",
@@ -649,6 +649,24 @@
     ]
   },
   "items": [
+    {
+      "date": "08-09",
+      "company": "其他",
+      "title": "消息称小米成立具身智能与应用部，前字节 Seed 具身负责人孔涛挂帅",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 8 月 9 日消息，据“大厂青年”公众号 8 月 7 日消息， 小米机器人事业部大调整： 内部新成立具身智能与应用部 ，由前字节 Seed Robotics 具身智能负责人孔涛挂帅。 按照调整方案，这个新部门已将陈龙的 VLA 团队、蔡锐的机器人具身部等一并收拢。此次调整后，小米整个具身赛道的各个业务方向，都归到了孔涛的管辖之下。 文章称，孔涛（J…",
+      "url": "https://www.ithome.com/0/987/488.htm"
+    },
+    {
+      "date": "08-09",
+      "company": "特斯拉",
+      "title": "马斯克发布 Terafab 渲染视频：Optimus 人形机器人、Robovan 无人车齐亮相",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 8 月 9 日消息，埃隆 · 马斯克当地时间周四上午在 X 平台发布了一段 Terafab 的新视频，而视频中最引人注目的并不是厂房本身，而是两款仍在等待量产的产品：Optimus 人形机器人和 Robovan 无人车。 这段由 SpaceX 提供概念图的渲染视频显示，Optimus 机器人正在这座规划中的大型厂区内工作。该设施计划建于得克萨斯州格…",
+      "url": "https://www.ithome.com/0/987/485.htm"
+    },
     {
       "date": "08-08",
       "company": "其他",
@@ -1080,24 +1098,6 @@
       "category": "行业动态",
       "summary": "Chinese robotics company Unitree Technology expects strong revenue growth in the first half of 2026 as demand for humanoid robots and embodied AI continues to increase, according t…",
       "url": "https://roboticsandautomationnews.com/2026/08/04/unitree-expects-first-half-revenue-growth-as-demand-for-humanoid-robots-accelerates/103876/"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "英国政府启动2000万英镑农业机器人资助竞赛 (UK government launches £20 million funding competition for agricultural robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "The UK government has launched a £20 million funding competition to accelerate the development of robots and automated technologies for agriculture, with the aim of helping farmers…",
-      "url": "https://roboticsandautomationnews.com/2026/08/04/uk-government-launches-20-million-funding-competition-for-agricultural-robots/103870/"
-    },
-    {
-      "date": "08-04",
-      "company": "其他",
-      "title": "美国限制进口新型外国制造人形机器人，中国威胁报复 (China threatens retaliation after US restricts imports of new foreign-made humanoid robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "China has threatened to retaliate against new US restrictions on foreign-produced humanoid robots, warning that the measures will damage economic and trade relations between the wo…",
-      "url": "https://roboticsandautomationnews.com/2026/08/04/china-threatens-retaliation-after-us-restricts-imports-of-new-foreign-made-humanoid-robots/103868/"
     }
   ]
 }
