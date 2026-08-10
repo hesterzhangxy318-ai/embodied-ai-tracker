@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T21:10:40.895333+08:00",
+  "updated": "2026-08-11T02:59:41.567196+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 8,
+      "candidates": 10,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 19,
-      "core": 1,
+      "entries": 60,
+      "candidates": 33,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 21,
       "core": 10,
       "periphery": 0,
-      "new": 9
+      "new": 6
     },
     {
       "name": "新战略移动机器人",
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 3,
+      "candidates": 12,
+      "core": 6,
       "periphery": 4,
-      "new": 3
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -220,7 +220,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 3
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -232,37 +232,48 @@
       "entries": 75,
       "candidates": 68,
       "core": 19,
-      "periphery": 9,
-      "new": 0
+      "periphery": 10,
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-10T21:11:03.921971+08:00",
-    "mode": "aicodewith",
-    "item_count": 9,
+    "generated_at": "2026-08-11T03:00:21.922030+08:00",
+    "mode": "local",
+    "item_count": 11,
     "insights": [
       {
-        "label": "模型竞争开始回到数据闭环",
-        "text": "过去一年多，VLA、世界模型、基座模型和数据闭环已成为头部智驾与具身智能公司反复提及的关键词，说明模型路线正在趋同，下一阶段比拼更集中到真实数据积累和任务闭环能力上。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟；就在一个月多前的6月29日，两家公司在同一天宣布完成新一轮融资，投后估值均超过200亿元。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/08/469213.html",
+          "https://www.tmtpost.com/8097290.html",
+          "https://www.ithome.com/0/987/673.htm"
+        ]
       },
       {
-        "label": "落地验证继续向可验收任务收缩",
-        "text": "灵巧手新品集中亮相，且产业讨论开始围绕工业制造、科研教育和家庭服务等真实环境能否干活展开，同时行业仍承认从技术成熟到规模化量产和商业落地之间存在明显工程鸿沟。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟；就在一个月多前的6月29日，两家公司在同一天宣布完成新一轮融资，投后估值均超过200亿元。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/08/469213.html",
+          "https://www.tmtpost.com/8097290.html"
+        ]
       },
       {
-        "label": "资本更偏好场景明确的能力补齐",
-        "text": "橡树清溪连续完成天使轮和天使+轮融资，合计数千万元，并获得三大机器人本体厂商联合押注，宇树科技启动科创板申购，资本关注点更集中在通用系统平台、场景补位和可验证能力。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 8月6日，人形机器人通用系统平台公司橡树清溪科技宣布连续完成天使轮及天使+轮融资，合计数千万元；来源|博望财经 8月10日，宇树科技正式开启科创板网上申购，发行价150.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-08/ART-898890-12005-30697666.html",
+          "https://robot.ofweek.com/2026-08/ART-898890-12003-30697830.html",
+          "https://robot.ofweek.com/2026-08/ART-8321206-12003-30697809.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "模型叙事从概念热词转向数据闭环与真实任务，头部公司围绕VLA、世界模型和基座模型继续竞争，但路线差异正在收窄。",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
           {
             "date": "08-10",
@@ -282,7 +293,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "中科慧思一次发布三款灵巧手，新品展示和命名都指向具体操作能力，产品讨论已从性能演示转向量产和场景适配。",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
         "items": [
           {
             "date": "08-10",
@@ -302,7 +313,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "橡树清溪获本体厂商联合押注，宇树科技开启申购，云深处募资也押向人形机器人，资金更集中到可定义场景和能力补齐。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "08-10",
@@ -329,7 +340,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业热度继续围绕灵巧手和人形机器人扩散，但新闻同时反复强调从技术到量产再到落地之间仍有工程鸿沟。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "08-10",
@@ -344,6 +355,26 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-12001-30697801.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-10",
+            "title": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
+            "url": "https://www.ithome.com/0/988/039.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "items": [
+          {
+            "date": "08-10",
+            "title": "电子皮肤让机器人和假肢拥有“类人触觉感知 (Electronic skin gives robots and prosthetics ‘human-like touch sensing’)",
+            "url": "https://roboticsandautomationnews.com/2026/08/10/electronic-skin-gives-robots-and-prosthetics-human-like-touch-sensing/104036/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -430,6 +461,24 @@
       "category": "行业动态",
       "summary": "这是思维AI社的第107篇原创 全文约1690字，阅读时长预计5分钟 今天（8月10日），宇树科技正式开启科创板申购，A股",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-12001-30697801.html"
+    },
+    {
+      "date": "08-10",
+      "company": "特斯拉",
+      "title": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 10 日消息，据外媒 Electrek 今天（10 日）报道，SpaceX 确认将依靠 自建天然气电厂和“超大型电池阵列”为超级工厂 Terafab 供电，特斯拉太阳能则完全不在计划之中。 特斯拉和 SpaceX 上周正式确认 Terafab 项目。工厂位于得州格赖姆斯县，距离休斯敦西北约一小时车程，两家公司 宣称其将成为全球最大的芯片制造…",
+      "url": "https://www.ithome.com/0/988/039.htm"
+    },
+    {
+      "date": "08-10",
+      "company": "其他",
+      "title": "电子皮肤让机器人和假肢拥有“类人触觉感知 (Electronic skin gives robots and prosthetics ‘human-like touch sensing’)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "Hanyang University ERICA researchers have developed a vertically integrated dual-gate transistor design, which could give robots ‘reliable touch sensing and high density, large-are…",
+      "url": "https://roboticsandautomationnews.com/2026/08/10/electronic-skin-gives-robots-and-prosthetics-human-like-touch-sensing/104036/"
     },
     {
       "date": "08-09",
@@ -781,24 +830,6 @@
       "category": "产品量产",
       "summary": "作者｜毛心如 一年前，国内灵巧手行业是什么样的？ 答案是整个赛道都处在 Demo 主导的萌芽期。 资本关注度有限，灵巧手厂商大多还停留在方案验证，行业交付大约在百千台量级，多数产品只适合展会演示，难以 其它 | <div",
       "url": "https://robot.ofweek.com/2026-08/ART-8321206-8420-30697126.html"
-    },
-    {
-      "date": "08-05",
-      "company": "星海图",
-      "title": "离开200亿星海图，清华博导做机器人，雷军追着给他投资",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "离开200亿独角兽，5个月后，他拿下亿美元级融资。 8月3日，通用具身智能公司破壳机器人（PokeBot）宣布，完成亿美元级Pre-A轮融资，由顺为资本与经纬创投共同领投，钟鼎资本、九坤创投、SEE Fund等多家产业和财务投资机构参与，小米战投、云启资本等老股东继续加码。 成立于2026年3月的破壳机器人，目前仍是一家非常年轻的公司。 但它背后的创始人许华…",
-      "url": "https://www.tmtpost.com/8091178.html"
-    },
-    {
-      "date": "08-05",
-      "company": "其他",
-      "title": "29 秒视频教会机器人新技能，清华北理工自变量联合开源 HOST",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "无需海量数据与模型微调，有望降低具身智能机器人教学门槛",
-      "url": "https://www.tmtpost.com/8091702.html"
     }
   ]
 }
