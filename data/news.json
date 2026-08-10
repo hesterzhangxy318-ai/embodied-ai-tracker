@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T15:43:46.491900+08:00",
+  "updated": "2026-08-10T21:10:40.895333+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 7,
+      "entries": 18,
+      "candidates": 8,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 4,
-      "core": 3,
+      "entries": 17,
+      "candidates": 3,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 15,
-      "core": 2,
+      "entries": 58,
+      "candidates": 19,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 21,
-      "core": 7,
+      "core": 10,
       "periphery": 0,
-      "new": 6
+      "new": 9
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -233,38 +233,36 @@
       "candidates": 68,
       "core": 19,
       "periphery": 9,
-      "new": 1
+      "new": 0
     }
   ],
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-10T15:44:26.566219+08:00",
-    "mode": "local",
-    "item_count": 5,
+    "generated_at": "2026-08-10T21:11:03.921971+08:00",
+    "mode": "aicodewith",
+    "item_count": 9,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟；就在一个月多前的6月29日，两家公司在同一天宣布完成新一轮融资，投后估值均超过200亿元。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/08/469213.html",
-          "https://www.tmtpost.com/8097290.html",
-          "https://www.ithome.com/0/987/673.htm"
-        ]
+        "label": "模型竞争开始回到数据闭环",
+        "text": "过去一年多，VLA、世界模型、基座模型和数据闭环已成为头部智驾与具身智能公司反复提及的关键词，说明模型路线正在趋同，下一阶段比拼更集中到真实数据积累和任务闭环能力上。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟；就在一个月多前的6月29日，两家公司在同一天宣布完成新一轮融资，投后估值均超过200亿元。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/08/469213.html",
-          "https://www.tmtpost.com/8097290.html"
-        ]
+        "label": "落地验证继续向可验收任务收缩",
+        "text": "灵巧手新品集中亮相，且产业讨论开始围绕工业制造、科研教育和家庭服务等真实环境能否干活展开，同时行业仍承认从技术成熟到规模化量产和商业落地之间存在明显工程鸿沟。",
+        "evidence_urls": []
+      },
+      {
+        "label": "资本更偏好场景明确的能力补齐",
+        "text": "橡树清溪连续完成天使轮和天使+轮融资，合计数千万元，并获得三大机器人本体厂商联合押注，宇树科技启动科创板申购，资本关注点更集中在通用系统平台、场景补位和可验证能力。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
+        "summary": "模型叙事从概念热词转向数据闭环与真实任务，头部公司围绕VLA、世界模型和基座模型继续竞争，但路线差异正在收窄。",
         "items": [
           {
             "date": "08-10",
@@ -272,12 +270,19 @@
             "url": "https://www.tmtpost.com/8097290.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-10",
+            "title": "模型路线趋同之后，Physical AI的胜负手变了",
+            "url": "https://www.qbitai.com/2026/08/469544.html",
+            "company": "其他",
+            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "中科慧思一次发布三款灵巧手，新品展示和命名都指向具体操作能力，产品讨论已从性能演示转向量产和场景适配。",
         "items": [
           {
             "date": "08-10",
@@ -297,7 +302,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "橡树清溪获本体厂商联合押注，宇树科技开启申购，云深处募资也押向人形机器人，资金更集中到可定义场景和能力补齐。",
         "items": [
           {
             "date": "08-10",
@@ -305,12 +310,26 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697666.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-10",
+            "title": "宇树科技打新：中签堪比天选之子，价值投资需先算清三本账",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30697830.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-10",
+            "title": "全靠机器狗赚钱的云深处，25亿募资为何一半押注人形机器人？",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321206-12003-30697809.html",
+            "company": "云深处",
+            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业热度继续围绕灵巧手和人形机器人扩散，但新闻同时反复强调从技术到量产再到落地之间仍有工程鸿沟。",
         "items": [
           {
             "date": "08-10",
@@ -318,6 +337,13 @@
             "url": "https://www.qbitai.com/2026/08/469213.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "08-10",
+            "title": "人形机器人第一股宇树科技今日开启申购",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-12001-30697801.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
           }
         ]
       }
@@ -368,6 +394,42 @@
       "category": "资本动态",
       "summary": "?潮涌AI编辑部 8月6日，人形机器人通用系统平台公司橡树清溪科技宣布连续完成天使轮及天使+轮融资，合计数千万元。 天使轮由零以创投、云天使基金联合领投，麟阁创投跟投；天使+轮由松延动力、加速进化、鹿",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697666.html"
+    },
+    {
+      "date": "08-10",
+      "company": "其他",
+      "title": "模型路线趋同之后，Physical AI的胜负手变了",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "过去一年多， VLA、世界模型、基座模型、数据闭环 等等，几乎都是头部智驾和具身智能公司频频提及的热词。 越来越多AI公司开始尝试让模型进入真实世界，让机器具备理解环境、预测变化和执行行动的能力。 不同技术路线各有侧重，最终穿透到技术底层，指向的问题却越来越趋同—— 那就是AI如何从真实世界获取数据，如何形成对环境的理解、把理解转化为行动，又如何根据行动结果…",
+      "url": "https://www.qbitai.com/2026/08/469544.html"
+    },
+    {
+      "date": "08-10",
+      "company": "宇树科技",
+      "title": "宇树科技打新：中签堪比天选之子，价值投资需先算清三本账",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "文|恒心 来源|博望财经 8月10日，宇树科技正式开启科创板网上申购，发行价150.80元/股，一签500股需缴款7.54万元，发行市值约610亿元，对应发行市盈率219.23倍——是所属行业均值38 人形机器人",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30697830.html"
+    },
+    {
+      "date": "08-10",
+      "company": "云深处",
+      "title": "全靠机器狗赚钱的云深处，25亿募资为何一半押注人形机器人？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "机器狗能撑起IPO吗？/AI图 手工劳动/兽妹 手工编辑 /角叔 出品/独角兽观察 杭州，国内足式机器人产业的重要策源地，一批高校背景创业公司接连走到资本市场门口。 8月7日晚间，上交所官网更新信息显",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321206-12003-30697809.html"
+    },
+    {
+      "date": "08-10",
+      "company": "宇树科技",
+      "title": "人形机器人第一股宇树科技今日开启申购",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "这是思维AI社的第107篇原创 全文约1690字，阅读时长预计5分钟 今天（8月10日），宇树科技正式开启科创板申购，A股",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-12001-30697801.html"
     },
     {
       "date": "08-09",
@@ -737,42 +799,6 @@
       "category": "技术突破",
       "summary": "无需海量数据与模型微调，有望降低具身智能机器人教学门槛",
       "url": "https://www.tmtpost.com/8091702.html"
-    },
-    {
-      "date": "08-05",
-      "company": "其他",
-      "title": "机器人进厂要提速了！光轮智能与西门子探索工业仿真进入机器学习的新路径",
-      "source_name": "InfoQ",
-      "category": "行业动态",
-      "summary": "基于此，西门子提供工业世界的工程规则，光轮智能将这些规则转化为机器人能够学习和接受验证的基础设施",
-      "url": "https://www.infoq.cn/article/yEqKH6HqgUl2aQWOco1f?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "08-05",
-      "company": "其他",
-      "title": "小米具身基座模型 Xiaomi-Robotics-1 正式开源",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 8 月 5 日消息，小米技术官方微博刚刚宣布， 。 Xiaomi-Robotics-1 基于超过 10 万小时 UMI 数据进行预训练 ，并使用超过 1 万小时跨本体数据进行后训练。本次开源覆盖从真机后训练到模型部署的完整流程，同时提供相关 Benchmark 的评测代码。 IT之家附项目网站、开源地址等如下： 项目网站： https://robo…",
-      "url": "https://www.ithome.com/0/985/985.htm"
-    },
-    {
-      "date": "08-05",
-      "company": "特斯拉",
-      "title": "特斯拉还在画饼，中国机器人已经霸榜全球前五",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "文 | 霞光AI实验室， 作者｜唐飞，编辑｜李小天 刚刚结束的2026年上半年，人形机器人行业主题已明确转向商业化验证。 从“跳舞”到“干活”的转变，意味着人形机器人不再是晚会展会上搏人一笑的“演员”，而是真正进厂、进仓、进网点的“打工人”。 近日，摩根士丹利再次大幅上调了中国人形机器人市场的行业预期，判断该产业已经从技术展示阶段迈入商业化落地阶段，发展速度…",
-      "url": "https://www.tmtpost.com/8092448.html"
-    },
-    {
-      "date": "08-05",
-      "company": "其他",
-      "title": "弥合机器人设计与部署之间的差距 (Bridging the Gap Between Robotics Design and Deployment)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "However, once these systems are deployed, they are prone to face unique challenges. Lighting conditions, variations in human behavior, the variety of surfaces encountered, and back…",
-      "url": "https://roboticsandautomationnews.com/2026/08/05/bridging-the-gap-between-robotics-design-and-deployment/103917/"
     }
   ]
 }
