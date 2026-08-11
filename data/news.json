@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T15:09:46.463376+08:00",
+  "updated": "2026-08-11T21:08:26.090322+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 2,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 10,
-      "core": 1,
+      "entries": 17,
+      "candidates": 9,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 4,
+      "entries": 16,
+      "candidates": 5,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 0,
-      "candidates": 0,
+      "entries": 16,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 16,
+      "entries": 59,
+      "candidates": 21,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 15,
+      "core": 13,
       "periphery": 0,
-      "new": 11
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -151,11 +151,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 26,
-      "candidates": 22,
-      "core": 9,
-      "periphery": 3,
-      "new": 2
+      "entries": 27,
+      "candidates": 23,
+      "core": 8,
+      "periphery": 5,
+      "new": 4
     },
     {
       "name": "The Robot Report",
@@ -207,7 +207,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 2,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-11T15:10:26.425262+08:00",
+    "generated_at": "2026-08-11T21:09:04.747909+08:00",
     "mode": "aicodewith",
-    "item_count": 19,
+    "item_count": 21,
     "insights": [
       {
-        "label": "商业化开始看订单和可交付场景",
-        "text": "Vbot把日本作为出海首站并锁定首期10亿元订单，舍弗勒也披露人形机器人订单储备约3.5亿元，订单口径正在成为公司能力外显的主证据。",
+        "label": "订单与出海先押可交付场景",
+        "text": "Vbot把日本定为出海首站并披露首期锁定10亿元订单，舍弗勒的人形机器人订单储备已到3.5亿元，RoboStore又推出面向美国机构的部署服务，订单和落地动作都在围绕能验收、能部署的场景展开。",
         "evidence_urls": []
       },
       {
-        "label": "资本更追模块补齐",
-        "text": "橡树清溪连续完成天使轮和天使+轮融资，三大机器人本体厂商罕见联合押注，灵巧手赛道半年融资已到250亿元但仍未形成标准手，资金正更集中流向通用系统和关键部件的补位机会。",
+        "label": "世界模型开始被评测框起来",
+        "text": "五大高校联合发布TriWorldBench，首次把机器人三视角世界模型纳入持续更新的评测榜单，华为、理想、小鹏、小米围绕世界模型与VLA的论文讨论也更密集，模型竞争正在从概念站队转向可比较的任务表现。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争转向评测和数据闭环",
-        "text": "首个面向机器人三视角世界模型的TriWorldBench评测榜单已发布并持续更新，结合模型路线趋同的讨论，具身智能的关注点正从概念扩散转向可对比评测和真实任务闭环。",
+        "label": "资金继续追短板与平台",
+        "text": "灵巧手半年融资约250亿元却仍未形成标准手，橡树清溪的通用系统平台拿到三大本体厂商联合押注，宇树科技启动申购也把市场热度推高，资本偏好正集中在能力补齐和接口标准化上。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "TriWorldBench推出机器人三视角世界模型评测，模型路线趋同后，行业讨论重心转向评测体系、数据闭环和真实任务表现。",
+        "summary": "世界模型开始被评测体系约束，TriWorldBench把三视角能力拉到可比较框架内，车企论文与VLA讨论也在向数据和任务闭环收敛。",
         "items": [
           {
             "date": "08-11",
@@ -270,6 +270,13 @@
             "url": "https://www.qbitai.com/2026/08/469860.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "08-11",
+            "title": "华为、理想、小鹏、小米，拆完七篇论文：「世界模型与VLA」到底争的什么？",
+            "url": "https://www.tmtpost.com/8099113.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "08-10",
@@ -289,7 +296,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "中科慧思一次发布三款灵巧手，RoboStore也在推进机器人部署，产品侧开始从展示走向可交付、可部署的能力验证。",
+        "summary": "中科慧思一次推出三款灵巧手，RoboStore转向机构部署服务，产品侧更强调可展示、可部署，但离稳定量产和真实环境验证仍有距离。",
         "items": [
           {
             "date": "08-10",
@@ -316,7 +323,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "Vbot把日本作为首站并锁定首期10亿元订单，舍弗勒披露约3.5亿元订单储备，订单正成为落地信号。",
+        "summary": "Vbot锁定日本首站并给出10亿元首期订单，舍弗勒披露3.5亿元订单储备，订单信号集中在海外拓展与可验收场景。",
         "items": [
           {
             "date": "08-11",
@@ -336,7 +343,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "橡树清溪获两轮数千万元融资，灵巧手半年融资约250亿元，宇树启动申购，资本持续向通用系统、关键部件和头部标的集中。",
+        "summary": "灵巧手和通用系统平台持续吸金，橡树清溪获本体厂商联合押注，宇树申购放大热度，资金更看重短板能力和平台化机会。",
         "items": [
           {
             "date": "08-11",
@@ -377,7 +384,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树申购引发高关注，灵巧手高热但标准未定，行业讨论正在从概念热度转向价格、量产和真实落地约束。",
+        "summary": "宇树申购高热、全球出货数据和市场份额被频繁引用，行业叙事从估值与热度逐步转向订单、出货和量产兑现。",
         "items": [
           {
             "date": "08-11",
@@ -418,8 +425,15 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "电子皮肤进展显示产业链开始补触觉短板，传感与末端感知环节的材料、器件和集成能力将更直接影响具身表现。",
+        "summary": "3D打印电弧增材和电子皮肤都在补机器人关键链条，供应链机会更依赖本体、控制、感知等瓶颈环节打通。",
         "items": [
+          {
+            "date": "08-11",
+            "title": "机器人3D打印新突破！越擎科技iRobotCAM×广州数控打通电弧增材本体-控制器-编程全链路",
+            "url": "https://www.gongkong.com/news/202608/452495.html",
+            "company": "其他",
+            "source_name": "中国工控网机器人"
+          },
           {
             "date": "08-10",
             "title": "电子皮肤让机器人和假肢拥有“类人触觉感知 (Electronic skin gives robots and prosthetics ‘human-like touch sensing’)",
@@ -494,6 +508,24 @@
       "category": "商业订单",
       "summary": "国产具身智能出海，又迈出一步！ 近日，Vbot 维他动力宣布，其全球化战略正式启程，将日本锁定为其出海蓝图落地首站。 根据战略合作协议，日本机器人解决方案企业 Future Robotics 已完成维",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697896.html"
+    },
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "华为、理想、小鹏、小米，拆完七篇论文：「世界模型与VLA」到底争的什么？",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "文 | HiEV大蒜粒车研所，作者 |本一，编辑 |德新 世界模型、VLA、原生多模态......这三个词过去一年在新车和智驾的发布会上都经常听到。中文舆论场分出了几个阵营：华为、蔚来是世界模型派，小鹏、理想是 VLA 派。 但今年 CVPR 2026 上，有一篇来自中国车企的口头报告（Oral）论文，研究的正是世界模型。它的第一段却先承认： 尽管学界至今没…",
+      "url": "https://www.tmtpost.com/8099113.html"
+    },
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "机器人3D打印新突破！越擎科技iRobotCAM×广州数控打通电弧增材本体-控制器-编程全链路",
+      "source_name": "中国工控网机器人",
+      "category": "泛具身产业链",
+      "summary": "3D打印增材制造技术的应用最引人注目的是其在年产百万台以上的桌面打印机的应用，引领着市场对于3D打印技术的关注度。 标签： 越擎科技 机器人 <a href=\"//tags.gongko",
+      "url": "https://www.gongkong.com/news/202608/452495.html"
     },
     {
       "date": "08-10",
@@ -863,24 +895,6 @@
       "category": "资本动态",
       "summary": "今年7月初，工业机器人龙头埃斯顿发布公告称，其全资子公司南京埃斯顿机器人工程有限公司（以下简称“埃斯顿机器人”）、南京鼎通机电自动化有限公司（以下简称“鼎通机电”）拟以支付现金方式收购南京埃斯顿酷卓科",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697313.html"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "一扇门被关上，中国具身智能产业正破窗",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "美国一道禁令关掉了出口的大门，反倒让中国具身智能产业摆脱了对单一市场的依赖，在看得到未来的新发展窗口里，既有中国制造供应链打磨的“身体”，也有在本土与非美场景中不断训练迭代的“大脑”，长期来看，中美具身产业间的这场关于智能与效率的竞争，或将进入深水区",
-      "url": "https://www.tmtpost.com/8093205.html"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "蚂蚁灵波拟募资15亿，“具身大脑”的吸引力在提升？",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "文 | 一刻商业，作者 | 麦卡 ，编辑 | 以安 具身智能的牌桌上，蚂蚁决定把关键的一张牌拿出来单独定价。 据晚点LatePost报道，蚂蚁集团旗下具身智能公司“蚂蚁灵波”已确认启动首轮独立融资，拟募资15亿元人民币，目标在今年年底完成二轮融资。 15亿元的首轮体量，放在国内具身智能“大脑层”赛道是重量级起步，若如期完成，投后估值可能迈入独角兽门槛。 对此…",
-      "url": "https://www.tmtpost.com/8094094.html"
     }
   ]
 }
