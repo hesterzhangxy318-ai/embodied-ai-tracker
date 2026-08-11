@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T09:48:38.327575+08:00",
+  "updated": "2026-08-11T15:09:46.463376+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 3,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
-      "core": 0,
+      "entries": 19,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 3,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -90,9 +90,9 @@
       "error": "",
       "entries": 58,
       "candidates": 16,
-      "core": 2,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 21,
-      "core": 11,
+      "candidates": 22,
+      "core": 15,
       "periphery": 0,
-      "new": 7
+      "new": 11
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 3
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-11T09:49:16.547395+08:00",
+    "generated_at": "2026-08-11T15:10:26.425262+08:00",
     "mode": "aicodewith",
-    "item_count": 14,
+    "item_count": 19,
     "insights": [
       {
-        "label": "评测与部署开始收敛到可验收任务",
-        "text": "五大高校发布首份机器人三视角世界模型评测 TriWorldBench，RoboStore 又推出 Robo Inc. 帮美国机构部署机器人，行业一端在补评价体系，一端在做机构级落地，竞争重心正往真实任务闭环靠拢。",
+        "label": "商业化开始看订单和可交付场景",
+        "text": "Vbot把日本作为出海首站并锁定首期10亿元订单，舍弗勒也披露人形机器人订单储备约3.5亿元，订单口径正在成为公司能力外显的主证据。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争转向数据闭环",
-        "text": "Physical AI 的讨论已从 VLA、世界模型、基座模型转到数据闭环和任务闭环，配合首个三视角世界模型榜单上线，模型能力正在从叙事比拼转为可复现的数据与评测结果。",
+        "label": "资本更追模块补齐",
+        "text": "橡树清溪连续完成天使轮和天使+轮融资，三大机器人本体厂商罕见联合押注，灵巧手赛道半年融资已到250亿元但仍未形成标准手，资金正更集中流向通用系统和关键部件的补位机会。",
         "evidence_urls": []
       },
       {
-        "label": "资本更偏好场景清晰的能力补齐",
-        "text": "橡树清溪连续完成天使轮及天使+轮数千万元融资，三大机器人本体厂商联合押注，云深处募资又把一半资金投向人形机器人，资本更愿意支持能补足平台能力或绑定明确场景的项目。",
+        "label": "模型竞争转向评测和数据闭环",
+        "text": "首个面向机器人三视角世界模型的TriWorldBench评测榜单已发布并持续更新，结合模型路线趋同的讨论，具身智能的关注点正从概念扩散转向可对比评测和真实任务闭环。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术端开始从概念叙事转向评测体系和路线分化，TriWorldBench上线后，VLA、世界模型、基座模型与数据闭环的竞争焦点更集中在谁能产出稳定可复现的能力。",
+        "summary": "TriWorldBench推出机器人三视角世界模型评测，模型路线趋同后，行业讨论重心转向评测体系、数据闭环和真实任务表现。",
         "items": [
           {
             "date": "08-11",
@@ -289,7 +289,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现灵巧手新品和机构部署工具两类动作，前者强调具体操作能力，后者直接面向美国机构落地，量产讨论开始围绕可交付形态展开。",
+        "summary": "中科慧思一次发布三款灵巧手，RoboStore也在推进机器人部署，产品侧开始从展示走向可交付、可部署的能力验证。",
         "items": [
           {
             "date": "08-10",
@@ -315,9 +315,43 @@
         ]
       },
       {
-        "category": "资本动态",
-        "summary": "资本继续向具身平台、灵巧手和人形机器人集中，橡树清溪融资、本体厂商联合押注、宇树科创板申购与云深处募资都指向对可定义能力的偏好。",
+        "category": "商业订单",
+        "summary": "Vbot把日本作为首站并锁定首期10亿元订单，舍弗勒披露约3.5亿元订单储备，订单正成为落地信号。",
         "items": [
+          {
+            "date": "08-11",
+            "title": "电驱动还在亏，舍弗勒把资源投给机器人，3.5 亿订单在手",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321201-12003-30697916.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-11",
+            "title": "国内消费级具身智能头部落子日本，首期锁定10亿元订单！",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697896.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "资本动态",
+        "summary": "橡树清溪获两轮数千万元融资，灵巧手半年融资约250亿元，宇树启动申购，资本持续向通用系统、关键部件和头部标的集中。",
+        "items": [
+          {
+            "date": "08-11",
+            "title": "半年融资250亿，灵巧手还没跑出“标准手”",
+            "url": "https://www.tmtpost.com/8098473.html",
+            "company": "行业",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "08-11",
+            "title": "美团投宇树，一笔4.2亿的投资如何变成53亿？",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30697938.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-10",
             "title": "橡树清溪连续完成两轮数千万融资，三大机器人本体厂商罕见联合押注",
@@ -343,13 +377,20 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树申购、中签率和灵巧手热潮把市场关注拉向更可验证的节点，行业仍在补量产、价格和工程化三道门槛。",
+        "summary": "宇树申购引发高关注，灵巧手高热但标准未定，行业讨论正在从概念热度转向价格、量产和真实落地约束。",
         "items": [
           {
             "date": "08-11",
             "title": "人形机器人第一股！宇树科技网上申购超8288倍：中签率0.0181%",
             "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697880.html",
             "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-11",
+            "title": "中国人形机器人横扫全球！拿下97%市场份额：智元超宇树居第一",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697995.html",
+            "company": "智元机器人",
             "source_name": "OFweek机器人"
           },
           {
@@ -377,7 +418,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "上游传感与触觉方向继续冒头，电子皮肤研究为机器人和假肢提供类人触觉感知思路，产业链机会正向感知与操作性能瓶颈集中。",
+        "summary": "电子皮肤进展显示产业链开始补触觉短板，传感与末端感知环节的材料、器件和集成能力将更直接影响具身表现。",
         "items": [
           {
             "date": "08-10",
@@ -408,6 +449,51 @@
       "category": "行业动态",
       "summary": "快科技8月10日消息，宇树科技披露科创板首次公开发行网上发行申购情况以及中签率公告，本次网上发行最终中签率定格在0.01809759%，约0.0181%。 公告显示，宇树科技本次IPO发行总股份404",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697880.html"
+    },
+    {
+      "date": "08-11",
+      "company": "行业",
+      "title": "半年融资250亿，灵巧手还没跑出“标准手”",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "文 | 定焦One（dingjiaoone），作者 | 王璐，编辑 | 魏佳 人形机器人的本体正在快速成熟，“手”却成了最后、也最难啃的一块短板。 这只手的重要性，从成本占比就能看出来。摩根士丹利曾测算，灵巧手在特斯拉Optimus的物料成本中占到约17.3%。从业者普遍认为，灵巧手的硬件成本占整个本体的10%-20%，部分高端配置可能达到20%以上。难度高…",
+      "url": "https://www.tmtpost.com/8098473.html"
+    },
+    {
+      "date": "08-11",
+      "company": "智元机器人",
+      "title": "中国人形机器人横扫全球！拿下97%市场份额：智元超宇树居第一",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "快科技8月11日消息，据报道，最新行业研究数据显示，2026年上半年全球人形机器人出货量约1.91万台，较去年同期约5100台增长近300%。其中中国厂商拿下全球超过97%的出货量份额，大幅领先美国等",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697995.html"
+    },
+    {
+      "date": "08-11",
+      "company": "宇树科技",
+      "title": "美团投宇树，一笔4.2亿的投资如何变成53亿？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "8月10日，宇树科技正式启动网上网下申购。 这家被称为“人形机器人第一股”的公司，发行价定在150.80元/股，发行后总市值约609.93亿元，募资总额接近61亿元。发行市盈率219.23倍，行业平均",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30697938.html"
+    },
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "电驱动还在亏，舍弗勒把资源投给机器人，3.5 亿订单在手",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "舍弗勒在所有外资零部件里面，做机器人是非常有前瞻性的。 最近发了份季度财报，人形机器人订单储备3.5亿欧元，这个业务的订单可以拿出来放在台面上舍弗勒先给客户的预计采购量打了至少五折，有的折得更多，方法",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321201-12003-30697916.html"
+    },
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "国内消费级具身智能头部落子日本，首期锁定10亿元订单！",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "国产具身智能出海，又迈出一步！ 近日，Vbot 维他动力宣布，其全球化战略正式启程，将日本锁定为其出海蓝图落地首站。 根据战略合作协议，日本机器人解决方案企业 Future Robotics 已完成维",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697896.html"
     },
     {
       "date": "08-10",
@@ -795,51 +881,6 @@
       "category": "资本动态",
       "summary": "文 | 一刻商业，作者 | 麦卡 ，编辑 | 以安 具身智能的牌桌上，蚂蚁决定把关键的一张牌拿出来单独定价。 据晚点LatePost报道，蚂蚁集团旗下具身智能公司“蚂蚁灵波”已确认启动首轮独立融资，拟募资15亿元人民币，目标在今年年底完成二轮融资。 15亿元的首轮体量，放在国内具身智能“大脑层”赛道是重量级起步，若如期完成，投后估值可能迈入独角兽门槛。 对此…",
       "url": "https://www.tmtpost.com/8094094.html"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "PIA Automation将为BMW E-Drive打造配备46台机器人和数字孪生技术的装配线 (PIA Automation to build BMW E-Drive assembly line with 46 robots and digital twin technology)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "PIA Automation is developing a highly automated assembly line for E-Drive units at the BMW Group plant in Steyr, Austria. Featuring 78 processing stations, 27 robotic cells and 46…",
-      "url": "https://roboticsandautomationnews.com/2026/08/06/pia-automation-to-build-bmw-e-drive-assembly-line-with-46-robots-and-digital-twin-technology/103954/"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "黎曼动力携手光轮智能与诺亦腾机器人，剑指2026年百万小时具身智能数据建设",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "8月6日，黎曼动力宣布与光轮智能、诺亦腾机器人（Noitom Robotics）达成战略合作。围绕 Riemann-1.0 具身世界动作模型与 Matrix-Game 3.5 交互式世界模型，黎曼动力将与两家公司在高质量具身数据采集、模型训练、规模化评测、真实机器人部署与反馈优化等方向展开深度协同，推进面向 2026 年的百万小时具身智能数据建设。 此次合作…",
-      "url": "https://www.leiphone.com/category/industrynews/8FCGhggf0AxRU8Pa.html"
-    },
-    {
-      "date": "08-06",
-      "company": "众擎机器人",
-      "title": "消息称前小鹏副总裁陈永海加入众擎机器人，担任运营总裁",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 7 日消息，据《21 汽车 · 一见 Auto》从多方独立信源处获悉，前小鹏集团产品副总裁陈永海已加入众擎机器人，担任运营总裁，向董事长及 CEO 赵同阳汇报。 报道提到，一位知情人士透露，陈永海今年 1 月从小鹏集团离职，后众擎创始人赵同阳邀请陈永海加入众擎。另一位知情人士透露，也有其他机器人公司曾向陈永海发出邀请。离开小鹏集团后， 陈永…",
-      "url": "https://www.ithome.com/0/986/783.htm"
-    },
-    {
-      "date": "08-06",
-      "company": "特斯拉",
-      "title": "特斯拉 Terafab 晶圆厂落地得克萨斯州，马斯克豪言“把尖端制造带回美国”",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 8 月 6 日消息，当地时间 6 日（今天），SpaceX 宣布将与特斯拉首期投入 168 亿美元 （IT之家注：现汇率约合 1,136.05 亿元人民币） ，在美国得克萨斯州格赖姆斯县 建设 Terafab 先进 AI 芯片制造基地 。项目由特斯拉 CEO 埃隆 · 马斯克规划，旨在满足两家公司未来快速增长的芯片需求。 SpaceX 和特斯拉预计…",
-      "url": "https://www.ithome.com/0/986/766.htm"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "走进Omniverse：开放世界模型如何推动物理AI前沿 (Into the Omniverse: How Open World Models Push the Frontier of Physical AI)",
-      "source_name": "NVIDIA Robotics",
-      "category": "技术突破",
-      "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured no…",
-      "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
     }
   ]
 }
