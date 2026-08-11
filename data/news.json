@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T21:08:26.090322+08:00",
+  "updated": "2026-08-12T03:03:58.137464+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
+      "candidates": 4,
       "core": 1,
-      "periphery": 0,
-      "new": 0
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "36氪",
@@ -53,7 +53,7 @@
       "candidates": 5,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 21,
-      "core": 0,
+      "candidates": 17,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -122,15 +122,14 @@
     {
       "name": "OFweek机器人",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 22,
-      "candidates": 22,
-      "core": 13,
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 5
+      "new": 0
     },
     {
       "name": "新战略移动机器人",
@@ -155,7 +154,7 @@
       "candidates": 23,
       "core": 8,
       "periphery": 5,
-      "new": 4
+      "new": 3
     },
     {
       "name": "The Robot Report",
@@ -166,9 +165,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 4,
+      "core": 5,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +238,30 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-11T21:09:04.747909+08:00",
+    "generated_at": "2026-08-12T03:04:12.436277+08:00",
     "mode": "aicodewith",
-    "item_count": 21,
+    "item_count": 25,
     "insights": [
       {
-        "label": "订单与出海先押可交付场景",
-        "text": "Vbot把日本定为出海首站并披露首期锁定10亿元订单，舍弗勒的人形机器人订单储备已到3.5亿元，RoboStore又推出面向美国机构的部署服务，订单和落地动作都在围绕能验收、能部署的场景展开。",
+        "label": "落地验证转向可验收订单",
+        "text": "Vbot维他动力将日本作为出海首站并披露首期10亿元订单，舍弗勒在人形机器人方向已有3.5亿元订单储备，商业化信号更多来自明确客户和金额，产业验证正在从概念展示转向可交付、可结算的场景。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型开始被评测框起来",
-        "text": "五大高校联合发布TriWorldBench，首次把机器人三视角世界模型纳入持续更新的评测榜单，华为、理想、小鹏、小米围绕世界模型与VLA的论文讨论也更密集，模型竞争正在从概念站队转向可比较的任务表现。",
+        "label": "模型竞争进入评测与闭环阶段",
+        "text": "TriWorldBench推出面向机器人三视角世界模型的评测榜单，世界模型与VLA继续成为车企和具身智能公司的研究重点，模型叙事开始依赖更具体的评价体系和数据闭环，单纯强调大模型能力的说服力在下降。",
         "evidence_urls": []
       },
       {
-        "label": "资金继续追短板与平台",
-        "text": "灵巧手半年融资约250亿元却仍未形成标准手，橡树清溪的通用系统平台拿到三大本体厂商联合押注，宇树科技启动申购也把市场热度推高，资本偏好正集中在能力补齐和接口标准化上。",
+        "label": "灵巧手热度高但标准未定",
+        "text": "灵巧手半年融资规模被报道达到250亿元，产品路线仍有三大方向且高端产品价格可达几十万元一只，中科慧思发布三款灵巧手、戴盟获数亿元融资，资本和新品密集进入的同时，规模化量产和商业落地仍存在工程鸿沟。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型开始被评测体系约束，TriWorldBench把三视角能力拉到可比较框架内，车企论文与VLA讨论也在向数据和任务闭环收敛。",
+        "summary": "世界模型、VLA和数据闭环仍是技术焦点，TriWorldBench等评测出现，研究重点从视觉生成进一步转向世界理解和机器人任务能力评价。",
         "items": [
           {
             "date": "08-11",
@@ -296,8 +295,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "中科慧思一次推出三款灵巧手，RoboStore转向机构部署服务，产品侧更强调可展示、可部署，但离稳定量产和真实环境验证仍有距离。",
+        "summary": "戴盟获数亿元融资并发布物理交互脑，中科慧思推出三款灵巧手，RoboStore成立部署服务，产品化开始围绕操作能力和机构落地展开。",
         "items": [
+          {
+            "date": "08-11",
+            "title": "蚂蚁首次投向机器人“指尖”！数亿元押注，全球首个物理交互脑发布",
+            "url": "https://www.qbitai.com/2026/08/470674.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "08-10",
             "title": "中科慧思 L1、D1、M1 三款灵巧手亮相，能弹吉他",
@@ -323,7 +329,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "Vbot锁定日本首站并给出10亿元首期订单，舍弗勒披露3.5亿元订单储备，订单信号集中在海外拓展与可验收场景。",
+        "summary": "本周订单信息集中在具身智能出海和人形机器人供应链，Vbot披露日本首期10亿元订单，舍弗勒机器人订单储备达3.5亿元。",
         "items": [
           {
             "date": "08-11",
@@ -343,7 +349,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "灵巧手和通用系统平台持续吸金，橡树清溪获本体厂商联合押注，宇树申购放大热度，资金更看重短板能力和平台化机会。",
+        "summary": "资金继续流向灵巧手、通用系统平台和头部本体公司，橡树清溪获数千万元融资，宇树申购启动，云深处募资规划延伸至人形机器人。",
         "items": [
           {
             "date": "08-11",
@@ -384,7 +390,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树申购高热、全球出货数据和市场份额被频繁引用，行业叙事从估值与热度逐步转向订单、出货和量产兑现。",
+        "summary": "宇树科创板申购热度高，中签率被披露为0.0181%，灵巧手赛道融资活跃但工程化压力突出，仓库机器人规模化与安全也被讨论。",
         "items": [
           {
             "date": "08-11",
@@ -399,6 +405,27 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697995.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-11",
+            "title": "网上中签率 0.018% 仅为长鑫 3.8%：“人形机器人第一股”宇树科技公布中签结果，超 978 万户参与申购",
+            "url": "https://www.ithome.com/0/988/502.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-11",
+            "title": "网络研讨会讨论仓库机器人车队的安全与规模化 (Webinar to discuss safety and scaling robot fleets in the warehouse)",
+            "url": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "08-11",
+            "title": "3700亿美元竞赛：一体化设计如何助力仿人机器人制造商在快速增长的市场中取胜 (The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market)",
+            "url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "08-10",
@@ -425,7 +452,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "3D打印电弧增材和电子皮肤都在补机器人关键链条，供应链机会更依赖本体、控制、感知等瓶颈环节打通。",
+        "summary": "产业链进展集中在制造和感知环节，越擎科技与广州数控打通电弧增材链路，电子皮肤研究推进类人触觉感知能力。",
         "items": [
           {
             "date": "08-11",
@@ -526,6 +553,42 @@
       "category": "泛具身产业链",
       "summary": "3D打印增材制造技术的应用最引人注目的是其在年产百万台以上的桌面打印机的应用，引领着市场对于3D打印技术的关注度。 标签： 越擎科技 机器人 <a href=\"//tags.gongko",
       "url": "https://www.gongkong.com/news/202608/452495.html"
+    },
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "蚂蚁首次投向机器人“指尖”！数亿元押注，全球首个物理交互脑发布",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "今天（8月11日），戴盟机器人宣布完成 数亿元战略轮融资，蚂蚁集团领投，老股东超额跟投加注 。 翻看蚂蚁过往在具身智能赛道的投资版图，不难发现，其已密集落子一批行业独角兽，包括宇树科技（即将上市）、星海图、灵心巧手、苏度科技、舞肌科技等，形成覆盖机器人本体、具身大脑与核心零部件的头部布局。 而此次蚂蚁领投戴盟，不仅是其在这一赛道上的又一重磅出手，更是首次将投…",
+      "url": "https://www.qbitai.com/2026/08/470674.html"
+    },
+    {
+      "date": "08-11",
+      "company": "宇树科技",
+      "title": "网上中签率 0.018% 仅为长鑫 3.8%：“人形机器人第一股”宇树科技公布中签结果，超 978 万户参与申购",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 11 日消息，宇树科技今晚披露了首次公开发行股票并在科创板上市的网上摇号中签结果，中签号码共有 19414 个，每个中签号码可认购 500 股。宇树科技本次发行价格为 150.80 元 / 股，投资者中一签需缴款 7.54 万元。 回拨机制启动后，宇树科技网上发行最终中签率为 0.01809759%。对比此前上市的另一只科创板热门新股长鑫科…",
+      "url": "https://www.ithome.com/0/988/502.htm"
+    },
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "网络研讨会讨论仓库机器人车队的安全与规模化 (Webinar to discuss safety and scaling robot fleets in the warehouse)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Industry experts will discuss how to scale mobile robots in the warehouse while maintaining both safety and productivity. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/webinar-to-discuss-safety-scaling-robot-fleets-warehouse/"
+    },
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "3700亿美元竞赛：一体化设计如何助力仿人机器人制造商在快速增长的市场中取胜 (The 370-billion-dollar race: How integrated design can help humanoid manufacturers succeed in a rapidly growing market)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The future of humanoid robotics is closer than most people realize. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/the-370-billion-dollar-race-how-integrated-design-can-help-humanoid-manufacturers-succeed-in-a-rapidly-growing-market/"
     },
     {
       "date": "08-10",
@@ -859,42 +922,6 @@
       "category": "产品量产",
       "summary": "IT之家 8 月 6 日消息，上汽荣威家越 07 将于 8 月 13 日亮相，搭载最新一代 Momenta R7 世界模型高阶智能辅助驾驶方案。 该车采用以建筑式双垂直设计，车头和车尾近 90 度垂直角设计，强化车身视觉支撑力与规整秩序感。前脸搭载行业首发一体式贯穿大灯，搭载近 3000 颗错落分布的浮雕星芒。提供“龙晶紫”“玛瑙灰”“宝石蓝”“珍溪黑”“钻…",
       "url": "https://www.ithome.com/0/986/355.htm"
-    },
-    {
-      "date": "08-06",
-      "company": "宇树科技",
-      "title": "人形机器人第一股 宇树科技终于上市了：8月7日举行IPO网上路演",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "快科技8月5日消息，宇树科技发布公告，公司科创板IPO网上路演安排正式落地，路演时间定在8月7日14:00至17:00，投资者可以在上证路演中心、中国证券网两个平台在线提问交流。 本次路演参会人员包含",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30697250.html"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "对话 IDEA 张磊：「不以动作为输入条件，就不叫世界模型」",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "曾力压谷歌、Meta，把「物体理解」做到全球第一。 作者丨 幸丽娟 编辑丨 林觉民 2026年上半年，中国AI圈的钱和人都涌向同一方向：世界模型。 仅前六个月，国内世界模型赛道披露融资总额约300亿元，如果把“具身智能+世界模型”融合赛道算进来，这个数字膨胀到900多亿。 相比去年同期，融资增速超 5 倍。 百亿资金，海量人才，如潮水般涌入。 一个绕不过去的…",
-      "url": "https://www.leiphone.com/category/academic/wQny8Cer4EJz0RAU.html"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "第一批炒具身智能的股票，已经跌惨了",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "文 | AIX财经，作者 | 金玙璠，编辑 | 魏佳 具身智能，是眼下最热的概念之一。7月2日宇树科技科创板IPO注册获批，又把这波热度往上推了一截。但 并不是所有相关公司都跟着受益 。 「AIX财经」梳理出30家具身智能相关上市公司，大致分两类：一类是原生机器人公司，比如优必选、极智嘉；另一类是存量机器人厂商和制造公司，把原有业务延伸进具身智能，比如埃斯顿…",
-      "url": "https://www.tmtpost.com/8093427.html"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "斥资近5个亿！埃斯顿拟收购机器人子公司股权",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "今年7月初，工业机器人龙头埃斯顿发布公告称，其全资子公司南京埃斯顿机器人工程有限公司（以下简称“埃斯顿机器人”）、南京鼎通机电自动化有限公司（以下简称“鼎通机电”）拟以支付现金方式收购南京埃斯顿酷卓科",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697313.html"
     }
   ]
 }
