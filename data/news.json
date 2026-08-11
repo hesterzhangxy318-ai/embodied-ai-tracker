@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T02:59:41.567196+08:00",
+  "updated": "2026-08-11T09:48:38.327575+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 3,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 3,
+      "entries": 16,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 33,
+      "entries": 58,
+      "candidates": 16,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 21,
-      "core": 10,
+      "core": 11,
       "periphery": 0,
-      "new": 6
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -155,7 +155,7 @@
       "candidates": 22,
       "core": 9,
       "periphery": 3,
-      "new": 4
+      "new": 2
     },
     {
       "name": "The Robot Report",
@@ -194,7 +194,7 @@
       "candidates": 12,
       "core": 6,
       "periphery": 4,
-      "new": 7
+      "new": 6
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,42 +239,38 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-11T03:00:21.922030+08:00",
-    "mode": "local",
-    "item_count": 11,
+    "generated_at": "2026-08-11T09:49:16.547395+08:00",
+    "mode": "aicodewith",
+    "item_count": 14,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟；就在一个月多前的6月29日，两家公司在同一天宣布完成新一轮融资，投后估值均超过200亿元。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/08/469213.html",
-          "https://www.tmtpost.com/8097290.html",
-          "https://www.ithome.com/0/987/673.htm"
-        ]
+        "label": "评测与部署开始收敛到可验收任务",
+        "text": "五大高校发布首份机器人三视角世界模型评测 TriWorldBench，RoboStore 又推出 Robo Inc. 帮美国机构部署机器人，行业一端在补评价体系，一端在做机构级落地，竞争重心正往真实任务闭环靠拢。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，需求、资本和创业者正在快速推动，但从技术成熟、规模化量产到商业落地，中间仍隔着巨大的工程鸿沟；就在一个月多前的6月29日，两家公司在同一天宣布完成新一轮融资，投后估值均超过200亿元。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/08/469213.html",
-          "https://www.tmtpost.com/8097290.html"
-        ]
+        "label": "模型竞争转向数据闭环",
+        "text": "Physical AI 的讨论已从 VLA、世界模型、基座模型转到数据闭环和任务闭环，配合首个三视角世界模型榜单上线，模型能力正在从叙事比拼转为可复现的数据与评测结果。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 8月6日，人形机器人通用系统平台公司橡树清溪科技宣布连续完成天使轮及天使+轮融资，合计数千万元；来源|博望财经 8月10日，宇树科技正式开启科创板网上申购，发行价150.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-08/ART-898890-12005-30697666.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-12003-30697830.html",
-          "https://robot.ofweek.com/2026-08/ART-8321206-12003-30697809.html"
-        ]
+        "label": "资本更偏好场景清晰的能力补齐",
+        "text": "橡树清溪连续完成天使轮及天使+轮数千万元融资，三大机器人本体厂商联合押注，云深处募资又把一半资金投向人形机器人，资本更愿意支持能补足平台能力或绑定明确场景的项目。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
+        "summary": "技术端开始从概念叙事转向评测体系和路线分化，TriWorldBench上线后，VLA、世界模型、基座模型与数据闭环的竞争焦点更集中在谁能产出稳定可复现的能力。",
         "items": [
+          {
+            "date": "08-11",
+            "title": "五大高校联手发榜！首份机器人三视角世界模型评测结果出炉，榜单持续更新中",
+            "url": "https://www.qbitai.com/2026/08/469860.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "08-10",
             "title": "具身智能的大脑，200亿一张门票",
@@ -293,7 +289,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "产品侧出现灵巧手新品和机构部署工具两类动作，前者强调具体操作能力，后者直接面向美国机构落地，量产讨论开始围绕可交付形态展开。",
         "items": [
           {
             "date": "08-10",
@@ -308,12 +304,19 @@
             "url": "https://www.infoq.cn/article/6EXTXyTt834kMGkiqqDT?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "08-10",
+            "title": "RoboStore推出Robo Inc.，帮助美国机构部署机器人 (RoboStore launches Robo Inc. to help U.S. organizations deploy robots)",
+            "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本继续向具身平台、灵巧手和人形机器人集中，橡树清溪融资、本体厂商联合押注、宇树科创板申购与云深处募资都指向对可定义能力的偏好。",
         "items": [
           {
             "date": "08-10",
@@ -340,8 +343,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "宇树申购、中签率和灵巧手热潮把市场关注拉向更可验证的节点，行业仍在补量产、价格和工程化三道门槛。",
         "items": [
+          {
+            "date": "08-11",
+            "title": "人形机器人第一股！宇树科技网上申购超8288倍：中签率0.0181%",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697880.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-10",
             "title": "魔幻灵巧手：半年200亿热钱，3大路线，贵到几十万一只",
@@ -367,7 +377,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "上游传感与触觉方向继续冒头，电子皮肤研究为机器人和假肢提供类人触觉感知思路，产业链机会正向感知与操作性能瓶颈集中。",
         "items": [
           {
             "date": "08-10",
@@ -381,6 +391,24 @@
     ]
   },
   "items": [
+    {
+      "date": "08-11",
+      "company": "其他",
+      "title": "五大高校联手发榜！首份机器人三视角世界模型评测结果出炉，榜单持续更新中",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "近日，由北京大学、清华大学、北京航空航天大学、上海交通大学、中国科学技术大学联合发起的 TriWorldBench Challenge ，正式公布首周榜单更新结果。 作为首个面向机器人三视角世界模型的评测榜单，TriWorldBench旨在建立更加全面的具身世界模型评价体系，推动世界模型从“视觉生成”迈向“世界理解”。 榜单综合评估模型在三视角一致性、任务执…",
+      "url": "https://www.qbitai.com/2026/08/469860.html"
+    },
+    {
+      "date": "08-11",
+      "company": "宇树科技",
+      "title": "人形机器人第一股！宇树科技网上申购超8288倍：中签率0.0181%",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "快科技8月10日消息，宇树科技披露科创板首次公开发行网上发行申购情况以及中签率公告，本次网上发行最终中签率定格在0.01809759%，约0.0181%。 公告显示，宇树科技本次IPO发行总股份404",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697880.html"
+    },
     {
       "date": "08-10",
       "company": "其他",
@@ -479,6 +507,15 @@
       "category": "泛具身产业链",
       "summary": "Hanyang University ERICA researchers have developed a vertically integrated dual-gate transistor design, which could give robots ‘reliable touch sensing and high density, large-are…",
       "url": "https://roboticsandautomationnews.com/2026/08/10/electronic-skin-gives-robots-and-prosthetics-human-like-touch-sensing/104036/"
+    },
+    {
+      "date": "08-10",
+      "company": "其他",
+      "title": "RoboStore推出Robo Inc.，帮助美国机构部署机器人 (RoboStore launches Robo Inc. to help U.S. organizations deploy robots)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "RoboStore, a distributor of Unitree's legged robots, has launched Robo Inc. to serve as a U.S.-based manufacturer and integrator. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/"
     },
     {
       "date": "08-09",
@@ -803,33 +840,6 @@
       "category": "技术突破",
       "summary": "In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured no…",
       "url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai/"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "全球首创！ 天创机器人联合顶尖高校与产业链企业推出基于可信安全策略的通用工业具身智能融合模型",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "天创机器人正式发布 T-WAVES——面向泛工业运维与应急安全救援场景的通用工业具身智能融合模型。其顶层技术架构 T-WM-VTLA-S，将视觉、语言、动作、世界模型、力触觉与外置安全控制统一到可训练",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30697488.html"
-    },
-    {
-      "date": "08-05",
-      "company": "其他",
-      "title": "工业具身智能已经进厂发挥价值了丨ToB产业观察",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "具身智能行业正在经历一场方向性的收敛，而工业场景已经是能发挥价值的场景了",
-      "url": "https://www.tmtpost.com/8090638.html"
-    },
-    {
-      "date": "08-05",
-      "company": "其他",
-      "title": "中国灵巧手新四小龙: 从Demo到量产，第一梯队正在形成",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "作者｜毛心如 一年前，国内灵巧手行业是什么样的？ 答案是整个赛道都处在 Demo 主导的萌芽期。 资本关注度有限，灵巧手厂商大多还停留在方案验证，行业交付大约在百千台量级，多数产品只适合展会演示，难以 其它 | <div",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321206-8420-30697126.html"
     }
   ]
 }
