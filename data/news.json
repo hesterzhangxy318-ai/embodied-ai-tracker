@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T03:03:58.137464+08:00",
+  "updated": "2026-08-12T10:00:38.650316+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 1,
       "periphery": 1,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 18,
       "candidates": 5,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 1,
+      "entries": 16,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 17,
-      "core": 1,
+      "entries": 58,
+      "candidates": 16,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -122,14 +122,15 @@
     {
       "name": "OFweek机器人",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 22,
+      "candidates": 22,
+      "core": 11,
       "periphery": 0,
-      "new": 0
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -154,7 +155,7 @@
       "candidates": 23,
       "core": 8,
       "periphery": 5,
-      "new": 3
+      "new": 1
     },
     {
       "name": "The Robot Report",
@@ -167,7 +168,7 @@
       "candidates": 15,
       "core": 5,
       "periphery": 1,
-      "new": 3
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -238,30 +239,30 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-12T03:04:12.436277+08:00",
+    "generated_at": "2026-08-12T10:01:18.035721+08:00",
     "mode": "aicodewith",
-    "item_count": 25,
+    "item_count": 26,
     "insights": [
       {
-        "label": "落地验证转向可验收订单",
-        "text": "Vbot维他动力将日本作为出海首站并披露首期10亿元订单，舍弗勒在人形机器人方向已有3.5亿元订单储备，商业化信号更多来自明确客户和金额，产业验证正在从概念展示转向可交付、可结算的场景。",
+        "label": "落地先看可验收任务",
+        "text": "本周订单和产品信号都指向工厂、维修、巡检这类可验收场景，舍弗勒披露人形机器人订单储备约3.5亿元，维他动力把日本作为出海首站并锁定首期10亿元订单，落地路径明显从演示转向交付。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争进入评测与闭环阶段",
-        "text": "TriWorldBench推出面向机器人三视角世界模型的评测榜单，世界模型与VLA继续成为车企和具身智能公司的研究重点，模型叙事开始依赖更具体的评价体系和数据闭环，单纯强调大模型能力的说服力在下降。",
+        "label": "世界模型进入评测阶段",
+        "text": "TriWorldBench发布了首个面向机器人三视角世界模型的评测榜单，华为、理想、小鹏、小米相关论文讨论也集中在世界模型与VLA分歧，模型竞争正在从概念站队转到数据、评测和任务闭环。",
         "evidence_urls": []
       },
       {
-        "label": "灵巧手热度高但标准未定",
-        "text": "灵巧手半年融资规模被报道达到250亿元，产品路线仍有三大方向且高端产品价格可达几十万元一只，中科慧思发布三款灵巧手、戴盟获数亿元融资，资本和新品密集进入的同时，规模化量产和商业落地仍存在工程鸿沟。",
+        "label": "资金追向能力补齐",
+        "text": "资本更集中到灵巧手、通用系统平台和细分能力补位上，戴盟机器人完成数亿元战略轮融资，橡树清溪连续完成两轮数千万元融资且被三家本体厂商联合押注，宇树申购火热也把可定价标的稀缺性放大出来。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型、VLA和数据闭环仍是技术焦点，TriWorldBench等评测出现，研究重点从视觉生成进一步转向世界理解和机器人任务能力评价。",
+        "summary": "TriWorldBench把世界模型评估从单一视觉生成推进到多视角理解，车企论文与头部厂商讨论让模型路线更贴近真实任务闭环。",
         "items": [
           {
             "date": "08-11",
@@ -295,7 +296,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "戴盟获数亿元融资并发布物理交互脑，中科慧思推出三款灵巧手，RoboStore成立部署服务，产品化开始围绕操作能力和机构落地展开。",
+        "summary": "灵巧手集中上新，戴盟获数亿元融资，中科慧思一次推出三款新品，产品节奏开始围绕可交互、可验证和可部署展开。",
         "items": [
           {
             "date": "08-11",
@@ -329,7 +330,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "本周订单信息集中在具身智能出海和人形机器人供应链，Vbot披露日本首期10亿元订单，舍弗勒机器人订单储备达3.5亿元。",
+        "summary": "舍弗勒和维他动力分别给出机器人订单储备和海外首站订单信号，市场开始用明确金额和场景验收来判断交付能力。",
         "items": [
           {
             "date": "08-11",
@@ -349,8 +350,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "资金继续流向灵巧手、通用系统平台和头部本体公司，橡树清溪获数千万元融资，宇树申购启动，云深处募资规划延伸至人形机器人。",
+        "summary": "资金明显向灵巧手、通用系统平台和头部标的集中，橡树清溪、戴盟和宇树相关交易把能力补位与稀缺性一起抬高。",
         "items": [
+          {
+            "date": "08-12",
+            "title": "宇树IPO背后的302份招标书，关于人形机器人的六个真相",
+            "url": "https://www.tmtpost.com/8099369.html",
+            "company": "宇树科技",
+            "source_name": "钛媒体"
+          },
           {
             "date": "08-11",
             "title": "半年融资250亿，灵巧手还没跑出“标准手”",
@@ -390,7 +398,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树科创板申购热度高，中签率被披露为0.0181%，灵巧手赛道融资活跃但工程化压力突出，仓库机器人规模化与安全也被讨论。",
+        "summary": "宇树申购火热、全球出货研究和仓库机器人安全讨论并行，行业关注点正从热度转向规模化、安全与可复制部署。",
         "items": [
           {
             "date": "08-11",
@@ -452,7 +460,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链进展集中在制造和感知环节，越擎科技与广州数控打通电弧增材链路，电子皮肤研究推进类人触觉感知能力。",
+        "summary": "3D打印增材链路和电子皮肤都在向具身需求靠拢，供应链机会更集中到本体、控制器和触觉感知等具体瓶颈上。",
         "items": [
           {
             "date": "08-11",
@@ -473,6 +481,15 @@
     ]
   },
   "items": [
+    {
+      "date": "08-12",
+      "company": "宇树科技",
+      "title": "宇树IPO背后的302份招标书，关于人形机器人的六个真相",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "8月10日，宇树科技开启网上、网下申购，发行价定格在150.80元/股。 资本市场的回应近乎“癫狂”——978.46万户参与网上申购，有效申购股数达536.37亿股。由于超额认购倍数超过8000倍，触发了回拨机制，最终网上中签率仅为0.018%。这个概率，比打新很多热门新股还要低得多。 以150.80元/股的发行价计算，这家公司市值已达约610亿元。而在20…",
+      "url": "https://www.tmtpost.com/8099369.html"
+    },
     {
       "date": "08-11",
       "company": "其他",
@@ -913,15 +930,6 @@
       "category": "资本动态",
       "summary": "Avatar Robotics raised $6.5 million in funding to scale humanoid robots and remote teleoperation across industrial supply chains. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/"
-    },
-    {
-      "date": "08-06",
-      "company": "其他",
-      "title": "上汽荣威家越 07 将于 8 月 13 日亮相，搭载 Momenta R7 世界模型",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 8 月 6 日消息，上汽荣威家越 07 将于 8 月 13 日亮相，搭载最新一代 Momenta R7 世界模型高阶智能辅助驾驶方案。 该车采用以建筑式双垂直设计，车头和车尾近 90 度垂直角设计，强化车身视觉支撑力与规整秩序感。前脸搭载行业首发一体式贯穿大灯，搭载近 3000 颗错落分布的浮雕星芒。提供“龙晶紫”“玛瑙灰”“宝石蓝”“珍溪黑”“钻…",
-      "url": "https://www.ithome.com/0/986/355.htm"
     }
   ]
 }
