@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T21:11:53.259508+08:00",
+  "updated": "2026-08-13T03:04:46.872629+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,9 +12,9 @@
       "error": "",
       "entries": 10,
       "candidates": 3,
-      "core": 1,
+      "core": 2,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 11,
+      "candidates": 10,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -53,7 +53,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 21,
+      "candidates": 25,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -160,14 +160,15 @@
     {
       "name": "The Robot Report",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 15,
+      "candidates": 15,
+      "core": 4,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,9 +192,9 @@
       "error": "",
       "entries": 15,
       "candidates": 12,
-      "core": 6,
+      "core": 5,
       "periphery": 3,
-      "new": 6
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -238,30 +239,30 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-12T21:12:21.970234+08:00",
+    "generated_at": "2026-08-13T03:05:08.509385+08:00",
     "mode": "aicodewith",
-    "item_count": 32,
+    "item_count": 35,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周订单和技术叙事更多落在工厂、维修、巡检等可验证场景，Vbot将日本作为出海首站并称首期锁定10亿元订单，舍弗勒披露人形机器人3.5亿元订单储备，群青智能也将分享从真实产线定义工业具身智能的物理AI闭环，商业化评价正在从展示能力转向能否形成明确交付与验收。",
+        "label": "订单验证转向可验收任务",
+        "text": "具身智能的商业化验证正集中在工厂与物流等可量化任务，舍弗勒披露3.5亿元人形机器人订单储备，Vbot宣布日本首站首期锁定10亿元订单，行业订单开始出现更明确的金额与落地场景。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争回到数据闭环",
-        "text": "世界模型与VLA仍是技术主线，但证据开始指向评测、真实数据和任务闭环，比亚迪AI团队发布混合世界模型HyWorldVLA并披露90.59分，五大高校推出机器人三视角世界模型评测TriWorldBench，桥介数物融资用途包括跨本体全身运动数据工厂和运动控制模型迭代，模型路线的差异更可能在数据生产和任务表现中被检验。",
+        "label": "模型竞争落到真实数据和任务闭环",
+        "text": "世界模型与VLA的讨论正通过真实任务性能获得检验，比亚迪发布获90.59分的混合世界模型，相关机器人在随机包裹分拣中连续运行1小时并达到每小时1816件，数据闭环和稳定作业能力成为模型价值的重要依据。",
         "evidence_urls": []
       },
       {
-        "label": "资本押注能力补齐而非泛概念",
-        "text": "资金继续流向灵巧手、操作系统和通用平台，戴盟机器人获数亿元战略轮融资，桥介数物完成亿级融资，橡树清溪连续完成两轮数千万元融资，但灵巧手仍被描述为半年融资高、路线多、单只可贵到几十万元且尚未跑出标准手，资本热度正在绑定关键部件和控制能力，规模化落地仍受工程与成本约束。",
+        "label": "资本加码能力补齐但量产仍待验证",
+        "text": "资金正流向通用运动平台、跨本体数据工厂和物理交互等能力环节，桥介数物完成亿级融资、戴盟机器人获数亿元融资，但灵巧手仍缺乏标准产品且单只价格可达几十万元，资本热度尚未等同于规模化交付。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术突破围绕世界模型、VLA、跨本体智能和工业物理AI闭环展开，比亚迪HyWorldVLA、TriWorldBench评测与真实产线议题共同强化可测试能力。",
+        "summary": "技术进展由单纯讨论大模型路线转向世界模型评测、真实产线闭环和随机任务表现，比亚迪混合世界模型及高效率分拣案例强化了对数据与任务能力的关注。",
         "items": [
           {
             "date": "08-12",
@@ -283,6 +284,13 @@
             "url": "https://www.ithome.com/0/988/942.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-12",
+            "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+            "url": "https://www.qbitai.com/2026/08/471049.html",
+            "company": "Figure",
+            "source_name": "量子位"
           },
           {
             "date": "08-11",
@@ -316,7 +324,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品量产侧出现更明确数字和部署动作，宇树称人形机器人累计下线约18000台，灵巧手新品和Robo Inc部署服务显示量产正与应用渠道绑定。",
+        "summary": "产品端出现更清晰的规模化信号，宇树科技宣布人形机器人累计下线约18000台，中科慧思推出三款灵巧手，海外渠道也开始提供机器人部署服务。",
         "items": [
           {
             "date": "08-12",
@@ -357,7 +365,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单证据虽少但金额明确，Vbot出海日本称首期锁定10亿元订单，舍弗勒披露人形机器人3.5亿元订单储备，场景落地开始被订单化呈现。",
+        "summary": "商业订单继续向制造与海外市场集中，舍弗勒披露3.5亿元人形机器人订单储备，Vbot宣布日本首站首期锁定10亿元订单，但交付规模与持续运营效果仍需后续验证。",
         "items": [
           {
             "date": "08-11",
@@ -377,7 +385,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态集中在平台、操作系统和关键部件，桥介数物获亿级融资、橡树清溪获数千万元融资，宇树申购热度与灵巧手融资争议并存。",
+        "summary": "资本市场关注度维持高位，宇树科技上市申购引发高倍认购，桥介数物和橡树清溪获得融资，资金用途更多指向运动控制、数据工厂和通用系统等能力补齐。",
         "items": [
           {
             "date": "08-12",
@@ -432,7 +440,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态显示热度继续外溢，宇树申购中签率极低、中国人形机器人出货份额报道受关注，同时仓库安全规模化与灵巧手工程鸿沟被反复讨论。",
+        "summary": "行业热度由企业融资和上市延伸至渠道改造、赛事竞争与仓储安全，4S店尝试引入人形机器人，市场关注点逐步从单机展示转向部署、效率和规模化运营。",
         "items": [
           {
             "date": "08-12",
@@ -440,6 +448,13 @@
             "url": "https://www.tmtpost.com/8099407.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-12",
+            "title": "荣耀宣布出战第二届世界人形机器人运动会，自研机器人曾包揽半马前六",
+            "url": "https://www.ithome.com/0/988/968.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "08-11",
@@ -501,8 +516,15 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链出现围绕具体瓶颈的进展，越擎科技与广州数控打通电弧增材本体到编程链路，电子皮肤研究推进类人触觉感知。",
+        "summary": "产业链机会正围绕本体制造、控制器、编程和触觉感知展开，越擎科技与广州数控打通电弧增材全链路，电子皮肤研究则补充了机器人交互感知方向。",
         "items": [
+          {
+            "date": "08-12",
+            "title": "A3 报告称，2026 年第二季度各行业机器人需求增长 (Q2 2026 robotics demand increased across industries, reports A3)",
+            "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
           {
             "date": "08-11",
             "title": "机器人3D打印新突破！越擎科技iRobotCAM×广州数控打通电弧增材本体-控制器-编程全链路",
@@ -584,6 +606,33 @@
       "category": "产品量产",
       "summary": "IT之家 8 月 12 日消息，宇树科技今日宣布，旗下人形机器人累计生产下线约 18000 台（仅包括仿生双足人形的数量，不含其他类人形机器人或轮式底盘人形）。 此前公开信息显示，截至 2026 年 5 月，宇树科技单款双足人形机器人（G1）累计生产下线约 11000 台。从 5 月到 8 月，累计下线数量增加了约 7000 台，意味着其双足人形机器人的月均…",
       "url": "https://www.ithome.com/0/988/851.htm"
+    },
+    {
+      "date": "08-12",
+      "company": "Figure",
+      "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "没有人工兜底，没有固定流程，甚至连包裹都是随机来的，就这样连续稳定干满1小时，分拣效率干到了 1816件/小时 ！？ 更关键的是，这一实测成绩，还超过了美国Figure AI此前公开的1248件/小时平均效率纪录，分拣效率提升超过 45% 。 这次物流分拣直播所使用的双机械臂+夹爪的硬件方案，则比Figure AI此前的人形机器人+五指灵巧手方案，硬件成本大…",
+      "url": "https://www.qbitai.com/2026/08/471049.html"
+    },
+    {
+      "date": "08-12",
+      "company": "其他",
+      "title": "荣耀宣布出战第二届世界人形机器人运动会，自研机器人曾包揽半马前六",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 12 日消息，在今晚的发布会上，荣耀宣布将参与第二届世界人形机器人运动会。该赛事将于 8 月 22 日至 26 日在北京国家速滑馆“冰丝带”举办。 第二届世界人形机器人运动会由北京市人民政府和中央广播电视总台等联合主办。赛事共设 50 个赛项，涵盖 29 项竞技赛和 21 项场景赛。 IT之家注意到，竞技赛包括百米自主竞速、人机对抗搏击、乒…",
+      "url": "https://www.ithome.com/0/988/968.htm"
+    },
+    {
+      "date": "08-12",
+      "company": "其他",
+      "title": "A3 报告称，2026 年第二季度各行业机器人需求增长 (Q2 2026 robotics demand increased across industries, reports A3)",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "summary": "A3 said that Q2 2026 robotics orders in food, electronics, and healthcare helped offset soft demand from automotive manufacturing. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/"
     },
     {
       "date": "08-11",
@@ -944,33 +993,6 @@
       "category": "资本动态",
       "summary": "文/窦文雪 编辑/子夜 7月30日晚间，宇树科技披露了科创板上市招股意向书及《发行安排及初步询价公告》，正式落定了发行时间。 而在此之前，具身智能行业的资本化浪潮已经持续许久。不少国内人形机器人企业进",
       "url": "https://robot.ofweek.com/2026-08/ART-8321203-12003-30697387.html"
-    },
-    {
-      "date": "08-07",
-      "company": "其他",
-      "title": "黎曼动力携手光轮智能与诺亦腾机器人，推进2026年百万小时具身智能数据建设",
-      "source_name": "InfoQ",
-      "category": "技术突破",
-      "summary": "随着百万小时具身数据建设的推进，黎曼动力将继续围绕世界模型、本体设计、运动控制、评测体系与真实场景数据闭环展开系统布局，推动机器人从感知理解走向长期、稳定、可泛化的真实世界交互",
-      "url": "https://www.infoq.cn/article/hI2W3XTUo2GNylxSXDC8?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "08-07",
-      "company": "宇树科技",
-      "title": "王兴兴回应 DeepSeek 投资宇树：将在三方面开展重点合作",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 8 月 7 日消息， 宇树科技即将首次公开发行股票并在科创板上市 ，发行价格为 150.80 元 / 股。本次发行数量为 4044.6434 万股，占发行后总股本 10%。 值得关注的是，同为“杭州六小龙”之一的 DeepSeek 开发商 —— 杭州深度求索人工智能基础技术研究有限公司 出现在战略配售名单中 ， 获配股数为 93.339 万股，金额…",
-      "url": "https://www.ithome.com/0/987/098.htm"
-    },
-    {
-      "date": "08-07",
-      "company": "其他",
-      "title": "越疆发布人形机器人“鹿萌”，试水家庭陪伴",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "?? 家用陪伴从概念走向实测。 2026年以来，具身智能领域持续火热，各大人形机器人层出不穷，发布会开了一场又一场，但真正能走进家庭、在日常生活中承担实际角色的机器人少之又少。 市面上现有的家用机器人 人形机器人",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30697585.html"
     }
   ]
 }
