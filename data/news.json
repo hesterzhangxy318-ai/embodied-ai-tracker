@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T10:00:38.650316+08:00",
+  "updated": "2026-08-12T15:27:06.841668+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 1,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 17,
       "candidates": 9,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 5,
-      "core": 1,
+      "entries": 19,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -79,7 +79,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 16,
+      "candidates": 19,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -128,7 +128,7 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 11,
+      "core": 8,
       "periphery": 0,
       "new": 5
     },
@@ -151,11 +151,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 23,
-      "core": 8,
+      "entries": 28,
+      "candidates": 24,
+      "core": 10,
       "periphery": 5,
-      "new": 1
+      "new": 3
     },
     {
       "name": "The Robot Report",
@@ -239,31 +239,45 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-12T10:01:18.035721+08:00",
+    "generated_at": "2026-08-12T15:27:35.629816+08:00",
     "mode": "aicodewith",
-    "item_count": 26,
+    "item_count": 29,
     "insights": [
       {
-        "label": "落地先看可验收任务",
-        "text": "本周订单和产品信号都指向工厂、维修、巡检这类可验收场景，舍弗勒披露人形机器人订单储备约3.5亿元，维他动力把日本作为出海首站并锁定首期10亿元订单，落地路径明显从演示转向交付。",
+        "label": "落地验证转向可验收任务",
+        "text": "本周订单和讨论集中在工厂、维修、巡检等场景，Vbot将日本作为出海首站并称首期锁定10亿元订单，舍弗勒披露人形机器人订单储备约3.5亿元，工业具身智能议题也强调从真实产线定义物理AI闭环，企业验证重心正从展示能力转向能交付、能验收的任务。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型进入评测阶段",
-        "text": "TriWorldBench发布了首个面向机器人三视角世界模型的评测榜单，华为、理想、小鹏、小米相关论文讨论也集中在世界模型与VLA分歧，模型竞争正在从概念站队转到数据、评测和任务闭环。",
+        "label": "模型竞争进入数据闭环阶段",
+        "text": "世界模型、VLA和Physical AI仍是技术主线，TriWorldBench开始建立机器人三视角世界模型评测体系，相关讨论从视觉生成延伸到世界理解，同时头部公司继续围绕基座模型、数据闭环和真实任务展开，单纯模型叙事的说服力下降，真实数据和任务闭环成为能力比较的核心。",
         "evidence_urls": []
       },
       {
-        "label": "资金追向能力补齐",
-        "text": "资本更集中到灵巧手、通用系统平台和细分能力补位上，戴盟机器人完成数亿元战略轮融资，橡树清溪连续完成两轮数千万元融资且被三家本体厂商联合押注，宇树申购火热也把可定价标的稀缺性放大出来。",
+        "label": "资本押注能力短板而非概念扩张",
+        "text": "桥介数物新一轮亿级融资投向通用机器人操作系统、跨本体运动数据工厂和运动控制模型，橡树清溪连续完成数千万元融资并获三大本体厂商联合押注，灵巧手半年融资250亿元但仍未跑出标准手，资金更偏向补齐运动、操作和数据等可定义瓶颈。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "TriWorldBench把世界模型评估从单一视觉生成推进到多视角理解，车企论文与头部厂商讨论让模型路线更贴近真实任务闭环。",
+        "summary": "技术侧围绕世界模型、VLA、跨本体智能和工业物理AI闭环展开，评测体系与真实产线任务开始并行推进，能力比较正从概念路线转向数据、理解和执行闭环。",
         "items": [
+          {
+            "date": "08-12",
+            "title": "人形之外，擎羽把“身体”变成具身智能的新变量",
+            "url": "https://www.qbitai.com/2026/08/470874.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "08-12",
+            "title": "群青智能联合创始人&CEO 吴哲明博士确认出席AICon深圳，将分享“从真实产线定义智能——工业具身智能的物理 AI 闭环”",
+            "url": "https://www.infoq.cn/article/b1V6WF6iUajJpND8VmCE?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
           {
             "date": "08-11",
             "title": "五大高校联手发榜！首份机器人三视角世界模型评测结果出炉，榜单持续更新中",
@@ -296,7 +310,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "灵巧手集中上新，戴盟获数亿元融资，中科慧思一次推出三款新品，产品节奏开始围绕可交互、可验证和可部署展开。",
+        "summary": "量产焦点集中在灵巧手和部署服务，戴盟获数亿元融资，中科慧思发布三款灵巧手，RoboStore推出部署机构，价格、交互能力和真实环境可用性成为产品验证的一部分。",
         "items": [
           {
             "date": "08-11",
@@ -330,7 +344,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "舍弗勒和维他动力分别给出机器人订单储备和海外首站订单信号，市场开始用明确金额和场景验收来判断交付能力。",
+        "summary": "商业订单数量不多但指向明确，Vbot将日本作为出海首站并称首期锁定10亿元订单，舍弗勒披露人形机器人约3.5亿元订单储备，海外与工业场景开始承担收入验证。",
         "items": [
           {
             "date": "08-11",
@@ -350,7 +364,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资金明显向灵巧手、通用系统平台和头部标的集中，橡树清溪、戴盟和宇树相关交易把能力补位与稀缺性一起抬高。",
+        "summary": "资本动态以宇树申购热度、桥介数物亿级融资、橡树清溪两轮数千万元融资和灵巧手融资讨论为主，市场关注从整机热度延伸到操作系统、运动数据和末端执行器。",
         "items": [
           {
             "date": "08-12",
@@ -358,6 +372,13 @@
             "url": "https://www.tmtpost.com/8099369.html",
             "company": "宇树科技",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-12",
+            "title": "桥介数物完成新一轮亿级融资，加速落地通用机器人操作系统",
+            "url": "https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html",
+            "company": "行业",
+            "source_name": "雷峰网"
           },
           {
             "date": "08-11",
@@ -398,7 +419,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树申购火热、全球出货研究和仓库机器人安全讨论并行，行业关注点正从热度转向规模化、安全与可复制部署。",
+        "summary": "行业新闻显示人形机器人关注度仍高，宇树申购中签率低、市场份额数据引发讨论，同时仓库机器人安全规模化、灵巧手工程鸿沟和一体化设计成为更具体的产业议题。",
         "items": [
           {
             "date": "08-11",
@@ -460,7 +481,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "3D打印增材链路和电子皮肤都在向具身需求靠拢，供应链机会更集中到本体、控制器和触觉感知等具体瓶颈上。",
+        "summary": "产业链侧出现电弧增材制造本体、控制器和编程链路打通，以及电子皮肤类人触觉研究进展，机会更贴近制造工艺、触觉感知和控制集成等明确性能瓶颈。",
         "items": [
           {
             "date": "08-11",
@@ -489,6 +510,33 @@
       "category": "资本动态",
       "summary": "8月10日，宇树科技开启网上、网下申购，发行价定格在150.80元/股。 资本市场的回应近乎“癫狂”——978.46万户参与网上申购，有效申购股数达536.37亿股。由于超额认购倍数超过8000倍，触发了回拨机制，最终网上中签率仅为0.018%。这个概率，比打新很多热门新股还要低得多。 以150.80元/股的发行价计算，这家公司市值已达约610亿元。而在20…",
       "url": "https://www.tmtpost.com/8099369.html"
+    },
+    {
+      "date": "08-12",
+      "company": "其他",
+      "title": "人形之外，擎羽把“身体”变成具身智能的新变量",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "从柔性本体走向跨本体基础智能，让任务与世界知识延续",
+      "url": "https://www.qbitai.com/2026/08/470874.html"
+    },
+    {
+      "date": "08-12",
+      "company": "行业",
+      "title": "桥介数物完成新一轮亿级融资，加速落地通用机器人操作系统",
+      "source_name": "雷峰网",
+      "category": "资本动态",
+      "summary": "近日，通用机器人操作系统研发商桥介数物（BridgeDP Robotics）宣布完成 Pre-A+++ 轮融资。本轮融资由中国移动链长基金领投，老股东复星创富、深创投追加投资，融资规模达亿元级。 桥介数物表示，本次融资将主要用于四个方向：RoboCraft AI 通用机器人运动能力开发平台的生态建设、跨本体全身运动数据工厂产能提升、运动控制模型持续迭代，以及…",
+      "url": "https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html"
+    },
+    {
+      "date": "08-12",
+      "company": "其他",
+      "title": "群青智能联合创始人&CEO 吴哲明博士确认出席AICon深圳，将分享“从真实产线定义智能——工业具身智能的物理 AI 闭环”",
+      "source_name": "InfoQ",
+      "category": "技术突破",
+      "summary": "机器人开始学会行走、抓取和完成复杂动作，资本、人才与产业资源也在加速涌入",
+      "url": "https://www.infoq.cn/article/b1V6WF6iUajJpND8VmCE?utm_source=rss&utm_medium=article"
     },
     {
       "date": "08-11",
@@ -903,33 +951,6 @@
       "category": "行业动态",
       "summary": "Multiway Robotics has completed the deployment of an intelligent warehouse automation system for a manufacturing company in Malaysia, combining autonomous forklifts with warehouse…",
       "url": "https://roboticsandautomationnews.com/2026/08/07/multiway-robotics-automates-malaysian-manufacturers-5000-location-warehouse/103997/"
-    },
-    {
-      "date": "08-07",
-      "company": "行业",
-      "title": "智平方被传赴港IPO，具身智能加速资本化",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "作者｜章启明 编辑｜王以沫 // 估值突破200亿，人形机器人迎上市窗口 8月5日，据彭博社援引知情人士消息，智平方正在考虑赴港开展IPO，已经聘请投行机构开展前期筹备，最快有望于2027年正式启动上",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30697388.html"
-    },
-    {
-      "date": "08-07",
-      "company": "其他",
-      "title": "打造能在仓库里存活的机器人 (Building robots that survive the warehouse)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Nomagic says its real moat is production data, because the messiness of real warehouses is where robots either prove themselves or fail. The post appeared first on The Robot Report…",
-      "url": "https://www.therobotreport.com/building-robots-that-survive-warehouse/"
-    },
-    {
-      "date": "08-07",
-      "company": "行业",
-      "title": "Avatar Robotics 融资种子轮应对工业劳动力短缺 (Avatar Robotics raises seed round to address industrial labor constraints)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Avatar Robotics raised $6.5 million in funding to scale humanoid robots and remote teleoperation across industrial supply chains. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/avatar-robotics-raises-6-5-m-seed-round-address-industrial-labor-constraints/"
     }
   ]
 }
