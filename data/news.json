@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T15:29:26.289010+08:00",
+  "updated": "2026-08-13T21:13:37.900421+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 2,
-      "periphery": 0,
-      "new": 0
+      "candidates": 3,
+      "core": 0,
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "36氪",
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 12,
+      "candidates": 10,
       "core": 2,
       "periphery": 0,
       "new": 1
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 3,
+      "entries": 17,
+      "candidates": 2,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -66,7 +66,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -79,7 +79,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 16,
-      "core": 2,
+      "candidates": 14,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -114,10 +114,10 @@
       "attempts": 1,
       "error": "",
       "entries": 32,
-      "candidates": 7,
-      "core": 7,
+      "candidates": 8,
+      "core": 8,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "OFweek机器人",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 7,
+      "core": 8,
       "periphery": 0,
-      "new": 7
+      "new": 6
     },
     {
       "name": "新战略移动机器人",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 4,
+      "core": 5,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -207,7 +207,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 2,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -239,9 +239,9 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-13T15:30:06.416135+08:00",
+    "generated_at": "2026-08-13T21:14:17.992264+08:00",
     "mode": "local",
-    "item_count": 44,
+    "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -303,6 +303,13 @@
             "url": "https://www.infoq.cn/article/9d9Oik3uZpqfjbfElZaq?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "08-13",
+            "title": "给黑盒导航机器人「使绊子」：AdvNav 如何揭示具身智能系统潜在安全风险 | GAIR Paper 117",
+            "url": "https://www.leiphone.com/category/private/yXsTeayhNBwW2ZUH.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "08-12",
@@ -381,6 +388,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "08-13",
+            "title": "LTX推出全新免费使用的开放世界视频与物理AI模型 (LTX launches new free-to-use open world model for video and physical AI)",
+            "url": "https://roboticsandautomationnews.com/2026/08/13/ltx-launches-new-free-to-use-open-world-model-for-video-and-physical-ai/104079/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "08-12",
             "title": "宇树科技宣布人形机器人累计下线约 18000 台",
             "url": "https://www.ithome.com/0/988/851.htm",
@@ -414,13 +428,6 @@
             "url": "https://www.infoq.cn/article/6EXTXyTt834kMGkiqqDT?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
-          },
-          {
-            "date": "08-10",
-            "title": "RoboStore推出Robo Inc.，帮助美国机构部署机器人 (RoboStore launches Robo Inc. to help U.S. organizations deploy robots)",
-            "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -456,6 +463,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "08-13",
+            "title": "宇树上市，智元递表：中国机器人按下发令枪",
+            "url": "https://www.tmtpost.com/8102269.html",
+            "company": "智元机器人",
+            "source_name": "钛媒体"
+          },
+          {
             "date": "08-12",
             "title": "宇树IPO背后的302份招标书，关于人形机器人的六个真相",
             "url": "https://www.tmtpost.com/8099369.html",
@@ -468,6 +482,13 @@
             "url": "https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html",
             "company": "行业",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "08-12",
+            "title": "原创 WAIC“看见未来”，GDPS“做出未来”丨 “劳动最光荣”国际具身智能技能大赛全球征集启动 人工智能 · 科技投资 · 人工智能 作者：特邀作者 2026-07-29",
+            "url": "https://www.jazzyear.com/article_info.html?id=1827",
+            "company": "其他",
+            "source_name": "甲子光年"
           },
           {
             "date": "08-11",
@@ -516,6 +537,20 @@
             "url": "https://www.ithome.com/0/989/152.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-13",
+            "title": "专家将在 RoboBusiness 探讨人形机器人现状 (Experts to discuss the state of humanoid robots at RoboBusiness)",
+            "url": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "08-13",
+            "title": "Honda全新“Avatar”人形机器人暗示ASIMO精神依然鲜活 (Honda’s new ‘Avatar’ humanoid robot suggests the spirit of ASIMO is very much alive)",
+            "url": "https://roboticsandautomationnews.com/2026/08/13/hondas-new-avatar-humanoid-robot-suggests-the-spirit-of-asimo-is-very-much-alive/104083/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "08-12",
@@ -594,6 +629,20 @@
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
+            "date": "08-13",
+            "title": "具身数据来了实战派！40天2轮融资数千万，瞄准物理AI基础设施",
+            "url": "https://www.qbitai.com/2026/08/472060.html",
+            "company": "行业",
+            "source_name": "量子位"
+          },
+          {
+            "date": "08-13",
+            "title": "第二季度机器人订单增至6.22亿美元，自动化需求扩展至各行业 (Robot orders increase to $622 million in Q2 as automation demand broadens across industries)",
+            "url": "https://roboticsandautomationnews.com/2026/08/13/robot-orders-increase-to-622-million-in-q2-as-automation-demand-broadens-across-industries/104092/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "08-12",
             "title": "A3 报告称，2026 年第二季度各行业机器人需求增长 (Q2 2026 robotics demand increased across industries, reports A3)",
             "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
@@ -606,13 +655,6 @@
             "url": "https://www.gongkong.com/news/202608/452495.html",
             "company": "其他",
             "source_name": "中国工控网机器人"
-          },
-          {
-            "date": "08-10",
-            "title": "电子皮肤让机器人和假肢拥有“类人触觉感知 (Electronic skin gives robots and prosthetics ‘human-like touch sensing’)",
-            "url": "https://roboticsandautomationnews.com/2026/08/10/electronic-skin-gives-robots-and-prosthetics-human-like-touch-sensing/104036/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -690,6 +732,69 @@
       "category": "资本动态",
       "summary": "文｜文波 排版｜小西 “如果能中一签，一天就能赚够一辆轿车的钱。” 8月10日，宇树科技正式开启科创板申购，无数散户也开始在各大股票论坛和社交平台上“赛博许愿”，对于个人投资者来说，这不仅是一家硬科技",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698325.html"
+    },
+    {
+      "date": "08-13",
+      "company": "行业",
+      "title": "具身数据来了实战派！40天2轮融资数千万，瞄准物理AI基础设施",
+      "source_name": "量子位",
+      "category": "泛具身产业链",
+      "summary": "近日，具身智能数据基础设施公司元点科技（SCALEFORCE）完成数千万元人民币融资，投资者包含国内顶级具身智能产业方、恒旭资本和凯联资本。 本轮融资将主要用于元点科技物理AI操作系统MatrixOS技术迭代、大规模数据生产网络建设及团队扩展，加速成为全球领先的具身智能数据基础设施公司。 具身智能的竞争已进入主打数据与智能的下半场，元点科技旨在为全行业提供来…",
+      "url": "https://www.qbitai.com/2026/08/472060.html"
+    },
+    {
+      "date": "08-13",
+      "company": "其他",
+      "title": "给黑盒导航机器人「使绊子」：AdvNav 如何揭示具身智能系统潜在安全风险 | GAIR Paper 117",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "AdvNav 首次在黑盒条件下，对导航智能体完成系统性安全验证。 作者丨 李晨阳 编辑丨 陈淑瑜 近两年，能自己走路、自己带路的机器人正从实验室走向真实场景：医院的配送机器人按医嘱送药，仓库里的搬运机器人找货架，家里的扫拖机器人按指令去某个房间。它们靠的不是提前存好的地图，而是“看懂画面 + 听懂指令 + 自己决定下一步往哪走”——这正是视觉语言导航（VLN…",
+      "url": "https://www.leiphone.com/category/private/yXsTeayhNBwW2ZUH.html"
+    },
+    {
+      "date": "08-13",
+      "company": "智元机器人",
+      "title": "宇树上市，智元递表：中国机器人按下发令枪",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "最近，宇树中签结果出炉，跟长鑫一样，颇有普天同庆的感觉。 按照发行价150.80元/股来算，宇树的市值已经有609.9亿元，市盈率219倍。 不仅是市场一片欢欣鼓舞，具身智能行业内也是。毕竟，宇树的上市，用真金白银的定价，给向来靠讲故事估值的具身智能赛道，立下了一根坐标尺。 在宇树\"赶\"着上市的同一时刻，整个具身智能赛道都动了起来。智元机器人就被报道，已在7…",
+      "url": "https://www.tmtpost.com/8102269.html"
+    },
+    {
+      "date": "08-13",
+      "company": "其他",
+      "title": "专家将在 RoboBusiness 探讨人形机器人现状 (Experts to discuss the state of humanoid robots at RoboBusiness)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The RoboBusiness panel will include insights on humanoid robots from Agility, Apptronik, Persona AI, and PSYONIC experts. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/"
+    },
+    {
+      "date": "08-13",
+      "company": "其他",
+      "title": "第二季度机器人订单增至6.22亿美元，自动化需求扩展至各行业 (Robot orders increase to $622 million in Q2 as automation demand broadens across industries)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "New A3 data shows second-quarter growth across semiconductors/electronics, automotive components, food and consumer goods, metals and life sciences North American companies ordered…",
+      "url": "https://roboticsandautomationnews.com/2026/08/13/robot-orders-increase-to-622-million-in-q2-as-automation-demand-broadens-across-industries/104092/"
+    },
+    {
+      "date": "08-13",
+      "company": "其他",
+      "title": "Honda全新“Avatar”人形机器人暗示ASIMO精神依然鲜活 (Honda’s new ‘Avatar’ humanoid robot suggests the spirit of ASIMO is very much alive)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Whatever happened to ASIMO? Honda’s famous humanoid robot (pictured below with what we believe is an actual human female) disappeared from public view several years ago, just befor…",
+      "url": "https://roboticsandautomationnews.com/2026/08/13/hondas-new-avatar-humanoid-robot-suggests-the-spirit-of-asimo-is-very-much-alive/104083/"
+    },
+    {
+      "date": "08-13",
+      "company": "其他",
+      "title": "LTX推出全新免费使用的开放世界视频与物理AI模型 (LTX launches new free-to-use open world model for video and physical AI)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "LTX has launched LTX-2.5, the latest version of its open-weights world model, introducing new capabilities for video generation, real-time applications and physical AI. The company…",
+      "url": "https://roboticsandautomationnews.com/2026/08/13/ltx-launches-new-free-to-use-open-world-model-for-video-and-physical-ai/104079/"
     },
     {
       "date": "08-12",
@@ -789,6 +894,15 @@
       "category": "产品量产",
       "summary": "Celona launched Celona Orion, a unified agentic platform merging private 5G, Wi-Fi, cellular, and satellite into one network for physical AI. The post appeared first on The Robot R…",
       "url": "https://www.therobotreport.com/celona-launches-orion-agentic-wireless-platform-built-for-physical-ai-robotics/"
+    },
+    {
+      "date": "08-12",
+      "company": "其他",
+      "title": "原创 WAIC“看见未来”，GDPS“做出未来”丨 “劳动最光荣”国际具身智能技能大赛全球征集启动 人工智能 · 科技投资 · 人工智能 作者：特邀作者 2026-07-29",
+      "source_name": "甲子光年",
+      "category": "资本动态",
+      "summary": "甲子光年 原创 回应时代之问：WAIC UP 思享会在沪举行 多国嘉宾共议AI时代人生坐标 人工智能 · 商业化 · 人工智能 <div class=\"bottom",
+      "url": "https://www.jazzyear.com/article_info.html?id=1827"
     },
     {
       "date": "08-11",
@@ -996,78 +1110,6 @@
       "category": "行业动态",
       "summary": "IT之家 8 月 10 日消息，据外媒 Electrek 今天（10 日）报道，SpaceX 确认将依靠 自建天然气电厂和“超大型电池阵列”为超级工厂 Terafab 供电，特斯拉太阳能则完全不在计划之中。 特斯拉和 SpaceX 上周正式确认 Terafab 项目。工厂位于得州格赖姆斯县，距离休斯敦西北约一小时车程，两家公司 宣称其将成为全球最大的芯片制造…",
       "url": "https://www.ithome.com/0/988/039.htm"
-    },
-    {
-      "date": "08-10",
-      "company": "其他",
-      "title": "电子皮肤让机器人和假肢拥有“类人触觉感知 (Electronic skin gives robots and prosthetics ‘human-like touch sensing’)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "Hanyang University ERICA researchers have developed a vertically integrated dual-gate transistor design, which could give robots ‘reliable touch sensing and high density, large-are…",
-      "url": "https://roboticsandautomationnews.com/2026/08/10/electronic-skin-gives-robots-and-prosthetics-human-like-touch-sensing/104036/"
-    },
-    {
-      "date": "08-10",
-      "company": "其他",
-      "title": "RoboStore推出Robo Inc.，帮助美国机构部署机器人 (RoboStore launches Robo Inc. to help U.S. organizations deploy robots)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "RoboStore, a distributor of Unitree's legged robots, has launched Robo Inc. to serve as a U.S.-based manufacturer and integrator. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/"
-    },
-    {
-      "date": "08-09",
-      "company": "其他",
-      "title": "消息称小米成立具身智能与应用部，前字节 Seed 具身负责人孔涛挂帅",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 8 月 9 日消息，据“大厂青年”公众号 8 月 7 日消息， 小米机器人事业部大调整： 内部新成立具身智能与应用部 ，由前字节 Seed Robotics 具身智能负责人孔涛挂帅。 按照调整方案，这个新部门已将陈龙的 VLA 团队、蔡锐的机器人具身部等一并收拢。此次调整后，小米整个具身赛道的各个业务方向，都归到了孔涛的管辖之下。 文章称，孔涛（J…",
-      "url": "https://www.ithome.com/0/987/488.htm"
-    },
-    {
-      "date": "08-09",
-      "company": "特斯拉",
-      "title": "马斯克发布 Terafab 渲染视频：Optimus 人形机器人、Robovan 无人车齐亮相",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 8 月 9 日消息，埃隆 · 马斯克当地时间周四上午在 X 平台发布了一段 Terafab 的新视频，而视频中最引人注目的并不是厂房本身，而是两款仍在等待量产的产品：Optimus 人形机器人和 Robovan 无人车。 这段由 SpaceX 提供概念图的渲染视频显示，Optimus 机器人正在这座规划中的大型厂区内工作。该设施计划建于得克萨斯州格…",
-      "url": "https://www.ithome.com/0/987/485.htm"
-    },
-    {
-      "date": "08-09",
-      "company": "其他",
-      "title": "随着具身AI从实验室走向生产现场，轮式机器人加速落地 (Wheeled Robots Gain Ground as Embodied AI Moves from Labs to Work Floors)",
-      "source_name": "钛媒体",
-      "category": "商业订单",
-      "summary": "At recent industry shows, the machines actually moving boxes, sorting items and tending production lines are more often wheeled platforms with human-like upper bodies than bipedal…",
-      "url": "https://www.tmtpost.com/8096593.html"
-    },
-    {
-      "date": "08-09",
-      "company": "其他",
-      "title": "935亿之后，具身智能的账该怎么算？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "头部企业在用产能数字互相较劲，而腰部以下的公司，很多已经三个月没听到过投资机构的电话了。这种分化不是坏事，反而是产业成熟的标志。只是对创业者来说，这个过程有点残酷",
-      "url": "https://www.tmtpost.com/8096557.html"
-    },
-    {
-      "date": "08-09",
-      "company": "其他",
-      "title": "2026 年上半年全国人形机器人领域新设企业 11.6 万户，同比增长 9.5%",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 9 日消息，据央视新闻报道，8 月 8 日，市场监管总局公布数据显示，上半年， 全国新设“8 大新兴产业 + 9 大未来产业”相关企业 56.1 万户 。 IT之家注： 8 大新兴产业 ：新一代信息技术、新能源、新材料、高端装备、新能源汽车、绿色环保、民用航空、船舶与海洋工程装备； 9 大未来产业 ：元宇宙、脑机接口、量子信息、人形机器人…",
-      "url": "https://www.ithome.com/0/987/596.htm"
-    },
-    {
-      "date": "08-09",
-      "company": "宇树科技",
-      "title": "宇树科技今日启动申购，A 股迎来“人形机器人第一股”",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 10 日消息，8 月 10 日，宇树科技正式启动申购，A 股即将迎来“人形机器人第一股”。此前，宇树科技确定发行价为 150.80 元 / 股 ，对应市值约 609.93 亿元。本次拟公开发行 4044.64 万股，占发行后总股本 10%，预计募集资金总额约 60.99 亿元。 据官方公布消息，宇树科技的发行 市盈率为 219.23 倍…",
-      "url": "https://www.ithome.com/0/987/649.htm"
     }
   ]
 }
