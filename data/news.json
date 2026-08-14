@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T03:05:17.666146+08:00",
+  "updated": "2026-08-14T10:00:19.498179+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 2,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 17,
-      "core": 1,
+      "entries": 59,
+      "candidates": 18,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 8,
-      "periphery": 0,
-      "new": 6
+      "core": 9,
+      "periphery": 1,
+      "new": 8
     },
     {
       "name": "新战略移动机器人",
@@ -166,7 +166,7 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 7,
       "periphery": 1,
       "new": 2
     },
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 5,
-      "periphery": 3,
-      "new": 5
+      "candidates": 9,
+      "core": 4,
+      "periphery": 2,
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-14T03:05:41.687136+08:00",
+    "generated_at": "2026-08-14T10:00:42.432122+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证偏向可验收场景",
-        "text": "Vbot将日本作为出海首站并锁定首期10亿元订单，舍弗勒披露人形机器人订单储备3.5亿元；同期居家作业模型强调家庭环境变量远高于工厂流水线，短期商业验证更容易集中在边界清晰、结果可验收的任务中。",
+        "label": "落地更偏可验收任务",
+        "text": "具身智能商业验证正集中到边界清晰的场景，Vbot将日本作为出海首站并锁定首期10亿元订单，小马智行与优步计划在欧洲5城部署超2000辆Robotaxi，家庭作业仍被描述为高变量环境，短期收入更可能来自工厂、出行、巡检维修等可定义任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争转向数据闭环",
-        "text": "比亚迪AI团队发布混合世界模型HyWorldVLA并披露90.59分表现，车企论文继续进入世界模型与VLA讨论；桥介数物融资投向跨本体全身运动数据工厂和运动控制模型，模型能力正在与真实数据生产、控制迭代绑定。",
+        "label": "模型竞争回到真实闭环",
+        "text": "世界模型与VLA叙事开始绑定本体、数据和芯片闭环，行业观点强调经过真实场景检验的开放本体会成为模型团队优先选项，比亚迪HyWorldVLA获得90.59分并提出自研芯片加算法闭环，模型能力评估正从概念展示转向可复现实验和任务表现。",
         "evidence_urls": []
       },
       {
-        "label": "量产与成本成为筛选项",
-        "text": "宇树宣布人形机器人累计下线约18000台，行业报告称中国在2026年上半年占全球人形机器人出货量97%；灵巧手仍面临几十万元单只价格和工程鸿沟，规模、价格与可用性已共同构成能力验证的一部分。",
+        "label": "资本追逐能力短板",
+        "text": "融资更集中投向可解释的场景和关键部件，诺仕机器人近亿元A+轮融资后计划半年内将产能提升三倍以上，世航智能深海机器人完成超5亿元融资，意优科技超2亿元B轮用于关节研发和产能建设，供应链投资需要对应明确性能瓶颈。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术讨论集中在本体、世界模型、安全导航和跨本体智能，真实场景检验与状态预测成为模型团队和工程团队共同关注的方向。",
+        "summary": "技术侧围绕本体、世界模型、VLA和导航安全展开，真实场景检验、状态预测和跨本体能力成为讨论焦点。",
         "items": [
           {
             "date": "08-13",
@@ -347,26 +347,12 @@
             "url": "https://www.tmtpost.com/8099113.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "08-10",
-            "title": "具身智能的大脑，200亿一张门票",
-            "url": "https://www.tmtpost.com/8097290.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "08-10",
-            "title": "模型路线趋同之后，Physical AI的胜负手变了",
-            "url": "https://www.qbitai.com/2026/08/469544.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产端既有宇树约18000台人形机器人下线，也有灵巧手、物理AI模型和无线平台发布，出货规模与复杂操作能力同步被市场比较。",
+        "summary": "量产信息集中在人形机器人出货、灵巧手和物理AI模型，宇树披露人形机器人累计下线约18000台。",
         "items": [
           {
             "date": "08-13",
@@ -416,20 +402,20 @@
             "url": "https://www.ithome.com/0/987/673.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "08-10",
-            "title": "行业新选手登场！中科慧思一口气发三款灵巧手新品，机器人也能组乐队现场演奏",
-            "url": "https://www.infoq.cn/article/6EXTXyTt834kMGkiqqDT?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单样本不多但金额突出，Vbot日本首期10亿元订单与舍弗勒3.5亿元机器人订单储备显示海外与产业链客户开始释放明确需求。",
+        "summary": "订单侧出现海外与车端部署信号，小马智行优步拟在欧洲5城投放超2000辆Robotaxi，Vbot日本首期锁定10亿元。",
         "items": [
+          {
+            "date": "08-14",
+            "title": "小马智行与优步扩大合作，计划在欧洲 5 城部署超 2000 辆 Robotaxi",
+            "url": "https://www.ithome.com/0/989/525.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-11",
             "title": "电驱动还在亏，舍弗勒把资源投给机器人，3.5 亿订单在手",
@@ -448,8 +434,29 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续流向本体平台、操作系统和灵巧手等环节，宇树申购热度、智元递表及桥介数物融资共同推高市场对头部公司的关注。",
+        "summary": "资本流向精密传动、深海机器人、操作系统和上市标的，诺仕、世航智能等融资显示场景确定性更受关注。",
         "items": [
+          {
+            "date": "08-14",
+            "title": "硅谷投资人拖着行李箱，奔赴华强北的机器人供应链",
+            "url": "https://www.tmtpost.com/8097427.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "08-14",
+            "title": "拿下近亿元A+轮融资的诺仕机器人，半年内要把产能翻三倍以上",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321206-12005-30698431.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-14",
+            "title": "超5亿元！又一“哈工程系”深海机器人完成新一轮融资",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321204-8120-30698415.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-13",
             "title": "中签率万分之1.8，宇树科技能否撑起610亿估值？",
@@ -498,33 +505,12 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30697938.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-10",
-            "title": "橡树清溪连续完成两轮数千万融资，三大机器人本体厂商罕见联合押注",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697666.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-10",
-            "title": "宇树科技打新：中签堪比天选之子，价值投资需先算清三本账",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30697830.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-10",
-            "title": "全靠机器狗赚钱的云深处，25亿募资为何一半押注人形机器人？",
-            "url": "https://robot.ofweek.com/2026-08/ART-8321206-12003-30697809.html",
-            "company": "云深处",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业活动与大众关注升温，世界人形机器人运动会将有16国2056台机器人参赛，宇树申购和中国出货份额数据也持续放大行业声量。",
+        "summary": "行业活动与大众化曝光升温，第二届世界人形机器人运动会将有全球16国2056台机器人参赛，队伍同比增138%。",
         "items": [
           {
             "date": "08-13",
@@ -553,6 +539,13 @@
             "url": "https://www.ithome.com/0/989/464.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-13",
+            "title": "BioflexBot机器人手旨在复现人手关键动作 (BioflexBot robot hand aims to replicate key human hand motions)",
+            "url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "08-12",
@@ -614,8 +607,15 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会更多指向数据、操作系统和制造链路，元点科技融资建设物理AI数据基础设施，A3数据也显示多行业机器人订单增长。",
+        "summary": "产业链融资和订单覆盖关节、数据基础设施、增材制造与自动化需求，意优科技超2亿元B轮加码规模化交付。",
         "items": [
+          {
+            "date": "08-14",
+            "title": "意优科技完成超2亿元B轮融资 | 持续加码核心技术研发与产能建设，加速机器人关节规模化交付",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321201-8120-30698409.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-13",
             "title": "具身数据来了实战派！40天2轮融资数千万，瞄准物理AI基础设施",
@@ -649,6 +649,51 @@
     ]
   },
   "items": [
+    {
+      "date": "08-14",
+      "company": "其他",
+      "title": "硅谷投资人拖着行李箱，奔赴华强北的机器人供应链",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "4月份的深圳，已经闷热。一位旧金山来的风险投资人起了个大早，口袋里揣着一份长长的采购清单。几家美国 机器人 初创公司的朋友托他跑一趟华强北，机器人整机、电机、传感器、运动控制板，能买多少买多少。 他先在一楼店铺下单了一台人形机器人，安排货运发往美国，然后钻进楼上那片迷宫一样的元器件市场，一家一家地收货。运动控制模块、电源管理芯片、信号传输组件，全部塞进行李箱…",
+      "url": "https://www.tmtpost.com/8097427.html"
+    },
+    {
+      "date": "08-14",
+      "company": "其他",
+      "title": "小马智行与优步扩大合作，计划在欧洲 5 城部署超 2000 辆 Robotaxi",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 8 月 14 日消息，小马智行与优步 Uber 宣布，双方进一步扩大战略合作， 将在欧洲 5 个城市部署超过 2000 辆小马智行 Robotaxi 。 据介绍，此次合作将在克罗地亚萨格勒布现有商业化 Robotaxi 运营的基础上，扩展至包括萨格勒布在内的 5 个欧洲城市，各城市具体落地计划将在后续分阶段公布。 双方同时宣布，萨格勒布服务即将接入…",
+      "url": "https://www.ithome.com/0/989/525.htm"
+    },
+    {
+      "date": "08-14",
+      "company": "行业",
+      "title": "拿下近亿元A+轮融资的诺仕机器人，半年内要把产能翻三倍以上",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "?潮涌AI编辑部 8月13日，精密传动部件公司诺仕机器人宣布完成近亿元A+轮融资，由顺为资本领投，望千铭诚跟投。 该公司宣布资金将用于微型行星滚柱丝杠产能扩张、产品迭代及海外市场布局。 这是诺仕的第四 其它 | <div",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321206-12005-30698431.html"
+    },
+    {
+      "date": "08-14",
+      "company": "行业",
+      "title": "超5亿元！又一“哈工程系”深海机器人完成新一轮融资",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "当知名投资人朱啸虎从人形机器人项目批量退出，转身投资“哈工程系”世航智能，让深海机器人赛道再度站上创投风口，成为圈内热议的核心焦点。 不同于世航智能主打全海深覆盖、全自由度作业能力发展路线，同出“哈工",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321204-8120-30698415.html"
+    },
+    {
+      "date": "08-14",
+      "company": "行业",
+      "title": "意优科技完成超2亿元B轮融资 | 持续加码核心技术研发与产能建设，加速机器人关节规模化交付",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "summary": "近日，国内一体化伺服关节领军企业上海意优智控科技有限公司（以下简称“意优科技”）完成超2亿元B轮融资。本轮融资共有12家机构参与，具体包括三星风险投资、国方创投、架桥资本、华安嘉业、华义创投、嘉祐基金",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321201-8120-30698409.html"
+    },
     {
       "date": "08-13",
       "company": "其他",
@@ -801,6 +846,15 @@
       "category": "技术突破",
       "summary": "A free download looks at the state of humanoids, including a rundown of current robotics developers and interviews with industry experts. The post appeared first on The Robot Repor…",
       "url": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/"
+    },
+    {
+      "date": "08-13",
+      "company": "其他",
+      "title": "BioflexBot机器人手旨在复现人手关键动作 (BioflexBot robot hand aims to replicate key human hand motions)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Researchers created the BioflexBot, a novel robot that mimics and even exceeds core motions of the hand with a simple design. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/"
     },
     {
       "date": "08-12",
@@ -1044,60 +1098,6 @@
       "category": "产品量产",
       "summary": "IT之家 8 月 10 日消息，中科慧灵、蓝思科技与华夏集团今年 7 月共同成立了中科慧思公司，聚焦灵巧手及具身操作能力。 8 月 7 日晚， 中科慧思 L1、D1、M1 三款不同技术路线和功能的灵巧手产品正式亮相。 L1 轻量通用灵巧手重点平衡轻量化、动态响应、稳定性、成本和集成便利性； D1 通用五指灵巧手面向更加丰富的多指运动、复杂抓取和精细操作需求…",
       "url": "https://www.ithome.com/0/987/673.htm"
-    },
-    {
-      "date": "08-10",
-      "company": "其他",
-      "title": "具身智能的大脑，200亿一张门票",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "前几天，彭博社刚曝出智平方准备明年赴港IPO的消息，紧接着，就传出自变量已经向港交所秘密提交了上市申请。 这不是巧合。就在一个月多前的6月29日，两家公司在同一天宣布完成新一轮融资，投后估值均超过200亿元。 200亿，这个数字放到往年还难以想象。如今已经变成了具身智能头部公司的新门槛。 按照公开口径披露，除去灵巧手类零部件厂商，跻身具身智能“200亿俱乐部…",
-      "url": "https://www.tmtpost.com/8097290.html"
-    },
-    {
-      "date": "08-10",
-      "company": "其他",
-      "title": "行业新选手登场！中科慧思一口气发三款灵巧手新品，机器人也能组乐队现场演奏",
-      "source_name": "InfoQ",
-      "category": "产品量产",
-      "summary": "当具身机器人在运动控制、环境感知、智能交互等方向快速发展，产业关注的下一个问题变得更加具体：机器人真正进入工业制造、科研教育、家庭服务等真实环境，究竟能不能真正干活？",
-      "url": "https://www.infoq.cn/article/6EXTXyTt834kMGkiqqDT?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "08-10",
-      "company": "行业",
-      "title": "橡树清溪连续完成两轮数千万融资，三大机器人本体厂商罕见联合押注",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "?潮涌AI编辑部 8月6日，人形机器人通用系统平台公司橡树清溪科技宣布连续完成天使轮及天使+轮融资，合计数千万元。 天使轮由零以创投、云天使基金联合领投，麟阁创投跟投；天使+轮由松延动力、加速进化、鹿",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30697666.html"
-    },
-    {
-      "date": "08-10",
-      "company": "其他",
-      "title": "模型路线趋同之后，Physical AI的胜负手变了",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "过去一年多， VLA、世界模型、基座模型、数据闭环 等等，几乎都是头部智驾和具身智能公司频频提及的热词。 越来越多AI公司开始尝试让模型进入真实世界，让机器具备理解环境、预测变化和执行行动的能力。 不同技术路线各有侧重，最终穿透到技术底层，指向的问题却越来越趋同—— 那就是AI如何从真实世界获取数据，如何形成对环境的理解、把理解转化为行动，又如何根据行动结果…",
-      "url": "https://www.qbitai.com/2026/08/469544.html"
-    },
-    {
-      "date": "08-10",
-      "company": "宇树科技",
-      "title": "宇树科技打新：中签堪比天选之子，价值投资需先算清三本账",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "文|恒心 来源|博望财经 8月10日，宇树科技正式开启科创板网上申购，发行价150.80元/股，一签500股需缴款7.54万元，发行市值约610亿元，对应发行市盈率219.23倍——是所属行业均值38 人形机器人",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30697830.html"
-    },
-    {
-      "date": "08-10",
-      "company": "云深处",
-      "title": "全靠机器狗赚钱的云深处，25亿募资为何一半押注人形机器人？",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "机器狗能撑起IPO吗？/AI图 手工劳动/兽妹 手工编辑 /角叔 出品/独角兽观察 杭州，国内足式机器人产业的重要策源地，一批高校背景创业公司接连走到资本市场门口。 8月7日晚间，上交所官网更新信息显",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321206-12003-30697809.html"
     }
   ]
 }
