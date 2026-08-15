@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T09:16:50.671750+08:00",
+  "updated": "2026-08-15T14:39:34.698397+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 11,
-      "core": 2,
+      "entries": 19,
+      "candidates": 14,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 3,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 22,
+      "entries": 60,
+      "candidates": 19,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -117,7 +117,7 @@
       "candidates": 8,
       "core": 8,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "OFweek机器人",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 12,
       "periphery": 1,
-      "new": 6
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -239,43 +239,38 @@
   "weekly_report": {
     "start": "08-10",
     "end": "08-16",
-    "generated_at": "2026-08-15T09:17:30.841500+08:00",
-    "mode": "local",
+    "generated_at": "2026-08-15T14:40:04.973346+08:00",
+    "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，> 8月13日，LG集团与英伟达在美国加州圣克拉拉总部正式签署战略合作谅解备忘录，双方确认将围绕人形机器人、AI智能工厂、智能移动出行三大板块开展深度协同；小马智行与优步 Uber 宣布，双方进一步扩大战略合作， 将在欧洲 5 个城市部署超过 2000 辆小马智行 Robotaxi。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-08/ART-898890-8420-30698650.html",
-          "https://www.ithome.com/0/989/525.htm",
-          "https://www.tmtpost.com/8101182.html"
-        ]
+        "label": "落地开始集中在可验收任务",
+        "text": "本周新增商业进展更多落在商超、咖啡店和Robotaxi等可计量场景，索塔无界计划未来3年在真实商超部署超过千台机器人，小马智行与优步则要在欧洲5城部署超过2000辆Robotaxi，落地方式明显转向能直接验收的任务闭环。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，一台冠军级、全开放、经过真实场景检验的本体，会是多数 模型团队 的优先选项；比亚迪汽车新技术研究院 AI 团队上个月发表了其首篇研究论文，介绍了一种用于自动驾驶的混合世界模型 HyWorldVLA。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/robot/lqsQ8c9sSoTqCZXo.html",
-          "https://www.ithome.com/0/988/942.htm",
-          "https://www.qbitai.com/2026/08/471049.html"
-        ]
+        "label": "量产节点与生态协同被一起检验",
+        "text": "LG电子与英伟达签署合作备忘录，围绕人形机器人、AI智能工厂和智能移动出行协同推进，并计划在2027年推出双足机型，凯迪拉克XT5 PHEV也将首款量产搭载Momenta R7世界模型，量产不再只是出车时间，也在看生态接口和功能兑现。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 8月13日，精密传动部件公司诺仕机器人宣布完成近亿元A+轮融资，由顺为资本领投，望千铭诚跟投；当知名投资人朱啸虎从人形机器人项目批量退出，转身投资“哈工程系”世航智能，让深海机器人赛道再度站上创投风口，成为圈内热议的核心焦点。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-08/ART-8321206-12005-30698431.html",
-          "https://robot.ofweek.com/2026-08/ART-8321204-8120-30698415.html",
-          "https://robot.ofweek.com/2026-08/ART-8321206-12005-30698581.html"
-        ]
+        "label": "资本更偏向补齐瓶颈和交付能力",
+        "text": "诺仕机器人、原力无限和意优科技相继完成融资，分别指向精密传动、具身大脑和关节规模化交付，且诺仕半年内要把产能翻三倍以上，资金明显更愿意押注能补短板、推交付的环节。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "模型叙事继续向世界模型、状态预测和本体能力收敛，业内也更强调经过真实场景检验的本体与系统安全。",
         "items": [
+          {
+            "date": "08-15",
+            "title": "凯迪拉克全新 XT5 PHEV 将于 8 月 21 日成都车展预售，搭载 Momenta R7 世界模型",
+            "url": "https://www.ithome.com/0/990/044.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-14",
             "title": "WRC 2026来袭！博银合创×法奥邀您见证工业具身智能新范式",
@@ -345,19 +340,12 @@
             "url": "https://www.ithome.com/0/988/942.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "08-12",
-            "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
-            "url": "https://www.qbitai.com/2026/08/471049.html",
-            "company": "Figure",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "LG与英伟达推进新一代双足人形机器人，石头和鹿明等也在推新机型，量产讨论更看重终端硬件和生态协同。",
         "items": [
           {
             "date": "08-15",
@@ -365,6 +353,20 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698650.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-15",
+            "title": "对话郎咸朋：用机器人创业重做一次“百万智驾量产”",
+            "url": "https://www.qbitai.com/2026/08/473407.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "08-15",
+            "title": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现场",
+            "url": "https://www.leiphone.com/category/industrynews/24fbshcNUNahZuQz.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "08-14",
@@ -435,20 +437,20 @@
             "url": "https://www.ithome.com/0/988/851.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
-          },
-          {
-            "date": "08-12",
-            "title": "Celona 推出面向物理 AI 与机器人的 Orion 智能体无线平台 (Celona launches Orion agentic wireless platform built for physical AI and robotics)",
-            "url": "https://www.therobotreport.com/celona-launches-orion-agentic-wireless-platform-built-for-physical-ai-robotics/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商超、咖啡店和Robotaxi 成为新一轮落地主场，索塔无界、京东七鲜咖啡和小马智行分别给出千台级、门店级和多城部署计划。",
         "items": [
+          {
+            "date": "08-15",
+            "title": "索塔无界：全球首家原生物理世界模型落地商超，具身智能迎来“索塔时刻”",
+            "url": "https://www.leiphone.com/category/industrynews/aEyXlap53PQXDDYJ.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "08-14",
             "title": "小马智行与优步扩大合作，计划在欧洲 5 城部署超 2000 辆 Robotaxi",
@@ -474,7 +476,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "融资更集中在关节、具身大脑和供应链能力补位，诺仕机器人、原力无限和意优科技都带着明确的产能或技术扩张目标。",
         "items": [
           {
             "date": "08-14",
@@ -543,7 +545,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "宇树参会人形机器人试验方法国家标准启动会，第二届世界人形机器人运动会将有16国2056台机器人参赛，行业讨论正转向标准和公开验证。",
         "items": [
           {
             "date": "08-15",
@@ -614,19 +616,12 @@
             "url": "https://www.tmtpost.com/8099407.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "08-12",
-            "title": "荣耀宣布出战第二届世界人形机器人运动会，自研机器人曾包揽半马前六",
-            "url": "https://www.ithome.com/0/988/968.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "关节、数据基础设施和整体订单数据继续抬升产业链关注度，资金与需求都在向能支撑规模交付的底层环节集中。",
         "items": [
           {
             "date": "08-14",
@@ -648,13 +643,6 @@
             "url": "https://roboticsandautomationnews.com/2026/08/13/robot-orders-increase-to-622-million-in-q2-as-automation-demand-broadens-across-industries/104092/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-12",
-            "title": "A3 报告称，2026 年第二季度各行业机器人需求增长 (Q2 2026 robotics demand increased across industries, reports A3)",
-            "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       }
@@ -678,6 +666,42 @@
       "category": "行业动态",
       "summary": "8月14日，一则“特斯拉机器人司机开车上路”的视频在全球社交媒体上病毒式传播。画面中，一台“Optimus”坐在驾驶座上，手握方向盘，看起来就像机器人真的在开车。 转自明查员 陶亚迪 袁源 智财社仔细",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30698643.html"
+    },
+    {
+      "date": "08-15",
+      "company": "其他",
+      "title": "对话郎咸朋：用机器人创业重做一次“百万智驾量产”",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "作为理想智能驾驶从0到1、一路做到 150万辆车量产 的核心负责人之一，郎咸朋却把这八年称作自己“探索具身智能的起点”。 这家具身新势力在成立后的三个月内，就拿下数十亿人民币融资、跻身 独角兽 俱乐部。 但相比融资，他在这次访谈里反复强调的，是另外两件事。 昆仑行因此选择物理因果世界模型和“数据编译”路线，希望机器人学到的是背后的物理规律。 在郎咸朋看来，今…",
+      "url": "https://www.qbitai.com/2026/08/473407.html"
+    },
+    {
+      "date": "08-15",
+      "company": "其他",
+      "title": "索塔无界：全球首家原生物理世界模型落地商超，具身智能迎来“索塔时刻”",
+      "source_name": "雷峰网",
+      "category": "商业订单",
+      "summary": "在 具身智能仍 陷于“资本热、落地冷”之际，成立仅 4 个月的索塔无界，率先以欧洲最大商超 集 团 的 战略合作，打破商业落地僵局。根据规划，双方未来3年将在真实商超场景中部署超过千台具身智能机器人。索塔无界不造硬件，而是为机器人打造 “原生物理大脑”——首次将4D世界动作模型部署于真实商超货架之间 ，开启物理智能的“场景收敛+通用泛化”新路径。 破局：不追…",
+      "url": "https://www.leiphone.com/category/industrynews/aEyXlap53PQXDDYJ.html"
+    },
+    {
+      "date": "08-15",
+      "company": "其他",
+      "title": "鹿明发布MOS2：全球首个双臂负载50kg轮臂式机器人，加速AI Worker进入产业现场",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "8月14日，鹿明机器人发布全新重载轮臂式具身智能机器人 Lumos MOS2 。 面向真实工业场景，Lumos MOS2具备 50kg双臂负载能力 ，同时在硬件性能、全向移动能力、多模态感知系统和整机控制架构等方面实现全面升级，胜任真实工业场景高强度、持续性作业任务。 鹿明机器人创始人兼CEO喻超表示，具身智能正在加速进入产业落地阶段，如何让机器人更高效地完…",
+      "url": "https://www.leiphone.com/category/industrynews/24fbshcNUNahZuQz.html"
+    },
+    {
+      "date": "08-15",
+      "company": "其他",
+      "title": "凯迪拉克全新 XT5 PHEV 将于 8 月 21 日成都车展预售，搭载 Momenta R7 世界模型",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 8 月 15 日消息，凯迪拉克全新 XT5 PHEV 将于 8 月 21 日成都车展正式开启预售，新车将成为首款量产搭载 Momenta R7 世界模型的豪华混动 SUV。 IT之家注意到，全新 XT5 PHEV 采用搭载奥特能 5C 三元锂电池的双电机全路况插混系统，配备 1.5T 发动机（最大功率 115kW）及前后双电机（最大功率分别为 16…",
+      "url": "https://www.ithome.com/0/990/044.htm"
     },
     {
       "date": "08-14",
@@ -1074,42 +1098,6 @@
       "category": "产品量产",
       "summary": "IT之家 8 月 12 日消息，宇树科技今日宣布，旗下人形机器人累计生产下线约 18000 台（仅包括仿生双足人形的数量，不含其他类人形机器人或轮式底盘人形）。 此前公开信息显示，截至 2026 年 5 月，宇树科技单款双足人形机器人（G1）累计生产下线约 11000 台。从 5 月到 8 月，累计下线数量增加了约 7000 台，意味着其双足人形机器人的月均…",
       "url": "https://www.ithome.com/0/988/851.htm"
-    },
-    {
-      "date": "08-12",
-      "company": "Figure",
-      "title": "国产具身智能创全球新纪录！以30%成本跑赢 Figure AI 45%效率，聪明的具身大脑成关键",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "没有人工兜底，没有固定流程，甚至连包裹都是随机来的，就这样连续稳定干满1小时，分拣效率干到了 1816件/小时 ！？ 更关键的是，这一实测成绩，还超过了美国Figure AI此前公开的1248件/小时平均效率纪录，分拣效率提升超过 45% 。 这次物流分拣直播所使用的双机械臂+夹爪的硬件方案，则比Figure AI此前的人形机器人+五指灵巧手方案，硬件成本大…",
-      "url": "https://www.qbitai.com/2026/08/471049.html"
-    },
-    {
-      "date": "08-12",
-      "company": "其他",
-      "title": "荣耀宣布出战第二届世界人形机器人运动会，自研机器人曾包揽半马前六",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 12 日消息，在今晚的发布会上，荣耀宣布将参与第二届世界人形机器人运动会。该赛事将于 8 月 22 日至 26 日在北京国家速滑馆“冰丝带”举办。 第二届世界人形机器人运动会由北京市人民政府和中央广播电视总台等联合主办。赛事共设 50 个赛项，涵盖 29 项竞技赛和 21 项场景赛。 IT之家注意到，竞技赛包括百米自主竞速、人机对抗搏击、乒…",
-      "url": "https://www.ithome.com/0/988/968.htm"
-    },
-    {
-      "date": "08-12",
-      "company": "其他",
-      "title": "A3 报告称，2026 年第二季度各行业机器人需求增长 (Q2 2026 robotics demand increased across industries, reports A3)",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "summary": "A3 said that Q2 2026 robotics orders in food, electronics, and healthcare helped offset soft demand from automotive manufacturing. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/q2-2026-robotics-demand-increased-across-industries-reports-a3/"
-    },
-    {
-      "date": "08-12",
-      "company": "其他",
-      "title": "Celona 推出面向物理 AI 与机器人的 Orion 智能体无线平台 (Celona launches Orion agentic wireless platform built for physical AI and robotics)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "Celona launched Celona Orion, a unified agentic platform merging private 5G, Wi-Fi, cellular, and satellite into one network for physical AI. The post appeared first on The Robot R…",
-      "url": "https://www.therobotreport.com/celona-launches-orion-agentic-wireless-platform-built-for-physical-ai-robotics/"
     }
   ]
 }
