@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T20:45:03.703985+08:00",
+  "updated": "2026-08-18T02:41:37.246642+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "36氪",
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 2,
+      "entries": 14,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -66,7 +66,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 17,
-      "core": 2,
+      "entries": 59,
+      "candidates": 24,
+      "core": 3,
       "periphery": 0,
       "new": 2
     },
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 17,
       "periphery": 0,
-      "new": 9
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 26,
       "core": 12,
       "periphery": 5,
-      "new": 7
+      "new": 6
     },
     {
       "name": "The Robot Report",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 6,
       "periphery": 1,
-      "new": 6
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
+      "candidates": 10,
       "core": 7,
-      "periphery": 0,
-      "new": 2
+      "periphery": 2,
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -234,36 +234,36 @@
       "candidates": 69,
       "core": 19,
       "periphery": 9,
-      "new": 1
+      "new": 0
     }
   ],
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-17T20:45:19.255030+08:00",
+    "generated_at": "2026-08-18T02:42:01.797065+08:00",
     "mode": "aicodewith",
-    "item_count": 21,
+    "item_count": 26,
     "insights": [
       {
-        "label": "验证重心转向可验收任务",
-        "text": "本周证据更集中在工厂闭环、维修巡检和救援等任务型场景，拉格朗日强调用 Agentic OS 和工序重构让机器人在工厂把任务跑完，运动会模拟消防救援要求半小时内完成救火任务，行业叙事正从展示单项动作转向能否在限定环境交付结果。",
+        "label": "验证重心转向可交付任务",
+        "text": "具身智能落地叙事从展会动作展示转向工厂、救援、线缆连接等可验收任务，拉格朗日强调在工厂把任务闭环跑完，世界人形机器人运动会设置半小时救火和USB正反识别连接，REX G1也以通用操作生产力伙伴定位进入发布阶段，短期竞争会更看重任务完成率、稳定性和可复现流程。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型进入数据闭环阶段",
-        "text": "3DGS 被描述为从 3D 相册演进为机器人模仿学习的数字孪生工厂，结合秒级前馈生成、物理碰撞和抗噪建图，世界模型也出现 24FPS 画面与 48kHz 立体声实时生成进展，模型价值正在更多绑定真实数据、物理一致性和任务训练闭环。",
+        "label": "量产与成本成为能力验证",
+        "text": "宇树科技公告8月19日科创板上市并发布原地跳高2米、极速12.66米每秒的人形机器人新品，东方精工披露机器人批量交付且上半年净利润大涨868%，特斯拉Optimus量产产线处于安装调试，Tau Robotics以每小时30美元提供上门保洁并被描述为亏本赚数据，产品能力正在被产线、交付和单位经济性共同检验。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向量产与短板补齐",
-        "text": "宇树科技公告 8 月 19 日科创板上市，数字华夏完成亿元级 Pre-A 轮融资，国奥科技获近亿元 A+ 轮融资，智洋创新拟募资押注具身智能，资金流向既覆盖整机商业化，也覆盖精密运动控制等能力短板。",
+        "label": "资本更偏向场景和补短板",
+        "text": "本周融资和上市线索集中在可定义场景与关键能力补齐，FF探索机器人独立融资及上市，智洋创新拟募资9亿元押注具身智能，数字华夏获亿元级Pre-A轮，国奥科技获近亿元A+轮投向精密运动控制，Gravis Robotics融资2亿美元用于自主施工，资金更愿意围绕商业场景和运动控制等瓶颈形成闭环。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、3DGS 和任务闭环推进，重点从生成效果扩展到物理一致性、抗噪建图和工厂工序执行，真实任务中的可用性成为主要验证方向。",
+        "summary": "3DGS从三维展示走向物理底座，结合秒级前馈生成、碰撞建模和抗噪建图；世界模型提升到24FPS画面与48kHz立体声，工厂任务闭环也成为技术检验方向。",
         "items": [
           {
             "date": "08-17",
@@ -297,7 +297,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现宇树高性能人形机器人、RoboScience 轮式仿人形机器人和东方精工批量交付等进展，交付、产线调试与量产叙事开始压过单纯展会样机。",
+        "summary": "新品发布密集，宇树“超人”、REX G1、小睿G3和共生知行卡丁车Demo覆盖运动、操作、负重与全身智能；东方精工批量交付、Optimus产线调试强化量产预期。",
         "items": [
           {
             "date": "08-17",
@@ -340,12 +340,33 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30698792.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-17",
+            "title": "能举起 50 公斤重杠铃，九光技术发布小睿 G3 人形机器人",
+            "url": "https://www.ithome.com/0/990/853.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-17",
+            "title": "Serve Robotics将Grubhub纳入配送网络，Diligent推出Moxi 2.0 (Serve Robotics adds Grubhub to delivery network as Diligent rolls out Moxi 2.0)",
+            "url": "https://roboticsandautomationnews.com/2026/08/17/serve-robotics-adds-grubhub-to-delivery-network-as-diligent-rolls-out-moxi-2-0/104207/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "08-17",
+            "title": "船厂焊接是人形机器人的第一份合适工作吗？ (Is Shipyard Welding the Right First Job for Humanoid Robots?)",
+            "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
+            "company": "其他",
+            "source_name": "IEEE Spectrum Robotics"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单证据较少，Pony.ai 与 Uber 计划在欧洲部署超 2000 辆 Robotaxi，显示自动驾驶具身应用仍以平台合作和区域试点扩张为主要落地方式。",
+        "summary": "Pony.ai与Uber计划把萨格勒布试点扩展至欧洲超2000辆Robotaxi，本周商业订单证据主要来自自动驾驶规模部署，具身机器人订单信息仍相对有限。",
         "items": [
           {
             "date": "08-17",
@@ -358,7 +379,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态覆盖宇树上市、数字华夏亿元级融资、国奥科技近亿元融资和 FF 探索机器人独立融资上市，资金更关注商业化整机与关键部件能力建设。",
+        "summary": "宇树科技将登陆科创板，FF探索机器人独立融资及上市，智洋创新拟募资9亿元，数字华夏、国奥科技、Gravis Robotics分别获得融资，资本覆盖本体、控制和施工场景。",
         "items": [
           {
             "date": "08-17",
@@ -401,12 +422,19 @@
             "url": "https://www.gongkong.com/news/202608/452616.html",
             "company": "行业",
             "source_name": "中国工控网机器人"
+          },
+          {
+            "date": "08-17",
+            "title": "Gravis Robotics 融资2亿美元用于自主施工 (Gravis Robotics raises $200M for autonomous construction)",
+            "url": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态呈现服务、赛事和供应链多线验证，Tau 用宇树机器人做上门保洁，机器人完成乒乓球比赛和模拟消防救援，场景真实性与数据积累被反复强调。",
+        "summary": "Tau用宇树机器人做每小时30美元上门保洁，特斯拉Optimus被指依赖中国供应链；乒乓球、消防救援和线缆连接赛事让行业测试更接近真实动作任务。",
         "items": [
           {
             "date": "08-17",
@@ -433,6 +461,13 @@
             "date": "08-17",
             "title": "第二届世界人形机器人运动会模拟消防救援比赛：需在半小时内完成救火任务",
             "url": "https://www.ithome.com/0/990/768.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-17",
+            "title": "第二届世界人形机器人运动会线缆连接预赛今日完赛，14 支队伍进入决赛",
+            "url": "https://www.ithome.com/0/990/831.htm",
             "company": "其他",
             "source_name": "IT之家"
           }
@@ -629,6 +664,51 @@
       "category": "资本动态",
       "summary": "近日，国奥科技（深圳）有限公司完成约亿元A 轮融资。据公开信息，本轮融资由老股东深创投追投，粤科金融、基石资本跟投。头部国资与民营资本的联合加持，充分印证企业的核心价值及赛道发展潜力。 标签： 国奥科技 运动控制",
       "url": "https://www.gongkong.com/news/202608/452616.html"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "能举起 50 公斤重杠铃，九光技术发布小睿 G3 人形机器人",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 8 月 17 日消息，据 Now 新闻今天报道，九光技术今天在香港科学园发布新一代人形机器人小睿 G3，主打功能是辅助人类负重工作。 据介绍，小睿 G3 是九光技术自研的第三款人形机器人，它身高 173 厘米，体重小于 60 公斤，与一个成年人相若， 能拉超过 100 公斤重的物件或举起 50 公斤重的杠铃 。 在发布会现场，小睿 G3 可以响应语…",
+      "url": "https://www.ithome.com/0/990/853.htm"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "第二届世界人形机器人运动会线缆连接预赛今日完赛，14 支队伍进入决赛",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 17 日消息，第二届世界人形机器人运动会，将于 8 月 22 日在北京拉开帷幕。据央视新闻报道，第二届世界人形机器人运动会线缆连接预赛今天完赛， 24 支参赛队伍中，有 14 支队伍进入决赛 。 据介绍，该项比赛的难度在于 USB 插口它是分为正向和反向的， 机器人要先识别出来，只有正向对准充电口才能够完成连接任务 。同时，下压过程中，还需…",
+      "url": "https://www.ithome.com/0/990/831.htm"
+    },
+    {
+      "date": "08-17",
+      "company": "行业",
+      "title": "Gravis Robotics 融资2亿美元用于自主施工 (Gravis Robotics raises $200M for autonomous construction)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Gravis Robotics has designed autonomy AI and hardware for a wide range of excavators and construction equipment and plans to scale globally. The post appeared first on The Robot Re…",
+      "url": "https://www.therobotreport.com/gravis-robotics-raises-200m-autonomous-construction/"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "Serve Robotics将Grubhub纳入配送网络，Diligent推出Moxi 2.0 (Serve Robotics adds Grubhub to delivery network as Diligent rolls out Moxi 2.0)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Serve Robotics is expanding its autonomous delivery network through a new partnership with Grubhub, while its Diligent Robotics subsidiary begins rolling out the next generation of…",
+      "url": "https://roboticsandautomationnews.com/2026/08/17/serve-robotics-adds-grubhub-to-delivery-network-as-diligent-rolls-out-moxi-2-0/104207/"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "船厂焊接是人形机器人的第一份合适工作吗？ (Is Shipyard Welding the Right First Job for Humanoid Robots?)",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "产品量产",
+      "summary": "Humanoids desperately need to stop making YouTube videos and get a job already, and Persona AI is one of the few humanoid companies which seems to be entirely focused on making tha…",
+      "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding"
     },
     {
       "date": "08-16",
@@ -845,51 +925,6 @@
       "category": "技术突破",
       "summary": "8月19日至23日，备受瞩目的“2026世界机器人博览会（WRC）”将在北京亦庄北人亦创国际会展中心盛大启幕。 标签： 博银合创 法奥 <a href=\"//tags.gongkong.c",
       "url": "https://www.gongkong.com/news/202608/452554.html"
-    },
-    {
-      "date": "08-14",
-      "company": "其他",
-      "title": "LG将于2027年初发布搭载英伟达技术的新型人形机器人 (LG to unveil new Nvidia-powered humanoid robot in early 2027)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "South Korean electronics giant LG is developing a next-generation bipedal humanoid robot built using Nvidia Isaac GR00T, Nvidia’s open reasoning humanoid foundation model, for a pu…",
-      "url": "https://roboticsandautomationnews.com/2026/08/14/lg-to-unveil-new-nvidia-powered-humanoid-robot-in-early-2027/104173/"
-    },
-    {
-      "date": "08-14",
-      "company": "其他",
-      "title": "诺斯罗普·格鲁曼发射机器人航天器以修复并延长卫星寿命 (Northrop Grumman launches robotic spacecraft to repair and extend life of satellites)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Northrop Grumman has launched a sophisticated robotic spacecraft designed to service satellites in orbit, potentially allowing expensive space assets to be repaired, upgraded, move…",
-      "url": "https://roboticsandautomationnews.com/2026/08/14/northrop-grumman-launches-robotic-spacecraft-to-repair-and-extend-life-of-satellites/104165/"
-    },
-    {
-      "date": "08-14",
-      "company": "其他",
-      "title": "Schaeffler推出用于人形机器人的成形谐波减速器 (Schaeffler unveils formed strain wave gearboxes for humanoid robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Motion technology company Schaeffler is expanding its humanoid robotics product portfolio and bringing formed strain wave gearboxes to market. Strain wave gearboxes are key compone…",
-      "url": "https://roboticsandautomationnews.com/2026/08/14/schaeffler-unveils-formed-strain-wave-gearboxes-for-humanoid-robots/104157/"
-    },
-    {
-      "date": "08-14",
-      "company": "其他",
-      "title": "索尼机器人手专利暗示其重新关注人形机器人 (Sony robot hand patent hints at renewed interest in humanoid robotics)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Sony has filed a US patent application for a robotic hand featuring a human-like opposable thumb, providing another intriguing indication of the electronics giant’s continuing rese…",
-      "url": "https://roboticsandautomationnews.com/2026/08/14/sony-robot-hand-patent-hints-at-renewed-interest-in-humanoid-robotics/104150/"
-    },
-    {
-      "date": "08-14",
-      "company": "特斯拉",
-      "title": "消息称特斯拉新款 Roadster 最快本月发布，还有“能飞”的限量版",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 8 月 14 日消息，据 The Information 今天（14 日）援引三名知情人士消息称，特斯拉准备 最快本月 举行新款 Roadster 发布活动。活动的一大看点，是通过一场精心设计的特技演示展示 Roadster 限量版的飞行能力。 该版本由特斯拉和 SpaceX 共同开发，演示地点预计选在得克萨斯州麦格雷戈的 SpaceX 测试场…",
-      "url": "https://www.ithome.com/0/989/939.htm"
     }
   ]
 }
