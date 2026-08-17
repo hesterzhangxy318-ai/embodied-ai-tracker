@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T02:32:06.700000+08:00",
+  "updated": "2026-08-17T09:18:24.696374+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -21,7 +21,7 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 3,
+      "attempts": 1,
       "error": "",
       "entries": 0,
       "candidates": 0,
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 3,
-      "core": 1,
+      "entries": 17,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 2,
+      "entries": 16,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 13,
-      "core": 1,
+      "entries": 56,
+      "candidates": 16,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -117,7 +117,7 @@
       "candidates": 8,
       "core": 8,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -236,8 +236,72 @@
       "new": 1
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "08-17",
+    "end": "08-23",
+    "generated_at": "2026-08-17T09:18:38.977057+08:00",
+    "mode": "aicodewith",
+    "item_count": 2,
+    "insights": [
+      {
+        "label": "落地验证偏向可验收场景",
+        "text": "Pony.ai 与 Uber 计划在欧洲部署超过 2,000 辆 Robotaxi，并由 Zagreb 的试点扩展而来，商业推进仍围绕可运营、可计量的出行服务展开，短期更适合用区域部署和车队规模验证能力。",
+        "evidence_urls": []
+      },
+      {
+        "label": "机器人资本叙事强调独立化",
+        "text": "法拉第未来称其机器人进入放量收入快速增长新阶段，并探索独立融资及上市，资本动作更多绑定业务边界和收入进展，但现有证据尚不足以判断其量产节奏和客户结构。",
+        "evidence_urls": []
+      }
+    ],
+    "groups": [
+      {
+        "category": "商业订单",
+        "summary": "Pony.ai 与 Uber 计划在欧洲部署超过 2,000 辆 Robotaxi，并由 Zagreb 试点扩展，商业化验证集中在可运营的车队服务和区域落地节奏。",
+        "items": [
+          {
+            "date": "08-17",
+            "title": "Pony.ai 与 Uber 计划在欧洲部署超 2,000 辆 Robotaxi (Pony.ai and Uber Set Their Sights on More Than 2,000 Robotaxis in Europe)",
+            "url": "https://www.tmtpost.com/8105342.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
+        "category": "资本动态",
+        "summary": "法拉第未来披露探索机器人独立融资及上市，并称业务进入放量收入快速增长阶段，资本关注点落在机器人业务独立性和收入可见度上。",
+        "items": [
+          {
+            "date": "08-17",
+            "title": "贾跃亭：法拉第未来探索机器人独立融资及上市",
+            "url": "https://www.ithome.com/0/990/442.htm",
+            "company": "法拉第未来",
+            "source_name": "IT之家"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "Pony.ai 与 Uber 计划在欧洲部署超 2,000 辆 Robotaxi (Pony.ai and Uber Set Their Sights on More Than 2,000 Robotaxis in Europe)",
+      "source_name": "钛媒体",
+      "category": "商业订单",
+      "summary": "A Chinese autonomous-driving company and a global ride-hailing platform have agreed to expand a quiet pilot in Zagreb into a multi-city fleet. The plan is ambitious on paper. Wheth…",
+      "url": "https://www.tmtpost.com/8105342.html"
+    },
+    {
+      "date": "08-17",
+      "company": "法拉第未来",
+      "title": "贾跃亭：法拉第未来探索机器人独立融资及上市",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 8 月 17 日消息，法拉第未来（FF）创始人、合伙人、首席产品及用户生态官贾跃亭今日宣布，FF 机器人进入放量收入快速增长新阶段， 探索机器人独立融资及上市 。 贾跃亭表示，下半年，公司将继续推进“五大变革”，全面打响“四核全智”Q3 机器人实用化战役，举措如下： 1，业务方面，推动“四核全智”生态各项业务进一步落地并扩大营收： 第一核，EAI…",
+      "url": "https://www.ithome.com/0/990/442.htm"
+    },
     {
       "date": "08-16",
       "company": "其他",
@@ -669,24 +733,6 @@
       "category": "资本动态",
       "summary": "8月10日，宇树科技开启网上、网下申购，发行价定格在150.80元/股。 资本市场的回应近乎“癫狂”——978.46万户参与网上申购，有效申购股数达536.37亿股。由于超额认购倍数超过8000倍，触发了回拨机制，最终网上中签率仅为0.018%。这个概率，比打新很多热门新股还要低得多。 以150.80元/股的发行价计算，这家公司市值已达约610亿元。而在20…",
       "url": "https://www.tmtpost.com/8099369.html"
-    },
-    {
-      "date": "08-12",
-      "company": "其他",
-      "title": "人形之外，擎羽把“身体”变成具身智能的新变量",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "从柔性本体走向跨本体基础智能，让任务与世界知识延续",
-      "url": "https://www.qbitai.com/2026/08/470874.html"
-    },
-    {
-      "date": "08-12",
-      "company": "行业",
-      "title": "桥介数物完成新一轮亿级融资，加速落地通用机器人操作系统",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "summary": "近日，通用机器人操作系统研发商桥介数物（BridgeDP Robotics）宣布完成 Pre-A+++ 轮融资。本轮融资由中国移动链长基金领投，老股东复星创富、深创投追加投资，融资规模达亿元级。 桥介数物表示，本次融资将主要用于四个方向：RoboCraft AI 通用机器人运动能力开发平台的生态建设、跨本体全身运动数据工厂产能提升、运动控制模型持续迭代，以及…",
-      "url": "https://www.leiphone.com/category/industrynews/lrwCyiLDozDxFo2b.html"
     }
   ]
 }
