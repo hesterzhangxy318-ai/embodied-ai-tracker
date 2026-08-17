@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T09:18:24.696374+08:00",
+  "updated": "2026-08-17T14:57:41.941486+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 14,
-      "core": 3,
+      "entries": 18,
+      "candidates": 15,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 4,
+      "entries": 15,
+      "candidates": 3,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 1,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 16,
-      "core": 2,
+      "entries": 60,
+      "candidates": 20,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 12,
-      "periphery": 1,
-      "new": 4
+      "core": 15,
+      "periphery": 0,
+      "new": 11
     },
     {
       "name": "新战略移动机器人",
@@ -239,25 +239,77 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-17T09:18:38.977057+08:00",
+    "generated_at": "2026-08-17T14:58:12.861920+08:00",
     "mode": "aicodewith",
-    "item_count": 2,
+    "item_count": 11,
     "insights": [
       {
-        "label": "落地验证偏向可验收场景",
-        "text": "Pony.ai 与 Uber 计划在欧洲部署超过 2,000 辆 Robotaxi，并由 Zagreb 的试点扩展而来，商业推进仍围绕可运营、可计量的出行服务展开，短期更适合用区域部署和车队规模验证能力。",
+        "label": "任务闭环正在取代单项技能成为落地叙事",
+        "text": "拉格朗日以Agentic OS和工序重构推动机器人在工厂完成任务闭环，Pony.ai与Uber则计划在欧洲部署超过2000辆Robotaxi并扩大萨格勒布试点，当前落地更偏向流程清晰、结果可验收的运营场景，广泛商业化仍缺少更多交付证据。",
         "evidence_urls": []
       },
       {
-        "label": "机器人资本叙事强调独立化",
-        "text": "法拉第未来称其机器人进入放量收入快速增长新阶段，并探索独立融资及上市，资本动作更多绑定业务边界和收入进展，但现有证据尚不足以判断其量产节奏和客户结构。",
+        "label": "模型竞争开始转向真实数据与物理环境建模",
+        "text": "3DGS方案已覆盖秒级前馈生成、Neural ODE物理碰撞和真实抗噪建图，并被用于构建机器人模仿学习的数字孪生工厂；相比“世界模型元年”的概念表述，现有证据更具体地指向数据生成、环境理解和任务闭环能力。",
+        "evidence_urls": []
+      },
+      {
+        "label": "产品交付与融资动作同步成为市场观察重点",
+        "text": "宇树发布具备原地跳高2米、极限速度12.66米每秒指标的人形机器人，东方精工披露机器人批量交付且2026年上半年净利润增长868%，同时FF探索机器人独立融资及上市、智洋创新拟募资9亿元，市场开始同时关注性能、交付和资本化进展，但材料尚不足以判断规模化盈利。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
+        "category": "技术突破",
+        "summary": "本周技术讨论从世界模型概念转向可执行闭环，3DGS以秒级生成、物理碰撞和抗噪建图支持数字孪生工厂，Agentic OS则用于工序重构。",
+        "items": [
+          {
+            "date": "08-17",
+            "title": "从「3D相册」到「物理底座」：CVPR 2026 开启 3DGS 的具身智能时代",
+            "url": "https://www.leiphone.com/category/private/aUhbF0DAHdEEWDDY.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "08-17",
+            "title": "具身智能开始进入「下半场」：从会干活到干完活",
+            "url": "https://www.leiphone.com/category/ai/KW4ChhveDJVpOjl1.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "08-17",
+            "title": "扶稳坐好，世界模型，元年已到",
+            "url": "https://www.tmtpost.com/8105530.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
+        "category": "产品量产",
+        "summary": "宇树以跳高和速度指标展示人形机器人性能，东方精工披露机器人批量交付及净利润大幅增长，产品竞争开始同时呈现参数突破与交付表现。",
+        "items": [
+          {
+            "date": "08-17",
+            "title": "宇树科技发布“超人”机器人：原地跳高 2m、极限速度 12.66m/s 超越人类纪录",
+            "url": "https://www.ithome.com/0/990/607.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-17",
+            "title": "2026上半年净利润大涨868%！广东老牌制造商实现机器人批量交付",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30698715.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
         "category": "商业订单",
-        "summary": "Pony.ai 与 Uber 计划在欧洲部署超过 2,000 辆 Robotaxi，并由 Zagreb 试点扩展，商业化验证集中在可运营的车队服务和区域落地节奏。",
+        "summary": "Pony.ai与Uber计划在欧洲部署超过2000辆Robotaxi，并扩大萨格勒布试点，订单证据已从单一测试推进到跨区域运营规划，但实际部署进度仍待观察。",
         "items": [
           {
             "date": "08-17",
@@ -270,7 +322,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "法拉第未来披露探索机器人独立融资及上市，并称业务进入放量收入快速增长阶段，资本关注点落在机器人业务独立性和收入可见度上。",
+        "summary": "FF宣布探索机器人独立融资及上市，智洋创新拟募资9亿元，云深处IPO话题受到关注，资本仍在寻找具身智能的细分标的与能力补齐方向。",
         "items": [
           {
             "date": "08-17",
@@ -278,6 +330,40 @@
             "url": "https://www.ithome.com/0/990/442.htm",
             "company": "法拉第未来",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-17",
+            "title": "募资9亿！淄博首家科创板上市公司押注具身智能",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30698747.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-17",
+            "title": "云深处IPO：“机器狗”起家，喝得上机器人“热汤”吗？",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698696.html",
+            "company": "云深处",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "行业动态",
+        "summary": "Tau Robotics在旧金山以每小时30美元提供人形机器人保洁服务并称亏本赚数据，特斯拉Optimus的中国供应链依赖也引发讨论，行业仍处于服务试验与供应链验证阶段。",
+        "items": [
+          {
+            "date": "08-17",
+            "title": "美国Tau用宇树机器人搞保洁：30美元/小时，亏本赚数据",
+            "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30698714.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-17",
+            "title": "K-Scale死了，特斯拉Optimus靠中国供应链活着——美国造不出机器人“身体”",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698713.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
           }
         ]
       }
@@ -301,6 +387,87 @@
       "category": "资本动态",
       "summary": "IT之家 8 月 17 日消息，法拉第未来（FF）创始人、合伙人、首席产品及用户生态官贾跃亭今日宣布，FF 机器人进入放量收入快速增长新阶段， 探索机器人独立融资及上市 。 贾跃亭表示，下半年，公司将继续推进“五大变革”，全面打响“四核全智”Q3 机器人实用化战役，举措如下： 1，业务方面，推动“四核全智”生态各项业务进一步落地并扩大营收： 第一核，EAI…",
       "url": "https://www.ithome.com/0/990/442.htm"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "从「3D相册」到「物理底座」：CVPR 2026 开启 3DGS 的具身智能时代",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "秒级前馈生成、Neural ODE 物理碰撞与真实抗噪建图，3DGS 正演变为机器人模仿学习的数字孪生工厂。 作者丨张 璐 编辑丨齐铖湧 在过去两年的 3DGS 研发浪潮中，我们经常看到这样的奇观：算法在论文里跑出了惊艳的 3D 渲染画面，但一拿到真实手机或机器人上，立刻卡成ppt甚至崩溃。 “能在实验室发论文”与“能在工业现场干活”之间，隔着一条残酷的工程…",
+      "url": "https://www.leiphone.com/category/private/aUhbF0DAHdEEWDDY.html"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "具身智能开始进入「下半场」：从会干活到干完活",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "拉格朗日用 Agentic OS 和工序重构，让机器人在工厂把任务闭环跑完。 作者丨 邓哲敏 编辑丨 齐铖湧 近日，两台轮式双臂机器人、一只机器狗和一台 AGV，第一次被推进汽车物流产线，开始它们为期至少一个月的连续调试。 阵容谈不上惊艳，机器人的任务也很朴素。引起我们雷峰网注意的，是整个 工序架构 ： 三种设备同时进场，围绕同一条任务链路运转，一台机器人做…",
+      "url": "https://www.leiphone.com/category/ai/KW4ChhveDJVpOjl1.html"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "扶稳坐好，世界模型，元年已到",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "AI大佬杨立昆该偷着乐了——他断言的“LLM（大语言模型）只是过渡品，JEPA（联合嵌入预测架构）+世界模型才是通往AGI正途”，似乎正得到应验。 2026年被钉上“世界模型元年”的铭牌，即为印证。这不是我的“自定义”，而是很多实锤在现实墙面上砸出的标记。 2026年1月，谷歌DeepMind开放Genie 3公测，世界模型首次以可交互形态对普通用户开放；几…",
+      "url": "https://www.tmtpost.com/8105530.html"
+    },
+    {
+      "date": "08-17",
+      "company": "宇树科技",
+      "title": "宇树科技发布“超人”机器人：原地跳高 2m、极限速度 12.66m/s 超越人类纪录",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 8 月 17 日消息，宇树科技今日发布了一款人形机器人新品“ 超人 ”，原地跳高 2m，极限速度 12.66m/s（0.85m 腿长），超越全世界全人类原地跳高和奔跑速度纪录。 宇树科技表示，全新整机刚用 3 个多月研发出来， 未来几个月还有很大的完善空间 。 据IT之家此前报道，早在今年 4 月， 宇树 H1 机器人就跑出 10m/s 刷新世界纪…",
+      "url": "https://www.ithome.com/0/990/607.htm"
+    },
+    {
+      "date": "08-17",
+      "company": "行业",
+      "title": "募资9亿！淄博首家科创板上市公司押注具身智能",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "当下具身智能赛道热度持续走高，淄博首家科创板上市企业智洋创新抛出一份总规模9.04亿元的定增方案，将超三成募资资金砸向多垂域具身智能研发，试图依靠前沿技术打开第二增长曲线。资本市场一边看好垂直行业智能",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30698747.html"
+    },
+    {
+      "date": "08-17",
+      "company": "宇树科技",
+      "title": "美国Tau用宇树机器人搞保洁：30美元/小时，亏本赚数据",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "7月底，旧金山初创公司Tau Robotics推出了一项“人形机器人上门保洁”服务，每小时收费30美元（约合人民币200元）。目前服务为邀请制，范围覆盖旧金山米慎区和诺埃谷。 Tau目前拥有三台机器人",
+      "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30698714.html"
+    },
+    {
+      "date": "08-17",
+      "company": "特斯拉",
+      "title": "K-Scale死了，特斯拉Optimus靠中国供应链活着——美国造不出机器人“身体”",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "8月13日，宇树科技公布科创板IPO发行结果：发行价150.80元/股，对应市值约609.93亿元（约合90亿美元），网上中签率仅0.0181%。 同一天，《纽约时报》刊登了一篇题为“美国想在人形机器",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698713.html"
+    },
+    {
+      "date": "08-17",
+      "company": "其他",
+      "title": "2026上半年净利润大涨868%！广东老牌制造商实现机器人批量交付",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "近日，东方精工交出了一份“反差感极强”的2026年半年报。 报告期内，该公司实现营业总收入16.91亿元，同比下降21.68%。虽说营收有所回落，但其归母净利润大幅飙升至38.46亿元，同比暴涨867",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30698715.html"
+    },
+    {
+      "date": "08-17",
+      "company": "云深处",
+      "title": "云深处IPO：“机器狗”起家，喝得上机器人“热汤”吗？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "2025年扭亏为盈。 《投资者网》张伟 继宇树科技（688836.SH）、群核科技（00068.HK）成功上市（IPO）后，“杭州六小龙”之一的云深处科技股份有限公司（下称“云深处”或“公司”）也正在",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698696.html"
     },
     {
       "date": "08-16",
@@ -564,6 +731,15 @@
       "url": "https://www.ithome.com/0/989/939.htm"
     },
     {
+      "date": "08-14",
+      "company": "其他",
+      "title": "破局具身智能“数据瓶颈”，帕西尼重磅发布全新一代五指数采手套 PXCap Pro，重塑高质量数采范式",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "随着人形机器人硬件方案逐步趋同，行业竞争已转向“大脑”训练，而高质量物理交互数据成为决定模型泛化能力的核心瓶颈。8月14日，全球具身感知驱动通用智能领导者 帕西尼（PaXini AI）正式推出全新一代",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30698720.html"
+    },
+    {
       "date": "08-13",
       "company": "其他",
       "title": "具身智能本体的重要性和技术差距，可能被大大低估了",
@@ -643,96 +819,6 @@
       "category": "泛具身产业链",
       "summary": "近日，具身智能数据基础设施公司元点科技（SCALEFORCE）完成数千万元人民币融资，投资者包含国内顶级具身智能产业方、恒旭资本和凯联资本。 本轮融资将主要用于元点科技物理AI操作系统MatrixOS技术迭代、大规模数据生产网络建设及团队扩展，加速成为全球领先的具身智能数据基础设施公司。 具身智能的竞争已进入主打数据与智能的下半场，元点科技旨在为全行业提供来…",
       "url": "https://www.qbitai.com/2026/08/472060.html"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "给黑盒导航机器人「使绊子」：AdvNav 如何揭示具身智能系统潜在安全风险 | GAIR Paper 117",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "AdvNav 首次在黑盒条件下，对导航智能体完成系统性安全验证。 作者丨 李晨阳 编辑丨 陈淑瑜 近两年，能自己走路、自己带路的机器人正从实验室走向真实场景：医院的配送机器人按医嘱送药，仓库里的搬运机器人找货架，家里的扫拖机器人按指令去某个房间。它们靠的不是提前存好的地图，而是“看懂画面 + 听懂指令 + 自己决定下一步往哪走”——这正是视觉语言导航（VLN…",
-      "url": "https://www.leiphone.com/category/private/yXsTeayhNBwW2ZUH.html"
-    },
-    {
-      "date": "08-13",
-      "company": "智元机器人",
-      "title": "宇树上市，智元递表：中国机器人按下发令枪",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "最近，宇树中签结果出炉，跟长鑫一样，颇有普天同庆的感觉。 按照发行价150.80元/股来算，宇树的市值已经有609.9亿元，市盈率219倍。 不仅是市场一片欢欣鼓舞，具身智能行业内也是。毕竟，宇树的上市，用真金白银的定价，给向来靠讲故事估值的具身智能赛道，立下了一根坐标尺。 在宇树\"赶\"着上市的同一时刻，整个具身智能赛道都动了起来。智元机器人就被报道，已在7…",
-      "url": "https://www.tmtpost.com/8102269.html"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "专家将在 RoboBusiness 探讨人形机器人现状 (Experts to discuss the state of humanoid robots at RoboBusiness)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "The RoboBusiness panel will include insights on humanoid robots from Agility, Apptronik, Persona AI, and PSYONIC experts. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "第二季度机器人订单增至6.22亿美元，自动化需求扩展至各行业 (Robot orders increase to $622 million in Q2 as automation demand broadens across industries)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "New A3 data shows second-quarter growth across semiconductors/electronics, automotive components, food and consumer goods, metals and life sciences North American companies ordered…",
-      "url": "https://roboticsandautomationnews.com/2026/08/13/robot-orders-increase-to-622-million-in-q2-as-automation-demand-broadens-across-industries/104092/"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "Honda全新“Avatar”人形机器人暗示ASIMO精神依然鲜活 (Honda’s new ‘Avatar’ humanoid robot suggests the spirit of ASIMO is very much alive)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Whatever happened to ASIMO? Honda’s famous humanoid robot (pictured below with what we believe is an actual human female) disappeared from public view several years ago, just befor…",
-      "url": "https://roboticsandautomationnews.com/2026/08/13/hondas-new-avatar-humanoid-robot-suggests-the-spirit-of-asimo-is-very-much-alive/104083/"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "LTX推出全新免费使用的开放世界视频与物理AI模型 (LTX launches new free-to-use open world model for video and physical AI)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "LTX has launched LTX-2.5, the latest version of its open-weights world model, introducing new capabilities for video generation, real-time applications and physical AI. The company…",
-      "url": "https://roboticsandautomationnews.com/2026/08/13/ltx-launches-new-free-to-use-open-world-model-for-video-and-physical-ai/104079/"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "双机械臂 + 4cm 高越障：小米米家扫拖机器人 5 京东 1510 元，上下水 1610 元",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "米家扫拖机器人 5 开售于 2025 年 12 月 20 日，拥有双机械臂、支持 4cm 高越障，首发价 2999 元起。 今日京东 815 周年庆低至 1510 元起刚需好价： 先领 8.15 折京东平台券： 点此领券 （今日已领空，明日可蹲点抢） 下单时需选择“ 以旧换新 ” → 个护健康 → 电动牙刷（不回收） 京东 小米 米家 扫拖机器人 5 水箱版…",
-      "url": "https://www.ithome.com/0/989/464.htm"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "移动机械臂与人形机器人：机器人技术的未来 (Mobile manipulators and humanoids: The future of robotics)",
-      "source_name": "The Robot Report",
-      "category": "技术突破",
-      "summary": "A free download looks at the state of humanoids, including a rundown of current robotics developers and interviews with industry experts. The post appeared first on The Robot Repor…",
-      "url": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/"
-    },
-    {
-      "date": "08-13",
-      "company": "其他",
-      "title": "BioflexBot机器人手旨在复现人手关键动作 (BioflexBot robot hand aims to replicate key human hand motions)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Researchers created the BioflexBot, a novel robot that mimics and even exceeds core motions of the hand with a simple design. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/"
-    },
-    {
-      "date": "08-12",
-      "company": "宇树科技",
-      "title": "宇树IPO背后的302份招标书，关于人形机器人的六个真相",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "8月10日，宇树科技开启网上、网下申购，发行价定格在150.80元/股。 资本市场的回应近乎“癫狂”——978.46万户参与网上申购，有效申购股数达536.37亿股。由于超额认购倍数超过8000倍，触发了回拨机制，最终网上中签率仅为0.018%。这个概率，比打新很多热门新股还要低得多。 以150.80元/股的发行价计算，这家公司市值已达约610亿元。而在20…",
-      "url": "https://www.tmtpost.com/8099369.html"
     }
   ]
 }
