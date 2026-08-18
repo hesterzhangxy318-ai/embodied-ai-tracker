@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T14:45:50.662348+08:00",
+  "updated": "2026-08-18T20:48:33.444353+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 3,
-      "periphery": 0,
-      "new": 0
+      "candidates": 1,
+      "core": 0,
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 9,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 2,
-      "core": 1,
+      "entries": 15,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -79,7 +79,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 16,
+      "entries": 59,
+      "candidates": 20,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 11,
+      "core": 10,
       "periphery": 0,
-      "new": 7
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -152,11 +152,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 29,
-      "candidates": 26,
-      "core": 14,
+      "entries": 31,
+      "candidates": 27,
+      "core": 15,
       "periphery": 5,
-      "new": 7
+      "new": 9
     },
     {
       "name": "The Robot Report",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-18T14:46:06.313821+08:00",
+    "generated_at": "2026-08-18T20:49:08.488305+08:00",
     "mode": "aicodewith",
-    "item_count": 32,
+    "item_count": 33,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周具身智能展示从单点动作能力延伸到工厂闭环、消防救援、线缆连接和保洁等任务场景，拉格朗日强调让机器人在工厂把任务闭环跑完，世界人形机器人运动会设置半小时救火和USB正反识别连接等项目，企业更需要用可判定结果证明系统可靠性。",
+        "text": "具身智能的展示重点从单点动作转向可计量任务，拉格朗日强调机器人在工厂把任务闭环跑完，世界人形机器人运动会设置半小时消防救援和USB线缆连接，Tau用宇树机器人以30美元每小时做上门保洁并积累数据，落地判断更依赖工厂、维修、巡检和服务场景中的完成率、时长与成本。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事靠真实数据闭环收敛",
-        "text": "世界模型、3DGS和人类示范数据仍是技术主线，相关进展覆盖24FPS画面与48kHz立体声实时生成、物理一致性、真实抗噪建图和机器人模仿学习数字孪生工厂，模型价值正在从生成效果转向能否支撑机器人学习、仿真和任务执行。",
+        "label": "量产能力进入估值定价",
+        "text": "宇树科技以600亿元估值登陆科创板并被关注高自研率和国产供应链，特斯拉Optimus量产产线处于安装调试阶段，东方精工披露机器人批量交付并带动上半年净利润大涨868%，资本和产业叙事正在把能否规模交付、能否控成本纳入能力验证。",
         "evidence_urls": []
       },
       {
-        "label": "资本押注量产与关键部件",
-        "text": "宇树科技以600亿元估值推进科创板上市，智洋创新拟募资9亿元押注具身智能，国奥科技获得近亿元A+轮融资，FF探索机器人独立融资及上市，资金更集中流向量产能力、精密运动控制和明确商业化路径。",
+        "label": "模型叙事靠任务闭环收敛",
+        "text": "世界模型继续提升到24FPS画面和48kHz立体声实时生成，3DGS被描述为结合秒级前馈生成、Neural ODE物理碰撞和真实抗噪建图的机器人模仿学习数字孪生工厂，Generalist使用人类示范数据进行机器人学习，模型进展更贴近数据采集、仿真训练和真实任务迁移链条。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧集中在世界模型、3DGS、Agentic OS和人类示范学习，关注点从会展示动作转向物理一致性、抗噪建图、工序重构与任务闭环能力。",
+        "summary": "技术突破围绕世界模型、3DGS和工厂任务闭环展开，重点从画面生成能力延伸到物理一致性、真实抗噪建图与人类示范数据学习。",
         "items": [
           {
             "date": "08-18",
@@ -311,7 +311,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧新品和Demo密集出现，宇树发布高跳高速人形机器人，RoboScience推出REX G1，东方精工披露机器人批量交付，量产叙事继续升温。",
+        "summary": "产品量产侧新品和演示密集，REX G1、宇树“超人”、共生知行卡丁车Demo和东方精工批量交付共同强化从样机展示到交付验证的节奏。",
         "items": [
           {
             "date": "08-18",
@@ -394,8 +394,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单信息较少，Pony.ai与Uber计划在欧洲部署超过2000辆Robotaxi，自动驾驶仍是具身相关领域中规模化部署路径较清晰的方向。",
+        "summary": "商业订单信息较少，Pony.ai与Uber计划在欧洲部署超2000辆Robotaxi，九章智算云案例则聚焦大模型训推一致落地，具身直接订单证据有限。",
         "items": [
+          {
+            "date": "08-18",
+            "title": "以GLM-5为例，探究九章智算云强化学习系统如何落地“训推一致”",
+            "url": "https://www.leiphone.com/category/ai/KCpk6O5zIhswfL8M.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "08-17",
             "title": "Pony.ai 与 Uber 计划在欧洲部署超 2,000 辆 Robotaxi (Pony.ai and Uber Set Their Sights on More Than 2,000 Robotaxis in Europe)",
@@ -407,7 +414,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本市场活跃度较高，宇树科技科创板上市、数字华夏亿元级融资、国奥科技近亿元融资和Gravis Robotics 2亿美元融资共同推高赛道热度。",
+        "summary": "资本动态延续高热度，宇树科创板上市和600亿元估值最受关注，数字华夏、国奥科技、Gravis Robotics等融资指向商业化与关键能力补齐。",
         "items": [
           {
             "date": "08-18",
@@ -469,7 +476,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业活动更强调真实任务测试，机器人参加保洁、乒乓球、消防救援和线缆连接等场景，运动能力与操作可靠性被放到更接近验收的环境中检验。",
+        "summary": "行业动态以可视化测试和场景试验为主，宇树机器人速度跳高、机器人乒乓球、消防救援、线缆连接和上门保洁都在强化任务化评估。",
         "items": [
           {
             "date": "08-18",
@@ -562,6 +569,15 @@
       "category": "技术突破",
       "summary": "盛夏八月的上海，维宏股份董事长汤同奎博士接受证券时报记者独家专访。在他办公室楼下的展厅内，一侧陈列着数控机床控制系统硬件样机，另一侧是新型灵巧手关节电机和模组样品，两类产品，对应着公司当下两条核心业务曲线。 标签： 维宏股份 工业母机",
       "url": "https://www.gongkong.com/news/202608/452634.html"
+    },
+    {
+      "date": "08-18",
+      "company": "其他",
+      "title": "以GLM-5为例，探究九章智算云强化学习系统如何落地“训推一致”",
+      "source_name": "雷峰网",
+      "category": "商业订单",
+      "summary": "过去几年，大模型竞争的主线很清晰：更大的模型、更多的数据和更强的GPU集群。 但随着预训练边际收益递减，模型能力Scaling正从单纯的预训练堆叠向后训练强化 学习 （RL）转变，数学推理、代码生成、复杂决策、长时序Agent等高阶能力，越来越依赖 后训练强化 学习 （RL） 激发。RL通过生成、执行、反馈和奖励，让模型持续 学习 推理、规划与自我纠错的能力…",
+      "url": "https://www.leiphone.com/category/ai/KCpk6O5zIhswfL8M.html"
     },
     {
       "date": "08-17",
@@ -958,15 +974,6 @@
       "category": "产品量产",
       "summary": "IT之家 8 月 14 日消息，石头科技今日推出 P30 Pro 和 G30S Ultra 两款扫地机器人，均有水箱版和上下水版可选： P30 Pro 水箱版：4299 元 P30 Pro 上下水版：4699 元 G30S Ultra 水箱版：5499 元 G30S Ultra 上下水版：5999 元 两款产品机身均厚 8.98cm，其中 G30S Ultr…",
       "url": "https://www.ithome.com/0/989/673.htm"
-    },
-    {
-      "date": "08-14",
-      "company": "宇树科技",
-      "title": "《人形机器人试验方法》系列国家标准启动会在武汉举行，宇树科技、小米机器人参会",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 14 日消息，据“中国光谷”消息，8 月 13 日，《人形机器人试验方法》系列国家标准启动会在武汉光谷举行。会上，总则、环境感知、决策规划、运动控制等 7 项标准同步启动编制。 来自 宇树科技、小米机器人、魔法原子、中兴通讯、云深处科技、地平线、灵心巧手、银河通用 等国内头部企业，和武汉大学、华中科技大学、南京航空航天大学、西北工业大学、中…",
-      "url": "https://www.ithome.com/0/989/619.htm"
     }
   ]
 }
