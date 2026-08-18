@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T09:16:06.532767+08:00",
+  "updated": "2026-08-18T14:45:50.662348+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 11,
-      "core": 4,
+      "entries": 18,
+      "candidates": 9,
+      "core": 2,
       "periphery": 0,
       "new": 0
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 14,
-      "candidates": 1,
-      "core": 0,
+      "entries": 20,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -63,10 +63,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -77,9 +77,9 @@
       "error": "",
       "entries": 20,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 12,
+      "candidates": 16,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -115,9 +115,9 @@
       "error": "",
       "entries": 32,
       "candidates": 8,
-      "core": 8,
+      "core": 7,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "OFweek机器人",
@@ -128,7 +128,7 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 17,
+      "core": 11,
       "periphery": 0,
       "new": 7
     },
@@ -154,9 +154,9 @@
       "error": "",
       "entries": 29,
       "candidates": 26,
-      "core": 12,
+      "core": 14,
       "periphery": 5,
-      "new": 4
+      "new": 7
     },
     {
       "name": "The Robot Report",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,43 +240,38 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-18T09:16:46.608827+08:00",
-    "mode": "local",
-    "item_count": 27,
+    "generated_at": "2026-08-18T14:46:06.313821+08:00",
+    "mode": "aicodewith",
+    "item_count": 32,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，编辑丨李希 8 月 17 日， RoboScience 机器科学正式发布轮式仿人形通用操作机器人 ——REX G1 ，定位为 “ 新一代具身智能生产力伙伴 ”；8月19日至23日，2026世界 机器人 大会将在北京亦庄举行；宇树科技——A股首家人形机器人公司——已结束申购，将于8月下旬挂牌上市；大洋彼岸，特斯拉Optimus的量产产线正在安装调试。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/industrynews/G2lZ6kx4We8V7m1o.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-12003-30698792.html",
-          "https://www.leiphone.com/category/private/aUhbF0DAHdEEWDDY.html"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周具身智能展示从单点动作能力延伸到工厂闭环、消防救援、线缆连接和保洁等任务场景，拉格朗日强调让机器人在工厂把任务闭环跑完，世界人形机器人运动会设置半小时救火和USB正反识别连接等项目，企业更需要用可判定结果证明系统可靠性。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，2026年被钉上“世界模型元年”的铭牌，即为印证；4K、物理一致性，画面越来越真，时长也越来越长。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8105530.html",
-          "https://www.qbitai.com/2026/08/474334.html",
-          "https://www.leiphone.com/category/private/aUhbF0DAHdEEWDDY.html"
-        ]
+        "label": "模型叙事靠真实数据闭环收敛",
+        "text": "世界模型、3DGS和人类示范数据仍是技术主线，相关进展覆盖24FPS画面与48kHz立体声实时生成、物理一致性、真实抗噪建图和机器人模仿学习数字孪生工厂，模型价值正在从生成效果转向能否支撑机器人学习、仿真和任务执行。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，法拉第未来（FF）创始人、合伙人、首席产品及用户生态官贾跃亭今日宣布，FF 机器人进入放量收入快速增长新阶段， 探索机器人独立融资及上市；当下具身智能赛道热度持续走高，淄博首家科创板上市企业智洋创新抛出一份总规模9.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/990/442.htm",
-          "https://robot.ofweek.com/2026-08/ART-898890-8110-30698747.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-8420-30698696.html"
-        ]
+        "label": "资本押注量产与关键部件",
+        "text": "宇树科技以600亿元估值推进科创板上市，智洋创新拟募资9亿元押注具身智能，国奥科技获得近亿元A+轮融资，FF探索机器人独立融资及上市，资金更集中流向量产能力、精密运动控制和明确商业化路径。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术侧集中在世界模型、3DGS、Agentic OS和人类示范学习，关注点从会展示动作转向物理一致性、抗噪建图、工序重构与任务闭环能力。",
         "items": [
+          {
+            "date": "08-18",
+            "title": "维宏股份汤同奎：以工业母机基因，做具身智能时代的“双料卖水人”",
+            "url": "https://www.gongkong.com/news/202608/452634.html",
+            "company": "其他",
+            "source_name": "中国工控网机器人"
+          },
           {
             "date": "08-17",
             "title": "从「3D相册」到「物理底座」：CVPR 2026 开启 3DGS 的具身智能时代",
@@ -316,8 +311,22 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "产品侧新品和Demo密集出现，宇树发布高跳高速人形机器人，RoboScience推出REX G1，东方精工披露机器人批量交付，量产叙事继续升温。",
         "items": [
+          {
+            "date": "08-18",
+            "title": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
+            "url": "https://www.infoq.cn/article/7QNfsJhpgskMtVllCpWJ?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "08-18",
+            "title": "机器人自己开卡丁车，共生知行发布人形机器人赛车 Demo",
+            "url": "https://www.ithome.com/0/991/055.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-17",
             "title": "宇树科技发布“超人”机器人：原地跳高 2m、极限速度 12.66m/s 超越人类纪录",
@@ -385,7 +394,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业订单信息较少，Pony.ai与Uber计划在欧洲部署超过2000辆Robotaxi，自动驾驶仍是具身相关领域中规模化部署路径较清晰的方向。",
         "items": [
           {
             "date": "08-17",
@@ -398,8 +407,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本市场活跃度较高，宇树科技科创板上市、数字华夏亿元级融资、国奥科技近亿元融资和Gravis Robotics 2亿美元融资共同推高赛道热度。",
         "items": [
+          {
+            "date": "08-18",
+            "title": "热点丨宇树科技600亿估值落地，高自研率下国产供应链受益分羹",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698872.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-17",
             "title": "贾跃亭：法拉第未来探索机器人独立融资及上市",
@@ -453,8 +469,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业活动更强调真实任务测试，机器人参加保洁、乒乓球、消防救援和线缆连接等场景，运动能力与操作可靠性被放到更接近验收的环境中检验。",
         "items": [
+          {
+            "date": "08-18",
+            "title": "宇树人形机器人跳高2米、奔跑12.66m/s：超越博尔特",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30698869.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "08-17",
             "title": "美国Tau用宇树机器人搞保洁：30美元/小时，亏本赚数据",
@@ -495,6 +518,51 @@
     ]
   },
   "items": [
+    {
+      "date": "08-18",
+      "company": "其他",
+      "title": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
+      "source_name": "InfoQ",
+      "category": "产品量产",
+      "summary": "Cloudflare 发布 Precursor 客户端行为分析引擎，通过持续监测用户鼠标、键盘等会话行为识别高级爬虫与 AI 智能体",
+      "url": "https://www.infoq.cn/article/7QNfsJhpgskMtVllCpWJ?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "08-18",
+      "company": "其他",
+      "title": "机器人自己开卡丁车，共生知行发布人形机器人赛车 Demo",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 8 月 18 日消息，共生知行（Symbiosis Robotics）昨日（8 月 17 日）发布 双足人形机器人驾驶卡丁车 Demo ，并同步上线官方网站。 这是共生知行公司成立后首次系统展示其在双足人形机器人“全身智能”方向阶段性进展。该公司表示，赛车只是第一项公开测试，未来还将围绕移动操作、高精度视觉对准、接触式力控和长链条任务推出更多案例…",
+      "url": "https://www.ithome.com/0/991/055.htm"
+    },
+    {
+      "date": "08-18",
+      "company": "宇树科技",
+      "title": "热点丨宇树科技600亿估值落地，高自研率下国产供应链受益分羹",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "前言： 150.80元的发行价，把宇树科技送到了约609.93亿元的发行后估值。 规模扩张，上游供应链也会随之重估，价值将在体系里重新分配。 作者?| 方文三 图片来源 | 网络 600亿元给量产能力",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698872.html"
+    },
+    {
+      "date": "08-18",
+      "company": "宇树科技",
+      "title": "宇树人形机器人跳高2米、奔跑12.66m/s：超越博尔特",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "8月17日智财社获悉宇树科技正式发布全新人形机器人新品“超人”。官方披露的核心运动参数震撼业界：腿长0.85米，原地跳高约2米，极限奔跑速度12.66米/秒。 两个数据均超越人类极限——人类原地跳高世",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30698869.html"
+    },
+    {
+      "date": "08-18",
+      "company": "其他",
+      "title": "维宏股份汤同奎：以工业母机基因，做具身智能时代的“双料卖水人”",
+      "source_name": "中国工控网机器人",
+      "category": "技术突破",
+      "summary": "盛夏八月的上海，维宏股份董事长汤同奎博士接受证券时报记者独家专访。在他办公室楼下的展厅内，一侧陈列着数控机床控制系统硬件样机，另一侧是新型灵巧手关节电机和模组样品，两类产品，对应着公司当下两条核心业务曲线。 标签： 维宏股份 工业母机",
+      "url": "https://www.gongkong.com/news/202608/452634.html"
+    },
     {
       "date": "08-17",
       "company": "其他",
@@ -899,51 +967,6 @@
       "category": "行业动态",
       "summary": "IT之家 8 月 14 日消息，据“中国光谷”消息，8 月 13 日，《人形机器人试验方法》系列国家标准启动会在武汉光谷举行。会上，总则、环境感知、决策规划、运动控制等 7 项标准同步启动编制。 来自 宇树科技、小米机器人、魔法原子、中兴通讯、云深处科技、地平线、灵心巧手、银河通用 等国内头部企业，和武汉大学、华中科技大学、南京航空航天大学、西北工业大学、中…",
       "url": "https://www.ithome.com/0/989/619.htm"
-    },
-    {
-      "date": "08-14",
-      "company": "行业",
-      "title": "原力无限近10亿元融资背后：具身智能开始争夺“进化速度”",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "> 具身智能正在进入一个更现实的阶段：机器人交付以后，谁来为它持续补充经验？ 8月14日，具身大脑公司原力无限完成A轮及A+轮融资，金额近10亿元。敦鸿资产及头部国资平台领投，浙大科创集团、盐都国控、丽水 其它 | <div",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321206-12005-30698581.html"
-    },
-    {
-      "date": "08-14",
-      "company": "宇树科技",
-      "title": "人形机器人重点企业供应链梳理：宇树科技篇",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "日前，宇树科技在科创板开启申购，A股“人形机器人第一股”正式登场。这家以“模组自研率超90%”著称的机器人龙头，究竟在哪些核心环节仍需借力外部？其下游客户又从科研院所走向哪些商业化场景？本文调用“火石",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321201-8420-30698549.html"
-    },
-    {
-      "date": "08-14",
-      "company": "宇树科技",
-      "title": "219倍，宇树科技的估值折叠",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "“中一签宇树到底能赚多少钱啊？今天早上看说赚16万，后来说20万，现在又改35万了。”本周股市一开盘，媒体群就有人发出这样的困惑。大家都默认，只要中签，就等于白捡了一笔巨款。 同一时间，也有人喜提巨款",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-12001-30698523.html"
-    },
-    {
-      "date": "08-14",
-      "company": "其他",
-      "title": "Robot.com 发布 R-dog 四足机器人，用于末端配送和广告 (Robot.com unveils R-dog quadruped robot for last-mile delivery and advertising)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Robot.com, the company putting robots to work in the real world, has unveiled R-dog, its new concept for a four-legged delivery robot built for two distinct and essential roles in…",
-      "url": "https://roboticsandautomationnews.com/2026/08/14/robot-com-unveils-r-dog-quadruped-robot-for-last-mile-delivery-and-advertising/104141/"
-    },
-    {
-      "date": "08-14",
-      "company": "其他",
-      "title": "微软 Mico 聊天机器人疑似被“降职”，从 Copilot 语音功能移至学习中心",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 8 月 14 日消息，微软 2025 年 10 月推出 Mico，给 Copilot AI 聊天机器人的语音对话配上了一个 拟人化形象 。结果还不到一年，这个可怜的小团子就似乎被“降职”了。 据外媒 Engadget 今天（14 日）报道，微软决定把 Mico 从 Copilot 语音功能中撤下， 转移到 Learn Live 学习中心，继续充当用…",
-      "url": "https://www.ithome.com/0/989/810.htm"
     }
   ]
 }
