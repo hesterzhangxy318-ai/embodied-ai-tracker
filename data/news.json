@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T02:41:15.397596+08:00",
+  "updated": "2026-08-19T09:17:07.983721+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 17,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 22,
-      "core": 3,
+      "candidates": 20,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -109,14 +109,15 @@
     {
       "name": "甲子光年",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "IncompleteRead: IncompleteRead(24206 bytes read)",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 32,
+      "candidates": 8,
+      "core": 7,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -149,26 +150,25 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 31,
       "candidates": 27,
       "core": 15,
       "periphery": 5,
-      "new": 9
+      "new": 8
     },
     {
       "name": "The Robot Report",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 15,
-      "candidates": 15,
-      "core": 7,
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 5
+      "new": 0
     },
     {
       "name": "TechCrunch Robotics",
@@ -194,7 +194,7 @@
       "candidates": 11,
       "core": 5,
       "periphery": 4,
-      "new": 8
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,42 +239,30 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-19T02:41:55.486689+08:00",
-    "mode": "local",
+    "generated_at": "2026-08-19T09:17:23.707366+08:00",
+    "mode": "aicodewith",
     "item_count": 37,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，编辑丨李希 8 月 17 日， RoboScience 机器科学正式发布轮式仿人形通用操作机器人 ——REX G1 ，定位为 “ 新一代具身智能生产力伙伴 ”；8月19日至23日，2026世界 机器人 大会将在北京亦庄举行；宇树科技——A股首家人形机器人公司——已结束申购，将于8月下旬挂牌上市；大洋彼岸，特斯拉Optimus的量产产线正在安装调试。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/industrynews/G2lZ6kx4We8V7m1o.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-12003-30698792.html",
-          "https://www.infoq.cn/article/7QNfsJhpgskMtVllCpWJ?utm_source=rss&utm_medium=article"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周多条进展集中在工厂、仓储、维修和巡检等任务闭环，拉格朗日强调用 Agentic OS 和工序重构让机器人在工厂把任务跑完，Brightpick扩大仓储自动化合作，世界人形机器人运动会设置消防救援和线缆连接等接近实际工作的项目，具身智能的展示重心正在从单点动作能力转向能否完成可检查、可交付的流程。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，2026年被钉上“世界模型元年”的铭牌，即为印证；4K、物理一致性，画面越来越真，时长也越来越长。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8105530.html",
-          "https://www.qbitai.com/2026/08/474334.html",
-          "https://www.ithome.com/0/991/346.htm"
-        ]
+        "label": "量产能力成为估值与产品叙事核心",
+        "text": "宇树科技以600亿元估值推进科创板上市并被市场关注高自研率和量产能力，特斯拉Optimus量产产线处于安装调试阶段，东方精工披露机器人批量交付并带动上半年净利润大涨868%，RoboScience发布轮式仿人形通用操作机器人REX G1，资本和产品发布都在把规模化交付作为能力验证的一部分。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，法拉第未来（FF）创始人、合伙人、首席产品及用户生态官贾跃亭今日宣布，FF 机器人进入放量收入快速增长新阶段， 探索机器人独立融资及上市；| 方文三 图片来源 | 网络 600亿元给量产能力。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/990/442.htm",
-          "https://robot.ofweek.com/2026-08/ART-898890-8420-30698872.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-8110-30698747.html"
-        ]
+        "label": "上游投资更贴近具体短板",
+        "text": "国奥科技获得近亿元A+轮融资，方向指向精密运动控制，Unichem收购Loomia进入人形机器人触觉皮肤市场，宇树科技高自研率下国产供应链受益受到关注，供应链机会正在从泛概念热度转向运动控制、触觉传感等直接影响机器人性能和成本的环节。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术侧继续围绕世界模型、3DGS、模仿学习和任务闭环展开，24FPS画面与48kHz立体声生成、真实抗噪建图等进展提升仿真与训练基础，但产业关注点更偏向能否支撑真实作业。",
         "items": [
           {
             "date": "08-18",
@@ -329,7 +317,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "产品发布覆盖轮式仿人形机器人、人形赛车Demo、仓储机器人合作扩展和全模态世界模型，宇树新品强调跳高与速度指标，东方精工批量交付显示制造端已有局部放量案例。",
         "items": [
           {
             "date": "08-18",
@@ -419,7 +407,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业订单以泛具身交通与算力服务为主，Einride计划在美国部署500辆特斯拉Semi，Pony.ai与Uber计划在欧洲部署超2000辆Robotaxi，规模化采购仍集中在成熟场景。",
         "items": [
           {
             "date": "08-18",
@@ -446,7 +434,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本事件密集，宇树科技科创板上市和600亿元估值最受关注，数字华夏、国奥科技、智洋创新等融资或募资投向具身智能，FF也提出探索机器人独立融资及上市。",
         "items": [
           {
             "date": "08-18",
@@ -515,7 +503,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业活动更多采用比赛和试运营检验能力，消防救援、线缆连接、乒乓球比赛和上门保洁服务把机器人置于更具体任务中，收费30美元每小时的保洁案例仍带有数据获取属性。",
         "items": [
           {
             "date": "08-18",
