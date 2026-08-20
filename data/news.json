@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T14:47:32.386815+08:00",
+  "updated": "2026-08-20T20:51:55.621302+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,9 +12,9 @@
       "error": "",
       "entries": 10,
       "candidates": 4,
-      "core": 3,
-      "periphery": 1,
-      "new": 1
+      "core": 4,
+      "periphery": 0,
+      "new": 2
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 16,
-      "core": 7,
+      "entries": 17,
+      "candidates": 10,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 0,
-      "core": 0,
+      "entries": 16,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 22,
-      "core": 5,
+      "entries": 60,
+      "candidates": 17,
+      "core": 1,
       "periphery": 0,
-      "new": 5
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -128,7 +128,7 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 12,
+      "core": 11,
       "periphery": 0,
       "new": 8
     },
@@ -153,10 +153,10 @@
       "attempts": 1,
       "error": "",
       "entries": 31,
-      "candidates": 27,
-      "core": 14,
+      "candidates": 28,
+      "core": 15,
       "periphery": 4,
-      "new": 8
+      "new": 10
     },
     {
       "name": "The Robot Report",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 6,
-      "periphery": 2,
-      "new": 3
+      "candidates": 8,
+      "core": 5,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,42 +240,30 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-20T14:48:12.470845+08:00",
-    "mode": "local",
+    "generated_at": "2026-08-20T20:52:31.323693+08:00",
+    "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，在今日的 2026 世界 机器人 大会（WRC 2026）期间， 宇树科技 创始人、董事长王兴兴发布主题演讲；Cloudflare 发布 Precursor 客户端行为分析引擎，通过持续监测用户鼠标、键盘等会话行为识别高级爬虫与 AI 智能体。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/992/011.htm",
-          "https://www.infoq.cn/article/7QNfsJhpgskMtVllCpWJ?utm_source=rss&utm_medium=article",
-          "https://www.ithome.com/0/991/335.htm"
-        ]
+        "label": "落地先从可验收任务展开",
+        "text": "本周具身智能的商业推进主要落在配送、租赁等可验收任务上，百度强调机器人要从会展示走向能上岗，Serve Robotics与Grubhub部署配送机器人，Faraday Future也拿到首笔付费租赁订单，落地判断更看重任务闭环而非单点演示。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，那个在纯数字世界几乎无往不利的 Scaling Law，在试图跨越到物理世界时，正遭遇物理规律、空间约束和长尾数据的残酷审判；从“像素导演”转向“具身大脑”：RSS 2026“机器人世界模型”专题现场见证，想象力正在终结具身智能的“数据暴政”。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/private/XVXWtcCNFb4PP233.html",
-          "https://www.leiphone.com/category/private/WO8DdZBccR2lD85Q.html",
-          "https://www.leiphone.com/category/private/TUzrCbD0E9v6NtS5.html"
-        ]
+        "label": "数据回流与世界模型受重视",
+        "text": "RSS 2026相关讨论和英伟达 Cosmos 3 的拆解都指向同一件事，行业正在从单纯堆视频和参数转向世界模型、脑内搜索和持续数据回流，长尾物理约束和空间限制被明确摆到台前，训练路线开始围绕真实任务数据闭环重写。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，极佳视界今日发布了通用双足人形机器人 Maker L01，展示了产品的多项亮点；潮涌AI编辑部 8月18日，嘉腾机器人宣布完成数千万元战略融资，由上市公司和而泰领投，道禾基金、金木资本跟投，云岫资本担任后续融资独家财务顾问。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/992/082.htm",
-          "https://robot.ofweek.com/2026-08/ART-8321202-12005-30699047.html",
-          "https://robot.ofweek.com/2026-08/ART-8321201-12005-30699224.html"
-        ]
+        "label": "资本更偏好场景和数据资产",
+        "text": "融资继续向有明确场景和数据壁垒的团队集中，嘉腾机器人凭2.7亿小时工业现场数据获得数千万元融资，眸深智能完成近5亿元Pre-A+轮，宇树上市后市值快速抬升，资本定价更看重可量化能力与量产兑现。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
+        "summary": "大模型叙事继续向世界模型和任务闭环收缩，讨论焦点从参数规模转向物理约束、长尾数据和机器人脑能力。",
         "items": [
           {
             "date": "08-20",
@@ -283,6 +271,27 @@
             "url": "https://www.ithome.com/0/991/899.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-20",
+            "title": "今年WRC最大展台，预告具身智能未来",
+            "url": "https://www.qbitai.com/2026/08/476141.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "08-20",
+            "title": "935亿热钱与冷水：宇树成为具身智能最后一只神股？",
+            "url": "https://www.tmtpost.com/8109234.html",
+            "company": "宇树科技",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "08-20",
+            "title": "从工厂走向田间：机器人技术重塑蔬菜种植产业格局",
+            "url": "https://www.gongkong.com/news/202608/452712.html",
+            "company": "其他",
+            "source_name": "中国工控网机器人"
           },
           {
             "date": "08-19",
@@ -318,19 +327,12 @@
             "url": "https://www.gongkong.com/news/202608/452634.html",
             "company": "其他",
             "source_name": "中国工控网机器人"
-          },
-          {
-            "date": "08-18",
-            "title": "王兴兴谈离开大疆创办宇树：从小就热爱机器人，2016 年就已预判到技术发展方向和趋势",
-            "url": "https://www.ithome.com/0/991/346.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "多家厂商在WRC集中发布新本体和部件，灵巧机械臂、双足机器人和整机组合齐上，产品节奏更像面向展示和销售验证的连续上新。",
         "items": [
           {
             "date": "08-20",
@@ -345,6 +347,20 @@
             "url": "https://www.ithome.com/0/992/067.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-20",
+            "title": "银河通用首款双足机器人 Galbot ET1“星仔”亮相，能跳街舞手撑地、倒立",
+            "url": "https://www.ithome.com/0/992/247.htm",
+            "company": "银河通用",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-20",
+            "title": "小米新一代人形机器人时隔三年正式发布：为什么不再炫技？",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8460-30699320.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
           },
           {
             "date": "08-19",
@@ -401,19 +417,12 @@
             "url": "https://www.ithome.com/0/991/055.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "08-18",
-            "title": "仓储机器人公司 Brightpick 扩大与 Dr. Max Group 的合作 (Warehouse robotics company Brightpick expands partnership with Dr. Max Group)",
-            "url": "https://roboticsandautomationnews.com/2026/08/18/warehouse-robotics-company-brightpick-expands-partnership-with-dr-max-group/104241/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "订单与部署主要出现在配送、租赁等可验收场景，企业更愿意先用小规模商业合同验证机器人服务能力和交付稳定性。",
         "items": [
           {
             "date": "08-19",
@@ -442,26 +451,12 @@
             "url": "https://www.leiphone.com/category/ai/KCpk6O5zIhswfL8M.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "08-18",
-            "title": "特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆",
-            "url": "https://www.ithome.com/0/991/335.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "08-17",
-            "title": "Pony.ai 与 Uber 计划在欧洲部署超 2,000 辆 Robotaxi (Pony.ai and Uber Set Their Sights on More Than 2,000 Robotaxis in Europe)",
-            "url": "https://www.tmtpost.com/8105342.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资金继续流向具备工业数据、端侧大脑和明确场景的团队，IPO与战略融资同时升温，估值更看重可复制能力。",
         "items": [
           {
             "date": "08-20",
@@ -513,31 +508,24 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "08-19",
+            "title": "Unitree Robotics 的 IPO 对人形机器人行业意味着什么？ (What does Unitree Robotics’ IPO mean for the humanoid industry?)",
+            "url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/",
+            "company": "行业",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "08-18",
             "title": "热点丨宇树科技600亿估值落地，高自研率下国产供应链受益分羹",
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698872.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-18",
-            "title": "Unichem收购Loomia，加速进入人形“皮肤”市场 (Unichem acquires Loomia to accelerate entry into the humanoid ‘skin’ market)",
-            "url": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "08-17",
-            "title": "贾跃亭：法拉第未来探索机器人独立融资及上市",
-            "url": "https://www.ithome.com/0/990/442.htm",
-            "company": "法拉第未来",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "宇树IPO和王兴兴对大众市场的判断把行业热度推高，市场对出货、估值和产业化节奏的关注明显增强。",
         "items": [
           {
             "date": "08-20",
@@ -648,7 +636,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "数据底座、训练平台和国产供应链受关注，围绕模型训练、量产能力和关键部件的配套机会开始被单独定价。",
         "items": [
           {
             "date": "08-19",
@@ -715,6 +703,51 @@
       "category": "资本动态",
       "summary": "?潮涌AI编辑部 8月19日，端侧具身大脑公司眸深智能宣布完成近5亿元Pre-A+轮融资。 投资方包括深报一本基金、陕西省高新技术产业投资有限公司等国资基金，券商系资本东方证券，产业投资人安宇基金、天",
       "url": "https://robot.ofweek.com/2026-08/ART-8321201-12005-30699224.html"
+    },
+    {
+      "date": "08-20",
+      "company": "其他",
+      "title": "今年WRC最大展台，预告具身智能未来",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "刚一踏进场馆，就开启了逛展隐藏支线—— 寻找遥控器 。 那时候，几乎是每一个成功操作的机器人，背后都有一个拿着遥控器的小哥。 就算绕着展台兜了一圈，没找到人，很快也会发现，机器人来来回回演示的，多半还是提前编好的一套“公式动作”。 说到底，机器人虽然在动，但真正干活的，很多时候还是人。 各家展台上，自主干活几乎成了标配，后面拿着遥控器的人明显少了，就算偶尔还…",
+      "url": "https://www.qbitai.com/2026/08/476141.html"
+    },
+    {
+      "date": "08-20",
+      "company": "宇树科技",
+      "title": "935亿热钱与冷水：宇树成为具身智能最后一只神股？",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "文 | 霞光AI实验室，作者｜子墨，编辑｜李小天 就在今天，宇树科技正式登陆科创板，成为A股“人形机器人第一股”。开盘报价1100元/股，相比150.80元的发行价暴涨629.44%，创下今年新股上市首日开盘涨幅的新高。 这场资本市场的狂欢，也像是给持续升温的具身智能赛道，打上了一个醒目的注脚。 根据IT桔子《2026年上半年中国具身智能领域投融资报告》，今…",
+      "url": "https://www.tmtpost.com/8109234.html"
+    },
+    {
+      "date": "08-20",
+      "company": "银河通用",
+      "title": "银河通用首款双足机器人 Galbot ET1“星仔”亮相，能跳街舞手撑地、倒立",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 8 月 20 日消息，银河通用全新人形机器人 Galbot ET1 官宣，在今日的 2026 WRC 世界机器人大会首次公开亮相。 这是银河通用首款双足机器人，名为“ 星仔 ”，宣称搭载银河星脑，不靠预设脚本，真正做到实时互动，语音动作实时生成，即兴接梗，人感交互。 银河通用创始人兼 CTO 王鹤博士介绍称，星仔是 全球首个具备自主学习能力的物理智…",
+      "url": "https://www.ithome.com/0/992/247.htm"
+    },
+    {
+      "date": "08-20",
+      "company": "其他",
+      "title": "小米新一代人形机器人时隔三年正式发布：为什么不再炫技？",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "> 明明跑跳能力早已成熟，小米却选择沉寂三年。本次重新亮相，重点不再是舞台特技，而是面向工业场景的实用能力，背后藏着整个人形行业的思路转向。 8月19日，2026世界机器人大会开幕。在“具身花园”展台，一 人形机器人",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8460-30699320.html"
+    },
+    {
+      "date": "08-20",
+      "company": "其他",
+      "title": "从工厂走向田间：机器人技术重塑蔬菜种植产业格局",
+      "source_name": "中国工控网机器人",
+      "category": "技术突破",
+      "summary": "依托DAVEGI创新项目，AI.Land公司展示了igus ReBeL协作机器人如何为农业生产注入高效新动能。 标签： 易格斯 <p class=\"img-c",
+      "url": "https://www.gongkong.com/news/202608/452712.html"
     },
     {
       "date": "08-19",
@@ -1005,6 +1038,15 @@
       "url": "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/"
     },
     {
+      "date": "08-19",
+      "company": "行业",
+      "title": "Unitree Robotics 的 IPO 对人形机器人行业意味着什么？ (What does Unitree Robotics’ IPO mean for the humanoid industry?)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Now that Unitree Robotics has made its IPO, which humanoid robotics companies will follow in its footsteps? The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/what-does-unitree-robotics-ipo-mean-for-humanoid-industry/"
+    },
+    {
       "date": "08-18",
       "company": "其他",
       "title": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
@@ -1057,60 +1099,6 @@
       "category": "商业订单",
       "summary": "过去几年，大模型竞争的主线很清晰：更大的模型、更多的数据和更强的GPU集群。 但随着预训练边际收益递减，模型能力Scaling正从单纯的预训练堆叠向后训练强化 学习 （RL）转变，数学推理、代码生成、复杂决策、长时序Agent等高阶能力，越来越依赖 后训练强化 学习 （RL） 激发。RL通过生成、执行、反馈和奖励，让模型持续 学习 推理、规划与自我纠错的能力…",
       "url": "https://www.leiphone.com/category/ai/KCpk6O5zIhswfL8M.html"
-    },
-    {
-      "date": "08-18",
-      "company": "宇树科技",
-      "title": "王兴兴谈离开大疆创办宇树：从小就热爱机器人，2016 年就已预判到技术发展方向和趋势",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 8 月 18 日消息，宇树科技明日将正式在上海证券交易所科创板挂牌上市。 在 8 月 7 日的 IPO 网上路演结束后，宇树科技董事长、总经理兼首席技术官王兴兴在原定三小时的路演结束后并未离场，而是将未回答的提问逐条看完、斟酌措辞后逐字回应，又额外停留了近三个小时。上海证券报今日整理了王兴兴一系列问答。 针对 2016 年从大疆离职创业的原因，王兴…",
-      "url": "https://www.ithome.com/0/991/346.htm"
-    },
-    {
-      "date": "08-18",
-      "company": "特斯拉",
-      "title": "特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 8 月 18 日消息，当地时间 18 日（今天），瑞典货运科技公司 Einride 宣布将在美国部署 500 辆特斯拉 Semi，成为 目前公开披露的 最大一份 特斯拉电动重卡采购计划。 Einride 目前运营约 250 辆电动卡车，500 辆 Semi 全部到位后，车队规模将扩大至约 750 辆。首批车辆下个月开始交付，其余车辆将在 随后 24…",
-      "url": "https://www.ithome.com/0/991/335.htm"
-    },
-    {
-      "date": "08-18",
-      "company": "其他",
-      "title": "Unichem收购Loomia，加速进入人形“皮肤”市场 (Unichem acquires Loomia to accelerate entry into the humanoid ‘skin’ market)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Automotive suppliers Unichem and R&Y are working with Loomia to develop tactile sensors for automotive and robotics applications. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/unichem-acquires-loomia-accelerate-entry-humanoid-skin-market/"
-    },
-    {
-      "date": "08-18",
-      "company": "其他",
-      "title": "仓储机器人公司 Brightpick 扩大与 Dr. Max Group 的合作 (Warehouse robotics company Brightpick expands partnership with Dr. Max Group)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Brightpick, a provider of AI-powered warehouse automation, is significantly expanding its partnership with Dr. Max Group, Europe’s largest pharmacy chain. Following successful oper…",
-      "url": "https://roboticsandautomationnews.com/2026/08/18/warehouse-robotics-company-brightpick-expands-partnership-with-dr-max-group/104241/"
-    },
-    {
-      "date": "08-17",
-      "company": "其他",
-      "title": "Pony.ai 与 Uber 计划在欧洲部署超 2,000 辆 Robotaxi (Pony.ai and Uber Set Their Sights on More Than 2,000 Robotaxis in Europe)",
-      "source_name": "钛媒体",
-      "category": "商业订单",
-      "summary": "A Chinese autonomous-driving company and a global ride-hailing platform have agreed to expand a quiet pilot in Zagreb into a multi-city fleet. The plan is ambitious on paper. Wheth…",
-      "url": "https://www.tmtpost.com/8105342.html"
-    },
-    {
-      "date": "08-17",
-      "company": "法拉第未来",
-      "title": "贾跃亭：法拉第未来探索机器人独立融资及上市",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 8 月 17 日消息，法拉第未来（FF）创始人、合伙人、首席产品及用户生态官贾跃亭今日宣布，FF 机器人进入放量收入快速增长新阶段， 探索机器人独立融资及上市 。 贾跃亭表示，下半年，公司将继续推进“五大变革”，全面打响“四核全智”Q3 机器人实用化战役，举措如下： 1，业务方面，推动“四核全智”生态各项业务进一步落地并扩大营收： 第一核，EAI…",
-      "url": "https://www.ithome.com/0/990/442.htm"
     }
   ]
 }
