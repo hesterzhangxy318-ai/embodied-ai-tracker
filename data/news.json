@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T20:51:55.621302+08:00",
+  "updated": "2026-08-21T02:40:58.747840+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 10,
-      "core": 2,
+      "candidates": 12,
+      "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 59,
       "candidates": 17,
-      "core": 1,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 11,
       "periphery": 0,
-      "new": 8
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 28,
       "core": 15,
       "periphery": 4,
-      "new": 10
+      "new": 9
     },
     {
       "name": "The Robot Report",
@@ -194,8 +194,8 @@
       "entries": 15,
       "candidates": 8,
       "core": 5,
-      "periphery": 1,
-      "new": 2
+      "periphery": 0,
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-20T20:52:31.323693+08:00",
+    "generated_at": "2026-08-21T02:41:37.338080+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地先从可验收任务展开",
-        "text": "本周具身智能的商业推进主要落在配送、租赁等可验收任务上，百度强调机器人要从会展示走向能上岗，Serve Robotics与Grubhub部署配送机器人，Faraday Future也拿到首笔付费租赁订单，落地判断更看重任务闭环而非单点演示。",
+        "label": "可验收场景成为主线",
+        "text": "本周商业与行业信息都围绕可验收任务展开，Serve Robotics 与 Grubhub 推进自动配送机器人部署，百度也把机器人从会展示推向能上岗并强调模型、数据与应用协同，落地重心正压到能交付、能回流数据的闭环任务上。",
         "evidence_urls": []
       },
       {
-        "label": "数据回流与世界模型受重视",
-        "text": "RSS 2026相关讨论和英伟达 Cosmos 3 的拆解都指向同一件事，行业正在从单纯堆视频和参数转向世界模型、脑内搜索和持续数据回流，长尾物理约束和空间限制被明确摆到台前，训练路线开始围绕真实任务数据闭环重写。",
+        "label": "量产与价格开始进入验证",
+        "text": "宇树推出仿生7轴灵巧机械臂，售价9900元起，WRC上又集中出现新一代人形和双足产品，加上王兴兴判断人形机器人十年内进入大众市场，竞争焦点正在从单点炫技转向量产能力、价格带和交付稳定性。",
         "evidence_urls": []
       },
       {
-        "label": "资本更偏好场景和数据资产",
-        "text": "融资继续向有明确场景和数据壁垒的团队集中，嘉腾机器人凭2.7亿小时工业现场数据获得数千万元融资，眸深智能完成近5亿元Pre-A+轮，宇树上市后市值快速抬升，资本定价更看重可量化能力与量产兑现。",
+        "label": "资本更看重数据底座和能力补齐",
+        "text": "嘉腾机器人凭2.7亿小时工业现场数据获得数千万元战略融资，眸深智能完成近5亿元Pre-A+轮融资，宇树IPO也把板块热度推高，资金正在向有现场数据、端侧大脑和明确场景能力的公司集中。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "大模型叙事继续向世界模型和任务闭环收缩，讨论焦点从参数规模转向物理约束、长尾数据和机器人脑能力。",
+        "summary": "本周技术讨论集中在世界模型、脑内搜索和端到端数据闭环，行业开始承认纯靠规模放大难以跨过物理约束与长尾任务。",
         "items": [
           {
             "date": "08-20",
@@ -320,19 +320,12 @@
             "url": "https://roboticsandautomationnews.com/2026/08/19/x-square-robot-showcases-full-embodied-ai-portfolio-at-wrc-2026/104194/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-18",
-            "title": "维宏股份汤同奎：以工业母机基因，做具身智能时代的“双料卖水人”",
-            "url": "https://www.gongkong.com/news/202608/452634.html",
-            "company": "其他",
-            "source_name": "中国工控网机器人"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "多家厂商在WRC集中发布新本体和部件，灵巧机械臂、双足机器人和整机组合齐上，产品节奏更像面向展示和销售验证的连续上新。",
+        "summary": "WRC 上密集发布人形、双足和灵巧手产品，且出现 9900 元起机械臂，产品叙事开始和量产、价格与可演示能力绑定。",
         "items": [
           {
             "date": "08-20",
@@ -422,7 +415,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "订单与部署主要出现在配送、租赁等可验收场景，企业更愿意先用小规模商业合同验证机器人服务能力和交付稳定性。",
+        "summary": "Serve Robotics 与 Grubhub 部署自动配送机器人，Faraday Future 取得首笔付费租赁订单，商业化仍先落在可计费、可验收的局部场景。",
         "items": [
           {
             "date": "08-19",
@@ -444,19 +437,12 @@
             "url": "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "08-18",
-            "title": "以GLM-5为例，探究九章智算云强化学习系统如何落地“训推一致”",
-            "url": "https://www.leiphone.com/category/ai/KCpk6O5zIhswfL8M.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资金继续流向具备工业数据、端侧大脑和明确场景的团队，IPO与战略融资同时升温，估值更看重可复制能力。",
+        "summary": "宇树 IPO 带动机器人赛道热度抬升，嘉腾、眸深智能等融资继续向数据底座、端侧大脑和工业场景能力倾斜。",
         "items": [
           {
             "date": "08-20",
@@ -525,13 +511,27 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树IPO和王兴兴对大众市场的判断把行业热度推高，市场对出货、估值和产业化节奏的关注明显增强。",
+        "summary": "宇树上市、特斯拉 Robotaxi 无监督运行迹象和多家企业在 WRC 集中亮相，行业继续围绕规模化、无人化和市场预期发酵。",
         "items": [
           {
             "date": "08-20",
             "title": "宇树科技王兴兴预计人形机器人将在十年内进入“大众市场”",
             "url": "https://www.ithome.com/0/992/011.htm",
             "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-20",
+            "title": "数据显示，特斯拉 Robotaxi 在奥斯汀或已实现完全无监督运行",
+            "url": "https://www.ithome.com/0/992/396.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-20",
+            "title": "荣耀机器人元气仔练成“凌波微步”，将参加第二届人形机器人运动会",
+            "url": "https://www.ithome.com/0/992/362.htm",
+            "company": "其他",
             "source_name": "IT之家"
           },
           {
@@ -636,7 +636,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "数据底座、训练平台和国产供应链受关注，围绕模型训练、量产能力和关键部件的配套机会开始被单独定价。",
+        "summary": "51WORLD 推出具身数据底座并首发定价 5100 元，数据采集、训练与回流相关工具开始直接进入产业化销售环节。",
         "items": [
           {
             "date": "08-19",
@@ -748,6 +748,24 @@
       "category": "技术突破",
       "summary": "依托DAVEGI创新项目，AI.Land公司展示了igus ReBeL协作机器人如何为农业生产注入高效新动能。 标签： 易格斯 <p class=\"img-c",
       "url": "https://www.gongkong.com/news/202608/452712.html"
+    },
+    {
+      "date": "08-20",
+      "company": "特斯拉",
+      "title": "数据显示，特斯拉 Robotaxi 在奥斯汀或已实现完全无监督运行",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 20 日消息，马斯克宣布特斯拉奥斯汀 Robotaxi 取消车内安全员过去 7 个月后，有迹象表明，当地的 Robotaxi 服务终于全面进入真正的无人驾驶阶段。 Robotaxi Tracker 创建者伊森 · 麦卡纳向外媒 The Verge 透露，过去两周，网站监测到的奥斯汀 170 次特斯拉 Robotaxi 行程 全部都没有车内安…",
+      "url": "https://www.ithome.com/0/992/396.htm"
+    },
+    {
+      "date": "08-20",
+      "company": "其他",
+      "title": "荣耀机器人元气仔练成“凌波微步”，将参加第二届人形机器人运动会",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 20 日消息，荣耀官方今日发布视频，分享了荣耀机器人元气仔的跑步画面。根据官方描述，元气仔脚底生风， 使出失传已久的“凌波微步” ，左突右冲，灵活得不像个机器人。 据IT之家昨日报道，荣耀全球首席营销官关海涛宣布， 荣耀自研机器人闪电和元气仔正式参加第二届人形机器人运动会 。 第二届世界人形机器人运动会由北京市人民政府和中央广播电视总台等联…",
+      "url": "https://www.ithome.com/0/992/362.htm"
     },
     {
       "date": "08-19",
@@ -1081,24 +1099,6 @@
       "category": "行业动态",
       "summary": "8月17日智财社获悉宇树科技正式发布全新人形机器人新品“超人”。官方披露的核心运动参数震撼业界：腿长0.85米，原地跳高约2米，极限奔跑速度12.66米/秒。 两个数据均超越人类极限——人类原地跳高世",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30698869.html"
-    },
-    {
-      "date": "08-18",
-      "company": "其他",
-      "title": "维宏股份汤同奎：以工业母机基因，做具身智能时代的“双料卖水人”",
-      "source_name": "中国工控网机器人",
-      "category": "技术突破",
-      "summary": "盛夏八月的上海，维宏股份董事长汤同奎博士接受证券时报记者独家专访。在他办公室楼下的展厅内，一侧陈列着数控机床控制系统硬件样机，另一侧是新型灵巧手关节电机和模组样品，两类产品，对应着公司当下两条核心业务曲线。 标签： 维宏股份 工业母机",
-      "url": "https://www.gongkong.com/news/202608/452634.html"
-    },
-    {
-      "date": "08-18",
-      "company": "其他",
-      "title": "以GLM-5为例，探究九章智算云强化学习系统如何落地“训推一致”",
-      "source_name": "雷峰网",
-      "category": "商业订单",
-      "summary": "过去几年，大模型竞争的主线很清晰：更大的模型、更多的数据和更强的GPU集群。 但随着预训练边际收益递减，模型能力Scaling正从单纯的预训练堆叠向后训练强化 学习 （RL）转变，数学推理、代码生成、复杂决策、长时序Agent等高阶能力，越来越依赖 后训练强化 学习 （RL） 激发。RL通过生成、执行、反馈和奖励，让模型持续 学习 推理、规划与自我纠错的能力…",
-      "url": "https://www.leiphone.com/category/ai/KCpk6O5zIhswfL8M.html"
     }
   ]
 }
