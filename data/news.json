@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T02:37:25.072575+08:00",
+  "updated": "2026-08-20T09:16:13.672187+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 14,
       "candidates": 4,
       "core": 1,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 25,
-      "core": 4,
+      "candidates": 22,
+      "core": 3,
       "periphery": 0,
-      "new": 4
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -117,7 +117,7 @@
       "candidates": 8,
       "core": 7,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "OFweek机器人",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 1,
-      "new": 6
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 10,
       "core": 6,
       "periphery": 2,
-      "new": 4
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,31 +240,38 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-20T02:37:42.581094+08:00",
+    "generated_at": "2026-08-20T09:16:33.076661+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周订单和部署集中在运输、配送、工厂训练等可量化场景，Einride将在美国部署500辆特斯拉Semi，Serve Robotics接入芝加哥100多家Grubhub商户，Hexagon在Schaeffler工厂训练AEON人形机器人，具身智能商业化正在优先选择里程、商户覆盖、工序表现等可验收指标。",
+        "text": "本周订单和部署集中在运输、配送、工厂训练等场景，Einride将在美国部署500辆特斯拉Semi，Serve Robotics接入芝加哥100多家Grubhub商户，Hexagon开始在Schaeffler工厂训练AEON人形机器人，商业化评价正更多依赖可统计、可交付的作业结果。",
         "evidence_urls": []
       },
       {
         "label": "模型叙事回到物理闭环",
-        "text": "RSS 2026多篇讨论把焦点放在物理规律、空间约束、长尾数据和世界模型上，黄文龙提出具身智能需要脑内搜索，拉格朗日强调用Agentic OS和工序重构让机器人在工厂跑完任务闭环，单纯扩大视频数据的路径正在被更重视真实任务反馈的路线校正。",
+        "text": "RSS 2026多篇讨论提到Scaling Law跨入物理世界后面临物理规律、空间约束和长尾数据压力，英伟达Cosmos 3、脑内搜索、3DGS物理底座等方向被反复提及，具身智能研发重心正在从单纯堆数据转向世界模型、仿真与真实任务反馈结合。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好数据和量产能力",
-        "text": "嘉腾机器人凭借2.7亿小时工业现场数据完成数千万元战略融资，宇树科技600亿元估值被市场关联到量产能力和高自研率，FF也提出探索机器人独立融资及上市，资金仍在涌入，但更容易围绕工业数据、供应链掌控和收入放量故事形成定价。",
+        "label": "资本偏好场景资产和短板补齐",
+        "text": "嘉腾机器人以2.7亿小时工业现场数据和移动底盘积累获得数千万元战略融资，Unichem收购Loomia切入触觉传感，法拉第未来探索机器人独立融资及上市，资金关注点更靠近可定义场景、数据资产和关键部件能力。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术讨论集中在世界模型、脑内搜索、3DGS物理底座和工厂任务闭环，行业对单纯Scaling Law的依赖降温，开始强调长尾物理数据与可执行规划。",
+        "summary": "技术讨论围绕物理世界约束展开，Cosmos 3、脑内搜索、3DGS和液电混驱机器人等进展，均指向更强环境建模、力量输出与高危作业替代能力。",
         "items": [
+          {
+            "date": "08-20",
+            "title": "国产液电混驱超人形机器人首秀：身高达 4 米，突破从公斤级到千吨级力量限制",
+            "url": "https://www.ithome.com/0/991/899.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-19",
             "title": "英伟达 Cosmos 3 深度拆解：它想做具身智能时代的「安卓系统」| RSS 2026",
@@ -332,7 +339,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品端以展会亮相和功能Demo为主，小米、章鱼动力、KAIBot等展示本体与交互能力，普渡发布自动叉车，韩国厂商呈现自研、借力和量产多路线并行。",
+        "summary": "产品侧以展会首秀和功能演示为主，小米、章鱼动力、KAIBot、共生知行展示人形能力，普渡推出自动叉车，量产叙事开始与具体作业和交互能力绑定。",
         "items": [
           {
             "date": "08-19",
@@ -403,19 +410,12 @@
             "url": "https://www.ithome.com/0/990/607.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
-          },
-          {
-            "date": "08-17",
-            "title": "2026上半年净利润大涨868%！广东老牌制造商实现机器人批量交付",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30698715.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业进展更偏向运输、配送和出行场景，特斯拉Semi获500辆公开大单，Serve接入Grubhub商户，Pony.ai与Uber计划在欧洲部署超2000辆Robotaxi。",
+        "summary": "商业进展集中在可部署场景，特斯拉Semi获500辆公开订单，Serve接入Grubhub商户，Pony.ai与Uber规划欧洲Robotaxi，租赁和接管式应用也开始出现付费验证。",
         "items": [
           {
             "date": "08-19",
@@ -463,7 +463,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资和上市预期活跃，嘉腾机器人获数千万元战略融资，星动纪元被曝筹备港股IPO，宇树估值与供应链受关注，触觉传感等上游环节也出现并购。",
+        "summary": "资本热度由IPO、融资和并购共同推动，嘉腾获数千万元战略融资，宇树上市与估值引发关注，触觉传感并购和机器人独立融资探索显示资金仍在寻找确定性环节。",
         "items": [
           {
             "date": "08-19",
@@ -491,6 +491,13 @@
             "title": "广东工业具身智能移动底盘供应商，时隔12年融资数千万！",
             "url": "https://robot.ofweek.com/2026-08/ART-8321202-8120-30699077.html",
             "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-19",
+            "title": "宇树刚上市，就丢掉了“王座”",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30699186.html",
+            "company": "宇树科技",
             "source_name": "OFweek机器人"
           },
           {
@@ -525,7 +532,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树科技上市引发机器人板块重估，多篇报道聚焦其开盘涨幅、市值和出货数据；优必选布局乐山，Hexagon在Schaeffler工厂训练人形机器人。",
+        "summary": "行业焦点高度集中在宇树上市及其出货、估值表现，同时优必选区域布局、Hexagon工厂训练等消息显示，产业叙事正从舞台展示延伸到仓储、制造等岗位。",
         "items": [
           {
             "date": "08-19",
@@ -612,31 +619,24 @@
             "source_name": "IT之家"
           },
           {
+            "date": "08-19",
+            "title": "Kollmorgen将在RoboBusiness逐关节解析人形机器人运动 (Kollmorgen to give a joint-by-joint guide to humanoid motion at RoboBusiness)",
+            "url": "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "08-18",
             "title": "宇树人形机器人跳高2米、奔跑12.66m/s：超越博尔特",
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30698869.html",
             "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-17",
-            "title": "美国Tau用宇树机器人搞保洁：30美元/小时，亏本赚数据",
-            "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30698714.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-17",
-            "title": "K-Scale死了，特斯拉Optimus靠中国供应链活着——美国造不出机器人“身体”",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698713.html",
-            "company": "特斯拉",
             "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧出现数据底座产品化信号，五一视界发布面向机器人训练的具身数据底座并给出首发价格，数据采集和仿真工具开始被单独商业化。",
+        "summary": "产业链侧出现数据底座商品化信号，五一视界发布面向机器人训练的数据产品，首发价5100元，训练数据供给正在从项目制探索走向标准化交付。",
         "items": [
           {
             "date": "08-19",
@@ -650,6 +650,15 @@
     ]
   },
   "items": [
+    {
+      "date": "08-20",
+      "company": "其他",
+      "title": "国产液电混驱超人形机器人首秀：身高达 4 米，突破从公斤级到千吨级力量限制",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 8 月 20 日消息，据央视新闻报道，2026 世界机器人大会昨天（8 月 19 日）在北京开幕，汇聚了全球机器人领域重大成果和首发新品。 超 3,000 件展品亮相 2026 世界机器人大会 ，其中有一群希望能勇闯危险禁区的机器人。从火场灭火、排爆处置，到高空作业、高危工业巡检，以科技力量替代作业人员直面风险。 报道中出现了一台首次公开展示的 液…",
+      "url": "https://www.ithome.com/0/991/899.htm"
+    },
     {
       "date": "08-19",
       "company": "其他",
@@ -921,6 +930,24 @@
       "url": "https://roboticsandautomationnews.com/2026/08/19/x-square-robot-showcases-full-embodied-ai-portfolio-at-wrc-2026/104194/"
     },
     {
+      "date": "08-19",
+      "company": "宇树科技",
+      "title": "宇树刚上市，就丢掉了“王座”",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "作者｜唐飞 编辑｜李小天 今天，大A有了自己的“人形机器人第一股”。 8月19日，“人形机器人第一股”宇树科技登陆科创板，开盘上涨近630%，股价报1100元，总市值超4400亿，市盈率近800倍。按",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30699186.html"
+    },
+    {
+      "date": "08-19",
+      "company": "其他",
+      "title": "Kollmorgen将在RoboBusiness逐关节解析人形机器人运动 (Kollmorgen to give a joint-by-joint guide to humanoid motion at RoboBusiness)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The talk at RoboBusiness will outline the unique demands of each body zone and the challenges of scaling for production. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/kollmorgen-give-joint-by-joint-guide-humanoid-motion-robobusiness/"
+    },
+    {
       "date": "08-18",
       "company": "其他",
       "title": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
@@ -1072,33 +1099,6 @@
       "category": "资本动态",
       "summary": "当下具身智能赛道热度持续走高，淄博首家科创板上市企业智洋创新抛出一份总规模9.04亿元的定增方案，将超三成募资资金砸向多垂域具身智能研发，试图依靠前沿技术打开第二增长曲线。资本市场一边看好垂直行业智能",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30698747.html"
-    },
-    {
-      "date": "08-17",
-      "company": "宇树科技",
-      "title": "美国Tau用宇树机器人搞保洁：30美元/小时，亏本赚数据",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "7月底，旧金山初创公司Tau Robotics推出了一项“人形机器人上门保洁”服务，每小时收费30美元（约合人民币200元）。目前服务为邀请制，范围覆盖旧金山米慎区和诺埃谷。 Tau目前拥有三台机器人",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30698714.html"
-    },
-    {
-      "date": "08-17",
-      "company": "特斯拉",
-      "title": "K-Scale死了，特斯拉Optimus靠中国供应链活着——美国造不出机器人“身体”",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "8月13日，宇树科技公布科创板IPO发行结果：发行价150.80元/股，对应市值约609.93亿元（约合90亿美元），网上中签率仅0.0181%。 同一天，《纽约时报》刊登了一篇题为“美国想在人形机器",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30698713.html"
-    },
-    {
-      "date": "08-17",
-      "company": "其他",
-      "title": "2026上半年净利润大涨868%！广东老牌制造商实现机器人批量交付",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "近日，东方精工交出了一份“反差感极强”的2026年半年报。 报告期内，该公司实现营业总收入16.91亿元，同比下降21.68%。虽说营收有所回落，但其归母净利润大幅飙升至38.46亿元，同比暴涨867",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30698715.html"
     }
   ]
 }
