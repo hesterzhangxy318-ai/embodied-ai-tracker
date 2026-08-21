@@ -1,20 +1,19 @@
 {
-  "updated": "2026-08-21T02:40:58.747840+08:00",
+  "updated": "2026-08-21T09:20:45.349256+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 10,
-      "candidates": 4,
-      "core": 4,
+      "fetched": false,
+      "attempts": 3,
+      "error": "RemoteDisconnected: Remote end closed connection without response",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -49,8 +48,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 2,
+      "entries": 16,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,11 +87,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 17,
+      "entries": 58,
+      "candidates": 21,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -128,7 +127,7 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 11,
+      "core": 10,
       "periphery": 0,
       "new": 7
     },
@@ -187,15 +186,14 @@
     {
       "name": "Robotics & Automation News",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 15,
-      "candidates": 8,
-      "core": 5,
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 503: Service Unavailable",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +238,42 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-21T02:41:37.338080+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-08-21T09:21:25.494541+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "可验收场景成为主线",
-        "text": "本周商业与行业信息都围绕可验收任务展开，Serve Robotics 与 Grubhub 推进自动配送机器人部署，百度也把机器人从会展示推向能上岗并强调模型、数据与应用协同，落地重心正压到能交付、能回流数据的闭环任务上。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，在今日的 2026 世界 机器人 大会（WRC 2026）期间， 宇树科技 创始人、董事长王兴兴发布主题演讲；Cloudflare 发布 Precursor 客户端行为分析引擎，通过持续监测用户鼠标、键盘等会话行为识别高级爬虫与 AI 智能体。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/992/011.htm",
+          "https://www.infoq.cn/article/7QNfsJhpgskMtVllCpWJ?utm_source=rss&utm_medium=article",
+          "https://www.therobotreport.com/serve-robotics-deploys-autonomous-delivery-robots-grubhub/"
+        ]
       },
       {
-        "label": "量产与价格开始进入验证",
-        "text": "宇树推出仿生7轴灵巧机械臂，售价9900元起，WRC上又集中出现新一代人形和双足产品，加上王兴兴判断人形机器人十年内进入大众市场，竞争焦点正在从单点炫技转向量产能力、价格带和交付稳定性。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，那个在纯数字世界几乎无往不利的 Scaling Law，在试图跨越到物理世界时，正遭遇物理规律、空间约束和长尾数据的残酷审判；从“像素导演”转向“具身大脑”：RSS 2026“机器人世界模型”专题现场见证，想象力正在终结具身智能的“数据暴政”。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/private/XVXWtcCNFb4PP233.html",
+          "https://www.leiphone.com/category/private/WO8DdZBccR2lD85Q.html",
+          "https://www.leiphone.com/category/private/TUzrCbD0E9v6NtS5.html"
+        ]
       },
       {
-        "label": "资本更看重数据底座和能力补齐",
-        "text": "嘉腾机器人凭2.7亿小时工业现场数据获得数千万元战略融资，眸深智能完成近5亿元Pre-A+轮融资，宇树IPO也把板块热度推高，资金正在向有现场数据、端侧大脑和明确场景能力的公司集中。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，极佳视界今日发布了通用双足人形机器人 Maker L01，展示了产品的多项亮点；潮涌AI编辑部 8月18日，嘉腾机器人宣布完成数千万元战略融资，由上市公司和而泰领投，道禾基金、金木资本跟投，云岫资本担任后续融资独家财务顾问。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/992/082.htm",
+          "https://robot.ofweek.com/2026-08/ART-8321202-12005-30699047.html",
+          "https://robot.ofweek.com/2026-08/ART-8321201-12005-30699224.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术讨论集中在世界模型、脑内搜索和端到端数据闭环，行业开始承认纯靠规模放大难以跨过物理约束与长尾任务。",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
           {
             "date": "08-20",
@@ -325,7 +335,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "WRC 上密集发布人形、双足和灵巧手产品，且出现 9900 元起机械臂，产品叙事开始和量产、价格与可演示能力绑定。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "08-20",
@@ -415,7 +425,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "Serve Robotics 与 Grubhub 部署自动配送机器人，Faraday Future 取得首笔付费租赁订单，商业化仍先落在可计费、可验收的局部场景。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "08-19",
@@ -442,7 +452,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "宇树 IPO 带动机器人赛道热度抬升，嘉腾、眸深智能等融资继续向数据底座、端侧大脑和工业场景能力倾斜。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "08-20",
@@ -511,7 +521,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "宇树上市、特斯拉 Robotaxi 无监督运行迹象和多家企业在 WRC 集中亮相，行业继续围绕规模化、无人化和市场预期发酵。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "08-20",
@@ -636,7 +646,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "51WORLD 推出具身数据底座并首发定价 5100 元，数据采集、训练与回流相关工具开始直接进入产业化销售环节。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "08-19",
