@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T20:49:26.273221+08:00",
+  "updated": "2026-08-22T02:38:14.290864+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
-      "core": 3,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
       "new": 2
     },
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 10,
-      "core": 5,
+      "entries": 18,
+      "candidates": 11,
+      "core": 6,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 4,
-      "core": 1,
+      "candidates": 3,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 17,
-      "core": 4,
+      "entries": 59,
+      "candidates": 15,
+      "core": 2,
       "periphery": 0,
-      "new": 4
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 10,
       "periphery": 1,
-      "new": 8
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 30,
       "core": 19,
       "periphery": 3,
-      "new": 13
+      "new": 11
     },
     {
       "name": "The Robot Report",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 1,
-      "new": 6
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 6,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 26,
       "periphery": 3,
-      "new": 3
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-21T20:49:42.538751+08:00",
+    "generated_at": "2026-08-22T02:38:49.131783+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周多条信息把具身智能落点放在工厂、物流、巡逻、维修和高危巡检等任务，星动纪元提到焊接、搬运、装配依赖预定义环境与流程，海康机器人展示工业物流、商业服务、智能巡逻方案，百度也强调机器人从展示到上岗需要模型、数据与应用协同，短期商业化更可能先在边界清晰、结果可验收的场景推进。",
+        "label": "工厂场景仍是主验证面",
+        "text": "WRC 2026相关表述里，优必选、星动纪元和百度都围绕焊接、搬运、装配以及“会展示到能上岗”展开，任务集中在工业流程和已定义环境，落地验证继续向可验收场景收缩。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事回到数据闭环",
-        "text": "WRC 2026期间，星动纪元提出具身大脑进入世界模型阶段，ASU魏华讨论大模型智能体跨越仿真到现实的鸿沟，英伟达Cosmos 3相关讨论也指向物理规律、空间约束和长尾数据对Scaling Law的限制，模型能力的评估正在从概念架构转向真实数据、物理约束和任务闭环。",
+        "label": "模型叙事转向世界模型和数据闭环",
+        "text": "星动纪元把VLA放到非终局的位置，优必选完成生成式人工智能服务备案，51WORLD又推出具身数据底座，技术讨论已经从单一模型效果转向真实数据、仿真到现实和质量体系的联动。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好场景与补短板",
-        "text": "嘉腾机器人以2.7亿小时工业现场数据获得数千万元战略融资，Gravis Robotics获软银2亿美元A轮投资并聚焦建筑自动化，眸深智能完成近5亿元Pre-A+轮融资指向端侧具身大脑，资金仍在进入机器人赛道，但更集中于可定义场景、数据积累或关键能力补齐。",
+        "label": "资金继续偏向场景和能力补齐",
+        "text": "软银向Gravis投入2亿美元创下建筑机器人A轮纪录，嘉腾在拥有2.7亿小时工业现场数据后获数千万元战略融资，眸深智能也完成近5亿元Pre-A+轮融资，资金更集中流向数据积累深、场景清晰的团队。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧集中讨论具身大脑、世界模型、仿真到现实和质量强链，优必选完成生成式人工智能服务备案，行业对模型路线的关注开始更多绑定物理约束与真实任务。",
+        "summary": "备案、世界模型、仿真到现实和质量强链攻关同时出现，技术讨论从单点能力展示转向数据、环境与流程的联动验证。",
         "items": [
           {
             "date": "08-21",
@@ -360,8 +360,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "WRC 2026带来多款产品和方案亮相，覆盖跨本体协同、工业物流、巡逻、重载作业和双足机器人，宇树7轴灵巧机械臂以9900元起售价把价格纳入能力验证。",
+        "summary": "多家企业在WRC集中亮相新品和场景方案，宇树机械臂给出9900元起售价，量产与价格正被纳入能力验证的一部分。",
         "items": [
+          {
+            "date": "08-22",
+            "title": "2026 WRC | 魔法原子“三大场景”全景亮相，“场景驱动·产需共融”主题论坛共探具身智能落",
+            "url": "https://www.leiphone.com/category/robot/DCljjXT8jddT4PJs.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "08-21",
             "title": "星源智首日亮相2026 WRC，具身大脑“跨本体协同”成全场焦点",
@@ -396,6 +403,13 @@
             "url": "https://roboticsandautomationnews.com/2026/08/21/logic-robotics-launches-autonomous-pallet-for-rail-to-road-transloading/104370/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "08-21",
+            "title": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会，超维动力KAI全栈具身智能硬核登场",
+            "url": "https://www.leiphone.com/category/robot/rlnc7wOi4Q7hymVJ.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "08-20",
@@ -445,19 +459,12 @@
             "url": "https://www.qbitai.com/2026/08/475907.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "08-19",
-            "title": "小米新一代人形机器人亮相 2026 世界机器人博览会，8 月 20 日起展台将对普通观众开放",
-            "url": "https://www.ithome.com/0/991/747.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单信息较少，百度在WRC提出机器人从会展示到能上岗需要模型、数据回流与应用接管协同，场景落地仍处在系统能力验证和应用闭环形成阶段。",
+        "summary": "百度将机器人从会展示推向能上岗，强调模型、数据与应用协同，商业化叙事仍围绕可定义流程和可验收任务展开。",
         "items": [
           {
             "date": "08-19",
@@ -470,7 +477,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，Gravis获软银2亿美元A轮，眸深智能完成近5亿元Pre-A+轮，嘉腾机器人获数千万元战略融资，宇树上市表现也继续推高市场关注。",
+        "summary": "软银、华为哈勃、上市公司和多家基金继续下注，资金更偏向有工业数据、场景明确、能力补齐路径清晰的团队。",
         "items": [
           {
             "date": "08-21",
@@ -532,7 +539,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态围绕WRC 2026和宇树展开，优必选展示工业、商用、家庭消费应用成果，王兴兴预计人形机器人十年内进入大众市场，特斯拉Robotaxi无人化也受关注。",
+        "summary": "WRC期间人形机器人密集登场，工业、商用、家庭消费与赛事展示并行，行业热度仍高，但关注点更集中于真实落地。",
         "items": [
           {
             "date": "08-21",
@@ -617,19 +624,12 @@
             "url": "https://www.infoq.cn/article/Ae1KpZ9eIJD2V4DcQ0Au?utm_source=rss&utm_medium=article",
             "company": "宇树科技",
             "source_name": "InfoQ"
-          },
-          {
-            "date": "08-19",
-            "title": "宇树科技王兴兴回应大学毕业后仅 2 个月就从大疆离职：热爱机器人 + 产业化机会出现",
-            "url": "https://www.ithome.com/0/991/770.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链一边出现五一视界具身数据底座开卖，一边有崧盛股份终止谐波减速器技术开发合同并转让股权，供应链机会正与数据、减速器等具体环节表现绑定。",
+        "summary": "减速器合同终止和数据底座开卖同时出现，供应链机会更依赖具体性能瓶颈、数据资产和场景适配，而非泛泛扩张。",
         "items": [
           {
             "date": "08-21",
@@ -650,6 +650,15 @@
     ]
   },
   "items": [
+    {
+      "date": "08-22",
+      "company": "其他",
+      "title": "2026 WRC | 魔法原子“三大场景”全景亮相，“场景驱动·产需共融”主题论坛共探具身智能落",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "8月20日，世界机器人大会（WRC 2026期间）由江苏省工业和信息化厅指导、江苏省具身智能机器人产业联盟主办、魔法原子机器人科技有限公司承办的“场景驱动·产需共融”2026具身智能机器人产业生态论坛在北京隆重举行。 雷峰网了解到，本次论坛汇聚了 来自中国科学院、清华大学、中国信通院、赛迪研究院等产学研界的专家学者 ， 与江苏省具身智能产业链上下游企业代表齐…",
+      "url": "https://www.leiphone.com/category/robot/DCljjXT8jddT4PJs.html"
+    },
     {
       "date": "08-21",
       "company": "优必选",
@@ -811,6 +820,15 @@
       "category": "产品量产",
       "summary": "Logic Robotics, a developer of autonomous, data-driven logistics solutions, has unveiled what is described “a breakthrough” in multimodal logistics automation with the introduction…",
       "url": "https://roboticsandautomationnews.com/2026/08/21/logic-robotics-launches-autonomous-pallet-for-rail-to-road-transloading/104370/"
+    },
+    {
+      "date": "08-21",
+      "company": "其他",
+      "title": "全球首个人形机器人自主乒乓球完整对局亮相2026世界机器人大会，超维动力KAI全栈具身智能硬核登场",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "8月19日，以\"人机共生、产需共融\"为主题的2026世界机器人大会在北京正式开幕。作为全栈具身智能 大模型公司 ，超维动力携全球首个人形机器人自主乒乓球完整对局成果、SMASH 2.0高动态人形乒乓系统、 KAI世界模型、 全球最高117个全身自由度的KAIBot高拟人本体、KAI Hand超高自由度灵巧手与KAI Halo第一视角数采头环等全栈矩阵登场，为…",
+      "url": "https://www.leiphone.com/category/robot/rlnc7wOi4Q7hymVJ.html"
     },
     {
       "date": "08-20",
@@ -1081,24 +1099,6 @@
       "category": "行业动态",
       "summary": "宇树科技登陆科创板，发行价150.80元/股，开盘暴涨629.44%，市值达4449亿元，成为中国具身智能领域首个以本体技术与规模化制造能力为根基的标志性IPO。 人形机器人企业首次实现年营收近17亿元、扣非净利超5.9亿元；2026年上半年营收预计同比增长超35%；静态市销率达35.89倍，反映资本市场对具身智能商业化路径的高度认可。 适合机器人硬件工程师…",
       "url": "https://www.infoq.cn/article/Ae1KpZ9eIJD2V4DcQ0Au?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "08-19",
-      "company": "宇树科技",
-      "title": "宇树科技王兴兴回应大学毕业后仅 2 个月就从大疆离职：热爱机器人 + 产业化机会出现",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 19 日消息，据上海证券报 8 月 18 日报道，宇树科技创始人王兴兴在接受采访时谈到了从大疆离职的事情。 公开资料显示，王兴兴本科就读于浙江理工大学机械与自动控制学院机电专业，后进入上海大学攻读机械工程专业研究生。 2016 年 6 月，王兴兴毕业后入职大疆，同年 8 月就从大疆离职 ，获天使轮融资后创立宇树科技。 王兴兴在采访中表示：我…",
-      "url": "https://www.ithome.com/0/991/770.htm"
-    },
-    {
-      "date": "08-19",
-      "company": "其他",
-      "title": "小米新一代人形机器人亮相 2026 世界机器人博览会，8 月 20 日起展台将对普通观众开放",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 8 月 19 日消息，小米官方今日宣布， 小米新一代人形机器人亮相 2026 世界机器人博览会 ，登陆「具身花园」展台。 据介绍，这次小米新一代人形机器人将扮演“花艺师”，可抓取香片撒花并递送给现场观众，还能握手、碰拳，宣称“动作自然又流畅”。 根据规划， 8 月 20 日起，展台将对普通观众开放 。 据IT之家此前报道，2026 世界机器人大会将…",
-      "url": "https://www.ithome.com/0/991/747.htm"
     }
   ]
 }
