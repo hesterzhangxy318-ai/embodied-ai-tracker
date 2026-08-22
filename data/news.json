@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T02:38:14.290864+08:00",
+  "updated": "2026-08-22T09:16:00.808270+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 6,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 18,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
+      "entries": 58,
       "candidates": 15,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 2,
+      "candidates": 7,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-22T02:38:49.131783+08:00",
+    "generated_at": "2026-08-22T09:16:24.079289+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "工厂场景仍是主验证面",
-        "text": "WRC 2026相关表述里，优必选、星动纪元和百度都围绕焊接、搬运、装配以及“会展示到能上岗”展开，任务集中在工业流程和已定义环境，落地验证继续向可验收场景收缩。",
+        "label": "落地验证转向可验收任务",
+        "text": "本周WRC讨论和企业展示集中在工业物流、巡逻、焊接、搬运、装配等环境和流程可预定义的任务，百度也强调机器人从会展示到能上岗需要模型、数据与应用协同，短期商业化更可能先在工厂、维修、巡检等可验收场景形成闭环。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事转向世界模型和数据闭环",
-        "text": "星动纪元把VLA放到非终局的位置，优必选完成生成式人工智能服务备案，51WORLD又推出具身数据底座，技术讨论已经从单一模型效果转向真实数据、仿真到现实和质量体系的联动。",
+        "label": "模型叙事回到真实物理闭环",
+        "text": "星动纪元提出VLA并非终局、具身大脑进入世界模型阶段，ASU魏华讨论大模型智能体跨越仿真到现实鸿沟，英伟达Cosmos相关拆解也指向物理规律、空间约束和长尾数据压力，模型能力的判断正在从参数和演示转向真实数据、真实任务和可复现反馈。",
         "evidence_urls": []
       },
       {
-        "label": "资金继续偏向场景和能力补齐",
-        "text": "软银向Gravis投入2亿美元创下建筑机器人A轮纪录，嘉腾在拥有2.7亿小时工业现场数据后获数千万元战略融资，眸深智能也完成近5亿元Pre-A+轮融资，资金更集中流向数据积累深、场景清晰的团队。",
+        "label": "资本偏好绑定场景与能力短板",
+        "text": "软银向建筑自动化企业Gravis投资2亿美元，嘉腾机器人凭2.7亿小时工业现场数据获得数千万元战略融资，眸深智能完成近5亿元Pre-A+轮融资，同时Schaeffler计划2027年量产人形机器人齿轮箱，资金和供应链机会更贴近建筑、工业数据、端侧大脑及核心部件等明确短板。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "备案、世界模型、仿真到现实和质量强链攻关同时出现，技术讨论从单点能力展示转向数据、环境与流程的联动验证。",
+        "summary": "技术侧围绕具身大模型备案、世界模型、仿真到现实、质量强链和液电混驱展开，焦点从单点演示转向可监管、可迁移、可落地的系统能力。",
         "items": [
           {
             "date": "08-21",
@@ -360,7 +360,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "多家企业在WRC集中亮相新品和场景方案，宇树机械臂给出9900元起售价，量产与价格正被纳入能力验证的一部分。",
+        "summary": "产品量产新闻主要来自WRC场景化展示，覆盖工业物流、商业服务、智能巡逻、跨本体协同和自主托盘，Schaeffler则把人形机器人齿轮箱量产节点指向2027年。",
         "items": [
           {
             "date": "08-22",
@@ -410,6 +410,13 @@
             "url": "https://www.leiphone.com/category/robot/rlnc7wOi4Q7hymVJ.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "08-21",
+            "title": "Schaeffler计划2027年量产人形机器人齿轮箱 (Schaeffler plans to mass produce gearboxes for humanoid robots in 2027)",
+            "url": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "08-20",
@@ -464,7 +471,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "百度将机器人从会展示推向能上岗，强调模型、数据与应用协同，商业化叙事仍围绕可定义流程和可验收任务展开。",
+        "summary": "商业订单证据较少，百度在WRC提出具身智能进入场景落地关键阶段，机器人上岗需要模型进化、数据回流和应用接管协同，尚未出现明确订单规模披露。",
         "items": [
           {
             "date": "08-19",
@@ -477,7 +484,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "软银、华为哈勃、上市公司和多家基金继续下注，资金更偏向有工业数据、场景明确、能力补齐路径清晰的团队。",
+        "summary": "资本热度集中在机器人本体、端侧大脑、工业移动机器人和建筑自动化，软银2亿美元投向Gravis，眸深近5亿元融资，嘉腾数千万元融资均强调场景或数据资产。",
         "items": [
           {
             "date": "08-21",
@@ -539,7 +546,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "WRC期间人形机器人密集登场，工业、商用、家庭消费与赛事展示并行，行业热度仍高，但关注点更集中于真实落地。",
+        "summary": "行业动态由WRC和宇树相关消息主导，企业密集展示工业、商用、家庭消费应用，王兴兴预计人形机器人十年内进入大众市场，核心零部件供需协同也被单独讨论。",
         "items": [
           {
             "date": "08-21",
@@ -617,19 +624,12 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8460-30699055.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-19",
-            "title": "中国“机器人第一股”来了，宇树科技开盘暴涨 620%",
-            "url": "https://www.infoq.cn/article/Ae1KpZ9eIJD2V4DcQ0Au?utm_source=rss&utm_medium=article",
-            "company": "宇树科技",
-            "source_name": "InfoQ"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "减速器合同终止和数据底座开卖同时出现，供应链机会更依赖具体性能瓶颈、数据资产和场景适配，而非泛泛扩张。",
+        "summary": "产业链侧出现分化，崧盛股份终止机器人谐波减速器技术开发合同并转让股权，五一视界推出5100元具身数据底座，部件和数据环节都在接受商业验证。",
         "items": [
           {
             "date": "08-21",
@@ -829,6 +829,15 @@
       "category": "产品量产",
       "summary": "8月19日，以\"人机共生、产需共融\"为主题的2026世界机器人大会在北京正式开幕。作为全栈具身智能 大模型公司 ，超维动力携全球首个人形机器人自主乒乓球完整对局成果、SMASH 2.0高动态人形乒乓系统、 KAI世界模型、 全球最高117个全身自由度的KAIBot高拟人本体、KAI Hand超高自由度灵巧手与KAI Halo第一视角数采头环等全栈矩阵登场，为…",
       "url": "https://www.leiphone.com/category/robot/rlnc7wOi4Q7hymVJ.html"
+    },
+    {
+      "date": "08-21",
+      "company": "其他",
+      "title": "Schaeffler计划2027年量产人形机器人齿轮箱 (Schaeffler plans to mass produce gearboxes for humanoid robots in 2027)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "Schaeffler is creating its strain wave gearboxes with a forming technology that will enable mass production of the components. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/schaeffler-plans-to-mass-manufacture-gearboxes-for-humanoids-in-2027/"
     },
     {
       "date": "08-20",
@@ -1090,15 +1099,6 @@
       "category": "技术突破",
       "summary": "斯坦福团队提出：机器人不需要见过所有的失败，它只需要学会如何“脑补”另一种可能。 作者丨岑峰 在 AGI 的数字版图里，大语言模型仅靠“读遍互联网文本”就拼凑出了通往智能的通途。这种由 Scaling Law 带来的暴力美学，让整个具身智能行业在过去两年里陷入了一种盲目的“数据崇拜”：人们坚信，只要像训练大模型一样，喂下数以百万小时的视频，机械臂就能在物理世…",
       "url": "https://www.leiphone.com/category/private/TUzrCbD0E9v6NtS5.html"
-    },
-    {
-      "date": "08-19",
-      "company": "宇树科技",
-      "title": "中国“机器人第一股”来了，宇树科技开盘暴涨 620%",
-      "source_name": "InfoQ",
-      "category": "行业动态",
-      "summary": "宇树科技登陆科创板，发行价150.80元/股，开盘暴涨629.44%，市值达4449亿元，成为中国具身智能领域首个以本体技术与规模化制造能力为根基的标志性IPO。 人形机器人企业首次实现年营收近17亿元、扣非净利超5.9亿元；2026年上半年营收预计同比增长超35%；静态市销率达35.89倍，反映资本市场对具身智能商业化路径的高度认可。 适合机器人硬件工程师…",
-      "url": "https://www.infoq.cn/article/Ae1KpZ9eIJD2V4DcQ0Au?utm_source=rss&utm_medium=article"
     }
   ]
 }
