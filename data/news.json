@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T20:40:54.314293+08:00",
+  "updated": "2026-08-23T02:32:41.915817+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
-      "core": 3,
+      "candidates": 6,
+      "core": 4,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "36氪",
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 6,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "钛媒体",
@@ -53,7 +53,7 @@
       "candidates": 4,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 19,
+      "candidates": 20,
       "core": 4,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 6,
       "periphery": 1,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,9 +193,9 @@
       "error": "",
       "entries": 15,
       "candidates": 7,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,42 @@
   "weekly_report": {
     "start": "08-17",
     "end": "08-23",
-    "generated_at": "2026-08-22T20:41:10.523000+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-08-23T02:33:21.976573+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "优必选把客户工厂产线中攻克的难题1，1搬到WRC展台，海康机器人展示工业物流、商业服务、智能巡逻三类实景方案，宇树则因精力侧重量产缩减运动会参赛项目，具身智能展示重心正从表演能力转向工厂、巡检、服务等可复现、可验收任务。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，与往届情况相仿，其中部分机器人为宇树自有团队参赛，其余则由宇树的客户或合作伙伴，基于宇树机器人平台进行二次开发后参赛；在今日的 2026 世界 机器人 大会（WRC 2026）期间， 宇树科技 创始人、董事长王兴兴发布主题演讲。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/993/083.htm",
+          "https://www.ithome.com/0/992/011.htm",
+          "https://www.qbitai.com/2026/08/477016.html"
+        ]
       },
       {
-        "label": "模型叙事回到真实闭环",
-        "text": "星动纪元提出VLA并非终局并讨论世界模型，相关讨论同时指出工业焊接、搬运、装配等能力仍依赖预定义环境、流程和目标，IJCAI相关观点也聚焦仿真到现实鸿沟，模型竞争正在被真实数据、任务边界和部署闭环重新约束。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，在工业生产线上，机器人可以完成焊接、搬运、装配等大量重复任务，但这些能力建立在一个前提之上：环境、流程和目标都已经被提前定义；作者 丨 岑峰 幸丽娟 编辑丨岑峰 在通往 AGI 的浪潮中，基础模型智能体（Foundation Model Agents）正以前所未有的速度接管各种任务。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/private/KZ4IQ31NP4VB8CeP.html",
+          "https://www.leiphone.com/category/private/ra5HO5WX7PHYJ86b.html",
+          "https://www.leiphone.com/category/ai/rUNBvF7Iq6C3UtyR.html"
+        ]
       },
       {
-        "label": "资本偏好场景与数据资产",
-        "text": "嘉腾机器人凭2.7亿小时工业现场数据完成数千万元战略融资，眸深智能完成近5亿元Pre-A+轮融资，Gravis获软银2亿美元A轮投资，资金继续流向有明确场景、数据积累或能力补齐方向的公司，而供应链环节仍需绑定具体性能瓶颈。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，极佳视界今日发布了通用双足人形机器人 Maker L01，展示了产品的多项亮点；建筑自动化企业 Gravis Robotics 当地时间本月 17 日宣布，SoftBank（软银）作为独家投资者在 A 轮融资中为该企业注资 2 亿美元 （IT之家注：现汇率约合 13.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/992/082.htm",
+          "https://www.ithome.com/0/992/733.htm",
+          "https://robot.ofweek.com/2026-08/ART-8321201-12005-30699224.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术讨论集中在具身基础模型、世界模型、端侧大脑和仿真到现实鸿沟，行业对单纯能力演示更谨慎，真实任务边界成为路线判断依据。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "08-22",
@@ -285,6 +297,20 @@
             "url": "https://www.tmtpost.com/8112858.html",
             "company": "宇树科技",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "08-22",
+            "title": "工业具身智能的 \"最后一公里\"，为什么是埃夫特&启智在走？",
+            "url": "https://www.leiphone.com/category/robot/UL2Q8ihgr90Dy85f.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "08-22",
+            "title": "WRC 2026 风向标：具身智能下半场，比「大脑」更比「账本」",
+            "url": "https://www.leiphone.com/category/ai/rUNBvF7Iq6C3UtyR.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "08-21",
@@ -360,7 +386,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产线索围绕WRC集中释放，宇树因量产投入缩减部分参赛项目，特斯拉宣布Cybercab发布会，多家企业展示三大场景或跨本体协同方案。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "08-22",
@@ -459,19 +485,12 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8460-30699320.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-19",
-            "title": "韩国机器人产业的三条路线之争: 三星自研、LG借力、现代量产",
-            "url": "https://robot.ofweek.com/2026-08/ART-8321206-8460-30699044.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单证据主要来自优必选，其将客户产线难题1:1搬进WRC展台，强调并非Demo，工厂真实任务成为本周最明确的落地验证样本。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "08-22",
@@ -484,7 +503,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本热度延续，宇树上市首日大涨，眸深智能、嘉腾机器人、Gravis等获得融资，市场更关注端侧大脑、工业数据和建筑自动化等清晰方向。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "08-21",
@@ -520,26 +539,12 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30699093.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-19",
-            "title": "手握2.7亿小时工业现场数据的嘉腾机器人，拿下数千万战略融资",
-            "url": "https://robot.ofweek.com/2026-08/ART-8321202-12005-30699047.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-19",
-            "title": "百亿估值的星动纪元抢先筹备港股IPO？",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30699046.html",
-            "company": "星动纪元",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "WRC和世界人形机器人运动会带动行业曝光，宇树、优必选等展示多场景应用，王兴兴预计人形机器人十年内进入大众市场但工厂工作暂难大规模推广。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "08-22",
@@ -554,6 +559,20 @@
             "url": "https://www.ithome.com/0/993/022.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-22",
+            "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
+            "url": "https://www.ithome.com/0/993/105.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "08-22",
+            "title": "机器人不会自己运行：支撑物理 AI 的劳动力 (Robots don’t run themselves: The workforce powering physical AI)",
+            "url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "08-21",
@@ -624,19 +643,12 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-12001-30699128.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-19",
-            "title": "优必选落子乐山，机器人“西南会战”释放了什么信号？",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-8460-30699055.html",
-            "company": "优必选",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链端出现分化，崧盛股份终止机器人谐波减速器技术开发合同并转让股权，核心零部件活动强调供需协同，单点布局需要更明确需求牵引。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "08-21",
@@ -730,6 +742,42 @@
       "category": "行业动态",
       "summary": "IT之家 8 月 22 日消息，理想汽车近日在微博发文称，宇树科技人形机器人“入职”理想汽车， 担任的职位有讲解员、向导等 。 IT之家从理想汽车官博了解到，本次“入职”理想汽车的宇树机器人名为“笨笨”，它将于 8 月 23 日在北京汽车博物馆三层迎宾、讲解理想 L9 Livis 汽车。每场电影散场时，笨笨还会带来观影彩蛋，献舞一曲。 同时，宇树机器人还将于…",
       "url": "https://www.ithome.com/0/993/022.htm"
+    },
+    {
+      "date": "08-22",
+      "company": "其他",
+      "title": "工业具身智能的 \"最后一公里\"，为什么是埃夫特&启智在走？",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "一、90% 的工厂，机器人还进不去 具身智能这两年很热，但热的地方大多不在工厂。 人形机器人在展会上跳舞、倒酒、叠衣服，视频传播量惊人；可一旦走进真实的工业车间，话题就迅速冷下来。原因 很简单， 工业现场不是实验室，它要求机器人在油污、粉尘、温差和来料不一致的环境里，连续、稳定、可核算地干活。而这恰恰是当前具身智能最薄弱的环节。 传统工业机器人其实已经很强了…",
+      "url": "https://www.leiphone.com/category/robot/UL2Q8ihgr90Dy85f.html"
+    },
+    {
+      "date": "08-22",
+      "company": "其他",
+      "title": "WRC 2026 风向标：具身智能下半场，比「大脑」更比「账本」",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "展台不再比谁花活多，开始比谁能稳定干满8小时。 作者丨邓哲敏 齐铖湧 编辑丨 齐铖湧 上海 WAIC 结束不到一个月，北京 WRC 2026 接棒开启。 短短几十天，谁也不可能把模型推倒重来。想看到什么颠覆性突破，是不现实的。 所以这篇现场观察不单看 WRC 上的展台花活，AI科技 （雷峰网公众号）会结合几个月来各家综合表现，看“具身大脑”究竟走到哪一步…",
+      "url": "https://www.leiphone.com/category/ai/rUNBvF7Iq6C3UtyR.html"
+    },
+    {
+      "date": "08-22",
+      "company": "其他",
+      "title": "第二届世界人形机器人运动会开幕：2056 台机器人齐聚“冰丝带”，666 支队伍竞技 51 赛项",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 22 日消息，今日晚间，第二届世界人形机器人运动会在国家速滑馆“冰丝带”开幕。 本届赛事由北京市人民政府、中央广播电视总台、世界机器人合作组织、亚太机器人世界杯国际理事会联合主办。来自六大洲 16 个国家的 666 支队伍、2056 台机器人参赛，队伍数量较首届增长 138%，机器人数量翻了两番。 开幕式上，田径 100 米大型组预赛率先开…",
+      "url": "https://www.ithome.com/0/993/105.htm"
+    },
+    {
+      "date": "08-22",
+      "company": "其他",
+      "title": "机器人不会自己运行：支撑物理 AI 的劳动力 (Robots don’t run themselves: The workforce powering physical AI)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The addition of physical AI to the workforce requires more key performance indicators than throughput, according to the president of HireArt. The post appeared first on The Robot R…",
+      "url": "https://www.therobotreport.com/robots-dont-run-themselves-workforce-powering-physical-ai/"
     },
     {
       "date": "08-21",
@@ -1063,42 +1111,6 @@
       "category": "资本动态",
       "summary": "Evin 刘致呈 审核：徐徐 出品：互联网江湖 在宇树IPO的带动下，最近，机器人市场的投资热度又上升了一个新的量级。连带着“智元概念股”上纬新材都引起了很大的关注。说起这个，有上纬新材的",
       "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30699093.html"
-    },
-    {
-      "date": "08-19",
-      "company": "优必选",
-      "title": "优必选落子乐山，机器人“西南会战”释放了什么信号？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "人工智能正悄然从数字世界走向物理世界，机器人与AI深度融合的奇点时刻，或许比我们预想的来得更快。 近日，一则看似寻常的企业工商注册信息，在科技圈激起了涟漪。天眼查App显示，优必选（乐山）机器人科技有",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8460-30699055.html"
-    },
-    {
-      "date": "08-19",
-      "company": "行业",
-      "title": "手握2.7亿小时工业现场数据的嘉腾机器人，拿下数千万战略融资",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "?潮涌AI编辑部 8月18日，嘉腾机器人宣布完成数千万元战略融资，由上市公司和而泰领投，道禾基金、金木资本跟投，云岫资本担任后续融资独家财务顾问。 此轮融资将用于强化工业场景优势，推动具身智能规模化落",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321202-12005-30699047.html"
-    },
-    {
-      "date": "08-19",
-      "company": "星动纪元",
-      "title": "百亿估值的星动纪元抢先筹备港股IPO？",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "?潮涌AI编辑部 彭博社援引知情人士消息报道，人形机器人公司星动纪元计划在香港进行首次公开募股，目标募资8亿至10亿美元，约合62.4亿至78亿港元。 公司正在与顾问推进相关筹备工作，目前处于探讨阶段",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30699046.html"
-    },
-    {
-      "date": "08-19",
-      "company": "其他",
-      "title": "韩国机器人产业的三条路线之争: 三星自研、LG借力、现代量产",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "8月18日，韩国两大财阀在机器人领域同时出手。 三星电子正式启动“Physical AI Lab”（物理AI实验室），由具东翰博士领衔，自研全身控制、行走、物体操作等核心技术。同一天，英伟达CEO黄仁",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321206-8460-30699044.html"
     }
   ]
 }
