@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T02:41:50.503206+08:00",
+  "updated": "2026-08-25T09:18:00.886665+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -89,8 +89,8 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 28,
-      "core": 4,
+      "candidates": 16,
+      "core": 2,
       "periphery": 0,
       "new": 2
     },
@@ -156,7 +156,7 @@
       "candidates": 30,
       "core": 19,
       "periphery": 3,
-      "new": 14
+      "new": 10
     },
     {
       "name": "The Robot Report",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 7,
       "periphery": 1,
-      "new": 6
+      "new": 8
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,30 +240,42 @@
   "weekly_report": {
     "start": "08-24",
     "end": "08-30",
-    "generated_at": "2026-08-25T02:42:20.168337+08:00",
-    "mode": "aicodewith",
-    "item_count": 26,
+    "generated_at": "2026-08-25T09:18:40.979219+08:00",
+    "mode": "local",
+    "item_count": 29,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能的验证重心继续从展演型Demo转向工厂、维修、巡检和服务等可验收任务，智元与长隆合作把机器人导入酒店和乐园场景，小鹏也明确要把高阶人形机器人带入真实现实，行业对真实任务闭环的要求更强。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，当狂热的资本逐渐冷静，具身智能行业必须面对一场从“展示Demo”到“真实产线”的生死大考；小鹏官宣机器人业务首轮融资超 9 亿美元后，小鹏集团董事长、CEO 何小鹏发文称：感谢所有投资人、鹏友和同学们的信任和支持不远的将来，小鹏会努力将第一个高阶人形机器人带入到真正的现实，TA 会和市面上所有看到的机器人都不一样。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/private/YOACtSjPnZwavbFo.html",
+          "https://www.ithome.com/0/993/681.htm",
+          "https://www.ithome.com/0/993/488.htm"
+        ]
       },
       {
-        "label": "资本更偏向明确场景与能力补齐",
-        "text": "融资与战略投资继续向场景清晰或能力互补的项目集中，食铁兽科技拿到数千万元A轮，小鹏机器人业务完成超9亿美元首轮融资，蔚来拟战略投资任少卿的新公司，资金更愿意押注能对接具体应用和基础模型补位的方向。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，作为原生全模态世界模型代表企业，智象未来（HiDream.；小鹏官宣机器人业务首轮融资超 9 亿美元后，小鹏集团董事长、CEO 何小鹏发文称：感谢所有投资人、鹏友和同学们的信任和支持不远的将来，小鹏会努力将第一个高阶人形机器人带入到真正的现实，TA 会和市面上所有看到的机器人都不一样。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/08/478421.html",
+          "https://www.ithome.com/0/993/681.htm",
+          "https://www.ithome.com/0/993/488.htm"
+        ]
       },
       {
-        "label": "量产和价格开始参与验证",
-        "text": "博世宣布2027年量产人形机器人，灵巧手价格从50万降到1万元并被描述为接近量产前夜，结合小鹏IRON计划年底进入量产阶段，量产节奏和零部件成本正在成为评估机器人能力的一部分。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，8月22日消息称，食铁兽科技（重庆）有限责任公司（下称“食铁兽科技”）宣布完成数千万元A轮融资，由云时资本独家投资，星?；8 月 24 日，蔚来 CEO 李斌在智驾全员会上宣布， 智能驾驶负责人任少卿已创立物理 AI 基础模型和具身智能独立公司 ，蔚来将战略投资并与之开展合作。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-08/ART-8321206-8500-30699592.html",
+          "https://www.ithome.com/0/993/696.htm",
+          "https://www.ithome.com/0/993/649.htm"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术叙事继续向世界模型、真实场景合作和车企自研延伸，智元、上汽、零跑都把能力验证放进可落地任务与产品规划中。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "08-24",
@@ -311,7 +323,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产消息集中在博世2027年计划、灵巧手价格下探和世界模型路线发布，产业开始把规模化节奏与成本约束并列讨论。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "08-24",
@@ -338,7 +350,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单主题仍围绕真实订单门槛，行业从展示Demo转向产线、工厂和服务场景的可验收任务闭环。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "08-24",
@@ -351,7 +363,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续偏向清晰场景与能力补齐，小鹏、蔚来和商用割草机器人融资都指向可落地产品与技术协同。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "08-24",
@@ -394,13 +406,27 @@
             "url": "https://roboticsandautomationnews.com/2026/08/24/investor-opinion-why-the-future-of-consumer-robotics-looks-more-like-beauty-and-the-beast/104415/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "08-24",
+            "title": "小鹏汽车人形机器人部门Dogotix融资9亿美元 (XPeng Motors humanoid robot unit Dogotix raises $900M)",
+            "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态集中在运动会、工厂和保障服务，既有赛事成绩，也有特斯拉Optimus进入柏林工厂的真实产线验证。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "08-25",
+            "title": "特斯拉 Semi 内华达新工厂下月举行投产仪式，年产能达 5 万辆",
+            "url": "https://www.ithome.com/0/993/797.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-24",
             "title": "人形机器人运动会跳远冠军出炉，天骄队跳出 7.97 米夺冠",
@@ -456,12 +482,19 @@
             "url": "https://www.ithome.com/0/993/740.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-24",
+            "title": "AI下一个大机会不是应用或人形机器人，而是兼具大脑和力量的机器 (The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn)",
+            "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧更强调仿真、空间智能和多机型适配，五一视界从自动驾驶仿真延伸到机器人等更广场景。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "08-24",
@@ -482,6 +515,15 @@
     ]
   },
   "items": [
+    {
+      "date": "08-25",
+      "company": "特斯拉",
+      "title": "特斯拉 Semi 内华达新工厂下月举行投产仪式，年产能达 5 万辆",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 8 月 25 日消息，据特斯拉 Semi 官方 X 账号消息，内华达州新 Semi 工厂将于下月举行落成投产仪式。 据邀请函，特斯拉将正式举办一场仅限受邀者参加的“Tesla Semi Rollout”活动，庆祝其位于内华达州斯帕克斯（Sparks）的专用 Semi 工厂正式启用。活动参与者将参观这座占地 170 万平方英尺（约 15.8 万平方米…",
+      "url": "https://www.ithome.com/0/993/797.htm"
+    },
     {
       "date": "08-24",
       "company": "其他",
@@ -717,6 +759,24 @@
       "url": "https://www.ithome.com/0/993/740.htm"
     },
     {
+      "date": "08-24",
+      "company": "其他",
+      "title": "AI下一个大机会不是应用或人形机器人，而是兼具大脑和力量的机器 (The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder. The post appeared first on The Robot Report…",
+      "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/"
+    },
+    {
+      "date": "08-24",
+      "company": "行业",
+      "title": "小鹏汽车人形机器人部门Dogotix融资9亿美元 (XPeng Motors humanoid robot unit Dogotix raises $900M)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
+    },
+    {
       "date": "08-23",
       "company": "其他",
       "title": "世界模型站上风口，机器人距离“真正干活”还有多远？",
@@ -904,33 +964,6 @@
       "category": "产品量产",
       "summary": "IT之家 8 月 22 日消息，宇树科技今日发文，预祝第二届世界人形机器人运动会圆满成功。 IT之家从宇树科技官博了解到， 本次运动会有多款宇树人形机器人亮相 。与往届情况相仿，其中部分机器人为宇树自有团队参赛，其余则由宇树的客户或合作伙伴，基于宇树机器人平台进行二次开发后参赛。 宇树表示， 由于时间精力和新款机器人测试工作限制 ， 公司只能缩减几项已经报名…",
       "url": "https://www.ithome.com/0/993/083.htm"
-    },
-    {
-      "date": "08-22",
-      "company": "宇树科技",
-      "title": "宇树机器人“入职”理想汽车，担任讲解员等职位",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 22 日消息，理想汽车近日在微博发文称，宇树科技人形机器人“入职”理想汽车， 担任的职位有讲解员、向导等 。 IT之家从理想汽车官博了解到，本次“入职”理想汽车的宇树机器人名为“笨笨”，它将于 8 月 23 日在北京汽车博物馆三层迎宾、讲解理想 L9 Livis 汽车。每场电影散场时，笨笨还会带来观影彩蛋，献舞一曲。 同时，宇树机器人还将于…",
-      "url": "https://www.ithome.com/0/993/022.htm"
-    },
-    {
-      "date": "08-22",
-      "company": "其他",
-      "title": "工业具身智能的 \"最后一公里\"，为什么是埃夫特&启智在走？",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "一、90% 的工厂，机器人还进不去 具身智能这两年很热，但热的地方大多不在工厂。 人形机器人在展会上跳舞、倒酒、叠衣服，视频传播量惊人；可一旦走进真实的工业车间，话题就迅速冷下来。原因 很简单， 工业现场不是实验室，它要求机器人在油污、粉尘、温差和来料不一致的环境里，连续、稳定、可核算地干活。而这恰恰是当前具身智能最薄弱的环节。 传统工业机器人其实已经很强了…",
-      "url": "https://www.leiphone.com/category/robot/UL2Q8ihgr90Dy85f.html"
-    },
-    {
-      "date": "08-22",
-      "company": "其他",
-      "title": "WRC 2026 风向标：具身智能下半场，比「大脑」更比「账本」",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "展台不再比谁花活多，开始比谁能稳定干满8小时。 作者丨邓哲敏 齐铖湧 编辑丨 齐铖湧 上海 WAIC 结束不到一个月，北京 WRC 2026 接棒开启。 短短几十天，谁也不可能把模型推倒重来。想看到什么颠覆性突破，是不现实的。 所以这篇现场观察不单看 WRC 上的展台花活，AI科技 （雷峰网公众号）会结合几个月来各家综合表现，看“具身大脑”究竟走到哪一步…",
-      "url": "https://www.leiphone.com/category/ai/rUNBvF7Iq6C3UtyR.html"
     }
   ]
 }
