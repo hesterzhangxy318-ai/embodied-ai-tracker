@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T09:20:55.492775+08:00",
+  "updated": "2026-08-26T14:52:23.153262+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
+      "candidates": 4,
       "core": 3,
       "periphery": 0,
       "new": 2
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 13,
-      "core": 4,
+      "entries": 16,
+      "candidates": 12,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 11,
-      "candidates": 0,
+      "entries": 17,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,22 +89,23 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 13,
-      "core": 0,
+      "candidates": 17,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 80,
+      "candidates": 80,
+      "core": 47,
       "periphery": 0,
-      "new": 0
+      "new": 25
     },
     {
       "name": "甲子光年",
@@ -127,8 +128,8 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 21,
-      "core": 11,
+      "candidates": 22,
+      "core": 7,
       "periphery": 0,
       "new": 4
     },
@@ -182,7 +183,7 @@
       "candidates": 14,
       "core": 10,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -240,17 +241,17 @@
   "weekly_report": {
     "start": "08-24",
     "end": "08-30",
-    "generated_at": "2026-08-26T09:21:35.593180+08:00",
+    "generated_at": "2026-08-26T14:53:03.329941+08:00",
     "mode": "local",
-    "item_count": 43,
+    "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，8月24日，越疆科技发布2026年上半年中期业绩；当狂热的资本逐渐冷静，具身智能行业必须面对一场从“展示Demo”到“真实产线”的生死大考。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，8月24日，越疆科技发布2026年上半年中期业绩；当行业仍习惯以融资轮次和概念发布来定义进展时，越疆科技交出的2026年中期业绩，已将竞争标尺拉回到产线验收单上。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://www.leiphone.com/category/industrynews/dKNT8oYzmw5hsVgL.html",
-          "https://www.leiphone.com/category/private/YOACtSjPnZwavbFo.html",
-          "https://www.ithome.com/0/993/681.htm"
+          "https://www.robot-china.com/news/202608/25/96466.html",
+          "https://www.robot-china.com/news/202608/26/96479.html"
         ]
       },
       {
@@ -259,16 +260,16 @@
         "evidence_urls": [
           "https://www.leiphone.com/category/private/5YB9zkA19rHTGz0o.html",
           "https://www.qbitai.com/2026/08/478421.html",
-          "https://www.ithome.com/0/993/681.htm"
+          "https://www.leiphone.com/category/industrynews/fg1r01an843kYNdp.html"
         ]
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，8月22日消息称，食铁兽科技（重庆）有限责任公司（下称“食铁兽科技”）宣布完成数千万元A轮融资，由云时资本独家投资，星?；8 月 24 日，蔚来 CEO 李斌在智驾全员会上宣布， 智能驾驶负责人任少卿已创立物理 AI 基础模型和具身智能独立公司 ，蔚来将战略投资并与之开展合作。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，本轮为小鹏机器人业务首轮融资，融资金额超 9 亿美元，投后估值超 63 亿美元，刷新中国具身智能行业单轮私募股权融资纪录；8月22日消息称，食铁兽科技（重庆）有限责任公司（下称“食铁兽科技”）宣布完成数千万元A轮融资，由云时资本独家投资，星?。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
+          "https://www.robot-china.com/news/202608/25/96463.html",
           "https://robot.ofweek.com/2026-08/ART-8321206-8500-30699592.html",
-          "https://www.ithome.com/0/993/696.htm",
-          "https://www.ithome.com/0/993/649.htm"
+          "https://www.ithome.com/0/993/696.htm"
         ]
       }
     ],
@@ -277,6 +278,34 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "08-26",
+            "title": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
+            "url": "https://www.qbitai.com/2026/08/478860.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "08-26",
+            "title": "具身智能走进千行百业，浙江人形 WRC2026 诠释 \"具身在场\"",
+            "url": "https://www.leiphone.com/category/industrynews/fg1r01an843kYNdp.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "08-26",
+            "title": "WRC2026丨聚焦真实工业场景，慧闻机器人解读具身智能 L3 时代",
+            "url": "https://www.robot-china.com/news/202608/26/96478.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "08-26",
+            "title": "WRC:卓世科技入选“2026 全球具身智能标杆企业 TOP100”",
+            "url": "https://www.robot-china.com/news/202608/26/96477.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
           {
             "date": "08-25",
             "title": "世界模型离通用还有多远？",
@@ -297,6 +326,20 @@
             "url": "https://www.gongkong.com/news/202608/452849.html",
             "company": "其他",
             "source_name": "中国工控网机器人"
+          },
+          {
+            "date": "08-25",
+            "title": "不止人形机器人整机！中联重科中科云谷展现具身智能工业级生产力",
+            "url": "https://www.robot-china.com/news/202608/25/96461.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "08-25",
+            "title": "橡鹿杨建成：从厨房出发，具身智能如何走向真实世界丨WRC演讲实录",
+            "url": "https://www.robot-china.com/news/202608/25/96472.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           },
           {
             "date": "08-24",
@@ -347,6 +390,13 @@
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
+            "date": "08-26",
+            "title": "NVIDIA 发布 Jetson Orin Nano 2 机器人计算机，重新定义入门级边缘 AI",
+            "url": "https://www.robot-china.com/news/202608/26/96479.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
             "date": "08-25",
             "title": "WRC2026：新品集中亮相，具身智能迎来重估时刻",
             "url": "https://robot.ofweek.com/2026-08/ART-8321201-12003-30699981.html",
@@ -366,6 +416,13 @@
             "url": "https://robot.ofweek.com/2026-08/ART-8321205-8120-30700023.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-25",
+            "title": "影身智能携4D世界模型亮相2026世界机器人大会，柔性智造落地成果引关注",
+            "url": "https://www.robot-china.com/news/202608/25/96473.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           },
           {
             "date": "08-24",
@@ -400,6 +457,13 @@
             "url": "https://www.leiphone.com/category/industrynews/dKNT8oYzmw5hsVgL.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "08-25",
+            "title": "越疆科技半年报：具身智能收入增长超20倍，工业客户近百家落地",
+            "url": "https://www.robot-china.com/news/202608/25/96466.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           },
           {
             "date": "08-24",
@@ -443,6 +507,13 @@
             "source_name": "TechCrunch Robotics"
           },
           {
+            "date": "08-25",
+            "title": "中国具身智能行业最大单轮融资诞生",
+            "url": "https://www.robot-china.com/news/202608/25/96463.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
+          },
+          {
             "date": "08-24",
             "title": "李泽湘孵化投资！重庆商用割草机器人融资数千万",
             "url": "https://robot.ofweek.com/2026-08/ART-8321206-8500-30699592.html",
@@ -483,13 +554,6 @@
             "url": "https://roboticsandautomationnews.com/2026/08/24/investor-opinion-why-the-future-of-consumer-robotics-looks-more-like-beauty-and-the-beast/104415/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-24",
-            "title": "小鹏汽车人形机器人部门Dogotix融资9亿美元 (XPeng Motors humanoid robot unit Dogotix raises $900M)",
-            "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/",
-            "company": "行业",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -573,20 +637,6 @@
             "url": "https://www.ithome.com/0/993/681.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "08-24",
-            "title": "成功举起 16 公斤，第二届世界人形机器人运动会首个举重冠军诞生",
-            "url": "https://www.ithome.com/0/993/740.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "08-24",
-            "title": "AI下一个大机会不是应用或人形机器人，而是兼具大脑和力量的机器 (The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn)",
-            "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -613,6 +663,51 @@
     ]
   },
   "items": [
+    {
+      "date": "08-26",
+      "company": "其他",
+      "title": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "这一次，球台直接搬到了 世界机器人大会 （WRC） 现场。 超维动力 的展台前，一台全尺寸人形机器人盯着飞来的乒乓球挥拍、转腰，再根据落点迅速调整动作。 全尺寸人形机器人KAI Bot、高自由度灵巧手KAI Hand、数采头环KAI Halo、KAI World Model，以及覆盖数据和训练流程的KAI Embodied AI Infra。 从硬件、模型到…",
+      "url": "https://www.qbitai.com/2026/08/478860.html"
+    },
+    {
+      "date": "08-26",
+      "company": "其他",
+      "title": "具身智能走进千行百业，浙江人形 WRC2026 诠释 \"具身在场\"",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "2026 WRC 现场，三台机器人默契配合，正完成工业制造拆垛、分拣、搬运的全流程工作；几步之外，观众在零售舱前下单，等机器人递来饮料；厨房里，一顿饭从食材处理一路做到最后的清洁；在生产线之外的赛博舞台区域，NAVIAI i3 单膝跪地献花，WA2 弯腰接过。 这些画面，来自浙江人形机器人创新中心有限公司的展台，在这几块相邻的区域中，浙江人形把机器人的工作半…",
+      "url": "https://www.leiphone.com/category/industrynews/fg1r01an843kYNdp.html"
+    },
+    {
+      "date": "08-26",
+      "company": "其他",
+      "title": "NVIDIA 发布 Jetson Orin Nano 2 机器人计算机，重新定义入门级边缘 AI",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "今日，NVIDIA 发布了 NVIDIA Jetson Orin Nano™ 2，一款全新的机器人计算机，旨在重新定义入门级边缘 AI，让前沿级生成式 AI 性能惠及数百万开发者。随着 AI 模型变得更小及更高效，越来越多的边缘设备正演进为能够理解上下文、解析语言和图像，并实时采取响应的自主系统。为了将这些能力应用于机器人、配送和巡检无人机以及视觉 AI 系…",
+      "url": "https://www.robot-china.com/news/202608/26/96479.html"
+    },
+    {
+      "date": "08-26",
+      "company": "其他",
+      "title": "WRC2026丨聚焦真实工业场景，慧闻机器人解读具身智能 L3 时代",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "日前，以“人机共生，产需共融”为主题的2026世界机器人大会于北京北人亦创国际会展中心盛大举办，受到全球产业界广泛关注。8月21日，大会重要系列活动——由亿欧主办的“具身智能商业落地论坛”如期召开。论坛以商业落地为核心标尺，直面当前具身智能赛道 “技术成熟度领先、商业化落地滞后” 的现实行业矛盾，深度探讨产业实战路径。慧闻机器人首席科学家周康带来《当机器人开…",
+      "url": "https://www.robot-china.com/news/202608/26/96478.html"
+    },
+    {
+      "date": "08-26",
+      "company": "其他",
+      "title": "WRC:卓世科技入选“2026 全球具身智能标杆企业 TOP100”",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "8月19‑23日，2026 世界机器人大会（WRC2026）于北京北人亦创国际会展中心盛大启幕，本届大会以 “人机共生，产需共融” 为主题，聚焦具身智能从技术研发走向产业落地的核心命题。作为国家级、全球化机器人产业综合运营平台，世界机器人大会既是产业周期的长期观察者、产业资源的顶层操盘者，也是前沿技术商业化的深度赋能者、新质生产力培育者、全球产业协同的连接者…",
+      "url": "https://www.robot-china.com/news/202608/26/96477.html"
+    },
     {
       "date": "08-25",
       "company": "特斯拉",
@@ -747,6 +842,51 @@
       "category": "资本动态",
       "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
       "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
+    },
+    {
+      "date": "08-25",
+      "company": "其他",
+      "title": "不止人形机器人整机！中联重科中科云谷展现具身智能工业级生产力",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "前言：当下具身智能产业迈入新发展阶段。在人形机器人运动性能不断突破之外，如何适配工厂真实工况，已经成为评判具身智能价值的重要标尺。近日，2026世界机器人大会在北人亦创国际会展中心举办。今年WRC可以观察到，产业评价维度更加多元，除机器人运动表演能力之外，真实工况作业、异构集群调度、软硬件一体化工程化能力，成为产业关注的重要方向。记者在走访中发现，一套“多形…",
+      "url": "https://www.robot-china.com/news/202608/25/96461.html"
+    },
+    {
+      "date": "08-25",
+      "company": "其他",
+      "title": "影身智能携4D世界模型亮相2026世界机器人大会，柔性智造落地成果引关注",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "8月19日至23日，2026世界机器人大会（WRC 2026）在北京经济技术开发区北人亦创国际会展中心举行。本届大会以“人机共生，产需共融”为主题，吸引300余家中外企业参展，3000余件展品展出。一个显著的变化正在发生：具身智能正告别实验室仿真，大步迈向“实景作业”。当行业从“炫技”转向“真干活”，一家深耕4D世界模型的科技公司——影身智能，携其原生4D世…",
+      "url": "https://www.robot-china.com/news/202608/25/96473.html"
+    },
+    {
+      "date": "08-25",
+      "company": "其他",
+      "title": "橡鹿杨建成：从厨房出发，具身智能如何走向真实世界丨WRC演讲实录",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "当具身智能成为科技行业最受关注的方向之一，一个更难的问题开始浮现：机器人如何离开演示环境，进入充满噪声、变化与不确定性的真实世界？橡鹿机器人创始人、董事长杨建成选择从厨房回答这个问题。厨房或许是具身智能最严苛、也最接近日常生活的考场：输入并不标准，过程快速变化，结果还带有强烈的主观性。橡鹿机器人本次发布的多模态烹饪AI基座CookingMuse厨启、3K视觉…",
+      "url": "https://www.robot-china.com/news/202608/25/96472.html"
+    },
+    {
+      "date": "08-25",
+      "company": "其他",
+      "title": "越疆科技半年报：具身智能收入增长超20倍，工业客户近百家落地",
+      "source_name": "中国机器人网",
+      "category": "商业订单",
+      "summary": "当行业仍习惯以融资轮次和概念发布来定义进展时，越疆科技交出的2026年中期业绩，已将竞争标尺拉回到产线验收单上。8月24日，越疆科技发布2026年上半年中期业绩：报告期内实现营业收入约3.2亿元，同比增长106.6%；毛利约1.5亿元，同比增长约100%，毛利率稳定维持在47.4%。比翻倍增长更值得关注的是收入结构的质变——具身智能业务收入突破4500万元…",
+      "url": "https://www.robot-china.com/news/202608/25/96466.html"
+    },
+    {
+      "date": "08-25",
+      "company": "行业",
+      "title": "中国具身智能行业最大单轮融资诞生",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "全球领先的物理 AI 公司小鹏集团宣布，旗下人形机器人业务已与多家投资者签署股权融资协议。本轮为小鹏机器人业务首轮融资，融资金额超 9 亿美元，投后估值超 63 亿美元，刷新中国具身智能行业单轮私募股权融资纪录。本轮融资由全球顶尖的投资机构主动发起：由 IDG 资本领投，高榕创投参投，同时获得腾讯和阿里巴巴两家战略投资者的支持。本轮融资汇聚深入布局全球具身智…",
+      "url": "https://www.robot-china.com/news/202608/25/96463.html"
     },
     {
       "date": "08-24",
@@ -972,96 +1112,6 @@
       "category": "资本动态",
       "summary": "By Amber Atherton, early stage investor, partner at Patron For decades, science fiction has imagined the future of robotics as a single humanoid capable of doing everything around…",
       "url": "https://roboticsandautomationnews.com/2026/08/24/investor-opinion-why-the-future-of-consumer-robotics-looks-more-like-beauty-and-the-beast/104415/"
-    },
-    {
-      "date": "08-24",
-      "company": "其他",
-      "title": "成功举起 16 公斤，第二届世界人形机器人运动会首个举重冠军诞生",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 24 日消息，据央视新闻报道，今晚（8 月 24 日），第二届世界人形机器人运动会举重项目完赛。 IT之家获悉，北京人形-华科联队的机器人在 15 公斤基础重量上连续加码， 最终成功举起 16 公斤 ，夺得本赛事首个人形机器人举重冠军。 据介绍，本届赛事共吸引了六大洲 16 个国家的 666 支队伍、2056 台机器人同台竞技，队伍总量同比…",
-      "url": "https://www.ithome.com/0/993/740.htm"
-    },
-    {
-      "date": "08-24",
-      "company": "其他",
-      "title": "AI下一个大机会不是应用或人形机器人，而是兼具大脑和力量的机器 (The next big AI play isn’t apps or humanoids; it’s machines with brains and brawn)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "For agricultural and construction equipment makers to stay relevant as workforces dwindle, they need to add AI, says Agtonomy's founder. The post appeared first on The Robot Report…",
-      "url": "https://www.therobotreport.com/the-next-big-ai-play-isnt-apps-or-humanoids-its-machines-with-brains-and-brawn/"
-    },
-    {
-      "date": "08-24",
-      "company": "行业",
-      "title": "小鹏汽车人形机器人部门Dogotix融资9亿美元 (XPeng Motors humanoid robot unit Dogotix raises $900M)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Dogotix, the humanoid unit of XPeng Motors, has attained a valuation of $6.3 billion as it plans to produce robots at scale. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/xpeng-motors-humanoid-robot-unit-dogotix-raises-900m/"
-    },
-    {
-      "date": "08-23",
-      "company": "其他",
-      "title": "世界模型站上风口，机器人距离“真正干活”还有多远？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "模型需要真实场景产生数据，但真实场景又需要足够成熟的模型和能够算得过来的成本，才愿意大规模部署机器人",
-      "url": "https://www.tmtpost.com/8113119.html"
-    },
-    {
-      "date": "08-23",
-      "company": "其他",
-      "title": "具身创业里的香港教授们",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "当“具身智能”这个词从实验室一路火到资本市场， 香港的大学 里冒出了一批很特别的人。 他们不只是在顶会发论文的教授，还是估值上亿公司的创始人或首席科学家。 一只脚踩在象牙塔，一只脚踩在产业链上游，两边都不耽误。 量子位收集整理了一下，至少有 十六位 香港高校教授，正以 创始人、联合创始人、首席科学家 等身份，亲自下场参与具身智能创业。 有意思的是，这群教授创…",
-      "url": "https://www.qbitai.com/2026/08/478289.html"
-    },
-    {
-      "date": "08-23",
-      "company": "其他",
-      "title": "从世界模型到现实生产力，无界动力深度参与WRC主论坛及多场同期活动",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "8月19日至23日，2026世界机器人大会（WRC）在北京举行。无界动力不仅集中呈现了以隐空间世界模型为核心的具身通用大脑MWA™及一系列软硬协同自研成果，也深度参与大会主论坛和多场同期活动，系统阐释了世界模型突破模仿学习的局限，在真实场景中持续进化，以及未来逐步走向规模化落地与全球价值创造，展现了公司在具身智能世界模型领域的深厚技术积累、产业认知与前瞻判断…",
-      "url": "https://www.qbitai.com/2026/08/478007.html"
-    },
-    {
-      "date": "08-23",
-      "company": "其他",
-      "title": "第二届世界人形机器人运动会 400 米小型组田径决赛：天工 Omni 以 45.66 秒夺冠",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 23 日消息，第二届世界人形 机器人 运动会今日进行，在 400 米田径小型组决赛中，天工机器人再次夺冠，现场显示成绩为 45.66 秒。 据悉，在 400 米田径小型组赛上，天工队所派出的机器人型号为天工 Omni。 天工 Omni 身高 1.35m ，整机 39kg，具有一定负载能力，其面向狭窄空间、应急救援及家庭服务等未来场景。值得一…",
-      "url": "https://www.ithome.com/0/993/286.htm"
-    },
-    {
-      "date": "08-23",
-      "company": "其他",
-      "title": "诺亦腾机器人发布 HiPHI，开源 617.5 小时高精度人体运动数据",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 8 月 23 日消息，诺亦腾机器人在 2026 世界机器人大会期间发布 HiPHI，这是一套面向人形机器人学习、数字人，以及计算机图形学领域研究人员和工程师的高精度光学动作捕捉数据集。 据报道， 该数据集总长 617.5 小时 ，内含 371.8 小时的全身人体运动数据，以及 245.7 小时的人 — 物交互数据，含左右镜像。数据源来自 132 名…",
-      "url": "https://www.ithome.com/0/993/258.htm"
-    },
-    {
-      "date": "08-23",
-      "company": "其他",
-      "title": "全球首款电容式全身电子皮肤发布，为仿生机器人提供类人全身触觉感知与智能交互能力",
-      "source_name": "IT之家",
-      "category": "泛具身产业链",
-      "summary": "IT之家 8 月 23 日消息，在 2026 世界机器人大会期间，汉威科技与卓益得联合发布全球首款电容式全身电子皮肤，为仿生机器人提供类人全身触觉感知与智能交互能力。 官方表示，目前机器人触觉感知方案主要集中在灵巧手的指尖、指腹、手掌等部位， 尚缺乏覆盖全身肢体的触觉感知方案 。 IT之家获悉，这款全身电子皮肤以电容式柔性敏感织物为基底，通过双层织物结构将大…",
-      "url": "https://www.ithome.com/0/993/250.htm"
-    },
-    {
-      "date": "08-23",
-      "company": "其他",
-      "title": "38.15s 跑完 400 米再次刷新人类纪录：北京人形天工 Ultra 夺得本届人形机器人运动会首金",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 23 日消息，在第二届世界人形机器人运动会“冰丝带”比赛现场，400 米大型组决赛开赛。经过角逐，天工队以 38.15 秒 的成绩夺得本届世界人形机器人运动会 首金 。 据IT之家此前报道，北京人形天工 Ultra 昨晚打破人类 400 米记录（43.03 秒）， 以 39.70s 的成绩夺得预赛第一 。 在昨日举行的田径 100 米大型组…",
-      "url": "https://www.ithome.com/0/993/228.htm"
     }
   ]
 }
