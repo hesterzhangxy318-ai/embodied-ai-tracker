@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T05:48:06.087712+08:00",
+  "updated": "2026-08-29T13:59:33.045044+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 5,
-      "core": 4,
+      "entries": 19,
+      "candidates": 3,
+      "core": 3,
       "periphery": 0,
       "new": 3
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 6,
       "core": 3,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
+      "entries": 57,
       "candidates": 19,
-      "core": 3,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -182,7 +182,7 @@
       "candidates": 15,
       "core": 10,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -240,31 +240,50 @@
   "weekly_report": {
     "start": "08-24",
     "end": "08-30",
-    "generated_at": "2026-08-29T05:48:20.044634+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-08-29T14:00:13.140234+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周商业化线索集中在工厂、施工、租赁体验等具体场景，越疆上半年营收翻倍且具身收入激增20倍，Bedrock无人挖掘机进入工地，Burns & McDonnell与Gritt在太阳能施工现场部署AI机器人，具身智能的进度更适合用稳定完成任务和收入兑现来衡量。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，7月23日，Figure AI创始人Brett Adcock正式宣布；今日，NVIDIA 发布了 NVIDIA Jetson Orin Nano™ 2，一款全新的机器人计算机，旨在重新定义入门级边缘 AI，让前沿级生成式 AI 性能惠及数百万开发者。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-08/ART-898890-8110-30700467.html",
+          "https://www.robot-china.com/news/202608/26/96479.html",
+          "https://www.leiphone.com/category/private/6d5Iftm5LTJx7wle.html"
+        ]
       },
       {
-        "label": "模型升级开始绑定时间和闭环",
-        "text": "小鹏第二代VLA强调记住过去30秒、预判未来6秒并支持语音控制靠边停车，Skild AI S1把机器人上下文学习任务长度拉到10分钟以上，模型叙事正从单点演示转向连续感知、预测和执行闭环，但仍主要集中在少数厂商发布与体验日验证。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，5 以来～ 刚刚，北美具身初创 Skild AI 又发布了全新机器人基础模型 S1 ，直接把机器人上下文学习的任务长度拉到了 10分钟往上；在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏第二代 VLA 全新版本模型能力全面增强。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/08/479834.html",
+          "https://www.ithome.com/0/995/040.htm",
+          "https://www.ithome.com/0/995/033.htm"
+        ]
       },
       {
-        "label": "资本偏向场景明确的能力补齐",
-        "text": "小鹏机器人完成超9亿美元首轮融资并获得腾讯、阿里等参与，简智机器人A轮由Momenta领投且累计融资超2亿美元，灵掌机器人获数千万元天使轮融资，资金继续流入车企机器人、工业具身和机器人能力模块，估值热度与真实交付能力的匹配将成为后续观察重点。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，工业具身机器人技术企业灵掌机器人近日完成数千万元天使轮融资， 投资方包括凯龙高科、遨博智能、锡创投、芯能创投；8月26日，具身涌现获悉，简智机器人正式完成A轮融资，本轮由物理AI企业Momenta领投，多家老股东持续加码追投。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/995/790.htm",
+          "https://robot.ofweek.com/2026-08/ART-8321201-8140-30700216.html",
+          "https://robot.ofweek.com/2026-08/ART-8321206-12003-30700086.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术进展集中在时间理解、世界模型和操控能力，小鹏VLA上车、Skild S1延长任务上下文，Locus通过收购补强软抓取，能力验证更贴近连续任务。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "08-29",
+            "title": "宇树市值大跌后，能否继续扛起具身智能大旗",
+            "url": "https://www.tmtpost.com/8121600.html",
+            "company": "宇树科技",
+            "source_name": "钛媒体"
+          },
           {
             "date": "08-28",
             "title": "Locus 如何攻克机器人领域最大挑战之一：操控 (How Locus is getting a grasp on one of robotics biggest challenges: manipulation)",
@@ -362,19 +381,12 @@
             "url": "https://www.leiphone.com/category/private/hJ6IDm4NImDU3590.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "08-25",
-            "title": "世界模型离通用还有多远？",
-            "url": "https://www.tmtpost.com/8114742.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产侧同时出现Figure下线1000台、Jetson Orin Nano 2发布、Microduck定价399美元等信号，产量、成本和开发者可及性开始成为产品能力的一部分。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "08-28",
@@ -417,19 +429,12 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8120-30700206.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-25",
-            "title": "WRC2026：新品集中亮相，具身智能迎来重估时刻",
-            "url": "https://robot.ofweek.com/2026-08/ART-8321201-12003-30699981.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化新闻覆盖租赁体验店、太阳能施工、无人挖掘机和越疆业绩增长，订单讨论也伴随真实性争议，市场更关注可部署、可验收、可复购的场景。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "08-28",
@@ -479,19 +484,12 @@
             "url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "08-25",
-            "title": "越疆2026中报：营收翻倍、具身收入激增20倍，Physical AI进入商业化兑现期",
-            "url": "https://www.leiphone.com/category/industrynews/dKNT8oYzmw5hsVgL.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本事件密集，小鹏机器人融资超9亿美元刷新纪录，简智机器人、灵掌机器人继续获得产业资本支持，资金明显偏向车企生态、工业场景和能力补齐。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "08-28",
@@ -541,20 +539,27 @@
             "url": "https://roboticsandautomationnews.com/2026/08/26/xpengs-new-robotics-business-raises-900-million-at-6-3-billion-valuation/104463/",
             "company": "行业",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-25",
-            "title": "宇树科技：“遥控玩具”上市圈钱？",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30699975.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业活动与舆论并行，智元在机器人运动会夺得奖牌榜第一，RoboCup出现11对11人形足球赛，华硕成立物理AI事业群，赛场表现与真实场景差距仍被讨论。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "08-29",
+            "title": "人形机器人，进入淘汰赛",
+            "url": "https://www.tmtpost.com/8121235.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "08-29",
+            "title": "46枚、45枚、10枚、5枚，人形机器人运动会的奖牌数到底在测什么",
+            "url": "https://www.tmtpost.com/8120414.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "08-28",
             "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
@@ -589,6 +594,13 @@
             "url": "https://www.ithome.com/0/995/763.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "08-28",
+            "title": "中国车企正追随特斯拉的押注：机器人将成为下一个大赚头 (Chinese automakers are following Tesla’s bet that robots are the next big profit machine)",
+            "url": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+            "company": "特斯拉",
+            "source_name": "TechCrunch Robotics"
           },
           {
             "date": "08-27",
@@ -644,6 +656,33 @@
     ]
   },
   "items": [
+    {
+      "date": "08-29",
+      "company": "宇树科技",
+      "title": "宇树市值大跌后，能否继续扛起具身智能大旗",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "8月19日，主营人形机器人的杭州公司宇树科技登陆科创板。 发行价150.80元，开盘1100元，涨629%，市值一度触及4449亿元。中一签500股，浮盈47.46万元。 敲钟那天，伴随造富神话一同在社交平台刷屏的，还有一张创始人王兴兴的抓拍照。在一片喜气洋洋的红色背景和欢呼声中，王兴兴却面色冷峻，眉头微锁，似乎毫无喜悦之情。 网友们戏称这是一个“一点都不开…",
+      "url": "https://www.tmtpost.com/8121600.html"
+    },
+    {
+      "date": "08-29",
+      "company": "其他",
+      "title": "人形机器人，进入淘汰赛",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "AI浪潮席卷之后，具身智能迅速成为全球科技产业竞逐的主战场，而人形机器人，正是这场竞逐中最受瞩目、最具想象空间的焦点。 聚光灯下的两场机器人盛会即是明证。先有8月19日至23日举办的2026世界机器人大会（WRC），以“人机共生，产需共融”为主题，有373家企业的超过3000个产品参展；后是8月22日至26日举行的第二届世界人形机器人运动会（WHRG），设有…",
+      "url": "https://www.tmtpost.com/8121235.html"
+    },
+    {
+      "date": "08-29",
+      "company": "其他",
+      "title": "46枚、45枚、10枚、5枚，人形机器人运动会的奖牌数到底在测什么",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "2026 世界人形机器人运动会企业合并奖牌榜，智元、天工、宇树、银河通用分列前列，但奖牌数受报项、第三方队伍、参赛模式影响，不能直接等同综合实力。各家技术侧重不同，赛事提供横向参照，评判企业还需结合量产、场景落地与长期运行表现",
+      "url": "https://www.tmtpost.com/8120414.html"
+    },
     {
       "date": "08-28",
       "company": "其他",
@@ -751,6 +790,15 @@
       "category": "技术突破",
       "summary": "Locus Robotics recently acquired Nexera Robotics, which create unique soft picking technology, bolstering its manipulation capabilities. The post appeared first on The Robot Report…",
       "url": "https://www.therobotreport.com/locus-getting-grasp-one-robotics-biggest-challenges-manipulation/"
+    },
+    {
+      "date": "08-28",
+      "company": "特斯拉",
+      "title": "中国车企正追随特斯拉的押注：机器人将成为下一个大赚头 (Chinese automakers are following Tesla’s bet that robots are the next big profit machine)",
+      "source_name": "TechCrunch Robotics",
+      "category": "行业动态",
+      "summary": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.",
+      "url": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/"
     },
     {
       "date": "08-27",
@@ -1057,42 +1105,6 @@
       "category": "行业动态",
       "summary": "IT之家 8 月 25 日消息，据特斯拉 Semi 官方 X 账号消息，内华达州新 Semi 工厂将于下月举行落成投产仪式。 据邀请函，特斯拉将正式举办一场仅限受邀者参加的“Tesla Semi Rollout”活动，庆祝其位于内华达州斯帕克斯（Sparks）的专用 Semi 工厂正式启用。活动参与者将参观这座占地 170 万平方英尺（约 15.8 万平方米…",
       "url": "https://www.ithome.com/0/993/797.htm"
-    },
-    {
-      "date": "08-25",
-      "company": "其他",
-      "title": "越疆2026中报：营收翻倍、具身收入激增20倍，Physical AI进入商业化兑现期",
-      "source_name": "雷峰网",
-      "category": "商业订单",
-      "summary": "当机器人行业的大量叙事还停留在融资轮次与概念发布时，越疆科技已经交出了一份由产线验收单写成的中期答卷。 8月24日，越疆科技发布2026年上半年中期业绩。报告期内，公司实现营业收入约人民币3.2亿元，同比增长106.6%，经营规模实现翻倍增长；毛利约人民币1.5亿元，同比增长约100%，毛利率稳定维持在47.4%。研发投入约人民币1.0亿元，同比增长148.…",
-      "url": "https://www.leiphone.com/category/industrynews/dKNT8oYzmw5hsVgL.html"
-    },
-    {
-      "date": "08-25",
-      "company": "其他",
-      "title": "世界模型离通用还有多远？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "通用世界模型不是单一的生成器、模拟器、机器人动作模型或策略模型，也不是这些能力的割裂片段或简单线性串联，而是三种能力耦合在一起的闭环反馈系统",
-      "url": "https://www.tmtpost.com/8114742.html"
-    },
-    {
-      "date": "08-25",
-      "company": "其他",
-      "title": "WRC2026：新品集中亮相，具身智能迎来重估时刻",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "> 作者 | 孙宁郁 编辑 | 蒋舟 机器人产业转向实用落地 8月23日，2026世界机器人大会（WRC）在北京完美收官。 本届大会以“人机共生，产需共融”为主题，海量新品集中发布，行业重心从技术演示转向 零部件",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321201-12003-30699981.html"
-    },
-    {
-      "date": "08-25",
-      "company": "宇树科技",
-      "title": "宇树科技：“遥控玩具”上市圈钱？",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "宇树科技上市后，让星空君始料未及的是，大量的“遥控玩具”的说法充斥在网络。? 作为一个几十年前就改造各种电动玩具、手拆电机的选手，星空君觉得有必要科普一个概念：遥控和预编程的区别。 ? 廉价的电动玩具",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30699975.html"
     }
   ]
 }
