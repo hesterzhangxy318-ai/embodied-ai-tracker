@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T04:32:19.470506+08:00",
+  "updated": "2026-08-30T12:03:57.931970+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 3,
-      "core": 3,
+      "entries": 18,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 14,
-      "core": 0,
+      "entries": 58,
+      "candidates": 18,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 21,
-      "core": 7,
+      "core": 8,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "08-24",
     "end": "08-30",
-    "generated_at": "2026-08-30T04:32:45.208069+08:00",
+    "generated_at": "2026-08-30T12:04:13.282518+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周落地线索集中在工厂、施工、维修和门店等边界较清晰的任务，Figure宣布已下线1000台人形机器人，而特斯拉Optimus交付为0，浙江人形机器人熊蓉也强调从生产线到生产力难在稳定和泛化，短期商业化更可能先围绕可定义流程积累运行数据。",
+        "text": "本周量产与部署线索更多集中在工厂、施工、零售和租赁体验等边界较清晰的场景，塞尔维亚机器人工厂投产、Figure AI宣布已下线1000台人形机器人，Burns & McDonnell与Gritt也在太阳能施工现场评估部署AI机器人，商业化判断正从演示效果转向产能、交付和现场运行表现。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事进入时间闭环",
-        "text": "具身模型发布开始强调连续任务和真实环境预测，Skild AI S1将机器人上下文学习任务长度拉到10分钟以上，小鹏第二代VLA升级并上车，X-Foresight可预判未来6秒交通行为，能力验证正在从单步指令转向对过去、当前和未来状态的持续建模。",
+        "label": "模型叙事开始补时间维度",
+        "text": "小鹏第二代VLA强调记住过去30秒、预判未来6秒并计划9月实装，X-Foresight预测世界模型首次上车，Skild AI的S1将机器人上下文学习任务长度拉到10分钟以上，具身模型能力表述正在从单步动作生成延伸到连续任务和真实环境闭环。",
         "evidence_urls": []
       },
       {
-        "label": "资本押注场景与能力补齐",
-        "text": "融资事件更多绑定车企生态和工业场景，小鹏机器人完成首轮超9亿美元融资并达超63亿美元投后估值，简智机器人A轮由Momenta领投且累计融资超2亿美元，灵掌机器人获数千万元天使轮，资金偏向有场景入口、数据闭环或产业资源协同的团队。",
+        "label": "融资偏向场景与能力补齐",
+        "text": "小鹏机器人完成首轮超9亿美元融资并获超63亿美元投后估值，简智机器人完成A轮且累计融资额超2亿美元，灵掌机器人获得数千万元天使轮融资，资金继续进入车企系、工业具身和机器人能力公司，但更依赖可定义场景、产业资源和技术短板补齐来支撑估值。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术新闻集中在VLA、世界模型和操控，小鹏模型上车并引入过去30秒记忆、未来6秒预测，Skild与昆仑行强化长任务和世界建模验证。",
+        "summary": "技术进展集中在VLA、世界模型和操控能力，小鹏强调时间理解与上车实装，Skild AI拉长上下文任务长度，软抓取和通用大脑协作也成为验证方向。",
         "items": [
           {
             "date": "08-29",
@@ -374,8 +374,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "Figure宣布已下线1000台，Jetson Orin Nano 2面向入门边缘AI，乐聚推工业垂域模型，399美元Microduck显示低价硬件也进入能力展示。",
+        "summary": "量产侧出现欧洲人形机器人基地投产、Figure AI下线1000台、NVIDIA发布入门级边缘AI计算机等进展，产能、价格和开发者可用性开始参与能力验证。",
         "items": [
+          {
+            "date": "08-30",
+            "title": "中塞联合建设机器人工厂投产，成为欧洲首座人形机器人量产基地",
+            "url": "https://www.ithome.com/0/996/102.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-28",
             "title": "大晓联合香港大学发布StreamPI，让 VLA 真正理解时间，迈向连续物理智能",
@@ -422,7 +429,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "订单与部署更多指向可验收场景，太阳能工地机器人、无人挖掘机、门店租赁和冰淇淋店案例并行，业内也质疑部分人形订单真实性。",
+        "summary": "商业化新闻覆盖机器人租赁体验店、冰淇淋店、太阳能施工现场和零售结账等场景，同时也出现订单真实性讨论，市场更关注谁付费以及能否长期稳定运行。",
         "items": [
           {
             "date": "08-29",
@@ -472,19 +479,12 @@
             "url": "https://roboticsandautomationnews.com/2026/08/26/burns-mcdonnell-and-gritt-partner-to-deploy-ai-powered-robots-on-solar-construction-sites/104468/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-26",
-            "title": "Bedrock Robotics 首批无人操作挖掘机部署启动 (Bedrock Robotics’ first operator-free excavator deployments take off)",
-            "url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "小鹏机器人首轮融资超9亿美元、估值超63亿美元，简智机器人A轮后累计超2亿美元，灵掌获数千万元天使轮，资金集中流向车企生态和工业具身。",
+        "summary": "资本热度仍高，小鹏机器人超9亿美元融资刷新纪录，简智机器人完成A轮，灵掌机器人获天使轮，车企、工业投资方和老股东持续押注具身方向。",
         "items": [
           {
             "date": "08-28",
@@ -539,7 +539,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "WRC与人形机器人运动会提供横向展示，智元以18金16银12铜居首，但赛事表现仍需与量产、场景落地和长期运行结合评估。",
+        "summary": "机器人大会、运动会和RoboCup提供横向展示窗口，智元等企业获得赛事成绩关注，但行业讨论已把评判标准延伸到量产、场景落地和长期运行表现。",
         "items": [
           {
             "date": "08-29",
@@ -631,19 +631,43 @@
             "url": "https://www.ithome.com/0/994/778.htm",
             "company": "智元机器人",
             "source_name": "IT之家"
-          },
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链焦点落在边缘算力，NVIDIA发布78 TOPS机器人芯片并强调算力提升和功耗下降，国内玩家加速追赶，机会更贴近真实性能瓶颈。",
+        "items": [
           {
-            "date": "08-26",
-            "title": "宇树“弟子”击败“师傅”，世界人形机器人运动会自由搏击首金产生",
-            "url": "https://www.ithome.com/0/994/758.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
+            "date": "08-30",
+            "title": "英伟达发布78 TOPS机器人芯片，算力翻倍功耗降40%，国内玩家也在加速追赶",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700635.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "08-30",
+      "company": "其他",
+      "title": "中塞联合建设机器人工厂投产，成为欧洲首座人形机器人量产基地",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 8 月 30 日消息，据央视新闻报道，当地时间 29 日，塞尔维亚首座机器人工厂在该国西部城市沙巴茨正式投产。这座由中塞联合建设的工厂， 也是欧洲首座人形机器人量产基地 。塞尔维亚总统武契奇当天在出席机器人工厂投产仪式时表示，这是塞尔维亚迈向未来的重要一步。 工厂投产当天，生产的首台人形机器人正式下线。塞尔维亚总统武契奇与人形机器人进行互动。机器人…",
+      "url": "https://www.ithome.com/0/996/102.htm"
+    },
+    {
+      "date": "08-30",
+      "company": "其他",
+      "title": "英伟达发布78 TOPS机器人芯片，算力翻倍功耗降40%，国内玩家也在加速追赶",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "summary": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700635.html"
+    },
     {
       "date": "08-29",
       "company": "宇树科技",
@@ -1075,24 +1099,6 @@
       "category": "行业动态",
       "summary": "IT之家 8 月 26 日消息，第二届世界人形机器人运动会今日晚间在北京国家速滑馆“冰丝带”落下帷幕。 在为期五天的赛程中，来自 16 个国家的 666 支参赛队伍、2056 台机器人“运动员”围绕 51 个赛项展开竞技。 本届赛事多项成绩较上届实现质的飞跃。田径项目中，400 米大型组冠军成绩由上届 1 分 28 秒 03 提升至 38 秒 15；1500…",
       "url": "https://www.ithome.com/0/994/778.htm"
-    },
-    {
-      "date": "08-26",
-      "company": "宇树科技",
-      "title": "宇树“弟子”击败“师傅”，世界人形机器人运动会自由搏击首金产生",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 8 月 26 日消息，在今日举行的第二届世界人形机器人运动会自由搏击赛项中，产生了该项目的首枚金牌。 40 公斤级决赛上演了一场“弟子战胜师傅”的戏码：华北电力大学参赛队伍遥控操作宇树科技生产的 G1 机器人，以更优秀的算法成功战胜了宇树科技公司自己的赛队，从而一举夺得冠军。 此次比赛的一大看点是：不同赛队使用相同的机器人本体，比拼的实际上是各队在…",
-      "url": "https://www.ithome.com/0/994/758.htm"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "Bedrock Robotics 首批无人操作挖掘机部署启动 (Bedrock Robotics’ first operator-free excavator deployments take off)",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "Bedrock Robotics deploys autonomous excavators to active job sites, tackling construction labor shortages with AI-powered heavy machinery. The post appeared first on The Robot Repo…",
-      "url": "https://www.therobotreport.com/bedrock-robotics-first-operator-free-excavator-deployments-take-off/"
     }
   ]
 }
