@@ -74,9 +74,6 @@ table.cmp tr.grp td{background:var(--shade)}
 table.cmp tr:nth-child(even) .rowdim{background:#faf9f5}
 table.cmp tr:not(.grp):hover td{background:var(--shade)}
 table.cmp tr:not(.grp):hover .rowdim{background:var(--shade)}
-table.cmp td.recent .cell-summary,
-table.cmp td.recent .cell-bullets li{color:var(--accent)}
-table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 
 
 /* ---------- dynamics ---------- */
@@ -114,8 +111,6 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 #srcLegend{font-size:11.5px;color:var(--ink3);line-height:1.8;padding:10px 0 2px;display:none;border-top:1px solid var(--line);margin-top:10px}
 #srcLegend b{color:var(--ink2);font-weight:600;margin-right:4px}
 #srcLegend .src-item{display:inline-block;margin-right:16px;white-space:normal}
-.matrix-legend{font-size:12px;color:var(--ink3);line-height:1.8;margin:4px 0 12px}
-.matrix-legend b{color:var(--accent);font-weight:650}
 .matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:6px 0 10px;display:none}
 .matrix-state.show{display:block}
 .matrix-state b{color:var(--ink2);font-weight:650}
@@ -163,7 +158,6 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
     <button class="txtbtn" id="dlBtn">下载 Excel</button>
   </div>
   <div id="matrixState" class="matrix-state"></div>
-  <div class="matrix-legend"><b>xxx</b>：近30天内新增公开信息</div>
   <div class="tablewrap">
     <table class="cmp" id="cmpTable">
       <colgroup id="cmpCols"></colgroup>
@@ -288,8 +282,9 @@ localStorage.removeItem('removedCompanies');
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  el.innerHTML='';
-  el.classList.remove('show');
+  const updated = window.__tableData?.updated || '';
+  el.innerHTML = updated ? `<b>大表更新</b> ${formatDateTime(updated)}` : '';
+  el.classList.toggle('show', Boolean(updated));
 }
 
 // ---- dynamics toggle ----
@@ -402,7 +397,6 @@ function _renderTable(data){
         const normalized = normalizeCell(cell);
         const cls=[visibleCompanies[idx].emphasis?'self':'', normalized.confidence==='low' && normalized.kind!=='synthesis'?'lowconf':''].filter(Boolean).join(' ');
         const bullets = normalized.bullets.slice(0,3).map(b=>`<li>${esc(b.text || b)}</li>`).join('');
-        let cellRecent = normalized.updated_recent ? ' recent' : '';
         const sources = cellSources(cell, r.sources ? r.sources[idx] : null);
         // 来源编号
         let sourceHtml = '';
@@ -417,7 +411,7 @@ function _renderTable(data){
             sourceHtml = `<div class="cell-source">${nums}</div>`;
           }
         }
-        html+=`<td class="${cls}${cellRecent}" title="${esc(normalized.note || '')}">${sourceHtml}<div class="cell-summary">${esc(normalized.summary)}</div><ul class="cell-bullets">${bullets}</ul></td>`;
+        html+=`<td class="${cls}" title="${esc(normalized.note || '')}">${sourceHtml}<div class="cell-summary">${esc(normalized.summary)}</div><ul class="cell-bullets">${bullets}</ul></td>`;
       });
       row.innerHTML=html;
       tbody.appendChild(row);
