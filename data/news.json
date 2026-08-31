@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T20:55:53.357187+08:00",
+  "updated": "2026-09-01T06:36:27.480549+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,8 +37,8 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 12,
-      "core": 4,
+      "candidates": 14,
+      "core": 7,
       "periphery": 0,
       "new": 4
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 26,
-      "core": 1,
+      "entries": 59,
+      "candidates": 21,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 21,
       "core": 9,
       "periphery": 0,
-      "new": 5
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 2,
+      "core": 3,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -234,36 +234,36 @@
       "candidates": 69,
       "core": 19,
       "periphery": 9,
-      "new": 1
+      "new": 0
     }
   ],
   "weekly_report": {
     "start": "08-31",
     "end": "09-06",
-    "generated_at": "2026-08-31T20:56:06.929506+08:00",
+    "generated_at": "2026-09-01T06:36:58.270801+08:00",
     "mode": "aicodewith",
-    "item_count": 12,
+    "item_count": 17,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周关于优必选、宇树等公司的讨论集中到产线干活而非舞台展示，工业场景赛中灵犀智涌凭Demo级本体组装机器人获奖，智元量产机器人以零改装、零特调参赛，企业能力正更多由工厂、竞赛和任务现场来检验。",
+        "label": "落地场景正收敛到可验收任务",
+        "text": "优必选和宇树的中报叙事都指向产线干活，鹿明又发布NexCore尝试打通具身落地全套系统，行业重心正在从展示型Demo转向工厂、维修、巡检这类结果更容易验收的任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事开始补真实闭环",
-        "text": "WRC 2026论坛把模型、数据、本体、仿真创业者放到同一讨论框架，相关观点强调世界模型距离服务人类仍缺常识，百万小时训练也要求更全面能力，具身智能竞争从单点演示转向数据、任务和本体协同。",
+        "label": "模型竞争从视觉演示转向多模态闭环",
+        "text": "围绕世界模型、真实数据、触觉与百万小时训练的讨论集中出现，纬钛机器人明确把触觉视为未来必选项，单靠视觉和通用叙事已难支撑能力上限，模型路线开始更看重数据闭环和感知补齐。",
         "evidence_urls": []
       },
       {
-        "label": "资本分化看场景确定性",
-        "text": "迈步机器人获得近亿元战略融资且联想已连续多轮投资，宇树科技上市后6天股价接近腰斩，同时车企接管量产的讨论升温，资金对具身智能的关注仍在，但更容易围绕外骨骼、量产制造等边界清晰的能力补齐展开。",
+        "label": "量产与资本都在追可定义能力",
+        "text": "车企开始接管量产，智元直接下场比赛，Skild AI发布可看视频学习的新基础模型，再叠加迈步机器人和Reframe Systems的融资，资本与产品端都在偏向场景边界清晰、能力补齐明确的项目。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧焦点从炫技转向系统能力，工业赛获奖、世界模型论坛和开源生态讨论共同指向数据、本体、仿真与任务闭环的协同验证。",
+        "summary": "技术讨论从概念化世界模型转向真实数据、触觉和训练闭环，业内开始承认单靠视觉与演示难以跨过能力上限，能力补齐成为主线。",
         "items": [
           {
             "date": "08-31",
@@ -292,12 +292,19 @@
             "url": "https://www.leiphone.com/category/ai/JEamZ6VwYQhx9Dkk.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "08-31",
+            "title": "对话纬钛机器人CEO李瑞：具身智能仅靠视觉容易到天花板，触觉是未来必选项",
+            "url": "https://www.leiphone.com/category/robot/fzha6bzWq2qyX28O.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产成为能力证明的一部分，智元量产机器人零改装、零特调参赛并取得成绩，车企接管量产的讨论反映制造体系权重上升。",
+        "summary": "量产能力正成为新门槛，车企介入制造，比赛和模型发布都更强调直接下场、可复制和任务迁移，产品是否能稳定交付被放到前台。",
         "items": [
           {
             "date": "08-31",
@@ -312,12 +319,19 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30700742.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-31",
+            "title": "Skild AI发布S1旗舰机器人基础模型 (Skild AI unveils S1 flagship robot foundation model)",
+            "url": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业落地叙事集中在产线任务，宇树与优必选相关中报讨论把人形机器人价值指向真实干活能力，而非舞台表演效果。",
+        "summary": "商业化叙事集中在产线、工厂和可交付系统，企业不再只讲通用能力，而是强调能否把任务真正做完，订单验证更偏向明确场景。",
         "items": [
           {
             "date": "08-31",
@@ -325,12 +339,19 @@
             "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700890.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-31",
+            "title": "具身智能规模化落地的解法，鹿明摸索出来了",
+            "url": "https://www.leiphone.com/category/robot/aDmmeg0GHDOQc0yR.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本事件一冷一热，迈步机器人获近亿元战略融资且有连续投资背景，宇树上市后短期股价承压，市场定价开始检验预期兑现。",
+        "summary": "融资更偏向场景清晰的细分赛道，外骨骼和住宅建造微工厂获得支持，资本对落地路径、能力边界和商业闭环的要求更具体。",
         "items": [
           {
             "date": "08-31",
@@ -345,12 +366,19 @@
             "url": "https://robot.ofweek.com/2026-08/ART-8321203-8120-30700672.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-31",
+            "title": "Reframe Systems 融资4000万美元，扩大其用于住宅建造的机器人微型工厂规模 (Reframe Systems raises $40M to scale its robotic microfactories for home building)",
+            "url": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业公开检验增多，优必选半年成绩、智元机器人运动会表现和人机交互研究共同显示，企业需同时回答生产力、可靠性与接受度问题。",
+        "summary": "行业验证从封闭实验室转向公开对抗和用户观感，优必选、智元等案例把生产力、可用性和真实任务表现摆到台前。",
         "items": [
           {
             "date": "08-31",
@@ -372,6 +400,13 @@
             "url": "https://robohub.org/when-expressive-humanoid-robots-are-awkward-people-become-wary-new-brain-study/",
             "company": "其他",
             "source_name": "RoboHub"
+          },
+          {
+            "date": "08-31",
+            "title": "WRC 上，我们看到的关于灵巧手的真相",
+            "url": "https://www.leiphone.com/category/robot/524JbeGS3fgGgQeA.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           }
         ]
       }
@@ -485,6 +520,51 @@
       "category": "行业动态",
       "summary": "Photo by Alex Knight on Unsplash. By Hasan Ayaz, Drexel University; Ewart J. de Visser, United States Air Force Academy; Frank Krueger, George Mason University, and Yigit Topoglu,…",
       "url": "https://robohub.org/when-expressive-humanoid-robots-are-awkward-people-become-wary-new-brain-study/"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "对话纬钛机器人CEO李瑞：具身智能仅靠视觉容易到天花板，触觉是未来必选项",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "上触觉已经不是一个「yes or no」的问题，而是「when」的问题。 作者丨 向 欣 编辑丨 高景辉 雷峰网：瑞典科学家做过一个经典的实验：给受试者的手指尖注射麻醉剂，让他去完成一个再简单不过的动作：从火柴盒里取出一根火柴，然后划亮它。 正常情况下，这个动作几秒钟就能完成。但在手指失去触觉后，受试者的整个动作变得像提线木偶一样笨拙，取火柴时反复调整却拿不…",
+      "url": "https://www.leiphone.com/category/robot/fzha6bzWq2qyX28O.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "具身智能规模化落地的解法，鹿明摸索出来了",
+      "source_name": "雷峰网",
+      "category": "商业订单",
+      "summary": "鹿明发布NexCore，要把具身落地的全套系统打通。 作者丨 向 欣 编辑丨董子博 今年具身智能行业的热度，用「烈火烹油」来形容毫不为过。融资一笔接一笔，模型榜单隔三差五刷新。但如果剥开这些热闹去看一个最朴素的指标：有多少机器人在产线上持续运行？答案屈指可数。 不少产业方透露，大量所谓的「落地」，还停留在友情合作的 POC 阶段，视频拍得漂亮，产线上是另一回…",
+      "url": "https://www.leiphone.com/category/robot/aDmmeg0GHDOQc0yR.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "WRC 上，我们看到的关于灵巧手的真相",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "summary": "混驱成为新热门，触觉是标配，落地靠低自由度。 作者丨 向 欣 编辑丨 高景辉 今年 WRC，灵巧手依然是机器人展区最密集的产品之一。 灵心巧手、曦诺未来、强脑科技、因时机器人、灵巧智能、傲意科技、兆威机电旗下灵巧手品牌 ZWHAND、大寰机器人、帕西尼、中科硅纪、灵掌机器人等灵巧手厂商，都带来了自己的产品；章鱼动力、超维动力、星动纪元等机器人本体厂商，也把自…",
+      "url": "https://www.leiphone.com/category/robot/524JbeGS3fgGgQeA.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "Skild AI发布S1旗舰机器人基础模型 (Skild AI unveils S1 flagship robot foundation model)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/"
+    },
+    {
+      "date": "08-31",
+      "company": "行业",
+      "title": "Reframe Systems 融资4000万美元，扩大其用于住宅建造的机器人微型工厂规模 (Reframe Systems raises $40M to scale its robotic microfactories for home building)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Reframe Systems aims to build a network of automated microfactories near communities where homes are needed. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/reframe-systems-raises-40m-scale-robotic-microfactories-home-building/"
     },
     {
       "date": "08-30",
@@ -782,51 +862,6 @@
       "category": "商业订单",
       "summary": "> 文源 | 源媒汇 作者 | 谢春生 具身智能的“ChatGPT时刻”何时降临？市场没有确切时间表，却已经画好了一条红线：当一台机器人能在陌生环境里，仅凭一句话指令干完80%的活儿，产业爆发才算真正开始 工业机器人",
       "url": "https://robot.ofweek.com/2026-08/ART-8321202-12003-30700433.html"
-    },
-    {
-      "date": "08-27",
-      "company": "行业",
-      "title": "900亿融资之后，具身智能的钱都流向了哪",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "作者 | 碧山 来源 | 具身投研圈 两个数字放在一起，多少能看出这个行业的分裂感：据统计，2026年上半年国内具身智能融资总额超过900亿元，已超过去年全年的67%；而行业里最会卖机器人的宇树科技",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700428.html"
-    },
-    {
-      "date": "08-27",
-      "company": "其他",
-      "title": "Hugging Face 正在销售一款售价399美元的可爱开源鸭子机器人 Microduck (Hugging Face is selling a cute $399 open source duck robot, Microduck)",
-      "source_name": "TechCrunch Robotics",
-      "category": "技术突破",
-      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
-      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/"
-    },
-    {
-      "date": "08-27",
-      "company": "智元机器人",
-      "title": "Agibot首秀斩获46枚奖牌，登顶世界人形机器人运动会 (Agibot wins 46 medals to top World Humanoid Robot Games on debut)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Agibot made its debut at the 2nd World Humanoid Robot Games, securing 18 gold, 16 silver and 12 bronze medals. With 46 medals in total, Agibot ranked first on both the gold medal t…",
-      "url": "https://roboticsandautomationnews.com/2026/08/27/agibot-wins-46-medals-to-top-world-humanoid-robot-games-on-debut/104508/"
-    },
-    {
-      "date": "08-27",
-      "company": "其他",
-      "title": "商店如何为国际购物者部署机器人结账服务 (How Stores Deploy Robot Checkout for International Shoppers)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "For retailers in tourist-heavy destinations, international shoppers are a goldmine, but they can be a logistical headache at the register. Language barriers, passport verification,…",
-      "url": "https://roboticsandautomationnews.com/2026/08/27/how-stores-deploy-robot-checkout-for-international-shoppers/104500/"
-    },
-    {
-      "date": "08-27",
-      "company": "其他",
-      "title": "Motion筹集200万美元，让人形机器人在欧洲工厂投入工作 (Motion raises $2 million to put humanoid robots to work in European factories)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Motion, the company behind what it says is Europe’s first Humanoids-as-a-Service (HaaS) platform, has raised a $2 million pre-seed round led by Extantia Capital, with participation…",
-      "url": "https://roboticsandautomationnews.com/2026/08/27/motion-raises-2-million-to-put-humanoid-robots-to-work-in-european-factories/104497/"
     }
   ]
 }
