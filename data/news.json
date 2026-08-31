@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T12:09:06.505187+08:00",
+  "updated": "2026-08-31T20:55:53.357187+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 0,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 11,
+      "entries": 19,
+      "candidates": 12,
       "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
-      "core": 2,
+      "entries": 17,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 6,
+      "candidates": 4,
       "core": 3,
       "periphery": 0,
       "new": 1
@@ -75,8 +75,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 0,
+      "entries": 20,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 20,
-      "core": 0,
+      "entries": 60,
+      "candidates": 26,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -114,8 +114,8 @@
       "attempts": 1,
       "error": "",
       "entries": 31,
-      "candidates": 13,
-      "core": 13,
+      "candidates": 12,
+      "core": 12,
       "periphery": 0,
       "new": 1
     },
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 22,
+      "candidates": 21,
       "core": 9,
       "periphery": 0,
-      "new": 8
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -152,10 +152,10 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 29,
-      "candidates": 26,
-      "core": 16,
-      "periphery": 4,
+      "entries": 22,
+      "candidates": 19,
+      "core": 10,
+      "periphery": 3,
       "new": 4
     },
     {
@@ -234,37 +234,70 @@
       "candidates": 69,
       "core": 19,
       "periphery": 9,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "08-31",
     "end": "09-06",
-    "generated_at": "2026-08-31T12:09:46.656435+08:00",
-    "mode": "local",
-    "item_count": 5,
+    "generated_at": "2026-08-31T20:56:06.929506+08:00",
+    "mode": "aicodewith",
+    "item_count": 12,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，智元、宇树、银河通用等公司在过去一年里轮番刷新融资记录，整个行业的估值水位被快速推高；这场被外界称为「机器人界奥运会」的比赛，今年吸引了来自 16 个国家的 666 支队伍、2056 台机器人参赛。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-08/ART-898890-12005-30700742.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-8110-30700744.html"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周关于优必选、宇树等公司的讨论集中到产线干活而非舞台展示，工业场景赛中灵犀智涌凭Demo级本体组装机器人获奖，智元量产机器人以零改装、零特调参赛，企业能力正更多由工厂、竞赛和任务现场来检验。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，36氪消息称，深圳市迈步机器人科技有限公司（简称“迈步机器人”）于近日宣布完成新一轮近亿元战略融资，投资方为“国字号”力量中信建投；出品 | 子弹财经 作者 | 段楠楠 编辑 | 冯羽 美编 | 倩倩 审核 | 颂文 8月19日，万众瞩目的人形机器人龙头企业宇树科技顺利登陆上交所科创板。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-08/ART-8321203-8120-30700672.html",
-          "https://robot.ofweek.com/2026-08/ART-898890-12003-30700666.html"
-        ]
+        "label": "模型叙事开始补真实闭环",
+        "text": "WRC 2026论坛把模型、数据、本体、仿真创业者放到同一讨论框架，相关观点强调世界模型距离服务人类仍缺常识，百万小时训练也要求更全面能力，具身智能竞争从单点演示转向数据、任务和本体协同。",
+        "evidence_urls": []
+      },
+      {
+        "label": "资本分化看场景确定性",
+        "text": "迈步机器人获得近亿元战略融资且联想已连续多轮投资，宇树科技上市后6天股价接近腰斩，同时车企接管量产的讨论升温，资金对具身智能的关注仍在，但更容易围绕外骨骼、量产制造等边界清晰的能力补齐展开。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
+        "category": "技术突破",
+        "summary": "技术侧焦点从炫技转向系统能力，工业赛获奖、世界模型论坛和开源生态讨论共同指向数据、本体、仿真与任务闭环的协同验证。",
+        "items": [
+          {
+            "date": "08-31",
+            "title": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
+            "url": "https://www.qbitai.com/2026/08/481750.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "08-31",
+            "title": "自变量杨倩出席APEC活动，分享具身智能开源赋能中小企业数智转型",
+            "url": "https://www.leiphone.com/category/industrynews/pLpgF05WRqQ6VJdA.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "08-31",
+            "title": "8 位 AI 创业者谈世界模型：生成一切之后，还差一点常识｜WRC 2026",
+            "url": "https://www.leiphone.com/category/private/wweqIbvHRVWXnlvh.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "08-31",
+            "title": "没有全科优秀，具身模型别想进入百万小时",
+            "url": "https://www.leiphone.com/category/ai/JEamZ6VwYQhx9Dkk.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          }
+        ]
+      },
+      {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "量产成为能力证明的一部分，智元量产机器人零改装、零特调参赛并取得成绩，车企接管量产的讨论反映制造体系权重上升。",
         "items": [
           {
             "date": "08-31",
@@ -283,8 +316,21 @@
         ]
       },
       {
+        "category": "商业订单",
+        "summary": "商业落地叙事集中在产线任务，宇树与优必选相关中报讨论把人形机器人价值指向真实干活能力，而非舞台表演效果。",
+        "items": [
+          {
+            "date": "08-31",
+            "title": "造大脑还是拼小脑？优必选VS宇树科技两份中报，看人形机器人如何真正落地",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700890.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本事件一冷一热，迈步机器人获近亿元战略融资且有连续投资背景，宇树上市后短期股价承压，市场定价开始检验预期兑现。",
         "items": [
           {
             "date": "08-31",
@@ -304,7 +350,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业公开检验增多，优必选半年成绩、智元机器人运动会表现和人机交互研究共同显示，企业需同时回答生产力、可靠性与接受度问题。",
         "items": [
           {
             "date": "08-31",
@@ -312,6 +358,20 @@
             "url": "https://robot.ofweek.com/2026-08/ART-8321203-12003-30700719.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-31",
+            "title": "46枚奖牌与一场「裸考」：智元在机器人运动会上赢的到底是什么？",
+            "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700906.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "08-31",
+            "title": "表情丰富的人形机器人显得笨拙时，人们会变得警惕——新脑科学研究 (When expressive humanoid robots are awkward, people become wary – new brain study)",
+            "url": "https://robohub.org/when-expressive-humanoid-robots-are-awkward-people-become-wary-new-brain-study/",
+            "company": "其他",
+            "source_name": "RoboHub"
           }
         ]
       }
@@ -362,6 +422,69 @@
       "category": "资本动态",
       "summary": "36氪消息称，深圳市迈步机器人科技有限公司（简称“迈步机器人”）于近日宣布完成新一轮近亿元战略融资，投资方为“国字号”力量中信建投。据悉，本轮融资后，迈步机器人加速推进产品迭代和脑机接口等前沿技术方向",
       "url": "https://robot.ofweek.com/2026-08/ART-8321203-8120-30700672.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "灵犀智涌用一台由Demo级本体组装而成的机器人，成为工业场景赛除行业头部企业外唯一获奖的机器人公司",
+      "url": "https://www.qbitai.com/2026/08/481750.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "自变量杨倩出席APEC活动，分享具身智能开源赋能中小企业数智转型",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "今日 ，在2026年亚太经合组织（APEC）中小企业数智赋能论坛上，作 自变量机器人联合创始人兼COO杨倩 为参会的唯一具身智能企业代表，发表《开源无界，亚太共融——构建可信包容的具身智能生态》主题演讲，分享具身智能与开源生态结合的实践与思考。 杨倩表示，中小企业是亚太经济发展的重要力量。随着具身智能加速从数字世界走向物理世界，机器人正为中小企业数智化转型提…",
+      "url": "https://www.leiphone.com/category/industrynews/pLpgF05WRqQ6VJdA.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "8 位 AI 创业者谈世界模型：生成一切之后，还差一点常识｜WRC 2026",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "会生成未来，不等于理解世界。 作者丨 吴思梦 编辑丨 岑 峰 2026世界机器人大会的最后一天，一场题为“世界模型到服务人类的现实距离”的论坛对话，将八位分别来自模型、数据、本体、仿真各赛道的创业者拉到了同一张桌子上。 这场对话由刚刚获聘中国电子学会世界模型专委会主任委员的之江实验室主任、阿里云创始人王坚主持。八位对话嘉宾——大晓机器人董事长、商汤科技联合创…",
+      "url": "https://www.leiphone.com/category/private/wweqIbvHRVWXnlvh.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "没有全科优秀，具身模型别想进入百万小时",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "原力灵机登顶 RoboDojo：一个专门给机器人\"卸妆\"的考场。 最近的朋友圈，几乎被机器人运动会和 WRC 2026 上的各种视频刷屏了。 看多了机器人百米冲刺、跳远，再看各个展台叠衣服、冲咖啡，很容易得出一个 结论：机器人时代来了。 然而，如果你不幸参与过这些演示背后动辄几千次的调试与过拟合，你就会清楚这里面的水有多深。 行业内管这种情况叫\"Demo 滤…",
+      "url": "https://www.leiphone.com/category/ai/JEamZ6VwYQhx9Dkk.html"
+    },
+    {
+      "date": "08-31",
+      "company": "智元机器人",
+      "title": "46枚奖牌与一场「裸考」：智元在机器人运动会上赢的到底是什么？",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "> 沈子嫣 吕鑫燚 出品：具身研习社 当行业把一场公开、对抗、无法粉饰的检验摊开在公众面前，具身智能企业真正要回答的，不是单项参数的机制，而是离生产力还有多远。? 近日，在国家速滑馆“冰丝带” 人形机器人",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700906.html"
+    },
+    {
+      "date": "08-31",
+      "company": "宇树科技",
+      "title": "造大脑还是拼小脑？优必选VS宇树科技两份中报，看人形机器人如何真正落地",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "人形机器人的真正价值，是产线干活，不是舞台表演。这就是两份中报，给出的清晰答案。 ??作者|Cindy ? ?编辑|杨 ? 铭 2026年，作为具身智能从数字世界走向物理世界的核心载体，人形机器人正加",
+      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700890.html"
+    },
+    {
+      "date": "08-31",
+      "company": "其他",
+      "title": "表情丰富的人形机器人显得笨拙时，人们会变得警惕——新脑科学研究 (When expressive humanoid robots are awkward, people become wary – new brain study)",
+      "source_name": "RoboHub",
+      "category": "行业动态",
+      "summary": "Photo by Alex Knight on Unsplash. By Hasan Ayaz, Drexel University; Ewart J. de Visser, United States Air Force Academy; Frank Krueger, George Mason University, and Yigit Topoglu,…",
+      "url": "https://robohub.org/when-expressive-humanoid-robots-are-awkward-people-become-wary-new-brain-study/"
     },
     {
       "date": "08-30",
@@ -704,69 +827,6 @@
       "category": "资本动态",
       "summary": "Motion, the company behind what it says is Europe’s first Humanoids-as-a-Service (HaaS) platform, has raised a $2 million pre-seed round led by Extantia Capital, with participation…",
       "url": "https://roboticsandautomationnews.com/2026/08/27/motion-raises-2-million-to-put-humanoid-robots-to-work-in-european-factories/104497/"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "WRC乒乓球局爆火！这家中国具身创业公司，砸出了一套全栈新解法",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "这一次，球台直接搬到了 世界机器人大会 （WRC） 现场。 超维动力 的展台前，一台全尺寸人形机器人盯着飞来的乒乓球挥拍、转腰，再根据落点迅速调整动作。 全尺寸人形机器人KAI Bot、高自由度灵巧手KAI Hand、数采头环KAI Halo、KAI World Model，以及覆盖数据和训练流程的KAI Embodied AI Infra。 从硬件、模型到…",
-      "url": "https://www.qbitai.com/2026/08/478860.html"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "具身智能走进千行百业，浙江人形 WRC2026 诠释 \"具身在场\"",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "2026 WRC 现场，三台机器人默契配合，正完成工业制造拆垛、分拣、搬运的全流程工作；几步之外，观众在零售舱前下单，等机器人递来饮料；厨房里，一顿饭从食材处理一路做到最后的清洁；在生产线之外的赛博舞台区域，NAVIAI i3 单膝跪地献花，WA2 弯腰接过。 这些画面，来自浙江人形机器人创新中心有限公司的展台，在这几块相邻的区域中，浙江人形把机器人的工作半…",
-      "url": "https://www.leiphone.com/category/industrynews/fg1r01an843kYNdp.html"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "NVIDIA 发布 Jetson Orin Nano 2 机器人计算机，重新定义入门级边缘 AI",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "今日，NVIDIA 发布了 NVIDIA Jetson Orin Nano™ 2，一款全新的机器人计算机，旨在重新定义入门级边缘 AI，让前沿级生成式 AI 性能惠及数百万开发者。随着 AI 模型变得更小及更高效，越来越多的边缘设备正演进为能够理解上下文、解析语言和图像，并实时采取响应的自主系统。为了将这些能力应用于机器人、配送和巡检无人机以及视觉 AI 系…",
-      "url": "https://www.robot-china.com/news/202608/26/96479.html"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "WRC2026丨聚焦真实工业场景，慧闻机器人解读具身智能 L3 时代",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "日前，以“人机共生，产需共融”为主题的2026世界机器人大会于北京北人亦创国际会展中心盛大举办，受到全球产业界广泛关注。8月21日，大会重要系列活动——由亿欧主办的“具身智能商业落地论坛”如期召开。论坛以商业落地为核心标尺，直面当前具身智能赛道 “技术成熟度领先、商业化落地滞后” 的现实行业矛盾，深度探讨产业实战路径。慧闻机器人首席科学家周康带来《当机器人开…",
-      "url": "https://www.robot-china.com/news/202608/26/96478.html"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "WRC:卓世科技入选“2026 全球具身智能标杆企业 TOP100”",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "8月19‑23日，2026 世界机器人大会（WRC2026）于北京北人亦创国际会展中心盛大启幕，本届大会以 “人机共生，产需共融” 为主题，聚焦具身智能从技术研发走向产业落地的核心命题。作为国家级、全球化机器人产业综合运营平台，世界机器人大会既是产业周期的长期观察者、产业资源的顶层操盘者，也是前沿技术商业化的深度赋能者、新质生产力培育者、全球产业协同的连接者…",
-      "url": "https://www.robot-china.com/news/202608/26/96477.html"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "硅谷今日最热具身模型！不用后训练，看一遍就学会",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "自上周Generalist发布能够学习3到12秒动作的具身大脑Gen 1.5 以来～ 刚刚，北美具身初创 Skild AI 又发布了全新机器人基础模型 S1 ，直接把机器人上下文学习的任务长度拉到了 10分钟往上 。 这次的S1主打上下文学习（in-context learning，ICL）： 无需在后训练阶段专门学习新的操作数据，只需看一段人类示范视频，就…",
-      "url": "https://www.qbitai.com/2026/08/479834.html"
-    },
-    {
-      "date": "08-26",
-      "company": "其他",
-      "title": "IJCAI 2026 专访：动作指挥计算，VLA 加速不降准 | GAIR Paper 125",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "将动作从输出端搬到调度端，推理速度提升1.79倍。 作者丨 邓哲敏 编辑丨 齐铖湧 机器人想要真正走进千行百业、千家万户，有一道绕不开的坎：它得足够快。 不说快到能打羽毛球那，至少得快到让人觉得这玩意儿能用。一个机械臂每动一下都要停顿两三秒，哪怕成功率再高，在工业场景里算下来的投入产出比也很难说服人。 VLA 模型是当前具身智能领域最受关注的技术路线之一。它…",
-      "url": "https://www.leiphone.com/category/private/hJ6IDm4NImDU3590.html"
     }
   ]
 }
