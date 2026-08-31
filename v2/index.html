@@ -400,9 +400,6 @@ function renderMatrixState(){
     const chips=added.map(name=>`<span class="candidate-chip">${esc(name)} <button class="iconbtn" data-remove-candidate="${esc(name)}" title="移除候选" aria-label="移除候选"><span class="xicon"></span></button></span>`).join('');
     parts.push(`<b>候选</b> ${chips}`);
   }
-  if(window.__tableData?.updated){
-    parts.push(`<span class="table-updated"><b>大表更新</b> ${formatDateTime(window.__tableData.updated)}</span>`);
-  }
   el.innerHTML=parts.join('　');
   el.classList.toggle('show', Boolean(parts.length));
   el.querySelectorAll('[data-remove-candidate]').forEach(btn=>{

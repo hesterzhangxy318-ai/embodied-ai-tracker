@@ -282,9 +282,8 @@ localStorage.removeItem('removedCompanies');
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  const updated = window.__tableData?.updated || '';
-  el.innerHTML = updated ? `<b>大表更新</b> ${formatDateTime(updated)}` : '';
-  el.classList.toggle('show', Boolean(updated));
+  el.innerHTML='';
+  el.classList.remove('show');
 }
 
 // ---- dynamics toggle ----
