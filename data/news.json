@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T11:58:16.937024+08:00",
+  "updated": "2026-09-01T19:15:37.512454+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 19,
       "candidates": 14,
-      "core": 7,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 4,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 4
     },
     {
       "name": "爱范儿",
@@ -63,10 +63,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 4,
-      "core": 3,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "InfoQ",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
+      "candidates": 4,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 21,
-      "core": 1,
+      "entries": 59,
+      "candidates": 14,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 20,
+      "candidates": 21,
       "core": 10,
       "periphery": 1,
-      "new": 8
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -148,13 +148,14 @@
     {
       "name": "中国工控网机器人",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 21,
+      "candidates": 18,
+      "core": 9,
+      "periphery": 3,
       "new": 0
     },
     {
@@ -191,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 5,
+      "candidates": 7,
+      "core": 3,
       "periphery": 0,
-      "new": 5
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -220,7 +221,7 @@
       "candidates": 30,
       "core": 26,
       "periphery": 4,
-      "new": 2
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -239,31 +240,38 @@
   "weekly_report": {
     "start": "08-31",
     "end": "09-06",
-    "generated_at": "2026-09-01T11:58:30.197856+08:00",
+    "generated_at": "2026-09-01T19:15:55.902769+08:00",
     "mode": "aicodewith",
-    "item_count": 21,
+    "item_count": 27,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周量产与订单线索集中在工厂、消防、产线等场景，塞尔维亚人形机器人工厂启动量产，宇树展示多款消防机器狗，鹿明发布NexCore试图打通落地系统，行业对价值判断正从舞台展示转向能否在明确任务中稳定交付。",
+        "text": "本周真实场景消息集中在工厂、仓储、消防、酒吧服务等任务，智元与敏实在塞尔维亚启动人形机器人工厂量产，Logic推出顶置拣选机器人，宇树展示消防机器狗，智平方AlphaBot 2入驻兰桂坊酒吧，具身智能的验证口径正从展示效果转向能否在具体岗位持续完成任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型能力回到数据闭环",
-        "text": "世界模型、百万小时训练和触觉感知成为技术讨论核心，WRC论坛把模型、数据、本体、仿真创业者放到同一议题下，纬钛机器人强调仅靠视觉容易触顶，具身模型的竞争正在从单点演示转向多模态感知和真实任务数据积累。",
+        "label": "模型叙事回到经验闭环",
+        "text": "世界模型论坛讨论常识缺口，纬钛机器人强调触觉已从是否需要变成何时采用，李飞飞、吴佳俊团队用视觉轨迹连接世界模型和机器人动作，Ropedia发布HOMIE Gen2聚焦物理经验，单纯视觉或视频演示难以支撑长期任务泛化，真实数据、触觉反馈和动作闭环成为能力补齐重点。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好场景与补短板",
-        "text": "融资与上市信息覆盖人形机器人、外骨骼和住宅建造微型工厂，迈步机器人完成近亿元战略融资，Reframe Systems融资4000万美元扩张机器人微型工厂，资金更愿意投向场景边界清晰或能补齐产业能力的公司。",
+        "label": "资本更关注交付分化",
+        "text": "宇树登陆科创板后股价一度接近腰斩，机器人上市公司中报呈现分化，迈步机器人获得近亿元战略融资，拓普集团机器人执行器已小批量交付并形成1400万元收入，资金与供应链机会开始更多绑定明确场景、量产节奏和关键部件性能，而非只依赖人形机器人概念溢价。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术讨论从炫技演示转向世界模型、触觉和百万小时训练等底层问题，工业赛获奖和开源生态也显示团队开始围绕真实任务提升泛化能力。",
+        "summary": "技术进展围绕世界模型、触觉、视觉轨迹和工业赛验证展开，行业讨论从生成能力转向常识、感知补齐与真实任务适配。",
         "items": [
+          {
+            "date": "09-01",
+            "title": "李飞飞、吴佳俊再联手，打破世界模型和机器人动作的「巴别塔」",
+            "url": "https://www.leiphone.com/category/academic/LF4mbUTko5bRYDky.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "08-31",
             "title": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
@@ -303,7 +311,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "智元、敏实合作的塞尔维亚人形机器人工厂启动量产，宇树展示消防机器狗，车企量产能力被频繁讨论，规模制造开始成为能力验证的一部分。",
+        "summary": "量产消息覆盖人形机器人基地、消防机器狗、仓储拣选和基础模型产品，车企与供应链能力被纳入量产竞争维度。",
         "items": [
           {
             "date": "09-01",
@@ -318,6 +326,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30700958.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-01",
+            "title": "AI 读过一切，却没经历过任何事：Ropedia 发布 HOMIE Gen2，给具身智能补「经验」这一课",
+            "url": "https://www.leiphone.com/category/ai/ztrF1BywGGvrxQHt.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "09-01",
+            "title": "Logic 推出顶置拣选机器人，“重新定义仓库货物流转方式 (Logic unveils overhead picking robot that ‘reimagines how warehouses move goods’)",
+            "url": "https://roboticsandautomationnews.com/2026/09/01/logic-unveils-overhead-picking-robot-that-reimagines-how-warehouses-move-goods/104608/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "08-31",
@@ -344,8 +366,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业线索聚焦产线干活和系统化交付，鹿明发布NexCore试图打通具身落地全套系统，宇树与优必选对比也把落地价值指向工业任务。",
+        "summary": "商业落地集中在酒吧服务、产线干活和系统化交付方案，开放场景与工业岗位成为检验机器人价值的主要入口。",
         "items": [
+          {
+            "date": "09-01",
+            "title": "香港首个真实开放场景服务机器人落地，智平方 AlphaBot 2 入驻兰桂坊酒吧当“酒保”",
+            "url": "https://www.ithome.com/0/997/079.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "08-31",
             "title": "造大脑还是拼小脑？优必选VS宇树科技两份中报，看人形机器人如何真正落地",
@@ -364,7 +393,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态覆盖宇树科创板、小鹏融资、迈步近亿元融资和Reframe Systems 4000万美元融资，资金仍活跃，但更关注上市兑现与具体应用场景。",
+        "summary": "资本面同时出现上市波动、近亿元融资和中报分化，市场对机器人公司的判断正从概念热度转向交付质量与财务表现。",
         "items": [
           {
             "date": "09-01",
@@ -372,6 +401,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321206-8440-30700980.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-01",
+            "title": "6家上市机器人公司，冰火两重天",
+            "url": "https://www.tmtpost.com/8123956.html",
+            "company": "行业",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "09-01",
+            "title": "“薄利多销”不性感，机器人故事能拯救零跑估值吗？",
+            "url": "https://www.tmtpost.com/8124477.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "08-31",
@@ -398,7 +441,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业观察围绕优必选半年成绩、智元机器人运动会表现、灵巧手方案和人机交互研究展开，公开对抗测试与真实生产力距离成为共同议题。",
+        "summary": "行业观察聚焦优必选半年成绩、智元公开赛事表现、灵巧手路线和人机交互研究，公开对抗与应用适配成为讨论核心。",
         "items": [
           {
             "date": "08-31",
@@ -432,7 +475,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "拓普集团中报披露机器人执行器小批量交付并形成1400万元营收，产业链机会开始与执行器、触觉等具体性能瓶颈和交付进度绑定。",
+        "summary": "拓普集团披露机器人执行器小批量交付并形成1400万元收入，产业链机会开始与执行器等具体部件进展相绑定。",
         "items": [
           {
             "date": "09-01",
@@ -481,6 +524,60 @@
       "category": "产品量产",
       "summary": "当地时间8月29日，塞尔维亚与智元创新（上海）科技股份有限公司（简称“智元”）、敏实集团合作建设的人形机器人工厂在沙巴茨正式启动量产。塞尔维亚总统武契奇出席启动仪式，表示这是欧洲首座人形机器人量产基地",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30700958.html"
+    },
+    {
+      "date": "09-01",
+      "company": "其他",
+      "title": "AI 读过一切，却没经历过任何事：Ropedia 发布 HOMIE Gen2，给具身智能补「经验」这一课",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "8 月中旬，新加坡的一场公开演讲上，南洋理工大学副教授、Ropedia 首席科学家刘子纬抛出了一个问题：为什么读过整个互联网的 AI，进了物理世界，却连一杯咖啡都冲不好？ 他的回答是：“AI 读过一切，却几乎没有经历过任何事情。它从未真正冲过一杯咖啡，自然也不知道该怎么做。” 刘子纬教授在新加坡演讲的现场照片 这种分裂在今天的 AI 身上随处可见：感知模型能…",
+      "url": "https://www.leiphone.com/category/ai/ztrF1BywGGvrxQHt.html"
+    },
+    {
+      "date": "09-01",
+      "company": "其他",
+      "title": "李飞飞、吴佳俊再联手，打破世界模型和机器人动作的「巴别塔」",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "视觉轨迹充当“同声传译”，让世界模型和机器人动作真正“同频对话”。 作者丨 幸丽娟 编辑丨岑 峰 日前，一篇叫做《TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks》的论文悄然上线 arXiv。论文署名中出现了两个大家很熟悉的名字——李飞飞、吴佳俊。 论文链接：http…",
+      "url": "https://www.leiphone.com/category/academic/LF4mbUTko5bRYDky.html"
+    },
+    {
+      "date": "09-01",
+      "company": "行业",
+      "title": "6家上市机器人公司，冰火两重天",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "2026年中报显示，机器人行业已明显分化。极智嘉、优必选、宇树科技营收超10亿领跑，但盈利差异悬殊——宇树盈利2.74亿唯一赚钱，优必选、珞石减亏，越疆、极智嘉、华沿亏损扩大。具身智能正成为分水岭，优必选人形收入占46.5%领跑，华沿增速仅0.6%陷入停滞。行业共识：宁可牺牲短期利润，也要死守技术高地",
+      "url": "https://www.tmtpost.com/8123956.html"
+    },
+    {
+      "date": "09-01",
+      "company": "其他",
+      "title": "“薄利多销”不性感，机器人故事能拯救零跑估值吗？",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "文 | 连线出行，作者 | 杜小寻，编辑 | 子夜 经历了第一季度的阶段性调整，零跑在第二季度找回了自己的节奏。 近日，零跑汽车发布2026年第二季度及中期业绩报告，公司在今年第二季度实现营收272.9亿元，同比增长91.78%；净利润达6亿元，扭转一季度亏损3.9亿元的局面。 作为造车新势力中少数几个率先实现扭亏的企业之一，零跑在今年第一季度没逃过淡季和原…",
+      "url": "https://www.tmtpost.com/8124477.html"
+    },
+    {
+      "date": "09-01",
+      "company": "其他",
+      "title": "香港首个真实开放场景服务机器人落地，智平方 AlphaBot 2 入驻兰桂坊酒吧当“酒保”",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 9 月 1 日消息，智平方科技 8 月 31 日宣布，香港首个真实开放场景服务机器人正式落地，智平方旗下的 AlphaBot 2（爱宝）机器人入驻兰桂坊酒吧并担任“酒保”，为顾客提供打鸡尾酒与互动服务。 官方表示，这不仅是全球首个生产力型通用机器人上岗国际顶级夜生活地标，更标志着智平方成功跑通了 中国具身智能出海的全链路闭环 —— 从硬件出关、清关…",
+      "url": "https://www.ithome.com/0/997/079.htm"
+    },
+    {
+      "date": "09-01",
+      "company": "其他",
+      "title": "Logic 推出顶置拣选机器人，“重新定义仓库货物流转方式 (Logic unveils overhead picking robot that ‘reimagines how warehouses move goods’)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Logic, a developer of autonomous, data-driven logistics solutions, has unveiled the Octopus, an overhead industrial picking robot that replaces static, floor-bound equipment with a…",
+      "url": "https://roboticsandautomationnews.com/2026/09/01/logic-unveils-overhead-picking-robot-that-reimagines-how-warehouses-move-goods/104608/"
     },
     {
       "date": "08-31",
@@ -841,60 +938,6 @@
       "category": "技术突破",
       "summary": "IT之家 8 月 27 日消息，在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏第二代 VLA 全新版本模型能力全面增强。 小鹏宣布 X-Foresight 预测世界模型首次上车，可预判未来 6 秒会发生什么 ，推演周边交通参与者未来的可能行为。 在真实道路上，前车可能突然刹停，行人可能临时改变方向，旁车可能突然加塞，小鹏引用了 Fl…",
       "url": "https://www.ithome.com/0/995/033.htm"
-    },
-    {
-      "date": "08-27",
-      "company": "其他",
-      "title": "小鹏刘先明：第二代 VLA 升级的核心，是让模型第一次建立起对时间维度的理解",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 8 月 27 日消息，小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动正在进行中，小鹏集团通用智能中心负责人刘先明登台发表演讲。他表示，物理 AI 真正的难题，是理解世界，并在充满限制的真实世界里行动。 刘先明称，小鹏在半年前提出物理 AI 能力公式： 能力 = 模型 × 算力 × 数据 × 本体 。其中，模型决定智能上限，数据提供世界经验…",
-      "url": "https://www.ithome.com/0/995/014.htm"
-    },
-    {
-      "date": "08-27",
-      "company": "智元机器人",
-      "title": "具身智能“GPT时刻”降临: 宇树智元共用“大脑”，10分钟零打断，一个粗糙视频炸出行业未来",
-      "source_name": "OFweek机器人",
-      "category": "技术突破",
-      "summary": "两个互为竞品的机器人本体，在同一套通用大脑的调度下，自主规划、协同作业、互相补位、自我进化。当全球顶级团队还在用精修短片展示“机器人能做什么”时，这个神秘模型直接用一段未经修饰的长镜头，平静地宣判了旧",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321203-8110-30700380.html"
-    },
-    {
-      "date": "08-27",
-      "company": "宇树科技",
-      "title": "宇树腰斩之后，人形机器人信仰崩塌还是价值回归？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "从1100元到591.53元，6个交易日市值蒸发逾2000亿。当“后空翻”的欢呼声散去，一个关于技术、资本与商业化的终极拷问浮出水面：我们是否高估了人形机器人走向现实的步伐？ 8月26日，宇树科技（6",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-12003-30700299.html"
-    },
-    {
-      "date": "08-27",
-      "company": "特斯拉",
-      "title": "马斯克好友Calacanis两次闭门参观后称：Optimus机器人硬件领先1.5代、大脑领先5代",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "2026年1月一个周日上午10点，硅谷天使投资人Jason Calacanis和马斯克一起走进特斯拉机器人实验室。工程师们在加班调试，现场摆着尚未公开的Optimus Gen 3原型机。 两周后，他在",
-      "url": "https://robot.ofweek.com/2026-08/ART-8321201-8110-30700281.html"
-    },
-    {
-      "date": "08-27",
-      "company": "其他",
-      "title": "具身新贵昆仑行斩获 WorldArena单项冠军全球亚军，世界模型全面领先",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "2026具身智能黑马玩家昆仑行机器人，全面领先全球权威榜单 WorldArena。 据媒体报道，具身智能领域的权威评测WorldArena 2.0 Track 1发布了最新成绩，昆仑行机器人研发的昆仑世界模型GeWu，以69.58分的成绩，斩获图像质量（ Image Quality）单项冠军 ，同时以 65.91 的综合得分，获得全球榜单亚军。模型在 物理一…",
-      "url": "https://www.leiphone.com/category/industrynews/gAKPpkpq87I5Oo3d.html"
-    },
-    {
-      "date": "08-27",
-      "company": "其他",
-      "title": "独家 | 乐聚发布垂域具身模型：一倍工业提效，两项榜单第一",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "如果说，基础模型是具身大脑的“大学”通识课；那么，垂域模型则是机器人在工业领域的“专业课”。 作者丨董子博 编辑丨林觉民 今天要做世界模型，所有人都知道要做预训练，来让具身大脑变得更聪明；也知道要做后训练，让机器人可以在专门的任务下得到锻炼、做得更好。 和不少公司聊过， AI 科技 发现，谈到中训练（ Mid-train ）的公司却很少。 而实际上，在具身的…",
-      "url": "https://www.leiphone.com/category/industrynews/s4P2kDrMcM1yfSYw.html"
     }
   ]
 }
