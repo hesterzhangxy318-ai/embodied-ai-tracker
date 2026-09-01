@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T06:36:27.480549+08:00",
+  "updated": "2026-09-01T11:11:47+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -579,10 +579,10 @@
       "date": "08-30",
       "company": "其他",
       "title": "英伟达发布78 TOPS机器人芯片，算力翻倍功耗降40%，国内玩家也在加速追赶",
-      "source_name": "OFweek机器人",
+      "source_name": "NVIDIA Newsroom",
       "category": "泛具身产业链",
-      "summary": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700635.html"
+      "summary": "NVIDIA 官方发布 Jetson Orin Nano 2，披露 78 TOPS、同等性能功耗降低 40%，预计 2027 年上半年供货。",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai"
     },
     {
       "date": "08-30",
@@ -633,10 +633,10 @@
       "date": "08-28",
       "company": "其他",
       "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
-      "source_name": "量子位",
+      "source_name": "投资界/机器之心",
       "category": "行业动态",
-      "summary": "继昨天下午线上阻止「今日瓜男」转账5000万后，Claude又在今天凌晨整了一个颇有《超体》意味的新发布—— 刚刚，Claude母公司Anthropic发布了一套全新 模型硬件标准（Model Hardware Standard） ，简称MHS。 简单来说，MHS是一套面向硬件的驱动和设备描述标准，可以理解为 物理世界的MCP 。 跟MCP能把 不同软件、数…",
-      "url": "https://www.qbitai.com/2026/08/480487.html"
+      "summary": "Anthropic 发布 MHS 研究预览，把 MCP 式接口延伸到机械臂、显微镜等真实硬件。",
+      "url": "https://m.pedaily.cn/news/568275"
     },
     {
       "date": "08-28",

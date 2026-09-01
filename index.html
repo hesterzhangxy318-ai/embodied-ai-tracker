@@ -239,7 +239,7 @@ function normalizeCell(cell){
       bullets: Array.isArray(cell.bullets) ? cell.bullets : [],
       confidence: cell.confidence || 'medium',
       kind: cell.kind || 'evidence',
-      updated_recent: cell.updated_recent === true,
+      updated_recent: false,
       note: cell.note || ''
     };
   }

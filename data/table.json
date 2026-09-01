@@ -2,7 +2,7 @@
   "schema_version": 2,
   "verification_method": "triangulated_evidence_v1",
   "published": "2026-06-18",
-  "updated": "2026-08-31T14:03:19+08:00",
+  "updated": "2026-09-01T11:07:38+08:00",
   "companies": [
     {
       "name": "智元 AgiBot",
@@ -72,7 +72,7 @@
                 }
               ],
               "kind": "synthesis",
-              "updated_recent": true,
+              "updated_recent": false,
               "confidence": "medium",
               "note": "15000台为明确披露节点；“领先”为公开披露口径下的竞争判断，仍需持续对比同口径出货。"
             },
@@ -2089,7 +2089,7 @@
                 }
               ],
               "kind": "evidence",
-              "updated_recent": true,
+              "updated_recent": false,
               "confidence": "high",
               "note": "6月新增第15000台下线节点。"
             },
@@ -4171,43 +4171,43 @@
               "note": "融资/估值为公开报道口径；当前未挂稳定可打开链接，需后续补充"
             },
             {
-              "summary": "IPO进程",
+              "summary": "科创板上市",
               "bullets": [
                 {
-                  "text": "IPO过会",
+                  "text": "2026-08-19科创板上市",
                   "sources": [
                     {
-                      "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-                      "evidence": ""
+                      "name": "上交所 2026-08",
+                      "url": "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml",
+                      "evidence": "上交所公告：宇树科技A股股票于2026年8月19日起在科创板上市交易，证券代码688836。"
                     }
                   ]
                 },
                 {
-                  "text": "发行估值约420亿元",
+                  "text": "股票代码688836",
                   "sources": [
                     {
-                      "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-                      "evidence": ""
+                      "name": "宇树上市公告书 2026-08",
+                      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12500216&stockid=688836",
+                      "evidence": "上市公告书披露上市地点、上市时间、股票简称、股票代码、发行后总股本和本次发行数量。"
                     }
                   ]
                 },
                 {
-                  "text": "C轮融资投后估值127亿元(2025-06)",
+                  "text": "发行价150.80元/股，募资60.99亿元",
                   "sources": [
                     {
-                      "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-                      "evidence": ""
+                      "name": "中国证券网 2026-08",
+                      "url": "https://kcb.cnstock.com/p/xg/detail/688836",
+                      "evidence": "新股资料披露发行价150.80元/股、实际募资60.99亿元、上市日期2026-08-19。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "medium",
-              "note": ""
+              "confidence": "high",
+              "note": "已由“IPO进程/IPO过会”更新为上市后状态；市值会随股价变化，不在静态表中固化。"
             },
             {
               "summary": "集团内项目",
@@ -4334,9 +4334,9 @@
               "evidence": ""
             },
             {
-              "name": "经济参考网 2026-06",
-              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-              "evidence": ""
+              "name": "上交所 2026-08",
+              "url": "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml",
+              "evidence": "上交所公告：宇树科技A股股票于2026年8月19日起在科创板上市交易，证券代码688836。"
             },
             {
               "name": "Not a Tesla App 2026",
@@ -4476,43 +4476,43 @@
               "note": ""
             },
             {
-              "summary": "英伟达生态",
+              "summary": "上市股东",
               "bullets": [
                 {
-                  "text": "英伟达GR00T生态合作",
+                  "text": "科创板上市后股权流动性提升",
                   "sources": [
                     {
-                      "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-                      "evidence": ""
+                      "name": "上交所 2026-08",
+                      "url": "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml",
+                      "evidence": "上交所公告：宇树科技A股股票于2026年8月19日起在科创板上市交易，证券代码688836。"
                     }
                   ]
                 },
                 {
-                  "text": "海外科研与开发者基础强",
+                  "text": "战略配售含产业与员工平台",
                   "sources": [
                     {
-                      "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-                      "evidence": ""
+                      "name": "宇树上市公告书 2026-08",
+                      "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12500216&stockid=688836",
+                      "evidence": "上市公告书披露上市地点、上市时间、股票简称、股票代码、发行后总股本和本次发行数量。"
                     }
                   ]
                 },
                 {
-                  "text": "硬件平台具参考设计价值",
+                  "text": "英伟达GR00T仍属生态合作",
                   "sources": [
                     {
-                      "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-                      "evidence": ""
+                      "name": "NVIDIA Isaac GR00T",
+                      "url": "https://developer.nvidia.com/isaac/gr00t",
+                      "evidence": "GR00T为英伟达机器人基础模型与开发生态。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "medium",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
+              "confidence": "high",
+              "note": "该格聚焦上市后资本市场身份、战略配售与产业生态，不把英伟达误写为股东。"
             },
             {
               "summary": "特斯拉工厂",
@@ -4649,9 +4649,9 @@
               "evidence": ""
             },
             {
-              "name": "经济参考网 2026-06",
-              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
-              "evidence": ""
+              "name": "上交所 2026-08",
+              "url": "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml",
+              "evidence": "上交所公告：宇树科技A股股票于2026年8月19日起在科创板上市交易，证券代码688836。"
             },
             {
               "name": "Electrek Tesla Optimus",
