@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T18:48:35.873176+08:00",
+  "updated": "2026-09-03T00:07:25.133231+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 11,
-      "core": 2,
+      "entries": 18,
+      "candidates": 9,
+      "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 2,
-      "core": 0,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -62,11 +62,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 18,
       "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
-      "core": 2,
+      "candidates": 24,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -114,8 +114,8 @@
       "attempts": 1,
       "error": "",
       "entries": 31,
-      "candidates": 13,
-      "core": 13,
+      "candidates": 12,
+      "core": 12,
       "periphery": 0,
       "new": 0
     },
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 8,
       "periphery": 0,
-      "new": 6
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -234,36 +234,36 @@
       "candidates": 69,
       "core": 18,
       "periphery": 9,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "08-31",
     "end": "09-06",
-    "generated_at": "2026-09-02T18:49:08.423120+08:00",
+    "generated_at": "2026-09-03T00:08:02.187137+08:00",
     "mode": "aicodewith",
-    "item_count": 37,
+    "item_count": 40,
     "insights": [
       {
-        "label": "落地向工厂和开放场景收敛",
-        "text": "塞尔维亚的人形机器人工厂正式启动量产，香港兰桂坊出现首个真实开放场景服务机器人，验证重心正从展示转向工厂、酒吧这类可直接验收的任务场域。",
+        "label": "落地先从可验收场景跑通",
+        "text": "塞尔维亚的人形机器人工厂已正式启动量产，香港兰桂坊出现首个真实开放场景服务机器人，宇树也在消防应急方案上继续加码，落地点正在集中到工厂、服务和巡检这类能直接验收的任务上。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争转向数据和能力补齐",
-        "text": "世界模型、强化学习和触觉在同一周被密集提及，Atlas强调空间生成与3D重建，星尘智能补入强化学习专家，纬钛则把触觉视作必选项，技术路线开始围绕真实数据闭环和感知短板收拢。",
+        "label": "模型路线在补真实数据与感知短板",
+        "text": "孙鹏加入星尘智能完善 Physical AI 全栈布局，李飞飞团队发布 Atlas 并强调空间理解，纬钛则直接把触觉视为未来必选项，模型叙事正在从单纯生成转向动作、感知和真实数据的闭环。",
         "evidence_urls": []
       },
       {
-        "label": "资本更偏场景化和小批量验证",
-        "text": "玄创机器人拿到数千万元融资，迈步机器人完成近亿元战略融资，拓普集团披露执行器小批量交付，资金和供应链都更愿意流向危化工业、外骨骼等能定义场景并形成收入的方向。",
+        "label": "资金更偏向场景和能力补强",
+        "text": "玄创机器人拿到数千万元 A1 轮融资，迈步机器人完成近亿元战略融资，拓普集团披露执行器小批量交付，资本更愿意把钱投向特定工业场景、关键部件和可见交付，而不是只看概念热度。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型、强化学习、触觉和联盟化合作被集中提及，技术路线从单点能力竞赛转向补齐感知、学习和数据闭环，真实任务可用性成为共同指向。",
+        "summary": "世界模型、强化学习、触觉和产业联盟同步推进，讨论重点从生成能力转向动作、感知与真实数据闭环，技术路线开始围绕可落地能力重新分工。",
         "items": [
           {
             "date": "09-02",
@@ -325,7 +325,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "塞尔维亚人形机器人工厂正式量产，宇树展示消防机器人和仓储类产品，量产与功能边界开始一起接受场景验证，行业不再只看Demo表现。",
+        "summary": "塞尔维亚人形机器人工厂正式投产，Atlas 和 OpenBridge 等新品密集发布，量产与产品化正在成为具身智能对外验证的重要入口。",
         "items": [
           {
             "date": "09-02",
@@ -347,6 +347,13 @@
             "url": "https://www.ifanr.com/1678079?utm_source=rss&utm_medium=rss&utm_campaign=",
             "company": "其他",
             "source_name": "爱范儿"
+          },
+          {
+            "date": "09-02",
+            "title": "Zeroth 元点机器人预告发布 OpenBridge 生态：具身智能的「安卓时刻」来了",
+            "url": "https://www.leiphone.com/category/industrynews/7XuKxVmxPG0rwM3f.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "09-01",
@@ -401,7 +408,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "香港兰桂坊出现首个真实开放场景服务机器人，订单落点从封闭测试走向夜生活地标等可直接验收的公开场域，落地属性明显增强。",
+        "summary": "香港兰桂坊出现首个真实开放场景服务机器人，服务、互动和巡检等可验收任务增多，真实订单开始比单纯展示更受关注。",
         "items": [
           {
             "date": "09-02",
@@ -435,7 +442,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资继续流向危化工业、外骨骼等细分赛道，上市公司和二级市场分化加剧，资本更偏好能讲清场景、交付和收入的项目。",
+        "summary": "融资继续偏向危化、外骨骼和机器人本体相关公司，宇树上市后的股价波动也放大了分化，资金更看重场景确定性和交付能力。",
         "items": [
           {
             "date": "09-02",
@@ -497,7 +504,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "消防、工业和运动会场景不断暴露真实能力边界，优必选、宇树等案例让行业从炫技转向比产线价值和可用性。",
+        "summary": "行业讨论从单点参数转向落地能力、消防应急、公共基础设施和灵巧手等具体问题，公开检验与实际任务正在成为评价主线。",
         "items": [
           {
             "date": "09-02",
@@ -512,6 +519,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321204-8110-30701197.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-02",
+            "title": "中国人形机器人产业进入“公共基础设施”时代 (China's Humanoid Robots Industry Enters the Era of “Public Infrastructure”)",
+            "url": "https://www.tmtpost.com/8126318.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "09-02",
+            "title": "人形机器人仍无法支撑Geek+ (Humanoid Robots Still Can’t Prop up Geek+)",
+            "url": "https://www.tmtpost.com/8126302.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "08-31",
@@ -545,7 +566,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "拓普中报披露执行器小批量交付，供应链机会正从泛概念转向与性能瓶颈和具体任务绑定的零部件与系统协同。",
+        "summary": "拓普集团披露执行器小批量交付并形成营收，产业链关注点落到部件放量、验证节奏和与机器人本体需求的匹配程度。",
         "items": [
           {
             "date": "09-01",
@@ -648,6 +669,33 @@
       "category": "资本动态",
       "summary": "快科技9月2日消息，距离正式挂牌上市还没满半个月的宇树科技，股价已经较上市首日的高点直接腰斩，二级市场热度退潮的速度远超市场此前的预判。 从上市之初冲高到1100多元每股的股价，到本次报道截稿时，宇树",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-12002-30701322.html"
+    },
+    {
+      "date": "09-02",
+      "company": "其他",
+      "title": "Zeroth 元点机器人预告发布 OpenBridge 生态：具身智能的「安卓时刻」来了",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "今天，乐享科技旗下的元点机器人，官宣即将推出自己的首款产品以及 全球首个具身 Physical AI 开源生态——OpenBridge。 在海报上能看到，“桥”的元素无处不在——这次发布，元点机器人想要突出的，或许不只是独立的产品，而是基于产品来建造一座“桥梁”，去连接更广阔的物理 AI 生态 。 那句“世界不缺高墙，我们选择筑桥”，也彰显了元点机器人想要构…",
+      "url": "https://www.leiphone.com/category/industrynews/7XuKxVmxPG0rwM3f.html"
+    },
+    {
+      "date": "09-02",
+      "company": "其他",
+      "title": "中国人形机器人产业进入“公共基础设施”时代 (China's Humanoid Robots Industry Enters the Era of “Public Infrastructure”)",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "China's robotics industry is changing the way it survives and operates.",
+      "url": "https://www.tmtpost.com/8126318.html"
+    },
+    {
+      "date": "09-02",
+      "company": "其他",
+      "title": "人形机器人仍无法支撑Geek+ (Humanoid Robots Still Can’t Prop up Geek+)",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "The core business remains solid, but the second growth driver hasn’t worked yet.",
+      "url": "https://www.tmtpost.com/8126302.html"
     },
     {
       "date": "09-01",
@@ -981,33 +1029,6 @@
       "category": "产品量产",
       "summary": "当 VLA 模型理解语言、感知环境并直接生成机器人动作，一个更基础的问题开始浮现：机器人如何理解一个持续变化的物理世界？物体从哪里移动而来、杯子此前遮住了什么、机械臂正在接近还是远离目标——真正决定下一步动作的信息，往往不只存在于当前一帧，而存在于连续的时间之中。 近日，大晓机器人联合香港大学发布全新的连续物理智能研究成果 StreamPI（Streamin…",
       "url": "https://www.leiphone.com/category/ai/ncVQF4d9AckBMZwP.html"
-    },
-    {
-      "date": "08-28",
-      "company": "其他",
-      "title": "浙江人形机器人熊蓉：物理世界不可约，人形机器人落地不可急 ｜ WRC 2026",
-      "source_name": "雷峰网",
-      "category": "商业订单",
-      "summary": "从生产线到生产力，难在稳定，更难在泛化。 作者丨吴思梦 编辑丨岑 峰 人形机器人开始进工厂之后，也在逐渐迈过从“展示能力”到“承担生产”的边际。 8月20日，2026世界机器人大会在北京开幕。在“应用牵引”主题论坛上，浙江大学求是特聘教授、浙江人形机器人创新中心首席科学家兼总经理熊蓉正面谈到了这道门槛。 她和团队用两年半时间，把人形机器人带进了3C电子、服装…",
-      "url": "https://www.leiphone.com/category/private/6d5Iftm5LTJx7wle.html"
-    },
-    {
-      "date": "08-28",
-      "company": "智元机器人",
-      "title": "机器人运动会落幕后，回看智元的冠军之路",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "8月26日，第二届世界机器人运动会正式闭幕，奖牌榜第一的位置变成了首次参与此项赛事的智元——18金16银12铜，金牌数和奖牌总数都排在第一",
-      "url": "https://www.tmtpost.com/8120500.html"
-    },
-    {
-      "date": "08-28",
-      "company": "其他",
-      "title": "80%订单是假的？谁在掏钱买人形机器人？",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "作者 | 铅笔道 欣晓 编辑 | 铅笔道 黄小贵 封面｜铅笔道制图 最近有报道称，80%的具身商业化订单可能是假的。 铅笔道就具身智能真实订单问题，咨询了近20位投资人、分析师、从业者，得到的回复高度",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8420-30700531.html"
     }
   ]
 }
