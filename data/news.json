@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T11:20:35.546366+08:00",
+  "updated": "2026-09-05T18:05:37.928175+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,9 +12,9 @@
       "error": "",
       "entries": 10,
       "candidates": 2,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 12,
+      "entries": 18,
+      "candidates": 13,
       "core": 7,
       "periphery": 0,
       "new": 1
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 19,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 16,
-      "core": 1,
+      "entries": 60,
+      "candidates": 28,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -240,43 +240,38 @@
   "weekly_report": {
     "start": "08-31",
     "end": "09-06",
-    "generated_at": "2026-09-05T11:21:15.616465+08:00",
-    "mode": "local",
+    "generated_at": "2026-09-05T18:06:15.949589+08:00",
+    "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，8月27日，Hugging Face旗下法国团队Pollen Robotics发布了一只身高仅25厘米、售价399美元的双足机器人Microduck；当地时间8月29日，塞尔维亚与智元创新（上海）科技股份有限公司（简称“智元”）、敏实集团合作建设的人形机器人工厂在沙巴茨正式启动量产。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-09/ART-8321206-8110-30701585.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-8460-30700958.html",
-          "https://www.qbitai.com/2026/09/482855.html"
-        ]
+        "label": "落地先选可验收场景",
+        "text": "本周新增进展集中在工厂、酒吧、施工和应急等可验收场景，塞尔维亚人形机器人量产基地启动，香港兰桂坊服务机器人上岗，宇树发布消防应急方案，ZINOVA和逐际动力做出建筑施工演示，落地竞争正从表演转向任务交付。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，摩尔线程在今日召开的 2026 年半年度业绩说明会介绍称， 公司已经打通具身智能从合成数据生成、大模型训练、仿真验证到端侧硬件部署完整链路；S²-VLA 引入信念状态和自适应动态门控，仅用2B参数、7GB显存，长程操控超越7B模型。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/998/037.htm",
-          "https://www.leiphone.com/category/private/wTgqKxi0pIXPuau0.html",
-          "https://www.leiphone.com/category/yanxishe/FQUliuw9lt15UH54.html"
-        ]
+        "label": "模型链路开始收敛到数据闭环",
+        "text": "摩尔线程称已打通从合成数据生成到端侧部署的完整链路，S²-VLA用2B参数和自适应门控提升长程操控，世界模型相关讨论也把重点放在多模态数据和物理模拟上，技术叙事正从单点能力转向可训练、可验证、可部署的闭环。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，所获资金将主要用于XBOT-AEGIS；8亿元）G轮融资，本轮资金全部来自老股东，融资流程尚未收尾，企业暂未对外披露募资目标、投资方完 服务机器人。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-09/ART-8321204-12005-30701206.html",
-          "https://robot.ofweek.com/2026-09/ART-8321203-8420-30701760.html",
-          "https://robot.ofweek.com/2026-09/ART-8321206-8420-30701684.html"
-        ]
+        "label": "资本更偏向场景型与能力型补齐",
+        "text": "玄创机器人、微分智飞和Lyte分别拿到数千万元、数亿元和1.65亿美元融资，资金用途集中在特危化场景方案、飞行机器人和感知能力扩产，资本对明确任务边界和核心能力缺口的项目更愿意持续下注。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "模型、框架和联盟都在向完整链路靠拢，合成数据、仿真验证、端侧部署与长程操控成为本周技术叙事的共同焦点，单点刷分的存在感下降。",
         "items": [
+          {
+            "date": "09-05",
+            "title": "这个世界模型训练完就“退场”，机器人反而更能干了",
+            "url": "https://www.qbitai.com/2026/09/484611.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "09-04",
             "title": "打穿 AI 智商测试！GPT-6 Astra 的符号世界模型，是突破还是钞能力刷分？",
@@ -337,8 +332,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "塞尔维亚量产基地投产、导盲机器人发布、Robotaxi有人值守上路，量产和预售延期并存，价格与交付开始成为能力验证的一部分。",
         "items": [
+          {
+            "date": "09-05",
+            "title": "远山智行发布国内首款轮足式导盲机器人，室外避障成功率不低于 96%",
+            "url": "https://www.ithome.com/0/998/765.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-04",
             "title": "1X NEO预售破万却交付延期：家庭机器人的“产能地狱”才刚刚开始",
@@ -450,26 +452,12 @@
             "url": "https://roboticsandautomationnews.com/2026/09/01/logic-unveils-overhead-picking-robot-that-reimagines-how-warehouses-move-goods/104608/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "08-31",
-            "title": "零改装、零特调，量产机器人直接下场，智元为什么还能拿下双榜第一？",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30700744.html",
-            "company": "智元机器人",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "08-31",
-            "title": "具身智能的下半场，车企开始接管量产",
-            "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30700742.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "香港酒保机器人、伦敦有人值守Robotaxi和特斯拉商业化预期降温同框出现，真实订单和市场信心都更看重可持续交付。",
         "items": [
           {
             "date": "09-04",
@@ -510,7 +498,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "融资继续向危化、飞行和感知等细分方向集中，老股东加注与大额轮次并存，资本对任务边界清晰的项目更有耐心。",
         "items": [
           {
             "date": "09-04",
@@ -586,7 +574,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "低价机器人、消防方案升级和施工演示一起出现，行业叙事从展示能力转向进入公共场景和基础设施的实际协同。",
         "items": [
           {
             "date": "09-04",
@@ -648,7 +636,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "拓普集团披露执行器小批量交付和1400万元营收，产业链仍处在验证供货节奏和单点部件放量的早期阶段。",
         "items": [
           {
             "date": "09-01",
@@ -662,6 +650,24 @@
     ]
   },
   "items": [
+    {
+      "date": "09-05",
+      "company": "其他",
+      "title": "这个世界模型训练完就“退场”，机器人反而更能干了",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "这个 世界模型 ，着实是有点 “反骨” 在身上—— 上岗前花了大把时间陪机器人训练，等机器人真要开始干活了，它却先从部署链路里退了出去。 要知道，以前的世界模型对机器人来说，就像是一个随身携带的“脑内沙盘”，机器人先借助它预测未来会发生什么，再据此决定下一步怎么动。模型想得越多，推理链路往往也越长。 它只停留在训练场里，专门检查机器人自己提出的动作会造成什么…",
+      "url": "https://www.qbitai.com/2026/09/484611.html"
+    },
+    {
+      "date": "09-05",
+      "company": "其他",
+      "title": "远山智行发布国内首款轮足式导盲机器人，室外避障成功率不低于 96%",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 5 日消息，中国兵器工业集团杭州智元研究院旗下科技子品牌“远山智行”9 月 4 日正式发布 国内首款轮足式导盲机器人 ——“小远”智能灵动导盲犬 。 官方表示，“小远”是国内首个面向视障人群的轮足式导盲机器人。 产品采用独特的轮足复合构型，实现平地滑行与楼梯攀爬的切换 。 其核心功能涵盖智能避障、路线引导、语音交互、陪伴提醒、异常求助与远程…",
+      "url": "https://www.ithome.com/0/998/765.htm"
+    },
     {
       "date": "09-04",
       "company": "其他",
@@ -1093,24 +1099,6 @@
       "category": "产品量产",
       "summary": "Logic, a developer of autonomous, data-driven logistics solutions, has unveiled the Octopus, an overhead industrial picking robot that replaces static, floor-bound equipment with a…",
       "url": "https://roboticsandautomationnews.com/2026/09/01/logic-unveils-overhead-picking-robot-that-reimagines-how-warehouses-move-goods/104608/"
-    },
-    {
-      "date": "08-31",
-      "company": "智元机器人",
-      "title": "零改装、零特调，量产机器人直接下场，智元为什么还能拿下双榜第一？",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "作者｜苏涵 第二届世界人形机器人运动会已经落下帷幕。 这场被外界称为「机器人界奥运会」的比赛，今年吸引了来自 16 个国家的 666 支队伍、2056 台机器人参赛。 赛场上的纪录也被不断刷新，仅百米",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-8110-30700744.html"
-    },
-    {
-      "date": "08-31",
-      "company": "其他",
-      "title": "具身智能的下半场，车企开始接管量产",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "作者｜李沐蓉 今年的具身智能赛道，不缺热钱，也不缺明星项目。智元、宇树、银河通用等公司在过去一年里轮番刷新融资记录，整个行业的估值水位被快速推高。 8 月 24 日的一则消息，再次刷新了这个赛道的记录",
-      "url": "https://robot.ofweek.com/2026-08/ART-898890-12005-30700742.html"
     }
   ]
 }
