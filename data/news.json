@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T11:18:48.471008+08:00",
+  "updated": "2026-09-07T19:48:16.428432+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 3,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -37,8 +37,8 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 10,
-      "core": 5,
+      "candidates": 11,
+      "core": 3,
       "periphery": 0,
       "new": 1
     },
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 4,
+      "entries": 17,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 22,
-      "core": 0,
+      "entries": 60,
+      "candidates": 14,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -129,8 +129,8 @@
       "entries": 22,
       "candidates": 22,
       "core": 8,
-      "periphery": 0,
-      "new": 2
+      "periphery": 1,
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -193,8 +193,8 @@
       "error": "",
       "entries": 15,
       "candidates": 5,
-      "core": 2,
-      "periphery": 0,
+      "core": 1,
+      "periphery": 1,
       "new": 2
     },
     {
@@ -232,13 +232,159 @@
       "error": "",
       "entries": 75,
       "candidates": 69,
-      "core": 18,
-      "periphery": 9,
+      "core": 19,
+      "periphery": 8,
       "new": 1
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "09-07",
+    "end": "09-13",
+    "generated_at": "2026-09-07T19:48:56.499798+08:00",
+    "mode": "local",
+    "item_count": 6,
+    "insights": [
+      {
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，ai）正式发布具身世界模型HiDream-O1-Embodied；智元研究院（中国兵器工业集团杭州智元研究院）旗下远山智行正式发布“小远智能灵动导盲犬”——全球首款轮足式导盲机器人。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/09/485056.html",
+          "https://robot.ofweek.com/2026-09/ART-8321203-8110-30701848.html",
+          "https://www.ithome.com/0/999/432.htm"
+        ]
+      },
+      {
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，宇树科技今日宣布， 全球首次 实现世界模型实时驱动全自主人形机器人格斗。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/999/432.htm"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "category": "技术突破",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "items": [
+          {
+            "date": "09-07",
+            "title": "宇树科技：全球首次实现世界模型实时驱动全自主人形机器人格斗",
+            "url": "https://www.ithome.com/0/999/432.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          }
+        ]
+      },
+      {
+        "category": "产品量产",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "items": [
+          {
+            "date": "09-07",
+            "title": "原生全模态技术战略闭环，智象（HiDream.ai）发布具身世界模型HiDream-O1-Embodied",
+            "url": "https://www.qbitai.com/2026/09/485056.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "09-07",
+            "title": "智元发布全球首款轮足式导盲机器人：1700万视障人士等来“另一种眼睛”",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321203-8110-30701848.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "资本动态",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "items": [
+          {
+            "date": "09-07",
+            "title": "王兴兴上市后首次公开演讲：机器人真正爆发要等两个「80%时刻」丨WRC 2026",
+            "url": "https://www.leiphone.com/category/robot/qtdF8IhMqe2oNmH0.html",
+            "company": "行业",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "09-07",
+            "title": "机器人能帮助应对孤独吗？BBC 的 Ann Droid 引发对未来照护的思考 (Could robots help tackle loneliness? BBC’s Ann Droid raises questions about the future of care)",
+            "url": "https://robohub.org/could-robots-help-tackle-loneliness-bbcs-ann-droid-raises-questions-about-the-future-of-care/",
+            "company": "其他",
+            "source_name": "RoboHub"
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "items": [
+          {
+            "date": "09-07",
+            "title": "机器人触觉的爆发前夜：五大技术路线、数据困局与模型之争",
+            "url": "https://www.tmtpost.com/8131169.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "09-07",
+      "company": "其他",
+      "title": "原生全模态技术战略闭环，智象（HiDream.ai）发布具身世界模型HiDream-O1-Embodied",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "今日，智象未来（HiDream.ai）正式发布具身世界模型HiDream-O1-Embodied。秉承原生全模态的技术理念，模型强化机器人物理感知与动态预判能力，助力具身智能实现更高阶的物理交互。具身模型的发布，标志着智象逐步实现了打通图像、视频、3D、动作等模态，贯通理解—推演—执行全流程，构建统一世界模型基座的技术闭环。 模型发布同期，HiDream-O…",
+      "url": "https://www.qbitai.com/2026/09/485056.html"
+    },
+    {
+      "date": "09-07",
+      "company": "行业",
+      "title": "王兴兴上市后首次公开演讲：机器人真正爆发要等两个「80%时刻」丨WRC 2026",
+      "source_name": "雷峰网",
+      "category": "资本动态",
+      "summary": "8月19日，宇树科技正式登陆科创板。上市后的答谢午宴上，宇树科技创始人王兴兴首次提出“物理AI机器人的自进化”，希望利用基础大模型，将论文检索、代码生成、仿真训练、真机测试和评价反馈串成闭环，让机器人研发逐步从高度依赖人工转向持续自我迭代。 一天后的2026世界机器人大会主论坛上，王兴兴再次谈到了这一方向。相比说明机器人跑得多快、跳得多高，他把更多时间留给了…",
+      "url": "https://www.leiphone.com/category/robot/qtdF8IhMqe2oNmH0.html"
+    },
+    {
+      "date": "09-07",
+      "company": "其他",
+      "title": "机器人触觉的爆发前夜：五大技术路线、数据困局与模型之争",
+      "source_name": "钛媒体",
+      "category": "泛具身产业链",
+      "summary": "你敢让机器人给你按摩吗？在今年的WAIC上，我们体验了一把之后，发现居然还挺舒服的。而这台按摩的机器人，很大的不同在于，它搭载了触觉传感器。 黄仁勋说，“触觉”是具身智能的最后一块拼图，真是如此吗？机器人有了触觉后，真的能更强大吗？干活会更聪明吗？如果答案是肯定的，那么为什么目前大多数机器人都还没有触觉？市场上有哪些路线与冲突呢？ 这期视频，跟我们一起走进实…",
+      "url": "https://www.tmtpost.com/8131169.html"
+    },
+    {
+      "date": "09-07",
+      "company": "宇树科技",
+      "title": "宇树科技：全球首次实现世界模型实时驱动全自主人形机器人格斗",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 9 月 7 日消息，宇树科技今日宣布， 全球首次 实现世界模型实时驱动全自主人形机器人格斗。官方一同公布了全自主人形机器人格斗的 实拍画面 。 官方表示，UnifoLM-X2-1.0 突破世界-动作大模型瞬时规划、决策和动态交互执行等瓶颈，实现高动态、强交互、实时实现对未来预测和规划， 实现人形机器人全自主搏击 。验证了世界模型驱动的人形机器人大规…",
+      "url": "https://www.ithome.com/0/999/432.htm"
+    },
+    {
+      "date": "09-07",
+      "company": "智元机器人",
+      "title": "智元发布全球首款轮足式导盲机器人：1700万视障人士等来“另一种眼睛”",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "9月4日上午，北京国家会议中心。智元研究院（中国兵器工业集团杭州智元研究院）旗下远山智行正式发布“小远智能灵动导盲犬”——全球首款轮足式导盲机器人。 这不是一台在展台上跳舞的机器人，也不是一台在发布会",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321203-8110-30701848.html"
+    },
+    {
+      "date": "09-07",
+      "company": "其他",
+      "title": "机器人能帮助应对孤独吗？BBC 的 Ann Droid 引发对未来照护的思考 (Could robots help tackle loneliness? BBC’s Ann Droid raises questions about the future of care)",
+      "source_name": "RoboHub",
+      "category": "资本动态",
+      "summary": "By Maria Jose Galvez Trigo, Cardiff University and Paul Willis, Cardiff University New BBC sitcom Ann Droid imagines a near future in which robots provide care and companionship to…",
+      "url": "https://robohub.org/could-robots-help-tackle-loneliness-bbcs-ann-droid-raises-questions-about-the-future-of-care/"
+    },
     {
       "date": "09-06",
       "company": "宇树科技",
@@ -634,60 +780,6 @@
       "category": "技术突破",
       "summary": "IT之家 9 月 2 日消息，据界面新闻今天报道，由星源智与灵心巧手共同发起的“中国具身智能 Tier 1 产业联盟”今日正式成立。 IT之家从原报道获悉，“中国具身智能 Tier 1 产业联盟”联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、讯飞机器人超脑平台、览沃科技、灵猴机器人、珞石机器人等企业。 同时，该联盟的参与企业还有迈尔微视、钕娲创造、泉…",
       "url": "https://www.ithome.com/0/997/543.htm"
-    },
-    {
-      "date": "09-02",
-      "company": "宇树科技",
-      "title": "公司半年利润还没3亿！宇树科技股价腰斩 市值还有2200亿：估值竟26倍于英伟达",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "快科技9月2日消息，距离正式挂牌上市还没满半个月的宇树科技，股价已经较上市首日的高点直接腰斩，二级市场热度退潮的速度远超市场此前的预判。 从上市之初冲高到1100多元每股的股价，到本次报道截稿时，宇树",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-12002-30701322.html"
-    },
-    {
-      "date": "09-02",
-      "company": "其他",
-      "title": "Zeroth 元点机器人预告发布 OpenBridge 生态：具身智能的「安卓时刻」来了",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "今天，乐享科技旗下的元点机器人，官宣即将推出自己的首款产品以及 全球首个具身 Physical AI 开源生态——OpenBridge。 在海报上能看到，“桥”的元素无处不在——这次发布，元点机器人想要突出的，或许不只是独立的产品，而是基于产品来建造一座“桥梁”，去连接更广阔的物理 AI 生态 。 那句“世界不缺高墙，我们选择筑桥”，也彰显了元点机器人想要构…",
-      "url": "https://www.leiphone.com/category/industrynews/7XuKxVmxPG0rwM3f.html"
-    },
-    {
-      "date": "09-02",
-      "company": "其他",
-      "title": "中国人形机器人产业进入“公共基础设施”时代 (China's Humanoid Robots Industry Enters the Era of “Public Infrastructure”)",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "China's robotics industry is changing the way it survives and operates.",
-      "url": "https://www.tmtpost.com/8126318.html"
-    },
-    {
-      "date": "09-02",
-      "company": "其他",
-      "title": "人形机器人仍无法支撑Geek+ (Humanoid Robots Still Can’t Prop up Geek+)",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "The core business remains solid, but the second growth driver hasn’t worked yet.",
-      "url": "https://www.tmtpost.com/8126302.html"
-    },
-    {
-      "date": "09-01",
-      "company": "宇树科技",
-      "title": "宇树消防机器人亮相，能背水炮、不怕火烧",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 9 月 1 日消息，宇树科技昨日晚间晒出一段视频，展示了其 四足机器人消防应急解决方案 。 从视频可以看到，宇树展示了 A2-W 背负机器狗、B2 智能水炮机器狗、A2-W 侦测机器狗、B2 侦测机器狗、As2 云台侦查机器狗、B2 卫星侦查机器狗、A2-W 建模机器狗等产品， 还有不怕火烧的 B2 耐高温机器狗 。 IT之家注意到，消防员可通过机…",
-      "url": "https://www.ithome.com/0/996/772.htm"
-    },
-    {
-      "date": "09-01",
-      "company": "智元机器人",
-      "title": "8月机器人月报：宇树科创板上市，小鹏创融资纪录，智元优必选量产交付提速",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "行业大事件 1、小米8月5日开源Xiaomi-Robotics-1，多项评测登顶行业基准 5日，小米技术正式对外开源具身智能基座模型Xiaomi-Robotics-1。该模型依托超过十万小时真实世界机",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321206-8440-30700980.html"
     }
   ]
 }
