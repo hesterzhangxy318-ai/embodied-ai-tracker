@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T19:48:16.428432+08:00",
+  "updated": "2026-09-08T01:26:14.304208+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 18,
       "candidates": 11,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 3,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -89,8 +89,8 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 14,
-      "core": 1,
+      "candidates": 25,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 8,
       "periphery": 1,
-      "new": 5
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 1,
+      "core": 2,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -219,9 +219,9 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 25,
-      "periphery": 5,
-      "new": 4
+      "core": 24,
+      "periphery": 6,
+      "new": 5
     },
     {
       "name": "RoboHub",
@@ -234,37 +234,31 @@
       "candidates": 69,
       "core": 19,
       "periphery": 8,
-      "new": 1
+      "new": 0
     }
   ],
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-07T19:48:56.499798+08:00",
-    "mode": "local",
-    "item_count": 6,
+    "generated_at": "2026-09-08T01:26:28.729856+08:00",
+    "mode": "aicodewith",
+    "item_count": 8,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，ai）正式发布具身世界模型HiDream-O1-Embodied；智元研究院（中国兵器工业集团杭州智元研究院）旗下远山智行正式发布“小远智能灵动导盲犬”——全球首款轮足式导盲机器人。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/09/485056.html",
-          "https://robot.ofweek.com/2026-09/ART-8321203-8110-30701848.html",
-          "https://www.ithome.com/0/999/432.htm"
-        ]
+        "label": "世界模型进入实体任务验证",
+        "text": "宇树科技宣布实现世界模型实时驱动全自主人形机器人格斗，智象发布具身世界模型HiDream-O1-Embodied，模型能力开始从概念展示转向可观察的机器人控制与任务闭环。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，宇树科技今日宣布， 全球首次 实现世界模型实时驱动全自主人形机器人格斗。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.ithome.com/0/999/432.htm"
-        ]
+        "label": "产品落点更强调明确场景",
+        "text": "智元研究院旗下远山智行发布轮足式导盲机器人“小远智能灵动导盲犬”，面向视障人群的导盲需求，具身产品验证正更多依赖清晰用户、清晰任务和可感知交付价值。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "宇树科技宣布实现世界模型实时驱动全自主人形机器人格斗，本周技术进展集中在模型与机器人本体控制的实时闭环验证。",
         "items": [
           {
             "date": "09-07",
@@ -277,7 +271,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "智象发布具身世界模型HiDream-O1-Embodied，智元研究院旗下远山智行发布轮足式导盲机器人，产品侧围绕模型底座与特定服务场景推进。",
         "items": [
           {
             "date": "09-07",
@@ -297,7 +291,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "宇树科技已于8月19日登陆科创板，王兴兴上市后公开谈及机器人爆发节点，资本关注仍与产业成熟度和能力达标节奏相关。",
         "items": [
           {
             "date": "09-07",
@@ -316,8 +310,28 @@
         ]
       },
       {
+        "category": "行业动态",
+        "summary": "三星被曝加快人形机器人原型机研发并计划在CES 2027首秀，Agility Robotics披露180万美元营收，头部与新进入者均在推进公开化进程。",
+        "items": [
+          {
+            "date": "09-07",
+            "title": "消息称三星进入人形机器人赛道，计划在明年 CES 2027 首秀",
+            "url": "https://www.ithome.com/0/999/466.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-07",
+            "title": "Agility Robotics在 humanoid SPAC 前披露180万美元营收 (Agility Robotics reports $1.8M revenue ahead of humanoid SPAC)",
+            "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
+            "company": "Agility Robotics",
+            "source_name": "The Robot Report"
+          }
+        ]
+      },
+      {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "触觉传感器成为产业链关注点，相关讨论聚焦五大技术路线、数据困局与模型之争，供应链机会仍需绑定具体感知性能瓶颈。",
         "items": [
           {
             "date": "09-07",
@@ -384,6 +398,24 @@
       "category": "资本动态",
       "summary": "By Maria Jose Galvez Trigo, Cardiff University and Paul Willis, Cardiff University New BBC sitcom Ann Droid imagines a near future in which robots provide care and companionship to…",
       "url": "https://robohub.org/could-robots-help-tackle-loneliness-bbcs-ann-droid-raises-questions-about-the-future-of-care/"
+    },
+    {
+      "date": "09-07",
+      "company": "其他",
+      "title": "消息称三星进入人形机器人赛道，计划在明年 CES 2027 首秀",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 7 日消息，据韩媒 sedaily 消息，三星电子正加快其人形机器人原型机的研发，计划在明年 1 月于美国拉斯维加斯举办的 CES 2027 上， 首次公开其自主研发的人形机器人 。 业内消息称，在三星电子 DX 部门负责人卢泰文（Roh Tae-moon）的直属管辖下，三星机器人 RX 部门正主导筹备将于明年 CES 登场的样机。业内高层…",
+      "url": "https://www.ithome.com/0/999/466.htm"
+    },
+    {
+      "date": "09-07",
+      "company": "Agility Robotics",
+      "title": "Agility Robotics在 humanoid SPAC 前披露180万美元营收 (Agility Robotics reports $1.8M revenue ahead of humanoid SPAC)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business. The post appeared first on Th…",
+      "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
     },
     {
       "date": "09-06",
@@ -762,24 +794,6 @@
       "category": "技术突破",
       "summary": "9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能",
       "url": "https://www.qbitai.com/2026/09/483097.html"
-    },
-    {
-      "date": "09-02",
-      "company": "其他",
-      "title": "刚刚，李飞飞掀桌！全球首个多模态世界模型发布，几张照片省掉几百个机位",
-      "source_name": "爱范儿",
-      "category": "产品量产",
-      "summary": "大模型理解文字，李飞飞想让 Atlas 理解空间 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
-      "url": "https://www.ifanr.com/1678079?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "date": "09-02",
-      "company": "其他",
-      "title": "“中国具身智能 Tier 1 产业联盟”成立，星源智与灵心巧手共同发起",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 9 月 2 日消息，据界面新闻今天报道，由星源智与灵心巧手共同发起的“中国具身智能 Tier 1 产业联盟”今日正式成立。 IT之家从原报道获悉，“中国具身智能 Tier 1 产业联盟”联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、讯飞机器人超脑平台、览沃科技、灵猴机器人、珞石机器人等企业。 同时，该联盟的参与企业还有迈尔微视、钕娲创造、泉…",
-      "url": "https://www.ithome.com/0/997/543.htm"
     }
   ]
 }
